@@ -9,8 +9,8 @@
 \contentsline {subsubsection}{\numberline {3.1.1}some other subsections}{3}
 \contentsline {subsubsection}{\numberline {3.1.2}Data collection}{3}
 \contentsline {subsection}{\numberline {3.2}Software development}{3}
-\contentsline {subsubsection}{\numberline {3.2.1}Simulation master design}{3}
-\contentsline {subsubsection}{\numberline {3.2.2}Client's interface design}{3}
-\contentsline {subsubsection}{\numberline {3.2.3}Car control}{3}
-\contentsline {subsection}{\numberline {3.3}Communication between machines}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Simulation master design}{4}
+\contentsline {subsubsection}{\numberline {3.2.2}Client's interface design}{4}
+\contentsline {subsubsection}{\numberline {3.2.3}Car control}{4}
+\contentsline {subsection}{\numberline {3.3}Communication between machines}{4}
 \contentsline {subsection}{\numberline {3.4}Autonomous car model}{4}

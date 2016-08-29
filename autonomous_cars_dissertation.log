@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  29 AUG 2016 11:41
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  29 AUG 2016 13:17
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -707,28 +707,27 @@ pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
 )
 \tf@toc=\write3
- [1]
-Overfull \hbox (14.6428pt too wide) in paragraph at lines 157--159
+ [1] [2]
+Overfull \hbox (14.6428pt too wide) in paragraph at lines 153--155
 \EU1/Arial(0)/m/n/12 was the best option rather than for example use data from 
 some database?...hmmm 
  []
 
-[2]
 Requested font "Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 14.4
 pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
- [3]
+[3]
 
 Package natbib Warning: Citation `UK_aging' on page 4 undefined on input line 2
-04.
-
-
-Package natbib Warning: Citation `UK_aging' on page 4 undefined on input line 2
-12.
+00.
 
 
 Package natbib Warning: Citation `UK_aging' on page 4 undefined on input line 2
-12.
+08.
+
+
+Package natbib Warning: Citation `UK_aging' on page 4 undefined on input line 2
+08.
 
 No file autonomous_cars_dissertation.bbl.
 
@@ -738,7 +737,7 @@ Package natbib Warning: There were undefined citations.
 Here is how much of TeX's memory you used:
  15504 strings out of 428755
  310287 string characters out of 3163194
- 430599 words of memory out of 3000000
+ 431599 words of memory out of 3000000
  18739 multiletter control sequences out of 15000+200000
  6592 words of font info for 50 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
