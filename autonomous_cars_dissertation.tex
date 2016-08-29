@@ -1,0 +1,278 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Simple Sectioned Essay Template
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.latextemplates.com
+%
+% Note:
+% The \lipsum[#] commands throughout this template generate dummy text
+% to fill the template out. These commands should all be removed when 
+% writing essay content.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\usepackage{geometry} % Required to change the page size to A4
+\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
+
+\usepackage{graphicx} % Required for including pictures
+
+\usepackage{epstopdf}
+
+
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\linespread{1.2} % Line spacing
+
+
+
+%\setlength\parindent{0pt} % Uncomment to remove all indentation from paragraphs
+
+%\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+%\graphicspath{{"d:/University of Bristol/Papers/"}{"images/"}}
+
+\usepackage{natbib}
+
+\usepackage{url}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+
+\textsc{\LARGE University...}\\[1.5cm] % Name of your university/college
+\textsc{\Large Dissertation...}\\[0.5cm] % Major heading such as course name
+\textsc{\large Dissertation...}\\[0.5cm] % Minor heading such as course title
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Title...}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Aleksander \textsc{Wilusz} % Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+Eddie \textsc{Wilson} % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[4cm]
+
+
+
+{\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
+
+%\includegraphics{logouni}\\[1cm] % Include a department/university logo - this will require the graphicx package
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents % Include a table of contents
+
+\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Introduction} % Major section
+\paragraph{}
+Autonomous cars are currently a topic of great interest. Around the world the biggest
+private companies or government’s initiatives are developing self-driving vehicles (uber,
+google, britol car citations), competing for new emerging market. Each company focuses
+efforts in different direction. The companies are either trying to develope an
+all-round car that could perform in both city and on highways or restrict the usage to
+particular types of roads (tesla). Or anyhing in between. The most significant commercial
+initiatives include Google driverless car, Tesla, Uber (). Goverment founded
+initiatives include Venturer and ...
+
+
+\paragraph{•}
+Background of the problem, context of the research, reasons why the study was carried
+out, significance of the study
+
+
+
+Many experts around the world are trying to predict how autonomous cars will influence
+our lives. One of the questions is how the traffic itself will change. Most of the
+experts agree that in the next decades we will observe gradual process of increasing the
+share of autonomous cars on our roads. In that time human-driven cars and self driving
+cars will have to successfully interact with each other. According to predictions the
+fully automated traffic will become reality only around year 2060 or year 2040 in more
+optimistic predictions and first commercial autonomous cars are already appearing on
+the roads (singapore, uber). Although there are numerous studies on many aspect of
+autonomous driving as well as on interactions between regular cars in all-human-traffic
+there is little research on interactions between these two types of vehicles and all it’s
+consequences.
+
+\paragraph{•}
+A statement of the problem to be addressed
+
+
+The focus of this research is to investigate how autonomous cars will influence traffic
+itself and how human and autonomous cars will interact with each other.
+
+
+\paragraph{•}
+clear and succinct statement of research questions, aims and objectives. How scope
+changed. Development calendar
+
+
+\section{Literature review}
+
+
+\section{Research Methodology}
+
+Justify the structure of the project. Why the experiment was a key part. Why this was
+the best option rather than for example use data from some database?...hmmm
+
+\subsection{Experiment design and implementation}
+
+
+Justify all major design decisions. Plenty of them!
+All the actions undertaken to ensure most meaningful results
+
+\subsubsection{some other subsections}
+
+\subsubsection{Data collection}
+
+How the experiment was eventually conducted
+
+\subsection{Software development}
+
+Justify all major design decisions
+
+\subsubsection{Simulation master design}
+
+\subsubsection{Client's interface design}
+
+General description Simplifications and yet still accounting for most important parts of
+the car model
+
+\subsubsection{Car control}
+
+\subsection{Communication between machines}
+
+From one point of view this a tightly coupled with software development but the way
+communication was established doesn’t matter from the point of view of software structure.
+Simply speaking the comms should only meet some requirements derived from
+the main piece of software and the details of implementation doesn’t matter. This was
+a significant part of the job and its an achievement on its own.
+
+\subsection{Autonomous car model}
+
+Say why this is important from the point of view of results obtained. Again justify all
+design decisions
+
+
+
+
+
+\begin{figure}[H] % Example image
+%\center{\includegraphics[width=1\linewidth]{older_people_uk.eps}}
+\caption{Percentage of older people in the UK 1985, 2010, 2035 \citep*{UK_aging}}
+\label{fig:senior_65}
+\end{figure}
+
+\begin{figure}[H]
+  \begin{center}
+%    \includegraphics[width=1.0\linewidth]{europe_predictions}
+  \end{center}
+ \caption{Percentage of persons aged 65 and over EU-27, 1985, 2010, 2035 \citep*{UK_aging}}
+\end{figure} 
+
+
+
+
+
+%\includegraphics*[100,100][300,300]{mypicture}
+
+%\begin{figure}[H] % Example image
+%\center{\includegraphics[width=0.5\linewidth]{placeholder}}
+%\caption{Example image.}
+%\label{fig:speciation}
+%\end{figure}
+
+
+
+
+%------------------------------------------------
+
+
+
+%\begin{description} % Numbered list example
+
+%\item[First] \hfill \\
+
+
+%\item[Second] \hfill \\
+
+
+%\item[Third] \hfill \\
+
+
+%\end{description} 
+
+%t
+
+%----------------------------------------------------------------------------------------
+%	CONCLUSION
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{unsrt} % vancouver   unsrt   agsm  unsrt
+\bibliography{citation_database_new}
+
+%\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
+
+%\bibitem[Figueredo and Wolf, 2009]{Figueredo:2009dg}
+%Figueredo, A.~J. and Wolf, P. S.~A. (2009).
+%\newblock Assortative pairing and life history strategy - a cross-cultural
+%  study.
+%\newblock {\em Human Nature}, 20:317--330.
+ 
+%\end{thebibliography}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
