@@ -18,12 +18,15 @@
   Publisher                = {University of the West of England}
 }
 
-@Article{parkin2016understanding,
-  Title                    = {Understanding interactions between autonomous vehicles and other road users: A literature review},
-  Author                   = {Parkin, John and Clark, Ben and Clayton, William and Ricci, Miriam and Parkhurst, Graham},
-  Journal                  = {University of the West of England},
-  Year                     = {2016},
+@Article{risser1985behavior,
+  Title                    = {Behavior in traffic conflict situations},
+  Author                   = {Risser, Ralf},
+  Journal                  = {Accident Analysis \& Prevention},
+  Year                     = {1985},
+  Number                   = {2},
+  Pages                    = {179--197},
+  Volume                   = {17},
 
-  Publisher                = {University of the West of England}
+  Publisher                = {Elsevier}
 }
 

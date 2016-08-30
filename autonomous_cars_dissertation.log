@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  30 AUG 2016 13:20
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  30 AUG 2016 16:33
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -188,20 +188,28 @@ es/U.S.+Department+of+Transportation+Releases+Policy+on+Automated+Vehicle+Devel
 opment),
  []
 
-[6] [7] [8]
+[6]
+
+Package natbib Warning: Citation `sivak2015road' on page 7 undefined on input l
+ine 210.
+
+[7] [8] [9]
 Missing character: There is no ’ in font cmr10!
 Missing character: There is no ’ in font cmr10!
  (autonomous_cars_dissertation.bbl
 Requested font "cmti10" at 10.95pt
- [9]) [10]
-(autonomous_cars_dissertation.aux) ) 
+ [10])
+
+Package natbib Warning: There were undefined citations.
+
+[11] (autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 1723 strings out of 428755
- 22273 string characters out of 3163194
+ 1724 strings out of 428755
+ 22288 string characters out of 3163194
  180617 words of memory out of 3000000
- 5055 multiletter control sequences out of 15000+200000
+ 5056 multiletter control sequences out of 15000+200000
  10400 words of font info for 36 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  42i,5n,21p,996b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (11 pages).
+Output written on autonomous_cars_dissertation.pdf (12 pages).
