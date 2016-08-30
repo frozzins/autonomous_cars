@@ -1,39 +1,21 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Simple Sectioned Essay Template
-% LaTeX Template
-%
-% This template has been downloaded from:
-% http://www.latextemplates.com
-%
-% Note:
-% The \lipsum[#] commands throughout this template generate dummy text
-% to fill the template out. These commands should all be removed when 
-% writing essay content.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article} 
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[12pt]{article} % Default font size is 12pt, it can be changed here
-\usepackage{fontspec}
-\setmainfont{Arial}
-
-\usepackage{geometry} % Required to change the page size to A4
-\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
-
-\usepackage{graphicx} % Required for including pictures
-
-\usepackage{epstopdf}
+%\usepackage[english]{babel}
+%\usepackage[utf8]{inputenc}
+%\usepackage{amsmath}
+%\usepackage{csquotes}% Recommended
 
 
-\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
-\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+%\usepackage{fontspec}
+%\setmainfont{Arial}
+
+%\usepackage{geometry} % Required to change the page size to A4
+%\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-\linespread{1.2} % Line spacing
+\linespread{1.5} % Line spacing
 
 
 
@@ -41,13 +23,35 @@
 
 %\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
-\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+%\DeclareGraphicsExtensions{.pdf,.png,.jpg}
 
 %\graphicspath{{"d:/University of Bristol/Papers/"}{"images/"}}
 
-\usepackage{natbib}
+%\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
 
-\usepackage{url}
+%\addbibresource{dissertation_citation_database}% Syntax for version >= 1.2
+
+%\addbibresource{sample.bib}% Syntax for version >= 1.2
+
+\usepackage{natbib}
+\bibliographystyle{agsm}
+
+
+
+\usepackage{graphicx} % Required for including pictures
+\usepackage{epstopdf}
+\usepackage{float} % Allows putting an [H] in \begin{figure} to specify the exact location of the figure
+\usepackage{wrapfig} % Allows in-line images such as the example fish picture
+
+
+
+%\usepackage[authoryear]{natbib}%\usepackage{natbib}
+%\bibliographystyle{authordate1}
+%\bibliographystyle{unsrtnat}%\bibliographystyle{unsrtna
+%\bibliographystyle{unsrt} % vancouver   unsrt   agsm  unsrt
+%\usepackage[style=authoryear]{biblatex}
+
+%\usepackage{url}parkin2016understanding
 
 \begin{document}
 
@@ -143,11 +147,112 @@ It has to be admitted that scope was drastically limited in terms of implementat
 
 \paragraph{A road map of what is going to be discussed}
 
-The project consisted of three main parts. First one was implementation of the simulation. This accounted for around 50\% of all efforts. the chapter on Research Methodology is mostly dedicated to this.  
+The project consisted of three main parts. First one was software development. This accounted for around 50\% of all efforts. The chapter on Research Methodology is mostly dedicated to this. Software section is divided into most significant components that include the design of simulation master, design of client's interface and vehicle's control. The chapter on research methodology also describes how communication between machines was established and the algorithm behind autonomous vehicles. Although these two aspects were integral parts of the software it was decided to write about them separately. It is due to the significance and universality of communication solution and autonomous car algorithm. 
+Most of decisions made throughout the development stage were aimed for successful experiment execution. The design of the experiment and how it was eventually conducted are described at the of Research Methodology chapter. 
+
+
+The Research Methodology chapter is preceded with in-depth chapter describing literature relevant to the project. 
+
+The data obtained during the experiment was described in Findings and Results chapter. This chapter also talks about different ways in which data was analysed. 
+
+The last two closing chapters discuss the results of the experiment, attempt to draw conclusions and generalize findings in wider context. 
+
+
+
 
 
 \section{Literature review}
 
+There is plenty of literature dedicated to autonomous cars. 
+
+
+\subsection{Current development of autonomous cars}
+
+The prime examples of the most recent achievements in the field of autonomous cars are visible through cutting-edge commercial projects such as google self driving car, uber's and <shanghai something>. Google is probably the most experienced player as the development of it's self driving car started already in the year 2009 (google self driving car website).
+Google's car is classified as level 3 in automated vehicle classification system proposed by NHTSA in 2013 (http://www.nhtsa.gov/About+NHTSA/Press+Releases/U.S.+Department+of+Transportation+Releases+Policy+on+Automated+Vehicle+Development), which is described as "Limited Self-Driving Automation". The car takes full control over all safety-critical functions but at certain times driver can be asked to retake control. 
+
+List of trials on autonomous vehicles is here:
+\citep{parkin2016understanding}
+googel, volvo, audi, singapore, and add uber
+
+
+
+
+
+- also say about history of autonomous cars
+
+
+Vehicle classified at level 4 would have to 
+
+
+Uber is a relatively new player in the business of autonomous cars. 
+
+
+
+Write about audi autonomous racing car
+
+
+\subsection{Implications of autonomous cars revolution}
+
+\
+
+
+Rely heavily on:
+\citep{litman2014autonomous}
+
+
+
+\subsection{Maximum Capacity Theorem}
+
+\subsection{Conflicts, collisions and interactions on the road}
+
+
+\citep{parkin2016understanding}
+
+According to (Contributory factors of reported accidents, Great Britain excel) most accidents are caused by human failure. The main contributory factors are failure to look properly, failure to judge other's person speed or path and driver, carelessness, recklessness or being in a hurry.
+
+(writing about it in the context that autonomous cars can potentially improve these things) 
+
+
+Although the study on conflicts on the road is very complex and hard to quantify according to \citep{risser1985behavior} there are numerous factors that contribute to creating conflicts
+
+
+
+In was found in the study that that 
+
+
+\subsection{How people cooperate with autonomous cars}
+
+this is huge and possible might be divided into two chapters
+
+
+
+
+\subsection{Measuring traffic performance}
+
+
+\subsection{Autonomous car model}
+
+Inteligent driver model etc
+
+gipps
+
+\subsection{SUMO}
+
+\subsection{Communication between machines - maybe}
+
+
+\subsection{Experiment design - real world research}
+
+
+
+
+
+
+%\cite{parkin2016understanding}
+%\parencite{parkin2016understanding}
+
+\citet{parkin2016understanding}
 
 \section{Research Methodology}
 
@@ -192,22 +297,18 @@ a significant part of the job and its an achievement on its own.
 Say why this is important from the point of view of results obtained. Again justify all
 design decisions
 
+\subsection{Experiment design and execution}
 
 
 
+\section{Findings and results}
 
-\begin{figure}[H] % Example image
-%\center{\includegraphics[width=1\linewidth]{older_people_uk.eps}}
-\caption{Percentage of older people in the UK 1985, 2010, 2035 \citep*{UK_aging}}
-\label{fig:senior_65}
-\end{figure}
+\section{Discussion of results}
 
-\begin{figure}[H]
-  \begin{center}
-%    \includegraphics[width=1.0\linewidth]{europe_predictions}
-  \end{center}
- \caption{Percentage of persons aged 65 and over EU-27, 1985, 2010, 2035 \citep*{UK_aging}}
-\end{figure} 
+
+\section{Conclusions}
+
+
 
 
 
@@ -253,8 +354,11 @@ design decisions
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
 
-\bibliographystyle{unsrt} % vancouver   unsrt   agsm  unsrt
-\bibliography{citation_database_new}
+
+\bibliography{dissertation_citation_database}
+
+%\printbibliography
+
 
 %\begin{thebibliography}{99} % Bibliography - this is intentionally simple in this template
 
