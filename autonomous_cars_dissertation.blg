@@ -1,3 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: autonomous_cars_dissertation.aux
 The style file: agsm.bst
-Database file #1: dissertation_citation_database.bib
+I found no \bibdata command---while reading file autonomous_cars_dissertation.aux
+Warning--I didn't find a database entry for "parkin2016understanding"
+Warning--I didn't find a database entry for "pathwaytodriverless"
+Warning--I didn't find a database entry for "sivak2015road"
+Warning--I didn't find a database entry for "litman2014autonomous"
+Warning--I didn't find a database entry for "duranton2011fundamental"
+Warning--I didn't find a database entry for "risser1985behavior"
+Warning--I didn't find a database entry for "beymer1997real"
+Warning--I didn't find a database entry for "krajzewicz2002sumo"
+(There was 1 error message)

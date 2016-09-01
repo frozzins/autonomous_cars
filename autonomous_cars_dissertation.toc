@@ -9,24 +9,26 @@
 \contentsline {subsection}{\numberline {2.1}Current and future development of autonomous cars}{6}
 \contentsline {subsection}{\numberline {2.2}Implications of autonomous cars revolution}{7}
 \contentsline {subsection}{\numberline {2.3}Maximum Capacity Theorem}{8}
-\contentsline {subsection}{\numberline {2.4}Conflicts, collisions and interactions on the road}{8}
-\contentsline {subsection}{\numberline {2.5}How people cooperate with autonomous cars}{8}
-\contentsline {subsection}{\numberline {2.6}Measuring traffic performance}{9}
-\contentsline {subsection}{\numberline {2.7}Autonomous car model}{9}
-\contentsline {subsection}{\numberline {2.8}SUMO}{9}
-\contentsline {subsection}{\numberline {2.9}Communication between machines - maybe}{9}
-\contentsline {subsection}{\numberline {2.10}Experiment design - real world research}{9}
-\contentsline {section}{\numberline {3}Research Methodology}{9}
-\contentsline {subsection}{\numberline {3.1}Experiment design and implementation}{9}
-\contentsline {subsubsection}{\numberline {3.1.1}some other subsections}{9}
-\contentsline {subsubsection}{\numberline {3.1.2}Data collection}{9}
-\contentsline {subsection}{\numberline {3.2}Software development}{10}
-\contentsline {subsubsection}{\numberline {3.2.1}Simulation master design}{10}
-\contentsline {subsubsection}{\numberline {3.2.2}Client's interface design}{10}
-\contentsline {subsubsection}{\numberline {3.2.3}Car control}{10}
-\contentsline {subsection}{\numberline {3.3}Communication between machines}{10}
-\contentsline {subsection}{\numberline {3.4}Autonomous car model}{10}
-\contentsline {subsection}{\numberline {3.5}Experiment design and execution}{11}
-\contentsline {section}{\numberline {4}Findings and results}{11}
-\contentsline {section}{\numberline {5}Discussion of results}{11}
-\contentsline {section}{\numberline {6}Conclusions}{11}
+\contentsline {subsection}{\numberline {2.4}Conflicts, collisions and interactions on the road}{9}
+\contentsline {subsection}{\numberline {2.5}How people will cooperate with autonomous cars}{9}
+\contentsline {subsection}{\numberline {2.6}Measuring traffic parameters}{10}
+\contentsline {subsection}{\numberline {2.7}Modelling car behavior}{10}
+\contentsline {subsection}{\numberline {2.8}SUMO}{10}
+\contentsline {subsection}{\numberline {2.9}Communication between machines - maybe}{11}
+\contentsline {subsection}{\numberline {2.10}Experiment design - real world research}{11}
+\contentsline {section}{\numberline {3}Research Methodology}{12}
+\contentsline {subsection}{\numberline {3.1}Experiment design and implementation?}{13}
+\contentsline {subsection}{\numberline {3.2}Inspiration by SUMO package}{13}
+\contentsline {subsubsection}{\numberline {3.2.1}some other subsections}{14}
+\contentsline {subsubsection}{\numberline {3.2.2}Data collection}{14}
+\contentsline {subsection}{\numberline {3.3}Software development}{14}
+\contentsline {subsubsection}{\numberline {3.3.1}Environment choice}{14}
+\contentsline {subsubsection}{\numberline {3.3.2}Simulation master design}{15}
+\contentsline {subsubsection}{\numberline {3.3.3}Client's interface design}{15}
+\contentsline {subsubsection}{\numberline {3.3.4}Car control}{15}
+\contentsline {subsection}{\numberline {3.4}Communication between machines}{15}
+\contentsline {subsection}{\numberline {3.5}Autonomous car model}{15}
+\contentsline {subsection}{\numberline {3.6}Experiment design and execution}{16}
+\contentsline {section}{\numberline {4}Findings and results}{16}
+\contentsline {section}{\numberline {5}Discussion of results}{16}
+\contentsline {section}{\numberline {6}Conclusions}{16}
