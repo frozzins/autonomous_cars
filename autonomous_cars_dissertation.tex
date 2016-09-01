@@ -359,58 +359,65 @@ The instructions given would encourage them to explore the map and avoid collisi
 
 
 
-
-\subsection{Inspiration by SUMO package}
-
-The design of the map structure that vehicles are moving on was inspired by Simulation of Urban MObility (SUMO) package. The details of the SUMO framework are described in literature review section.
-
-
-
-SUMO was simply not design for 
-
-, however, found that 
-
-
-why matlab?
-
-The freedom of movement
-
-
-
-
-
-
-map design
-
-
-
-Justify all major design decisions. Plenty of them!
-All the actions undertaken to ensure most meaningful results
-
-\subsubsection{some other subsections}
-
 \subsubsection{Data collection}
 
 How the experiment was eventually conducted
 
 \subsection{Software development}
 
+Creating application that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the project to ensuring simulation reliability were dictated by the requirements of the experiment.
+
+
+
+//write more intro to software
+
+
+
+
+
+
+
 Justify all major design decisions
+
+Justify all major design decisions. Plenty of them!
+All the actions undertaken to ensure most meaningful results
+
 
 \subsubsection{Environment choice}
 
-Choosing the right environment to develop software was a key decision that determined many parts of the project. The initial Project Proposal written by Eddie Wilson suggested using SUMO package as a core of the simulation. It was assumed that a small part of SUMO capabilities would be utilized in combinations with additional software written for the purpose of this project. SUMO features  Traffic Control Interface (TraCI) that gives access to running simulation. The parameters of the simulation like car's location could be retrieved and manipulated in real-time. The additional software would be responsible for data exchange over the network, visualizing car's surrounding and capturing inputs from experiment participants. 
-All these features 
- 
+Choosing the right environment to develop software was a key decision that had crucial impact on all parts of the project. 
 
-The initial idea was to use SUMO package as a fundamental 
+After a process of careful consideration it was decided to use MATLAB as a sole development environment for all parts of the project. 
 
-
-At the beginning SUMO was considered a primary tool for implementing the whole simulation. It was hoped that ability to serve on-line inputs would allow to control vehicles in the simulation in real-time, proving inputs coming from many machines. However, it was found that  none of the features available in SUMO would allow for such operation. 
+The initial Project Proposal written by Eddie Wilson suggested using SUMO package as a core of the simulation. It was assumed that a small part of SUMO capabilities would be utilized in combinations with additional software written for the purpose of this project. SUMO features  Traffic Control Interface (TraCI) (\textit{link to website}) that gives access to running simulation. The parameters of the simulation like car's location could be potentially retrieved and manipulated in real-time. The additional software would be responsible for data exchange over the network, visualizing car's surrounding and capturing inputs from experiment participants. Most likely the programming language used for this part would be C++.
 
 
+On the other hand, SUMO was intended for much larger simulations than the one planned. Vast majority of available features would not be used and could rather be a source of potential issues. 
 
-\subsubsection{Simulation master design}
+A competing idea was to create a tailored application that would be inspired by the structure of SUMO but would be written from scratch. It would be implemented using C++ or MATLAB environment. The main benefit of this approach would be full control of the software behaviour. The main drawback would be rewriting algorithms and structure that already existed inside SUMO. 
+
+In terms of subjective software preference MATLAB was considered most familiar and most error prone.  
+
+Another key question that had large impact on the decision was how to establish reliable communication between machines. 
+It was found that MATLAB supports at least three possible ways of communication that could be used in the project including User Datagram Protocol (UDP), Transmission Control Protocol (TCPIP) and Robot Operating System. This was the main reason why MATLAB was eventually chose for this project.
+Details of the implementation of computer-to-computer communication are described in the chapter "Communication between machines"
+
+\subsubsection{Software structure}
+
+
+The software in the project consists of three  main parts. The most important one is Simulation Server Application. It is responsible for all data processing that is essential for the simulation. The second piece of software is Simulation Client Application. Each participant used an identical copy of Simulation Client Application to receive information about car's surroundings and send acceleration and direction orders to the server. Last part of the software is Communication Agent which was responsible for aggregating information from all clients and sending it to the server. It's existence was dictated by the requirements of network solution described in further chapters.
+
+
+
+\subsubsection{Simulation Server Application design}
+//change name of chapter title
+
+
+
+
+
+
+
 
 \subsubsection{Client's interface design}
 

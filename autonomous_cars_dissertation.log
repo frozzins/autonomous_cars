@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  1 SEP 2016 11:27
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  1 SEP 2016 18:14
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -256,7 +256,9 @@ nput line 293.
 Package natbib Warning: Citation `parkin2016understanding' on page 11 undefined
  on input line 323.
 
-[11] [12] [13] [14]
+[11] [12] [13]
+Requested font "cmti10" at 10.95pt
+ [14] [15]
 Missing character: There is no ’ in font cmr10!
 Missing character: There is no ’ in font cmr10!
  (autonomous_cars_dissertation.bbl
@@ -267,13 +269,13 @@ Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 Package natbib Warning: There were undefined citations.
 
-[15] [16] (autonomous_cars_dissertation.aux) ) 
+[16] (autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 1737 strings out of 428755
- 22412 string characters out of 3163194
+ 1739 strings out of 428755
+ 22436 string characters out of 3163194
  180617 words of memory out of 3000000
- 5067 multiletter control sequences out of 15000+200000
- 10054 words of font info for 35 fonts, out of 3000000 for 9000
+ 5068 multiletter control sequences out of 15000+200000
+ 10400 words of font info for 36 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  42i,5n,21p,996b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
 
