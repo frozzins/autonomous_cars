@@ -351,12 +351,14 @@ the best option rather than for example use data from some database?...hmmm
 The experiment was arguably the most important part of the project. All work done before was aimed at successful conductance of the experiment and all work done after was based on the data collected during the experiment. 
 
 
+\textbf{style note:} \textit{This is all written in conditional because it was a plan and actual implementation is a different story??}
+
 The experiment was planned to involve ten to twenty people. Each of them would sit in front of a computer where they could use the keyboard and observe the screen. They would be asked to control one of the vehicles in the simulation. On the screen they would see a top down view of their own vehicle and it's surrounding. By using the keyboard they would control the acceleration of their vehicle.
 The instructions given would encourage them to explore the map and avoid collisions with other traffic participants.
 
 The experiment was planned to consist of three main sessions and one learning session. Each session would feature different scenario which determines road layout, number of human-driven and number of autonomous cars. During learning session participants would learn(change this word) how to control the car, how car responds to their commands and what the environment looked like. 
 After learning period the first phase would commence and second afterwards. Both phases would use identical map but the proportion of traditional cars to autonomous would change. The map shape would be an infinity-sign-like where vehicles would have to follow each other and there would be one intersection. It was assumed that such an approach would allow to measure macro parameters of the traffic as both phases would be comparable and the impact of autonomous vehicles could be extracted. The initial choice of measured parameters would include average velocity, density, flow and headway. 
-The scenario in the third phase would use significantly more complex map. 
+The scenario in the third phase would use significantly more complex map with 3-way  intersections, road exits and road accesses(?). It would feature a similar number of human-driven and autonomous cars. The focus of analysis would be microscopic interaction between cars in various road situations. 
 
   
 
@@ -396,7 +398,7 @@ a screenshot from the client
 \subsubsection{Client's interface}
 
 justify all design decision for clients interface, position of car,
-siplification of car shape,
+simplification of car shape,
 car why client could see only that much
 speed
 
@@ -404,6 +406,8 @@ speed
 
 \subsubsection{Scenarios}
 
+
+All intersection were uncontrolled intersections to trigger more eventful interactions. 
 
 say that all lanes are uni-directional
 

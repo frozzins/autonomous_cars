@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  1 SEP 2016 20:23
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  1 SEP 2016 20:43
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -256,9 +256,9 @@ nput line 293.
 Package natbib Warning: Citation `parkin2016understanding' on page 11 undefined
  on input line 323.
 
-[11] [12] [13] [14]
+[11] [12]
 Requested font "cmti10" at 10.95pt
- [15] [16]
+ [13] [14] [15] [16]
 Missing character: There is no ’ in font cmr10!
 Missing character: There is no ’ in font cmr10!
  [17] (autonomous_cars_dissertation.bbl
