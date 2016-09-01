@@ -17,17 +17,18 @@
 \contentsline {subsection}{\numberline {2.9}Communication between machines - maybe}{11}
 \contentsline {subsection}{\numberline {2.10}Experiment design - real world research}{11}
 \contentsline {section}{\numberline {3}Research Methodology}{12}
-\contentsline {subsection}{\numberline {3.1}Experiment design and implementation?}{13}
-\contentsline {subsubsection}{\numberline {3.1.1}Data collection}{13}
-\contentsline {subsection}{\numberline {3.2}Software development}{13}
-\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{14}
-\contentsline {subsubsection}{\numberline {3.2.2}Software structure}{15}
-\contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{15}
-\contentsline {subsubsection}{\numberline {3.2.4}Client's interface design}{16}
-\contentsline {subsubsection}{\numberline {3.2.5}Car control}{16}
-\contentsline {subsection}{\numberline {3.3}Communication between machines}{16}
-\contentsline {subsection}{\numberline {3.4}Autonomous car model}{16}
-\contentsline {subsection}{\numberline {3.5}Experiment design and execution}{16}
-\contentsline {section}{\numberline {4}Findings and results}{16}
-\contentsline {section}{\numberline {5}Discussion of results}{16}
-\contentsline {section}{\numberline {6}Conclusions}{16}
+\contentsline {subsection}{\numberline {3.1}Experiment design}{13}
+\contentsline {subsubsection}{\numberline {3.1.1}Client's interface}{14}
+\contentsline {subsubsection}{\numberline {3.1.2}Scenarios}{15}
+\contentsline {subsection}{\numberline {3.2}Software development}{15}
+\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{15}
+\contentsline {subsubsection}{\numberline {3.2.2}Software structure}{17}
+\contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{17}
+\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{17}
+\contentsline {subsubsection}{\numberline {3.2.5}Car control}{17}
+\contentsline {subsection}{\numberline {3.3}Communication between machines}{17}
+\contentsline {subsection}{\numberline {3.4}Autonomous car model}{18}
+\contentsline {section}{\numberline {4}Findings and results}{18}
+\contentsline {subsection}{\numberline {4.1}Experiment execution}{18}
+\contentsline {section}{\numberline {5}Discussion of results}{18}
+\contentsline {section}{\numberline {6}Conclusions}{18}
