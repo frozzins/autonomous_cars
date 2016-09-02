@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  1 SEP 2016 20:43
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  2 SEP 2016 16:39
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -187,96 +187,30 @@ Overfull \hbox (415.93024pt too wide) in paragraph at lines 173--175
 epartment+of+Transportation+Releases+Policy+on+Automated+Vehicle+Development),
  []
 
-
-Package natbib Warning: Citation `parkin2016understanding' on page 6 undefined 
-on input line 177.
-
-
-Package natbib Warning: Citation `pathwaytodriverless' on page 6 undefined on i
-nput line 195.
-
-[6]
-
-Package natbib Warning: Citation `pathwaytodriverless' on page 7 undefined on i
-nput line 201.
-
-
-Package natbib Warning: Citation `sivak2015road' on page 7 undefined on input l
-ine 204.
-
-
-Package natbib Warning: Citation `litman2014autonomous' on page 7 undefined on 
-input line 206.
-
-[7]
-
-Package natbib Warning: Citation `litman2014autonomous' on page 8 undefined on 
-input line 212.
-
-
-Package natbib Warning: Citation `duranton2011fundamental' on page 8 undefined 
-on input line 221.
-
-
-Package natbib Warning: Citation `parkin2016understanding' on page 8 undefined 
-on input line 232.
-
-[8]
-
-Package natbib Warning: Citation `risser1985behavior' on page 9 undefined on in
-put line 241.
-
-
-Package natbib Warning: Citation `sivak2015road' on page 9 undefined on input l
-ine 249.
-
-[9]
-
-Package natbib Warning: Citation `beymer1997real' on page 10 undefined on input
- line 261.
-
+[6] [7] [8] [9]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 264.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 264.
 
-
-Package natbib Warning: Citation `krajzewicz2002sumo' on page 10 undefined on i
-nput line 288.
-
-[10]
-
-Package natbib Warning: Citation `krajzewicz2002sumo' on page 11 undefined on i
-nput line 293.
-
-
-Package natbib Warning: Citation `parkin2016understanding' on page 11 undefined
- on input line 323.
-
-[11] [12]
+[10] [11] [12]
 Requested font "cmti10" at 10.95pt
- [13] [14] [15] [16]
+ [13] [14] [15] [16] [17] [18]
 Missing character: There is no ’ in font cmr10!
 Missing character: There is no ’ in font cmr10!
- [17] (autonomous_cars_dissertation.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-)
-
-Package natbib Warning: There were undefined citations.
-
-[18] (autonomous_cars_dissertation.aux) ) 
+ [19]
+(autonomous_cars_dissertation.bbl [20]) [21] (autonomous_cars_dissertation.aux)
+ ) 
 Here is how much of TeX's memory you used:
- 1739 strings out of 428755
- 22436 string characters out of 3163194
+ 1759 strings out of 428755
+ 22994 string characters out of 3163194
  180617 words of memory out of 3000000
- 5068 multiletter control sequences out of 15000+200000
+ 5088 multiletter control sequences out of 15000+200000
  10400 words of font info for 36 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 42i,5n,21p,996b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,5n,21p,1098b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (19 pages).
+Output written on autonomous_cars_dissertation.pdf (22 pages).

@@ -1,3 +1,56 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Beymer et~al.]{Beymer, McLauchlan, Coifman \harvardand\
+  Malik}{1997}{beymer1997real}
+Beymer, D., McLauchlan, P., Coifman, B. \harvardand\ Malik, J.
+  \harvardyearleft 1997\harvardyearright , A real-time computer vision system
+  for measuring traffic parameters, {\em in} `Computer Vision and Pattern
+  Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on',
+  IEEE, pp.~495--501.
+
+\harvarditem{Duranton \harvardand\ Turner}{2011}{duranton2011fundamental}
+Duranton, G. \harvardand\ Turner, M.~A.  \harvardyearleft 2011\harvardyearright
+  , `The fundamental law of road congestion: Evidence from us cities', {\em The
+  American Economic Review} {\bf 101}(6),~2616--2652.
+
+\harvarditem[Krajzewicz et~al.]{Krajzewicz, Hertkorn, R{\"o}ssel \harvardand\
+  Wagner}{2002}{krajzewicz2002sumo}
+Krajzewicz, D., Hertkorn, G., R{\"o}ssel, C. \harvardand\ Wagner, P.
+  \harvardyearleft 2002\harvardyearright , Sumo (simulation of urban
+  mobility)-an open-source traffic simulation, {\em in} `Proceedings of the 4th
+  Middle East Symposium on Simulation and Modelling (MESM20002)', pp.~183--187.
+
+\harvarditem{Litman}{2014}{litman2014autonomous}
+Litman, T.  \harvardyearleft 2014\harvardyearright , `Autonomous vehicle
+  implementation predictions', {\em Victoria Transport Policy Institute} {\bf
+  28}.
+
+\harvarditem[Parkin et~al.]{Parkin, Clark, Clayton, Ricci \harvardand\
+  Parkhurst}{2016}{parkin2016understanding}
+Parkin, J., Clark, B., Clayton, W., Ricci, M. \harvardand\ Parkhurst, G.
+  \harvardyearleft 2016\harvardyearright , `Understanding interactions between
+  autonomous vehicles and other road users: A literature review'.
+
+\harvarditem{Risser}{1985}{risser1985behavior}
+Risser, R.  \harvardyearleft 1985\harvardyearright , `Behavior in traffic
+  conflict situations', {\em Accident Analysis \& Prevention} {\bf
+  17}(2),~179--197.
+
+\harvarditem{Sivak \harvardand\ Schoettle}{2015}{sivak2015road}
+Sivak, M. \harvardand\ Schoettle, B.  \harvardyearleft 2015\harvardyearright ,
+  `Road safety with self-driving vehicles: General limitations and road sharing
+  with conventional vehicles', {\em Ann Arbor, MI: University of Michigan
+  Transportation Research Institute} .
+
+\harvarditem[Summala et~al.]{Summala, Lamble \harvardand\
+  Laakso}{1998}{summala1998driving}
+Summala, H., Lamble, D. \harvardand\ Laakso, M.  \harvardyearleft
+  1998\harvardyearright , `Driving experience and perception of the lead car's
+  braking when looking at in-car targets', {\em Accident Analysis \&
+  Prevention} {\bf 30}(4),~401--407.
+
+\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015}{pathwaytodriverless}
+UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015\harvardyearright ,
+  `The pathway to driverless cars: Summary report and action plan'.
+
 \end{thebibliography}

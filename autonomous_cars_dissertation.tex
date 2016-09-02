@@ -353,54 +353,62 @@ The experiment was arguably the most important part of the project. All work don
 
 \textbf{style note:} \textit{This is all written in conditional because it was a plan and actual implementation is a different story??}
 
-The experiment was planned to involve ten to twenty people. Each of them would sit in front of a computer where they could use the keyboard and observe the screen. They would be asked to control one of the vehicles in the simulation. On the screen they would see a top down view of their own vehicle and it's surrounding. By using the keyboard they would control the acceleration of their vehicle.
+The experiment was planned to involve ten to twenty people. They would be asked to control one of the vehicles in the simulation. Each of them would sit in front of a computer where they could use keyboard and observe the screen.  On the screen they would see a top down view of their own vehicle and it's surrounding. By using the keyboard they would control the acceleration of their vehicle.
 The instructions given would encourage them to explore the map and avoid collisions with other traffic participants.
 
-The experiment was planned to consist of three main sessions and one learning session. Each session would feature different scenario which determines road layout, number of human-driven and number of autonomous cars. During learning session participants would learn(change this word) how to control the car, how car responds to their commands and what the environment looked like. 
+The experiment was planned to consist of three main sessions and one learning session. Each session would feature different scenario which determines road layout, number of human-driven cars and number of autonomous cars. During learning session participants would learn(change this word) how to control the car, how car responds to their commands,how to turn and what the environment looked like. 
 After learning period the first phase would commence and second afterwards. Both phases would use identical map but the proportion of traditional cars to autonomous would change. The map shape would be an infinity-sign-like where vehicles would have to follow each other and there would be one intersection. It was assumed that such an approach would allow to measure macro parameters of the traffic as both phases would be comparable and the impact of autonomous vehicles could be extracted. The initial choice of measured parameters would include average velocity, density, flow and headway. 
-The scenario in the third phase would use significantly more complex map with 3-way  intersections, road exits and road accesses(?). It would feature a similar number of human-driven and autonomous cars. The focus of analysis would be microscopic interaction between cars in various road situations. 
-
-  
-
-
-The maps used are described in greater detail in next chapter about different Scenarios.
+The scenario in the third phase would use significantly more complex map with 3-way  intersections, road exits and road accesses(?). It would feature a similar number of human-driven and autonomous cars. The focus of the analysis would be microscopic interaction between cars in various road situations. 
+Number of autonomous vehicles driving on the map depended on the number of people turning up for the experiment. Additionally map used for phase one and two could be scaled according to the total number of cars.
 
 
-Number of autonomous vehicles driving on the map was dependent on the number of people turning up for the experiment. Additionally map used for phase one and two could be scaled according to the total number of cars.
-
-
-
-- say how the car was control - just briefly becouse that comes uo later in software design 
-
-
-- say how crashes were handled
-
-
-write all about the experiment that does not concern the backend of the design
-
-
-The instructions given to experiment participants stated the following:
+The instructions given to experiment participants before each phase stated the following:
 
 \begin{enumerate}
   \item Cover as long distance as possible
   \item Avoid collisions with other cars at all cost
   \item Use key described below to control the car
-  \item when given a choice to turn at the intersection it's your decision which direction you want to go
+  \item When given a choice to turn at the intersection it's your decision which direction you want to go
   \item Listen to other instructions
 \end{enumerate}
 
 
+At every time step almost all simulation data was recorded for further analysis. 
 
-a screenshot from the client
+In the event of collision the cars would be allowed to pass through each other. Naturally the event was recorded and collision alert was displayed for drivers involved in the accident. Collisions were unwanted events that were considered a distortions affecting the results. By allowing the cars to pass the traffic disturbance was mitigated. Another considered ideas such as teleporting vehicles to another place or manually changing the velocities would have much greater impact on traffic smoothness. 
+
+
+(a screenshot from the client gui . Say about control key described, speedometer and collision alert.)
 
 
 
 \subsubsection{Client's interface}
 
-justify all design decision for clients interface, position of car,
-simplification of car shape,
-car why client could see only that much
-speed
+The main aim of the graphical interface was to mimic what a person driving a car would actually see from the inside of his or her vehicle. 
+ 
+
+Compared to what a driver sees in real world the representation of the environment had to largely simplified. The challenge was to preserve as much of the realism as possible keeping in mind the main principles of the experiment.
+
+The cars were represented as coloured rectangles 2 meters wide and 4.5 meters long. Driver's vehicle was always position in the middle of the screen while map and other vehicles were moving around it.
+
+Roads were X? meters wide in black colour and red boundaries. Each track was overlaid on graphical background with many distinctive features to allow for better feeling of speed.(reference to website %http://www.sherwoodforestfaire.com/). 
+
+
+\paragraph{Car control using keyboard}
+First things to decide on was how the car was controlled.
+Fundamentally the car had one degree of freedom as it always went along a predefined path. Only in the event of road split the driver could make discreet choice on which direction to go.
+The acceleration of the car was controlled by A and Z keys. Pressing A made car accelerate with a value calculated from Gipps' car following model discussed in later section. Pressing Z key applied constant deceleration of -6.5 m-s2. Additionally drivers could press space bar which functioned as a hand break and applied deceleration of -10 m-s2. These number were found empirically so that car responded realistically (add:? in the subjective opinion of three people). Backward movement was disabled for greater simplification(??).
+The reason for not using arrow keys was that arrow key were used to control car turn direction. Some intersections featured choice between straight, left and right turn. 
+
+
+
+
+\paragraph{Size of view field}
+Another design decision concerned the size of driver's view field. The shape and size of the view field was a square 80 meters by 80 meters where car was positioned 20 meters from the bottom as it is showed on figure(number). It was assumed that for a driver travelling at full speed it should be possible to comfortably slow down to zero when a stationary vehicle suddenly appears in front of it. The amount of time elapsing from first sight of the obstacle to coming to full stop includes reaction time and breaking time. According to \citep{summala1998driving} average reaction time for a vehicle without brake lights is about 2 seconds which corresponds to 30 meters travelled. Breaking at -6.5 m-s2 from 15 m-s takes 2.3 seconds which consequently corresponds to 17.2 meters. So the minimal distance that driver should be able to see ahead is 47.2 meters. After initial tests this lower-bound value proved to be too small and after few other trials was extended to 60 meters. Another 20 meters of sight distance was added behind the car. 
+
+(only viewport image)
+
+
 
 
 
@@ -484,6 +492,9 @@ the car model
 gipps graph here
 
 
+As the experiment was dedicated to city traffic the maximum velocity was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after X(?) seconds.
+
+
 \subsection{Communication between machines}
 
 From one point of view this a tightly coupled with software development but the way
@@ -508,7 +519,14 @@ design decisions
 
 
 \subsection{Experiment execution}
+
+say why they were spreaded to 2 groups and why
+
+
+
 How the experiment was eventually conducted
+
+Time based report as-it-happened - not too detailed though
 
 \section{Discussion of results}
 

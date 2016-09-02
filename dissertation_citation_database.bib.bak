@@ -23,6 +23,14 @@
   Publisher                = {American Economic Association}
 }
 
+@InProceedings{krajzewicz2002sumo,
+  Title                    = {SUMO (Simulation of Urban MObility)-an open-source traffic simulation},
+  Author                   = {Krajzewicz, Daniel and Hertkorn, Georg and R{\"o}ssel, Christian and Wagner, Peter},
+  Booktitle                = {Proceedings of the 4th Middle East Symposium on Simulation and Modelling (MESM20002)},
+  Year                     = {2002},
+  Pages                    = {183--187}
+}
+
 @Article{litman2014autonomous,
   Title                    = {Autonomous Vehicle Implementation Predictions},
   Author                   = {Litman, Todd},
@@ -56,6 +64,18 @@
   Author                   = {Sivak, Michael and Schoettle, Brandon},
   Journal                  = {Ann Arbor, MI: University of Michigan Transportation Research Institute},
   Year                     = {2015}
+}
+
+@Article{summala1998driving,
+  Title                    = {Driving experience and perception of the lead car's braking when looking at in-car targets},
+  Author                   = {Summala, Heikki and Lamble, Dave and Laakso, Matti},
+  Journal                  = {Accident Analysis \& Prevention},
+  Year                     = {1998},
+  Number                   = {4},
+  Pages                    = {401--407},
+  Volume                   = {30},
+
+  Publisher                = {Elsevier}
 }
 
 @Article{pathwaytodriverless,
