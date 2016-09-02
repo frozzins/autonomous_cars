@@ -23,14 +23,14 @@
 \contentsline {paragraph}{Size of view field}{16}
 \contentsline {subsubsection}{\numberline {3.1.2}Scenarios}{16}
 \contentsline {subsection}{\numberline {3.2}Software development}{17}
-\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{17}
+\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{18}
 \contentsline {subsubsection}{\numberline {3.2.2}Software structure}{19}
-\contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{19}
-\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{19}
-\contentsline {subsubsection}{\numberline {3.2.5}Car control}{19}
+\contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{20}
+\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{20}
+\contentsline {subsubsection}{\numberline {3.2.5}Car control}{20}
 \contentsline {subsection}{\numberline {3.3}Communication between machines}{20}
 \contentsline {subsection}{\numberline {3.4}Autonomous car model}{20}
-\contentsline {section}{\numberline {4}Findings and results}{20}
-\contentsline {subsection}{\numberline {4.1}Experiment execution}{20}
-\contentsline {section}{\numberline {5}Discussion of results}{20}
-\contentsline {section}{\numberline {6}Conclusions}{20}
+\contentsline {section}{\numberline {4}Findings and results}{21}
+\contentsline {subsection}{\numberline {4.1}Experiment execution}{21}
+\contentsline {section}{\numberline {5}Discussion of results}{21}
+\contentsline {section}{\numberline {6}Conclusions}{21}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  2 SEP 2016 17:08
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  2 SEP 2016 18:41
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -198,11 +198,11 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 
 [10] [11] [12]
 Requested font "cmti10" at 10.95pt
- [13] [14] [15] [16] [17] [18]
+ [13] [14] [15] [16] [17] [18] [19]
 Missing character: There is no ’ in font cmr10!
 Missing character: There is no ’ in font cmr10!
- [19]
-(autonomous_cars_dissertation.bbl [20]) [21] (autonomous_cars_dissertation.aux)
+ [20]
+(autonomous_cars_dissertation.bbl [21]) [22] (autonomous_cars_dissertation.aux)
  ) 
 Here is how much of TeX's memory you used:
  1759 strings out of 428755
@@ -213,4 +213,4 @@ Here is how much of TeX's memory you used:
  1096 hyphenation exceptions out of 8191
  42i,5n,21p,1098b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (22 pages).
+Output written on autonomous_cars_dissertation.pdf (23 pages).
