@@ -401,8 +401,6 @@ The acceleration of the car was controlled by A and Z keys. Pressing A made car 
 The reason for not using arrow keys was that arrow key were used to control car turn direction. Some intersections featured choice between straight, left and right turn. 
 
 
-
-
 \paragraph{Size of view field}
 Another design decision concerned the size of driver's view field. The shape and size of the view field was a square 80 meters by 80 meters where car was positioned 20 meters from the bottom as it is showed on figure(number). It was assumed that for a driver travelling at full speed it should be possible to comfortably slow down to zero when a stationary vehicle suddenly appears in front of it. The amount of time elapsing from first sight of the obstacle to coming to full stop includes reaction time and breaking time. According to \citep{summala1998driving} average reaction time for a vehicle without brake lights is about 2 seconds which corresponds to 30 meters travelled. Breaking at -6.5 m-s2 from 15 m-s takes 2.3 seconds which consequently corresponds to 17.2 meters. So the minimal distance that driver should be able to see ahead is 47.2 meters. After initial tests this lower-bound value proved to be too small and after few other trials was extended to 60 meters. Another 20 meters of sight distance was added behind the car. 
 
@@ -413,6 +411,16 @@ Another design decision concerned the size of driver's view field. The shape and
 
 
 \subsubsection{Scenarios}
+
+Each scenario describes configuration of map, number of human drivers, number of autonomous cars, initial position of each car and length of the simulation. 
+Due to uknown..
+
+Some of these parameters could be set just before the experiment commenced
+
+ 
+The size of the map 
+
+The scenarios describe what map was used
 
 
 All intersection were uncontrolled intersections to trigger more eventful interactions. 
