@@ -358,8 +358,10 @@ The instructions given would encourage them to explore the map and avoid collisi
 
 The experiment was planned to consist of three main sessions and one learning session. Each session would feature different scenario which determines road layout, number of human-driven cars and number of autonomous cars. During learning session participants would learn(change this word) how to control the car, how car responds to their commands,how to turn and what the environment looked like. 
 After learning period the first phase would commence and second afterwards. Both phases would use identical map but the proportion of traditional cars to autonomous would change. The map shape would be an infinity-sign-like where vehicles would have to follow each other and there would be one intersection. It was assumed that such an approach would allow to measure macro parameters of the traffic as both phases would be comparable and the impact of autonomous vehicles could be extracted. The initial choice of measured parameters would include average velocity, density, flow and headway. 
-The scenario in the third phase would use significantly more complex map with 3-way  intersections, road exits and road accesses(?). It would feature a similar number of human-driven and autonomous cars. The focus of the analysis would be microscopic interaction between cars in various road situations. 
+The scenario in the third phase would use significantly more complex map with 3-way  intersections, road exits and road accesses(this sounds wrong?). It would feature a similar number of human-driven and autonomous cars. The focus of the analysis would be microscopic interaction between cars in various road situations. 
 Number of autonomous vehicles driving on the map depended on the number of people turning up for the experiment. Additionally map used for phase one and two could be scaled according to the total number of cars.
+
+
 
 
 The instructions given to experiment participants before each phase stated the following:
@@ -376,6 +378,10 @@ The instructions given to experiment participants before each phase stated the f
 At every time step almost all simulation data was recorded for further analysis. 
 
 In the event of collision the cars would be allowed to pass through each other. Naturally the event was recorded and collision alert was displayed for drivers involved in the accident. Collisions were unwanted events that were considered a distortions affecting the results. By allowing the cars to pass the traffic disturbance was mitigated. Another considered ideas such as teleporting vehicles to another place or manually changing the velocities would have much greater impact on traffic smoothness. 
+
+
+The algorithm for the autonomous car as based on Intelligent Driver Model. It is discussed in detail in Software development section. The velocity for autonomous vehicles was capped at 12 m-s but the acceleration was faster than traditional cars.  
+
 
 
 (a screenshot from the client gui . Say about control key described, speedometer and collision alert.)
@@ -397,7 +403,7 @@ Roads were X? meters wide in black colour and red boundaries. Each track was ove
 \paragraph{Car control using keyboard}
 First things to decide on was how the car was controlled.
 Fundamentally the car had one degree of freedom as it always went along a predefined path. Only in the event of road split the driver could make discreet choice on which direction to go.
-The acceleration of the car was controlled by A and Z keys. Pressing A made car accelerate with a value calculated from Gipps' car following model discussed in later section. Pressing Z key applied constant deceleration of -6.5 m-s2. Additionally drivers could press space bar which functioned as a hand break and applied deceleration of -10 m-s2. These number were found empirically so that car responded realistically (add:? in the subjective opinion of three people). Backward movement was disabled for greater simplification(??).
+The acceleration of the car was controlled by A and Z keys. Pressing A made car accelerate with a value calculated from Gipps' car following model discussed in later section. The maximum velocity was capped at 15m-s. Pressing Z key applied constant deceleration of -6.5 m-s2. Additionally drivers could press space bar which functioned as a hand break and applied deceleration of -10 m-s2. These number were found empirically so that car responded realistically (add:? in the subjective opinion of three people). Backward movement was disabled for greater simplification(??).
 The reason for not using arrow keys was that arrow key were used to control car turn direction. Some intersections featured choice between straight, left and right turn. 
 
 
@@ -415,37 +421,67 @@ Another design decision concerned the size of driver's view field. The shape and
 Each scenario specifies configuration of the map, number of human drivers, number of autonomous cars, initial position of each car and length of the simulation. 
 While map configuration had to be prepared before, number of vehicles of each type and time of the simulation could be set at the start of the experiment. This flexibility helped to accommodate for unknown number of people that showed up for the experiment.
 
+To ensure reasonable congestion but yet high number of interactions each map was intended for different number of vehicles. A benchmark test with solely autonomous cars and additional empirical tests allowed to establish that every vehicle should correspond to 45 to 80 meters of total track length.
+
+
+In all scenarios participants were not told which car is autonomous and which is controlled by another driver. They could, however try to guess the type of the car from how it behaved. 
+
 
 \subsubsection*{Learning how to drive}
 %\paragraph{Learning how to drive}
 
-The practical part of the experiment started by 3 minutes long learning period. 
+(\textit{here im actually talking about using all participants while in fact they were splited into two groups.. . that information would be revelaed later in experiment execution chapter})
+
+The learning period involved all participants and one autonomous car. It lasted 2 to 3 minutes and was intended for getting familiar with the simulation. The data from this period was recorded but was not intended for analysis. In that period participants could ask additional questions. The map used in this scenario is presented on Figure ~\ref{fig:map_0_arrows}.
 
 
+\begin{figure}[] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/map_0_arrows.png}}
+\caption{Map used in learning scenario. It featured one road exit and one road split. Dimensions are given in meters.}
+\label{fig:map_0_arrows}
+\end{figure}
 
-
-%scenario_0_snapshot
-
-
-During that time  
 
 \subsubsection*{Scenario 1}
 
-In the first
-
- 
-The size of the map 
-
-The scenarios describe what map was used
+In the first scenario all participants were involved and there was one autonomous car. The map featured figure of eight shape as showed on Figure~\ref{fig:map_1_arrows}. The intersection in the middle was uncontrolled as it did not have any priority rule. It was hoped that this way cars would face uncertain situations and interactions will be more vibrant. This scenario was intended to capture interactions in traffic consisting almost entirely of traditional cars. Interaction were either between cars following each other or between cars at the intersection. It was hoped to observe how people are keeping distance to car ahead, how conflicts at intersection are resolved and what are the potential queueing behaviours.
+One autonomous car was added because(why it was added??)
 
 
-All intersection were uncontrolled intersections to trigger more eventful interactions. 
+Before the simulation started participants were briefed what is the shape of the map but they were not told how many autonomous cars were in the simulation.  
 
-say that all lanes are uni-directional
+This phase was planned to last 4 to 8 minutes depending on the number of participants.
 
-say how turning worked
 
-say 
+\begin{figure}[] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/map_1_arrows.png}}
+\caption{Map used in First scenario. It featured figure of eight shape. There were no road splits and cars had to follow each other. Dimensions are given in meters. Covering the whole map at full speed of 15m-s would take 22 seconds.}
+\label{fig:map_1_arrows}
+\end{figure}
+
+
+\subsubsection*{Scenario 2}
+
+In scenario 2 around 35\% of people taking part in the first scenario were substituted for autonomous cars. This scenario used identical map as scenario 1 (Figure~\ref{fig:map_1_arrows}) and total number of cars didn't change. It was hoped that this way the results will be comparable to first scenario. Particular interest was in the interaction at the intersections. The autonomous cars were always letting human-driven cars go first if collision was anticipated. The humans however didn't know which car is what type and communication happened only via observation of each other's movement. 
+
+Similar to previous scenario the planned length would range between 4 and 8 minutes.
+
+
+\subsubsection*{Scenario 3}
+
+Scenario 3 aimed at microscopic interaction between particular groups of vehicles. The map used in this scenario was much more complex than previous one (Figure~\ref{fig:map_3_arrows}). The amount of human-controlled cars was equal to the number of autonomous cars. The total density of all vehicles was two times lower that previous scenarios but because of multiple intersections the number of interactions stayed high.
+
+
+\begin{figure}[] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/map_3_arrows.png}}
+\caption{Map used in the third scenario. It featured two road splits where drivers could change direction, 2 diagonal intersections,a 3-way intersection and 2 road accesses(?). The total length of all segments was 875 m. Travelling at 15m-s it would take 59 seconds to cover that distance. This was the longest track in the experiment.}
+\label{fig:map_3_arrows}
+\end{figure}
+
+
+
+
+
 
 
 \subsection{Software development}
@@ -542,7 +578,10 @@ design decisions
 \section{Findings and results}
 
 
+
 \subsection{Experiment execution}
+
+survey! and all other consents..
 
 say why they were spreaded to 2 groups and why
 
