@@ -1,4 +1,4 @@
-\documentclass[11pt]{article} 
+\documentclass[11pt,english]{article} 
 
 %\usepackage[english]{babel}
 %\usepackage[utf8]{inputenc}
@@ -6,9 +6,19 @@
 %\usepackage{csquotes}% Recommended
 
 
+\usepackage{fontspec}
+\setmainfont{Arial}
 
-%\usepackage{fontspec}
-%\setmainfont{Arial}
+\usepackage[a4paper,bindingoffset=1.5cm, left=2cm,right=2.5cm,top=3cm,bottom=4cm, footskip=1.5cm]{geometry}
+
+
+%  \fontencoding{T1}
+%  \fontfamily{arial}
+%  \fontseries{m}
+%  \fontshape{it}
+%  \fontsize{11}
+%  \selectfont
+
 
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
@@ -138,6 +148,10 @@ clear and succinct statement of research questions, aims and objectives.
 
 
 The main aim of the research was trying to predict what will happen when autonomous cars are introduced to the traffic. Results obtained were analysed from the point of view to traffic parameters such as velocities, densities, congestion and from the point of view how individual drivers reacted differently when autonomous vehicle was encountered.
+
+The main objective of the project was to conduct experiments with human drivers and autonomous cars. In the center of the project was a network-based, multi player traffic simulation. Each person participating in the experiment controlled one vehicle and made decisions by observing other traffic participants. By looking into how cars interact with each other it should be possible to extract the impact of self-driving vehicles on the traffic. 
+
+
 
 The main objective of the project was to create a an on-line traffic simulation that would allow to connect multiple people together at the same time. People were asked to drive a car 
 
@@ -324,12 +338,9 @@ quick summary of sumo
 
 \section{Research Methodology}
 
-The main aim of the project was to look into interactions between autonomous and human-driven vehicles. The main method that was used to achieve this was to create a simulation of traffic with both types of traffic participants. By reviewing the literature it was found that there are numerous car-following models that could be used for the purpose of this simulation. However, no matter how good were these models, they could only work as approximation of how humans would actually control the cars. It was decided that differences between any of the reviewed car-following algorithms and actual human control are so significant that the study should rely on the experiment involving multiple human participants controlling cars in real-time simulation.
+The main aim of the project was to look into interactions between autonomous and human-driven vehicles. The main method that was used to achieve this was to create a simulation of traffic with both types of traffic participants. By reviewing the literature it was found that there are numerous car-following models that could be used for the purpose of this simulation as a model of human driver. However, no matter how good were these models, they could only work as approximation of how humans would actually control the cars. It was decided that differences between any of the reviewed car-following algorithms and real human control are so significant that the study should rely on the experiment involving multiple human participants controlling cars in real-time, interconnected simulation.
  
-The decision to create such a simulation was a key factor influenced the shape to the whole project. 
-
-
-The consequence of heaving an experiment that involves multiple participants was that the major effort was put into developing software that would allow to conduct the experiment.  
+The decision to create such a simulation was a key factor giving a shape to the whole project. The consequence of heaving an experiment that involves multiple participants was that the major effort was put into developing software that would allow to conduct the experiment.  
 
 
 
@@ -375,9 +386,7 @@ The instructions given to experiment participants before each phase stated the f
 \end{enumerate}
 
 
-At every time step almost all simulation data was recorded for further analysis. 
-
-In the event of collision the cars would be allowed to pass through each other. Naturally the event was recorded and collision alert was displayed for drivers involved in the accident. Collisions were unwanted events that were considered a distortions affecting the results. By allowing the cars to pass the traffic disturbance was mitigated. Another considered ideas such as teleporting vehicles to another place or manually changing the velocities would have much greater impact on traffic smoothness. 
+At every time step all necessary data was recorded for further analysis. In the event of collision the cars would be allowed to pass through each other. Naturally the event was recorded and collision alert was displayed for drivers involved in the accident. Collisions were unwanted events that were considered a distortions affecting the results. By allowing the cars to pass the traffic disturbance was mitigated. Another considered ideas such as teleporting vehicles to another place or manually changing the velocities would have greater impact on traffic smoothness. 
 
 
 The algorithm for the autonomous car as based on Intelligent Driver Model. It is discussed in detail in Software development section. The velocity for autonomous vehicles was capped at 12 m-s but the acceleration was faster than traditional cars.  
@@ -436,7 +445,7 @@ The learning period involved all participants and one autonomous car. It lasted 
 
 
 \begin{figure}[] % Example image
-\center{\includegraphics[width=1\linewidth]{materials/research_methodology/map_0_arrows.png}}
+\center{\includegraphics[width=0.8\linewidth]{materials/research_methodology/map_0_arrows.png}}
 \caption{Map used in learning scenario. It featured one road exit and one road split. Dimensions are given in meters.}
 \label{fig:map_0_arrows}
 \end{figure}
@@ -454,27 +463,27 @@ This phase was planned to last 4 to 8 minutes depending on the number of partici
 
 
 \begin{figure}[] % Example image
-\center{\includegraphics[width=1\linewidth]{materials/research_methodology/map_1_arrows.png}}
-\caption{Map used in First scenario. It featured figure of eight shape. There were no road splits and cars had to follow each other. Dimensions are given in meters. Covering the whole map at full speed of 15m-s would take 22 seconds.}
+\center{\includegraphics[width=0.8\linewidth]{materials/research_methodology/map_1_arrows.png}}
+\caption{Map used in First and Second scenario. It featured figure of eight shape. There were no road splits and cars had to follow each other. Dimensions are given in meters. Covering the whole map at full speed of 15m-s would take 22 seconds. The track was intended for 6 to 10 vehicles.}
 \label{fig:map_1_arrows}
 \end{figure}
 
 
 \subsubsection*{Scenario 2}
 
-In scenario 2 around 35\% of people taking part in the first scenario were substituted for autonomous cars. This scenario used identical map as scenario 1 (Figure~\ref{fig:map_1_arrows}) and total number of cars didn't change. It was hoped that this way the results will be comparable to first scenario. Particular interest was in the interaction at the intersections. The autonomous cars were always letting human-driven cars go first if collision was anticipated. The humans however didn't know which car is what type and communication happened only via observation of each other's movement. 
+In scenario 2 around 35\% of people taking part in the first scenario was substituted for autonomous cars. This scenario used identical map as scenario 1 (Figure~\ref{fig:map_1_arrows}) and total number of cars didn't change. It was hoped that this way the results will be comparable to first scenario. Particular interest was in the interaction at the intersections. The autonomous cars were always letting human-driven cars go first if collision was anticipated. The humans however didn't know which car is what type and communication happened only via observation of each other's movement. 
 
 Similar to previous scenario the planned length would range between 4 and 8 minutes.
 
 
 \subsubsection*{Scenario 3}
 
-Scenario 3 aimed at microscopic interaction between particular groups of vehicles. The map used in this scenario was much more complex than previous one (Figure~\ref{fig:map_3_arrows}). The amount of human-controlled cars was equal to the number of autonomous cars. The total density of all vehicles was two times lower that previous scenarios but because of multiple intersections the number of interactions stayed high.
+Scenario 3 aimed at microscopic interaction between particular groups of vehicles. The map used in this scenario featured multiple types of intersections and was much more complex than previous one as it shown on figure~\ref{fig:map_3_arrows}. The amount of human-controlled cars was equal to the number of autonomous cars. The total density of all vehicles was two times lower that previous scenarios but because of multiple intersections the number of interactions stayed high.
 
 
-\begin{figure}[] % Example image
-\center{\includegraphics[width=1\linewidth]{materials/research_methodology/map_3_arrows.png}}
-\caption{Map used in the third scenario. It featured two road splits where drivers could change direction, 2 diagonal intersections,a 3-way intersection and 2 road accesses(?). The total length of all segments was 875 m. Travelling at 15m-s it would take 59 seconds to cover that distance. This was the longest track in the experiment.}
+\begin{figure}[H] % Example image
+\center{\includegraphics[width=0.8\linewidth]{materials/research_methodology/map_3_arrows.png}}
+\caption{Map used in the third scenario. It featured 2 road splits where drivers could change direction, 2 diagonal intersections,a 3-way intersection and 2 road accesses(?). The total length of all segments was 875 m. Travelling at 15m-s it would take 59 seconds to cover that distance. This was the longest track in the experiment and was designed for 8 to 14 vehicles.}
 \label{fig:map_3_arrows}
 \end{figure}
 
@@ -486,7 +495,15 @@ Scenario 3 aimed at microscopic interaction between particular groups of vehicle
 
 \subsection{Software development}
 
-Creating application that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment.
+Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment.
+
+From the point of view of software implementation the experiment required multiple applications running on multiple machines and talking to each other over the network in real-time.
+
+
+
+
+the project required 
+
 
 
 
@@ -517,13 +534,13 @@ On the other hand, SUMO was intended for much larger simulations than the one pl
 
 A competing idea was to create a tailored application that would be inspired by the structure of SUMO but would be written from scratch. It would be implemented using C++ or MATLAB environment. The main benefit of this approach would be full control of the software behaviour. The main drawback would be rewriting algorithms and structure that already existed inside SUMO. 
 
-In terms of subjective software preference MATLAB was considered most familiar and most error prone.  
+In terms of subjective software preference MATLAB was considered most familiar and least error prone.  
 
 Another key question that had large impact on the decision was how to establish reliable communication between machines. 
 It was found that MATLAB supports at least three possible ways of communication that could be used in the project including User Datagram Protocol (UDP), Transmission Control Protocol (TCPIP) and Robot Operating System. This was the main reason why MATLAB was eventually chose for this project.
-Details of the implementation of computer-to-computer communication are described in the chapter "Communication between machines"
+Details of the implementation of computer-to-computer communication are described in the chapter "Communication between machines".
 
-\subsubsection{Software structure}
+\subsubsection{Software architecture}
 
 
 The software in the project consists of three  main parts. The most important one is Simulation Server Application. It is responsible for all data processing that is essential for the simulation. The second piece of software is Simulation Client Application. Each participant used an identical copy of Simulation Client Application to receive information about car's surroundings and send acceleration and direction orders to the server. Last part of the software is Communication Agent which was responsible for aggregating information from all clients and sending it to the server. It's existence was dictated by the requirements of network solution described in further chapters.

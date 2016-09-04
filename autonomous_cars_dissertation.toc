@@ -2,35 +2,35 @@
 \contentsline {paragraph}{}{3}
 \contentsline {paragraph}{•}{3}
 \contentsline {paragraph}{•}{3}
-\contentsline {paragraph}{•}{4}
+\contentsline {paragraph}{•}{3}
 \contentsline {paragraph}{How scope was reduced}{4}
-\contentsline {paragraph}{A road map of what is going to be discussed}{5}
-\contentsline {section}{\numberline {2}Literature review}{6}
-\contentsline {subsection}{\numberline {2.1}Current and future development of autonomous cars}{6}
-\contentsline {subsection}{\numberline {2.2}Implications of autonomous cars revolution}{7}
-\contentsline {subsection}{\numberline {2.3}Maximum Capacity Theorem}{8}
-\contentsline {subsection}{\numberline {2.4}Conflicts, collisions and interactions on the road}{9}
-\contentsline {subsection}{\numberline {2.5}How people will cooperate with autonomous cars}{9}
-\contentsline {subsection}{\numberline {2.6}Measuring traffic parameters}{10}
-\contentsline {subsection}{\numberline {2.7}Modelling car behavior}{10}
-\contentsline {subsection}{\numberline {2.8}SUMO}{11}
-\contentsline {subsection}{\numberline {2.9}Communication between machines - maybe}{11}
-\contentsline {subsection}{\numberline {2.10}Experiment design - real world research}{11}
-\contentsline {section}{\numberline {3}Research Methodology}{12}
-\contentsline {subsection}{\numberline {3.1}Experiment design}{13}
-\contentsline {subsubsection}{\numberline {3.1.1}Client's interface}{15}
-\contentsline {paragraph}{Car control using keyboard}{15}
-\contentsline {paragraph}{Size of view field}{16}
-\contentsline {subsubsection}{\numberline {3.1.2}Scenarios}{17}
-\contentsline {subsection}{\numberline {3.2}Software development}{21}
-\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{21}
-\contentsline {subsubsection}{\numberline {3.2.2}Software structure}{24}
-\contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{24}
-\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{24}
-\contentsline {subsubsection}{\numberline {3.2.5}Car control}{25}
-\contentsline {subsection}{\numberline {3.3}Communication between machines}{25}
-\contentsline {subsection}{\numberline {3.4}Autonomous car model}{25}
-\contentsline {section}{\numberline {4}Findings and results}{25}
-\contentsline {subsection}{\numberline {4.1}Experiment execution}{25}
-\contentsline {section}{\numberline {5}Discussion of results}{26}
-\contentsline {section}{\numberline {6}Conclusions}{26}
+\contentsline {paragraph}{A road map of what is going to be discussed}{4}
+\contentsline {section}{\numberline {2}Literature review}{5}
+\contentsline {subsection}{\numberline {2.1}Current and future development of autonomous cars}{5}
+\contentsline {subsection}{\numberline {2.2}Implications of autonomous cars revolution}{6}
+\contentsline {subsection}{\numberline {2.3}Maximum Capacity Theorem}{7}
+\contentsline {subsection}{\numberline {2.4}Conflicts, collisions and interactions on the road}{7}
+\contentsline {subsection}{\numberline {2.5}How people will cooperate with autonomous cars}{8}
+\contentsline {subsection}{\numberline {2.6}Measuring traffic parameters}{8}
+\contentsline {subsection}{\numberline {2.7}Modelling car behavior}{9}
+\contentsline {subsection}{\numberline {2.8}SUMO}{9}
+\contentsline {subsection}{\numberline {2.9}Communication between machines - maybe}{10}
+\contentsline {subsection}{\numberline {2.10}Experiment design - real world research}{10}
+\contentsline {section}{\numberline {3}Research Methodology}{10}
+\contentsline {subsection}{\numberline {3.1}Experiment design}{10}
+\contentsline {subsubsection}{\numberline {3.1.1}Client's interface}{12}
+\contentsline {paragraph}{Car control using keyboard}{12}
+\contentsline {paragraph}{Size of view field}{13}
+\contentsline {subsubsection}{\numberline {3.1.2}Scenarios}{13}
+\contentsline {subsection}{\numberline {3.2}Software development}{17}
+\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{18}
+\contentsline {subsubsection}{\numberline {3.2.2}Software architecture}{19}
+\contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{19}
+\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{19}
+\contentsline {subsubsection}{\numberline {3.2.5}Car control}{19}
+\contentsline {subsection}{\numberline {3.3}Communication between machines}{19}
+\contentsline {subsection}{\numberline {3.4}Autonomous car model}{20}
+\contentsline {section}{\numberline {4}Findings and results}{20}
+\contentsline {subsection}{\numberline {4.1}Experiment execution}{20}
+\contentsline {section}{\numberline {5}Discussion of results}{20}
+\contentsline {section}{\numberline {6}Conclusions}{20}
