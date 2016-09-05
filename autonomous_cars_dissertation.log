@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  4 SEP 2016 11:03
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  5 SEP 2016 21:04
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -706,9 +706,9 @@ pt
 Requested font "Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.9
 5pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
-)
+ [1])
 \tf@toc=\write3
- [1] [2] [3] [4]
+ [2] [3] [4]
 Requested font "Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.0
 pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
@@ -739,15 +739,20 @@ File: materials/research_methodology/map_1_arrows.png Graphic file (type QTm)
 File: materials/research_methodology/map_3_arrows.png Graphic file (type QTm)
 
 <use  "materials/research_methodology/map_3_arrows.png" > [16] [17] [18]
-[19] (autonomous_cars_dissertation.bbl [20]) [21]
+[19] [20] [21]
+Overfull \hbox (24.52141pt too wide) in paragraph at lines 635--650
+ [][] 
+ []
+
+[22] [23] (autonomous_cars_dissertation.bbl [24]) [25]
 (autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 15473 strings out of 428755
- 310596 string characters out of 3163194
- 433271 words of memory out of 3000000
- 18704 multiletter control sequences out of 15000+200000
+ 15476 strings out of 428755
+ 310637 string characters out of 3163194
+ 433280 words of memory out of 3000000
+ 18707 multiletter control sequences out of 15000+200000
  6603 words of font info for 51 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 48i,5n,61p,10398b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,8n,61p,10398b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (22 pages).
+Output written on autonomous_cars_dissertation.pdf (26 pages).

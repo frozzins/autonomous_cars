@@ -436,7 +436,7 @@ To ensure reasonable congestion but yet high number of interactions each map was
 In all scenarios participants were not told which car is autonomous and which is controlled by another driver. They could, however try to guess the type of the car from how it behaved. 
 
 
-\subsubsection*{Learning how to drive}
+\subsubsection*{Learning phase}
 %\paragraph{Learning how to drive}
 
 (\textit{here im actually talking about using all participants while in fact they were splited into two groups.. . that information would be revelaed later in experiment execution chapter})
@@ -590,25 +590,195 @@ Say why this is important from the point of view of results obtained. Again just
 design decisions
 
 
+add Examples of autonomous cars behaviours from experiment. 
 
 
 \section{Findings and results}
 
 
+The experiment took place on the 24th of August 2016. 12 people people turned up for the experiment. The group was divided into 2 smaller groups of 6 people each. Once first group completed all tasks, another one was asked to begin. The reasons to split people into two groups were of technical and research nature. A technical problem arose shortly before the experiment was due to to start. It turned out that from participant point of view the simulation gets considerably laggy if there are more that 7 people playing at the same time. The original frame rate was dropping to few frames-per-second which was unacceptable as it would greatly distort the simulation and whole experiment.
+
+From the point of view of experiment methodology heaving two groups conducting identical tasks had beneficial impact on the conclusions that could be drawn from the experiment. It is a common practice to run experiment more than once to detect potential anomalies and have more generalized data(here use Design and Analysis of Experiments," Handbook of Statistics book).
+
+
 
 \subsection{Experiment execution}
 
-survey! and all other consents..
 
-say why they were spreaded to 2 groups and why
+Experiment was advertised as "Autonomous Cars Simulation". Invitations were sent privately to particular persons. The only information revealed to potential participants stated that experiment will consist of a couple of sessions and they will be asked to drive a car in computer simulation. Participants were promised £10 reward in form of Amazon.com\textsuperscript{\textregistered} voucher and catering available before and after the experiment.
 
-10 quid
 
-How the experiment was eventually conducted
+Each of the participants was asked to sit in front of one of selected computers. In front of them there were 3 documents: Consent Form, Participation Information Sheet and Questionnaire. (link to appendixes)
+...?
 
-Time based report as-it-happened - not too detailed though
+\subsubsection{Questionnaire}
 
-\section{Discussion of results}
+Each of the participants was asked to complete short questionnaire. (link to appendixes). The purpose of the questionnaire was to collect data that later could be used in association with experiment results to create a driving profile for particular person. The exact way in which this data will be used in analysis was not established before the experiment. None the less, it was attempted to ask about things that could have impact on the performance of each person.
+
+The survey consisted of 12 questions which can be divided into 4 categories. There were 2 questions asking about gender and age. Next one asked whether a person played any racing computer games and is familiar with controlling the car with arrow keys. The third section was conditional to the possession of driving licence. If the answer was affirmative, further questions asked about past accidents, subjective evaluation of person's driving style and irritating behaviours they encounter of the roads.
+Last question asked about opinion on how the traffic will change when autonomous cars are introduced. 
+
+
+
+
+\subsubsection{Minutes}
+
+The experiment started by reading the Participation Information Sheet to all participants. First paragraph stated rights of experiment participants and how the data collected will be used. Second one explained the task in short and concise way. The exact instructions that were given stated as follows:
+
+"\textit{If you decide to take part in the study, you will be asked to drive a car in on-line traffic simulation. You will be using computer keyboard to control your car. Your main objectives is to cover as long distance as possible and avoid crashing into other cars. There will be 3 phases. Each will last 8 minutes, feature different map and different amount of autonomous vehicles. First phase will be preceded with 3-minute- long learning period when you will be able to learn how to play the game. All additional instructions will be given to before each phase in form of power point slides. Before starting the simulation you are asked to complete a short survey to describe your driver profile.}"
+
+Rest of the document considered health warnings such as epilepsy and past accidents. Next participants were asked to complete the Questionnaire described above and sign the Consent form. Once that was done they were told once again what is their task, how to control the vehicles and what the next phase will look like. Eventually the main part of the experiment commenced. It consisted of consecutive phases as described it table \ref{table:minutes_table}.
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Phase} & \textbf{Scenario} & \textbf{Human-driven vehicles} & \textbf{Autonomous vehicles} & \textbf{Lenght} \\ \hline
+\multicolumn{5}{|c|}{\textbf{Group 1}}                                                                               \\ \hline
+Learning       & Learning          & 6                              & 1                            & 1:45 min        \\ \hline
+1              & Scenario 1        & 6                              & 1                            & 3:22 min        \\ \hline
+2              & Scenario 2        & 4                              & 3                            & 4:12 min        \\ \hline
+3              & Scenario 3        & 4                              & 4                            & 4:09 min        \\ \hline
+\multicolumn{5}{|c|}{\textbf{Group 2}}                                                                               \\ \hline
+Learning       & Learning          & 6                              & 1                            & 4:33 min        \\ \hline
+1              & Scenario 1        & 6                              & 1                            & 4:07 min        \\ \hline
+2              & Scenario 2        & 4                              & 3                            & 5:03 min        \\ \hline
+3              & Scenario 3        & 4                              & 4                            & 4:51 min        \\ \hline
+4 (additional) & Scenario 3        & 6                              & 4                            & 2:24 min        \\ \hline
+\end{tabular}
+\caption{My caption}
+\label{table:minutes_table}
+\end{table}
+
+The lengths of each phase were considerably shorter than planned. The initial schedule, however, did not account for heaving two streams of people. 
+
+
+After the main part of the experiment finished participants were debriefed and invited for catering. Entire experiment lasted around 1.5 hours and in total 31 minutes of simulation data were harvested.
+
+
+
+\subsection{Experiment results}
+
+
+The analysis of the data could be divided into two parts. First one is dedicated to finding patterns, observing dependencies and evaluating particular group and participants. Second one proposes a range of hypotheses which were consequently tested with proposed methods. The discussion of the results was placed in next chapter.
+
+Data collected during the experiment was considerably rich and lots of regularities could be extracted.
+
+
+\subsubsection{Observations}
+
+part 1: observations:
+some interesting graph but no broad idea what for :D
+
+-evaluate group (in terms of number of accidents, questionnaire responses) and which group were in general better - that will justify why you use one group more often
+
+- 
+
+- heatmap of accelerations in figure of eight for two phases...and two groups?
+also scenario 3
+
+
+scenario 1 and 2 (from different groups):
+- your nice graph with lines for some h-h, a-a and h-h situations
+- eddie's graph for some other situations (or the same)
+
+
+-reaction times of each driver
+
+
+
+%\subsubsection{Hypotheses}
+
+part 2: hypothesis
+
+approach to analysis: hypthoseis
+
+
+\subsubsection{Hypothesis: Autonomous cars reduce number of accidents}
+
+statement of the hypothesis
+
+Premise: autonomous cars could be better in anticipating collisions
+
+
+\paragraph{Method of analysis}
+
+what is the method and why it makes sense
+
+Divide crushes to HH and HA. Find who was responsible-explain how you decided on it.
+
+split into intersections and head-on collisions.
+
+
+\paragraph{Findings}
+
+Describe you you did and what you got as a results
+
+
+\subsubsection{Hypothesis: Autonomous cars smoothed traffic}
+
+statement of the hypothesis
+Premise: autonomous react faster than humans. Find reaction time of humans
+
+\paragraph{Method of analysis}
+
+what is the method and why it makes sense
+
+- calc variance
+heat maps for human driven cars - accelerations
+- find some particular situations
+
+\paragraph{Findings}
+
+Describe you you did and what you got as a results
+
+\subsubsection{Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}
+
+statement of the hypothesis
+Premise: autonomous cars show much more optimized reactions between each other compared to interaction h-h or h-a
+
+\paragraph{Method of analysis}
+
+what is the method and why it makes sense
+
+- run trials with only autonomous cars. 7 cars on figure of 8 and 8 cars on scenario 3.
+Additionaly enlarge number of vehicles to maximum for figure of 8 (or scenario 3 too?)
+-find if velocity reaches some equilibrum..
+
+\paragraph{Findings}
+
+Describe you you did and what you got as a results
+
+
+\subsubsection{Hypothesis: Interactions were better between two human drivers rather than human and autonomous}
+
+statement of the hypothesis
+Premise: autonomous car algorithm make them always give way to humna driver if the collision is anticipated. However, if the human driver will also slow down it might be possible that autonomous car will not anticipate collision any more and will start to move. This can cause another   
+
+\paragraph{Method of analysis}
+
+what is the method and why it makes sense
+
+- run trials with only autonomous cars. 7 cars on figure of 8 and 8 cars on scenario 3.
+Additionaly enlarge number of vehicles to maximum for figure of 8 (or scenario 3 too?)
+-find if velocity reaches some equilibrum..
+
+\paragraph{Findings}
+
+Describe you you did and what you got as a results
+
+
+
+
+
+
+\section{Discussion(of results)}
+
+releta to questionaire reponses..?
+
+relate to all hypotheses and say what the results actually mean.
+
 
 
 \section{Conclusions}
