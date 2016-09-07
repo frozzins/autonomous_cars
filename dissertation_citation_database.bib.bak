@@ -84,3 +84,15 @@
   Year                     = {2015}
 }
 
+@Article{vangi2007evaluation,
+  Title                    = {Evaluation of emergency braking deceleration for accident reconstruction},
+  Author                   = {Vangi, D and Virga, A},
+  Journal                  = {Vehicle System Dynamics},
+  Year                     = {2007},
+  Number                   = {10},
+  Pages                    = {895--910},
+  Volume                   = {45},
+
+  Publisher                = {Taylor \& Francis}
+}
+

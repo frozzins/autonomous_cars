@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  7 SEP 2016 17:08
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  7 SEP 2016 19:58
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -866,15 +866,19 @@ LaTeX Warning: No positions in optional float specifier.
 File: materials/findings_and_results/interactions_example_2.eps Graphic file (t
 ype eps)
 <materials/findings_and_results/interactions_example_2.eps> [26] [27] [28]
-[29] (autonomous_cars_dissertation.bbl [30]) [31]
+Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
+95pt
+ -> C:/WINDOWS/Fonts/arialbi.ttf
+
+[29] [30] (autonomous_cars_dissertation.bbl [31]) [32]
 (autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 16779 strings out of 428755
- 330656 string characters out of 3163194
- 464848 words of memory out of 3000000
- 19985 multiletter control sequences out of 15000+200000
- 6611 words of font info for 52 fonts, out of 3000000 for 9000
+ 16784 strings out of 428755
+ 330825 string characters out of 3163194
+ 464881 words of memory out of 3000000
+ 19989 multiletter control sequences out of 15000+200000
+ 6619 words of font info for 53 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  48i,16n,61p,10398b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (32 pages).
+Output written on autonomous_cars_dissertation.pdf (33 pages).
