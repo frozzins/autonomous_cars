@@ -23,6 +23,10 @@
 
 \usepackage[table,xcdraw]{xcolor}
 
+\usepackage{booktabs}
+
+\usepackage{array}
+
 
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
@@ -848,21 +852,41 @@ Based on the observations from previous section it can be seen that autonomous v
 
 \paragraph{Method of analysis}
 
-The hypothesis was tested by comparing number of accidents in phase 1 and phase 2 in both groups of participants. In order to ensure validity of the results an attempt to identify all factors influencing number of collisions was made. As a result the following list was created:
-
-\begin{itemize}
-  \item Density of the vehicles (number of cars per track length)
-  \item Participants improving their skills in controlling the vehicle in consecutive phases.
-  \item Initial placement of vehicles
-  \item Length of each phase
-  \item Non-realistic decelerations of autonomous cars.
-\end{itemize}
+The hypothesis was tested by comparing number of accidents in phase 1 and phase 2 in both groups of participants. In order to ensure validity of the results an attempt to identify all factors influencing number of collisions was made. As a result a list presented in Table~\ref{table:hypothesis1} was created.
 
 
-The algorithm governing the behaviour of autonomous cars was based on a model that is equipped with emergency breaking routine. If necessary, it allows the car to decelerate at rate that would be impossible in real world. In trying to find the impact of autonomous cars on the traffic this kind of behaviour could distort the conclusions. It is however hoped that its influence can be accounted for or mitigated. 
+\begin{table}[]
+\centering
+\begin{tabular}{|c|p{6cm}|p{7cm}|}
+\hline
+\textbf{} & \multicolumn{1}{c|}{\textbf{Factor}}                                                 & \multicolumn{1}{c|}{\textbf{Comment}}                                                                                                                \\ \hline
+1         & Density of the vehicles.                                                             & In phase 1 and phase 2 total number of cars remained constant.                                                                                       \\ \hline
+2         & Participants improving their skills in vehicle control in consecutive phases.        & This factor is hardly accountable for. Its influence was ignored in data analysis however, it was taken into consideration when drawing conclusions. \\ \hline
+3         & Initial placement of vehicles.                                                       & Placement of vehicles was constant through first and second scenario.                                                                                \\ \hline
+4         & Length of each phase.                                                                & Data was compared over the same length for each phase.                                                                                               \\ \hline
+5         & The algorithm governing autonomous cars allows for large, unrealistic decelerations. & It was attempted to identify the frequency of these behaviours and its impact on traffic was accounted for.                                          \\ \hline
+6         &                                                                                      &                                                                                                                                                      \\ \hline
+\end{tabular}
+\caption{Factors influencing the number of accidents.}
+\label{table:hypothesis1}
+\end{table}
 
 
-Number of accidents was be compared between first and second phase for both groups. 
+
+bla bla..however large number of collisions with autonomous cars in third scenario karze przypuszczac that alogorithm governing autonomous cars does not perfom that well on more complicated map.
+
+
+According to \citep{vangi2007evaluation} deceleration for Renault Clio(R sing) in good driving conditions from the speed 15m-s reaches maximum of 12m=s2. Although this value might be greater for cars with better brakes it was accepted as a border value. Any situation when deceleration was greater that 12m-s2 was analysed seperately to classify it as potential collision. 
+
+
+
+
+
+Number of accidents was be compared between first and second phase for both groups. In first group there were 11 collision in first scenario and 5 collisions in second scenario. there were 3 situation where deceleration of autonomous vehicle reached values below 12m/s2. None of them was classified as potential collision. 
+
+For second group ..same thing...
+
+
 
 In order to confirm or deny the hypothesis
 
