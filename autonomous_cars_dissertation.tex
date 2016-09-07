@@ -19,6 +19,10 @@
 %  \fontsize{11}
 %  \selectfont
 
+\usepackage[caption=false]{subfig}
+
+\usepackage[table,xcdraw]{xcolor}
+
 
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
@@ -338,21 +342,15 @@ quick summary of sumo
 
 \section{Research Methodology}
 
-The main aim of the project was to look into interactions between autonomous and human-driven vehicles. The main method that was used to achieve this was to create a simulation of traffic with both types of traffic participants. By reviewing the literature it was found that there are numerous car-following models that could be used for the purpose of this simulation as a model of human driver. However, no matter how good were these models, they could only work as approximation of how humans would actually control the cars. It was decided that differences between any of the reviewed car-following algorithms and real human control are so significant that the study should rely on the experiment involving multiple human participants controlling cars in real-time, interconnected simulation.
+The main aim of the project was to look into interactions between autonomous and human-driven vehicles. The main method that was used to achieve this was to create a simulation of traffic with both types of traffic participants. By reviewing the literature it was found that there are numerous car-following models that could be used as a model of human driver. However, no matter how good were these models, they could only work as an approximation of how humans would actually control the cars. It was decided that differences between any of the reviewed car-following algorithms and real human control are so significant that the study should rely on the experiment involving multiple human participants controlling cars in interconnected, on-line simulation.
  
-The decision to create such a simulation was a key factor giving a shape to the whole project. The consequence of heaving an experiment that involves multiple participants was that the major effort was put into developing software that would allow to conduct the experiment.  
+The decision to create such a simulation was a key factor that gave shape to the whole project and accounted for the majority of the time spent on it. 
 
 
-
-Creating such a simulation was the most significant factor accounting for the complexity of the project. 
-
+end here...?
 
 
-This decision accounted for the most complexity 
-
-
-
-Although there are numerous models of (some citation) cars 
+The consequence of heaving an experiment that involved multiple participants was that the major effort was put into developing software that would allow to conduct the experiment. Implementing the simulation was the most significant factor accounting for the complexity of the project. 
 
 
 Justify the structure of the project. Why the experiment was a key part. Why this was
@@ -386,10 +384,10 @@ The instructions given to experiment participants before each phase stated the f
 \end{enumerate}
 
 
-At every time step all necessary data was recorded for further analysis. In the event of collision the cars would be allowed to pass through each other. Naturally the event was recorded and collision alert was displayed for drivers involved in the accident. Collisions were unwanted events that were considered a distortions affecting the results. By allowing the cars to pass the traffic disturbance was mitigated. Another considered ideas such as teleporting vehicles to another place or manually changing the velocities would have greater impact on traffic smoothness. 
+At every frame of the simulation  all necessary data was recorded for further analysis. In the event of collision the cars would be allowed to pass through each other. Naturally the event was recorded and collision alert was displayed for drivers involved in the accident. Collisions were unwanted events that were considered a distortions affecting the results. By allowing the cars to pass, the traffic disturbance was mitigated. Another considered ideas such as teleporting vehicles to another place or manually changing the velocities would have greater impact on traffic smoothness. 
 
 
-The algorithm for the autonomous car as based on Intelligent Driver Model. It is discussed in detail in Software development section. The velocity for autonomous vehicles was capped at 12 m-s but the acceleration was faster than traditional cars.  
+The algorithm for the autonomous car was based on Intelligent Driver Model. It is discussed in detail in Software development section. The velocity for autonomous vehicles was capped at 10 m-s but the acceleration was faster than traditional cars.  
 
 
 
@@ -399,21 +397,14 @@ The algorithm for the autonomous car as based on Intelligent Driver Model. It is
 
 \subsubsection{Client's interface}
 
-The main aim of the graphical interface was to mimic what a person driving a car would actually see from the inside of his or her vehicle. 
- 
-
-Compared to what a driver sees in real world the representation of the environment had to largely simplified. The challenge was to preserve as much of the realism as possible keeping in mind the main principles of the experiment.
-
-The cars were represented as coloured rectangles 2 meters wide and 4.5 meters long. Driver's vehicle was always position in the middle of the screen while map and other vehicles were moving around it.
-
-Roads were X? meters wide in black colour and red boundaries. Each track was overlaid on graphical background with many distinctive features to allow for better feeling of speed.(reference to website %http://www.sherwoodforestfaire.com/). 
+The main aim of the graphical interface was to mimic what a person driving a car would actually see from the inside of his or her vehicle. Compared to what a driver sees in real world the representation of the environment had to largely simplified. The challenge was to preserve as much of the realism as possible keeping in mind the main principles of the experiment. The cars were represented as coloured rectangles 2 meters wide and 4.5 meters long. Driver's vehicle was always position in the middle of the screen while map and other vehicles were moving around it. Roads were X? meters wide, coloured in black with red boundaries. Each track was overlaid on graphical background with many distinctive features to allow for better sensation of speed.(reference to website %http://www.sherwoodforestfaire.com/). 
 
 
 \paragraph{Car control using keyboard}
 First things to decide on was how the car was controlled.
 Fundamentally the car had one degree of freedom as it always went along a predefined path. Only in the event of road split the driver could make discreet choice on which direction to go.
 The acceleration of the car was controlled by A and Z keys. Pressing A made car accelerate with a value calculated from Gipps' car following model discussed in later section. The maximum velocity was capped at 15m-s. Pressing Z key applied constant deceleration of -6.5 m-s2. Additionally drivers could press space bar which functioned as a hand break and applied deceleration of -10 m-s2. These number were found empirically so that car responded realistically (add:? in the subjective opinion of three people). Backward movement was disabled for greater simplification(??).
-The reason for not using arrow keys was that arrow key were used to control car turn direction. Some intersections featured choice between straight, left and right turn. 
+The reason for not using arrow keys was that arrow key were used to control car's turn direction. Some intersections featured choice between straight, left and right turn. 
 
 
 \paragraph{Size of view field}
@@ -428,12 +419,10 @@ Another design decision concerned the size of driver's view field. The shape and
 \subsubsection{Scenarios}
 
 Each scenario specifies configuration of the map, number of human drivers, number of autonomous cars, initial position of each car and length of the simulation. 
-While map configuration had to be prepared before, number of vehicles of each type and time of the simulation could be set at the start of the experiment. This flexibility helped to accommodate for unknown number of people that showed up for the experiment.
-
-To ensure reasonable congestion but yet high number of interactions each map was intended for different number of vehicles. A benchmark test with solely autonomous cars and additional empirical tests allowed to establish that every vehicle should correspond to 45 to 80 meters of total track length.
+While map configuration had to be prepared before, number of vehicles of each type and time of the simulation could be set at the start of the experiment. This flexibility helped to accommodate for unknown number of people that showed up for the experiment. To ensure reasonable congestion but yet high number of interactions each map was intended for different number of vehicles. A benchmark test with solely autonomous cars and additional empirical tests allowed to establish that every vehicle should correspond to 45 to 80 meters of total track length.
 
 
-In all scenarios participants were not told which car is autonomous and which is controlled by another driver. They could, however try to guess the type of the car from how it behaved. 
+In all scenarios participants were not told which car is autonomous and which is controlled by another human. They could, however try to guess the type of the car from how it behaved. 
 
 
 \subsubsection*{Learning phase}
@@ -453,13 +442,8 @@ The learning period involved all participants and one autonomous car. It lasted 
 
 \subsubsection*{Scenario 1}
 
-In the first scenario all participants were involved and there was one autonomous car. The map featured figure of eight shape as showed on Figure~\ref{fig:map_1_arrows}. The intersection in the middle was uncontrolled as it did not have any priority rule. It was hoped that this way cars would face uncertain situations and interactions will be more vibrant. This scenario was intended to capture interactions in traffic consisting almost entirely of traditional cars. Interaction were either between cars following each other or between cars at the intersection. It was hoped to observe how people are keeping distance to car ahead, how conflicts at intersection are resolved and what are the potential queueing behaviours.
-One autonomous car was added because(why it was added??)
-
-
-Before the simulation started participants were briefed what is the shape of the map but they were not told how many autonomous cars were in the simulation.  
-
-This phase was planned to last 4 to 8 minutes depending on the number of participants.
+In the first scenario all participants were involved and there was one autonomous car. The map featured figure of eight shape as showed on Figure~\ref{fig:map_1_arrows}. The intersection in the middle was uncontrolled as it did not have any priority rule. It was hoped that this way cars would face uncertain situations and interactions will be more vibrant. This scenario was intended to capture interactions in traffic consisting almost entirely of traditional cars. Interactions were either between cars following each other or between cars at the intersection. It was hoped to observe how people are keeping distance to car ahead, how conflicts at intersection are resolved and what are the potential queueing behaviours.
+One autonomous car was added because(why it was added??). Before the simulation started, participants were briefed what is the shape of the map but they were not told how many autonomous cars were in the simulation. This phase was planned to last 4 to 8 minutes depending on the number of participants.
 
 
 \begin{figure}[] % Example image
@@ -471,14 +455,14 @@ This phase was planned to last 4 to 8 minutes depending on the number of partici
 
 \subsubsection*{Scenario 2}
 
-In scenario 2 around 35\% of people taking part in the first scenario was substituted for autonomous cars. This scenario used identical map as scenario 1 (Figure~\ref{fig:map_1_arrows}) and total number of cars didn't change. It was hoped that this way the results will be comparable to first scenario. Particular interest was in the interaction at the intersections. The autonomous cars were always letting human-driven cars go first if collision was anticipated. The humans however didn't know which car is what type and communication happened only via observation of each other's movement. 
+In scenario 2 around 35\% of people taking part in the first scenario was substituted for autonomous cars. This scenario used identical map as scenario 1 (Figure~\ref{fig:map_1_arrows}) and total number of cars didn't change. It was hoped that this way the results will be comparable to first scenario. Particular interest was in the interactions at the intersection. The autonomous cars were always letting human-driven cars go first if collision was anticipated. The humans however didn't know which car is what type and communication happened only via observation of each other's movement. 
 
 Similar to previous scenario the planned length would range between 4 and 8 minutes.
 
 
 \subsubsection*{Scenario 3}
 
-Scenario 3 aimed at microscopic interaction between particular groups of vehicles. The map used in this scenario featured multiple types of intersections and was much more complex than previous one as it shown on figure~\ref{fig:map_3_arrows}. The amount of human-controlled cars was equal to the number of autonomous cars. The total density of all vehicles was two times lower that previous scenarios but because of multiple intersections the number of interactions stayed high.
+Scenario 3 aimed at microscopic interaction between particular groups of vehicles. The map used in this scenario featured multiple types of intersections and was much more complex than previous one as it is shown on figure~\ref{fig:map_3_arrows}. The amount of human-controlled cars was equal to the number of autonomous cars. The total density of all vehicles was twice lower than in previous scenarios but because of multiple intersections the number of interactions stayed high.
 
 
 \begin{figure}[H] % Example image
@@ -497,7 +481,7 @@ Scenario 3 aimed at microscopic interaction between particular groups of vehicle
 
 Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment.
 
-From the point of view of software implementation the experiment required multiple applications running on multiple machines and talking to each other over the network in real-time.
+From the point of view of software implementation the experiment required multiple applications running on multiple machines talking to each other over the network in real-time.
 
 
 
@@ -511,7 +495,7 @@ the project required
 
 
 
-
+say how this was not important o avoid cheating as described by Arthur earlier
 
 
 
@@ -623,9 +607,9 @@ Last question asked about opinion on how the traffic will change when autonomous
 
 \subsubsection{Minutes}
 
-The experiment started by reading the Participation Information Sheet to all participants. First paragraph stated rights of experiment participants and how the data collected will be used. Second one explained the task in short and concise way. The exact instructions that were given stated as follows:
+The experiment started by reading the Participation Information Sheet to all participants. First paragraph stated rights of experiment participants and how the collected data will be used. Second one explained the task in short and concise way. The exact instructions that were given stated as follows:
 
-"\textit{If you decide to take part in the study, you will be asked to drive a car in on-line traffic simulation. You will be using computer keyboard to control your car. Your main objectives is to cover as long distance as possible and avoid crashing into other cars. There will be 3 phases. Each will last 8 minutes, feature different map and different amount of autonomous vehicles. First phase will be preceded with 3-minute- long learning period when you will be able to learn how to play the game. All additional instructions will be given to before each phase in form of power point slides. Before starting the simulation you are asked to complete a short survey to describe your driver profile.}"
+"\textit{If you decide to take part in the study, you will be asked to drive a car in on-line traffic simulation. You will be using computer keyboard to control your car. Your main objectives is to cover as long distance as possible and avoid crashing into other cars. There will be 3 phases. Each will last 8 minutes, feature different map and different amount of autonomous vehicles. First phase will be preceded with 3-minute- long learning period when you will be able to learn how to play the game. All additional instructions will be given to you before each phase in form of power point slides. Before starting the simulation you are asked to complete a short survey to describe your driver profile.}"
 
 Rest of the document considered health warnings such as epilepsy and past accidents. Next participants were asked to complete the Questionnaire described above and sign the Consent form. Once that was done they were told once again what is their task, how to control the vehicles and what the next phase will look like. Eventually the main part of the experiment commenced. It consisted of consecutive phases as described it table \ref{table:minutes_table}.
 
@@ -654,19 +638,178 @@ Learning       & Learning          & 6                              & 1         
 The lengths of each phase were considerably shorter than planned. The initial schedule, however, did not account for heaving two streams of people. 
 
 
-After the main part of the experiment finished participants were debriefed and invited for catering. Entire experiment lasted around 1.5 hours and in total 31 minutes of simulation data were harvested.
+After the main part of the experiment finished, participants were debriefed and invited for catering. Entire experiment lasted around 1.5 hours and in total 31 minutes of simulation data were harvested.
 
 
 
 \subsection{Experiment results}
 
 
-The analysis of the data could be divided into two parts. First one is dedicated to finding patterns, observing dependencies and evaluating particular group and participants. Second one proposes a range of hypotheses which were consequently tested with proposed methods. The discussion of the results was placed in next chapter.
+The analysis of the data could be divided into two parts. First one is dedicated to finding patterns, observing dependencies and evaluating particular group and participants. Second one proposes a range of hypotheses which were consequently tested with proposed methods against the data collected. The discussion of the results was placed in next chapter.
 
-Data collected during the experiment was considerably rich and lots of regularities could be extracted.
+Data collected during the experiment was considerably rich in features and lots of regularities could be potentially found. On average participants changed acceleration/deceleration commands 73 times per minute. 
+Figure~\ref{fig:sample_snapshot} shows a snapshot from simulation playback.  
+ 
+ 
+\begin{figure}[h] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/sample_snapshot2.png}}
+\caption{Group 2, phase 3. A snapshot from simulation playback. Cyan colour represents human-driven cars and green represents autonomous cars. A dark blue rectangle represents the view field for one of the cars.}
+\label{fig:sample_snapshot}
+\end{figure} 
+ 
+ 
 
 
 \subsubsection{Observations}
+
+some text here
+
+
+\subsubsection*{Decelerations mapping}
+
+First idea that could help to understand the data was to visualize how vehicles accelerated and decelerated. In order to do that a spatial representation of average decelerations was created as it it shown of Figure~\ref{fig:decelerations1}. Track was divided into 4-meters-long segments and for each segment total value of decelerations was summed up over all vehicles and all frames in current phase. Results were plotted for first and second scenario for group 1.
+
+
+\begin{figure}[h]
+\centering
+\subfloat[Group 1, Scenario 1]{%
+  \includegraphics[clip,width=0.8\linewidth]{materials/findings_and_results/deceleration_scenario_1_group_1.eps}%
+}
+
+\subfloat[Group 1, Scenario 2]{%
+  \includegraphics[clip,width=0.8\linewidth]{materials/findings_and_results/deceleration_scenario_2_group_1.eps}%
+}
+
+\caption{Visual representation of decelerations on map used in first and second scenario. Dark blue represents strong deceleration while light yellow represents weak deceleration. The data was averaged over all vehicles including human-driven and autonomous one.}
+\label{fig:decelerations1}
+\end{figure}
+
+It can be observed from the plot that once multiple autonomous cars were introduced, vehicles decelerated harder and more often when approaching the intersection.
+
+
+later: possible reasons: interactions HA were worse
+
+
+
+\subsubsection*{Evaluation of participants' performance}
+
+Number of collisions caused by each participant was evaluated and compared against questionnaire responses. Single collision always involved 2 cars. A person responsible was always the one whose car front line intersected the other car first. A number of collisions caused by each person is shown on Figure~\ref{fig:collisions_total}. Table~\ref{table:collisions_table} shows number of collisions against questionnaire responses. Becouse the shorters phase lasted 3:22 minutes, values were calculated only for that period for all phases. From these figures it can be seen that:
+\begin{itemize}
+  \item Almost every person in the first group performed significantly better in terms of number of collisions than participants from the second group. Because of this reason first group was used more often in further analysis as a sole source of data.
+  \item Autonomous cars were responsible for only one collision throughout entire experiment. 
+  \item  In total 52 collisions occurred between two human drivers while 33 happened between human drivers and autonomous vehicles. However, accounting for how much each vehicle spent on the track .... ?
+\end{itemize}
+
+
+HH and HA collisions..?
+
+In order to decide who was responsible for
+
+Performance of each participants was evaluated on the basis of 
+
+
+Heaving two groups of people allowed to find potential anomalies..
+
+asses every participants:
+
+
+\begin{figure}[h] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/collisions_total.eps}}
+\caption{Number of collisions caused by each participant/vehicle in first and second group. (*Humans substituted for autonomous cars in later phases.)}
+\label{fig:collisions_total}
+\end{figure}
+
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+\textbf{\begin{tabular}[c]{@{}c@{}}Partici-\\ pant\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Familiar with \\ keyboard car \\ control?\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Years of\\ driving\\ experience\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Past \\ accidents\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Driving \\ skill \\ evaluation*\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Driving \\ style**\end{tabular}} & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{\begin{tabular}[c]{@{}c@{}}Collisions \\ (H/A)\end{tabular}}} \\ \hline
+\multicolumn{7}{|c|}{\textbf{Group 1}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              \\ \hline
+1                                                                & Yes                                                                                        & 2                                                                                & 0                                                                  & 2                                                                                & Very careful                                                        & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{1/2}}          \\ \hline
+2                                                                & Yes                                                                                        & 1                                                                                & 1                                                                  & 8                                                                                & Careful                                                             & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{4/2}}          \\ \hline
+3                                                                & Yes                                                                                        & 5                                                                                & 0                                                                  & 8                                                                                & Normal                                                              & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{0/2}}          \\ \hline
+4                                                                & Yes                                                                                        & 6                                                                                & 0                                                                  & 9                                                                                & Careful                                                             & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{2/2}}          \\ \hline
+5                                                                & Yes                                                                                        & 5                                                                                & 2                                                                  & 7                                                                                & Careful                                                             & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{3/1}}          \\ \hline
+6                                                                & Yes                                                                                        & 2                                                                                & 2                                                                  & 10                                                                               & Normal                                                              & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{2/0}}          \\ \hline
+\multicolumn{7}{|c|}{\textbf{Group 2}}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              \\ \hline
+1                                                                & Yes                                                                                        & No licence                                                                                & -                                                                  & -                                                                                & -                                                                   & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{11/5}}         \\ \hline
+2                                                                & Yes                                                                                        & 3                                                                                & 1                                                                  & 9                                                                                & Normal                                                              & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{7/6}}         \\ \hline
+3                                                                & Yes                                                                                        & 8                                                                                & 0                                                                  & 8                                                                                & Careful                                                             & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{4/5}}          \\ \hline
+4                                                                & Yes                                                                                        & 15                                                                               & 3                                                                  & 10                                                                               & Normal                                                              & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{8/5}}         \\ \hline
+5                                                                & Yes                                                                                        & 8                                                                                & 2                                                                  & 8                                                                                & Agressive                                                           & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{5/1}}          \\ \hline
+6                                                                & Yes                                                                                        & 3                                                                                & 0                                                                  & 1                                                                                & Very careful                                                        & \cellcolor[HTML]{C0C0C0}{\color[HTML]{000000} \textbf{4/1}}          \\ \hline
+\end{tabular}
+\caption{Questionnaire responses represented against number of collisions caused by each person. It can be observed that self-assessment of driving did not correspond to the number of accidents. (*Own judgement of driving skills on the scale from 1 to 10. **Own judgement of driving style from very careful to very aggressive. Please refer to appendix for details.)}
+\label{table:collisions_table}
+\end{table}
+
+
+
+
+\subsubsection*{Conflicts resolution}
+
+Interactions between cars can be systematized as one car following another or as a broad range of interactions at intersections. The later was of particular interest because of it's uncertainty and unpredictability. While all maps featured intersections, figure of eight map used in first two scenarios was aimed at more organized analysis and will be used in this example to visualize how humans and autonomous cars made decisions. Figure~\ref{fig:interactions_example_1v2} shows an example of interaction between one human-driven and two autonomous car. In this example both vehicles at the front came to full stop. In ideal situation one vehicle should pass while the other slows down.
+
+//something on conficts reosultion: some paper/ nash equlibrum
+
+
+//some paper on interaction between autonomous cars
+
+
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/interactions_example_1v2.eps}}
+\caption{An example of interaction between two autonomous vehicles and one human-driven. In 204\textsuperscript{th} second both cars started to brake to avoid collision and came to full stop. Human driver was uncertain of how the other car will behave. Autonomous car, on the other hand calculated collision free passage as other vehicle was not moving and starter to move through the intersection in 208\textsuperscript{th} second. Next, human passed through and another autonomous vehicle afterwards. (Colours indicate current order from Participant.)}
+\label{fig:interactions_example_1v2}
+\end{figure}
+
+Another type are interactions between two autonomous cars as it is shown on Figure~\ref{fig:interactions_example_2}. When two autonomous cars anticipate collision with each other the one which is slower is ordered to reduce its speed according to the time-to-collision value while the faster one passes through uninterrupted. In most cases this relatively simple rule optimizes the interaction reducing braking to minimum.  
+
+
+
+
+%interactions_example_2
+
+//figure of autonomous cars
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/interactions_example_2.eps}}
+\caption{An example of interaction at the intersection between two autonomous vehicles coming from different directions. Both cars anticipated collision in 65\textsuperscript{th} second. In line with the algorithm the slower car started to decelerate as much as it was needed to avoid collision. At each time step new time-to-collision was calculated and velocity adjusted accordingly. The faster car's velocity remained constant.}
+\label{fig:interactions_example_2}
+\end{figure}
+
+
+
+
+
+\subsubsection*{Reaction times}
+
+
+Another topic of interest were reaction times of both types of vehicles. It was anticipated that the rule to always let human driver pass first and potentially faster reaction by autonomous car would have beneficial impact on the traffic. Particular interest was in differences between reaction times of humans and autonomous cars.
+
+//use third map here...
+
+
+Analysis of reaction times should allow to 
+
+
+\subsubsection{sth else}
+
+
+%interactions_example_1
+
+
+also exmaple of two autonomous cars and two human drivers
+
+
 
 part 1: observations:
 some interesting graph but no broad idea what for :D
@@ -677,6 +820,8 @@ some interesting graph but no broad idea what for :D
 
 - heatmap of accelerations in figure of eight for two phases...and two groups?
 also scenario 3
+
+
 
 
 scenario 1 and 2 (from different groups):
