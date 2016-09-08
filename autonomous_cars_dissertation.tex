@@ -169,21 +169,17 @@ The main objective of the project was to create a an on-line traffic simulation 
 
 \paragraph{How scope was reduced}
 
-The original scope of the project included also in-silico implementation that would be using remotely controlled "slot-cars". It was believed that that physical model would have features that could not be accounted for or predicted in computer simulation. It was estimated for around 50\% of implementation effort. However, the final version of the project the physical model was not implemented. After the project went into development the advantages of creating a physical model appeared less and less attractive. Especially compared to the cost of implementation. Original idea assumed using digital slot-car set with cars and track, as well as computer vision to track vehicles on the track and live video streaming to multiple computers. After more careful consideration the benefits of implementing above described would be very minor or none. In addition to this, implementing the computer simulation consumed more time that estimated. 
+The original scope of the project included also in-robotico implementation that would be using remotely controlled "slot-cars" to simulate traffic. It was believed that physical model would have features that could not be accounted for or predicted in computer simulation. It was estimated for around 50\% of implementation effort. However, in the final version of the project the physical model was not implemented. After the project went into development the advantages of creating a physical model appeared less and less attractive. Especially compared to the cost of implementation. Original idea assumed using digital slot-car set with cars and track, as well as computer vision to track vehicles on the track and live video streaming to multiple computers. After more careful consideration the benefits of implementing above described would be very minor or none. In addition to this, implementing the computer simulation consumed more time that estimated. 
 
 It has to be admitted that scope was drastically limited in terms of implementation effort. It did not, however, have much impact on the quality of the research and conclusions. One would even venture to say that project should only consist of computer simulation even if more time and resources were allowed for project execution. 
 
 \paragraph{A road map of what is going to be discussed}
 
-The project consisted of three main parts. First one was software development. This accounted for around 50\% of all efforts. The chapter on Research Methodology is mostly dedicated to this. Software section is divided into most significant components that include the design of simulation master, design of client's interface and vehicle's control. The chapter on research methodology also describes how communication between machines was established and the algorithm behind autonomous vehicles. Although these two aspects were integral parts of the software it was decided to write about them separately. It is due to the significance and universality of communication solution and autonomous car algorithm. 
-Most of decisions made throughout the development stage were aimed for successful experiment execution. The design of the experiment and how it was eventually conducted are described at the of Research Methodology chapter. 
+The project consisted of three main parts. First one was software development. This accounted for around 50\% of all efforts. The chapter on Research Methodology is mostly dedicated to this. Software section is divided into most significant components that include the design of simulation master, design of client's interface and vehicle's control. The chapter on research methodology also describes how communication between machines was established and the algorithm behind autonomous vehicles. Although these two aspects were integral parts of the software it was decided to write about them separately due to the significance and universality of communication solution and autonomous car algorithm. 
+Most of decisions made throughout the development stage were aimed for successful experiment execution. The design of the experiment is described at the of Research Methodology chapter. The description of how the experiment was eventually conducted is placed at the begging of Finding and results chapter.
 
 
-The Research Methodology chapter is preceded with in-depth chapter describing literature relevant to the project. 
-
-The data obtained during the experiment was described in Findings and Results chapter. This chapter also talks about different ways in which data was analysed. 
-
-The last two closing chapters discuss the results of the experiment, attempt to draw conclusions and generalize findings in wider context. 
+The Research Methodology chapter is preceded with in-depth chapter describing literature relevant to the project. The data obtained during the experiment was described in Findings and Results chapter. This chapter also talks about different ways in which data was analysed. The last two closing chapters discuss the results of the experiment, attempt to draw conclusions and generalize findings in wider context. 
 
 
 
@@ -903,19 +899,15 @@ In second group there were 37 collisions in first scenario and 14 collisions in 
 
 \subsubsection{Hypothesis: Autonomous cars smoothed out traffic}
 
-All interactions can be segregated into 3 different types: autonomous-autonomous, human-autonomous and human-human. As it was shown before, interactions between two autonomous cars were usually highly optimized. On the other hand, interactions between two humans are random and uncertain by its nature. The third type of interactions involving both human and autonomous vehicle can potentially contain some level of systematicity and yield better results than solely human drivers. On the basis of these premises the following hypothesis was suggested:
+All interactions can be segregated into 3 different types: autonomous-autonomous, human-autonomous and human-human. As it was shown before, interactions between two autonomous cars are usually highly optimized. On the other hand, interactions between two humans are random and uncertain by its nature. The third type of interactions involving both human and autonomous vehicle can potentially contain some level of systematicity and yield better results than solely human drivers. On the basis of these premises the following hypothesis was suggested:
 
 \textbf{\textit{Replacing part of traditional drivers with autonomous cars smooths out traffic (this is not very precise..sth about being start-stopy)}}
 
 \paragraph{Method of analysis}
 The main measure used to confirm or deny the hypothesis was calculating dispersion of velocities and accelerations for particular vehicles and comparing the results between different scenarios. ...\citep{dixon1957introduction}
 
-First parameter calculated was variance of acceleration. Figure~\ref{fig:acc_var} gives variance values for both groups for first and second scenario for particular vehicle. In a similar way variance was calculated for velocities it is shown on Figure~\ref{fig:vel_var}. Next, mean variances were calculated for 4 people in each group who took part in both phases and for all vehicles in each phase. Results are summarized in Table~\ref{table:variance_summary}. From one point of view the impact of autonomous cars is clearly visible - average variance dropped significantly. However, if only humans are taken into consideration the differences are considerably slighter. Acceleration variance declined by 18.3\% for first group and by 5.7\% for second group. Velocity variance in fact rose by 4.1\% for first group and declined by 12.9\% for second group. Additionally, accounting for the fact that people's driving skill improved each round the hypothesis can be only partly confirmed:
-
-\textbf{\textit{From the point of view of global traffic performance replacing part of traditional drivers with autonomous cars smooths out traffic since there are less human drivers who drive less regularly than autonomous cars. However, from the point of view of particular driver the presence of autonomous cars do not have evident impact on driving smoothness.}}
-
-
-
+First parameter calculated was variance of acceleration. Figure~\ref{fig:acc_var} gives variance values for both groups for first and second scenario for particular vehicle. In a similar way variance was calculated for velocities it is shown on Figure~\ref{fig:vel_var}. Next, mean variances were calculated for 4 people in each group who took part in both phases and independently for all vehicles in each phase. Results are summarized in Table~\ref{table:variance_summary}. 
+ 
 %table:variance_summary
 
 % Please add the following required packages to your document preamble:
@@ -947,34 +939,53 @@ First parameter calculated was variance of acceleration. Figure~\ref{fig:acc_var
 \center{\includegraphics[width=1\linewidth]{materials/findings_and_results/vel_var.eps}}
 \caption{Velocity variance values calculated for 4 participants that took part in first and second phase and 1 autonomous car. Similar to previous figure the variance values for autonomous cars were lower than those of human. However, for human drivers hardly any pattern is observable between first and second scenario.}
 \label{fig:vel_var}
-\end{figure}
- 
+\end{figure} 
 
 
-Figure~\ref{fig:interactions_example_1v2} showed an example of inefficient interaction between two vehicles of different type. None the less, 
+\paragraph{Findings}
 
-As it was shown in previous sections autonomous cars 
+From one point of view the impact of autonomous cars is clearly visible - average variance dropped significantly. However, if only humans are taken into consideration the differences are considerably slighter. Acceleration variance declined by 18.3\% for first group and by 5.7\% for second group. Velocity variance in fact rose by 4.1\% for first group and declined by 12.9\% for second group. Additionally, accounting for the fact that people's driving skill improved each round the hypothesis can be only partly confirmed:
 
-
-
-so maybe it smooths out traffic but also say how autonomous cars were in general slower and how the total distance covered was lowered
+\textbf{\textit{From the point of view of global traffic performance replacing part of traditional drivers with autonomous cars smooths out traffic since there are fewer human drivers who drive less systematically than autonomous cars. However, from the point of view of particular driver the presence of autonomous cars did not prove to have evident impact on driving smoothness.}}
 
 
-statement of the hypothesis
-Premise: autonomous react faster than humans. Find reaction time of humans
+
+
+
+\subsubsection{Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}
+
+According to (paper) most benefits of autonomous cars will be experienced only when human drivers will completely disappear from roads. In previous section it was shown that autonomous cars exhibit highly efficient interactions with each other. In line with these examples very good traffic parameters should be observable for simulation involving only autonomous cars. The following hypothesis was proposed:
+
+\textbf{\textit{For traffic consisting solely from autonomous cars parameters such as: total distance covered, acceleration variance and number of collisions should improve in comparison to traffic consisting of both types of vehicles.}}
+
+\paragraph{Method of analysis}
+In order to evaluate the hypothesis a simulation on map used in first and second scenario with 7 autonomous cars and no human drivers was conducted. Apart from measuring parameters mentioned in the hypothesis it was checked whether any kind of equilibrium is reached for this particular shape of the track. In addition to this, trials with different densities of vehicles were made using map from the third scenario. 
+
 
 
 
 \paragraph{Findings}
 
-Describe you you did and what you got as a results
+A trial run on the map from first and second scenario showed there were no collisions at all. Total distance covered by all cars was 13.4 km. For first group this value was 11.27 km in first scenario and 9.96 km in second scenario. Therefore autonomous cars travelled further even though their velocity was limited to $10\:\nicefrac{m}{s}$ which was 33\% lower than what human-driven cars were capable of. Average variance on acceleration was 0.7850 which was 11 times smaller than the smallest value from scenario 1. Values for particular vehicles are shown on Figure~\ref{fig:acc_autonomous_only_var}. Next, it was investigated whether cars reach velocity equilibrium. The results showed that indeed equilibrium is reached after 1.5 minute (Figure~\ref{fig:equilibrum}). However, the worth of this measure can be little of none. The simulation was run on a closed track with no intersections and there was no randomization introduced at any point of the simulation apart form the initial placement of vehicles.
+..write more about it...
 
-\subsubsection{Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/acc_autonomous_only_var.eps}}
+\caption{Variances of acceleration for simulation involving only autonomous cars. The values for each car were multiple times lower than in any trial with human drivers. Additionally cars 1 and 7 travelled with even less interruption. This is probably because their initial placement allowed to reach maximum speed before other vehicles. Consequentially they were always given higher priority at the intersection.}
+\label{fig:acc_autonomous_only_var}
+\end{figure} 
 
-statement of the hypothesis
-Premise: autonomous cars show much more optimized reactions between each other compared to interaction h-h or h-a
 
-\paragraph{Method of analysis}
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/equilibrum.eps}}
+\caption{}
+\label{fig:equilibrum}
+\end{figure} 
+
+
+
+
+
 
 what is the method and why it makes sense
 
@@ -982,9 +993,20 @@ what is the method and why it makes sense
 Additionaly enlarge number of vehicles to maximum for figure of 8 (or scenario 3 too?)
 -find if velocity reaches some equilibrum..
 
-\paragraph{Findings}
 
-Describe you you did and what you got as a results
+
+
+when traffic will consist solely of them.
+
+will be experienced only when autonomous cars
+become common and affordable
+
+
+statement of the hypothesis
+Premise: autonomous cars show much more optimized reactions between each other compared to interaction h-h or h-a
+
+
+
 
 
 \subsubsection{Hypothesis: Interactions were better between two human drivers rather than human and autonomous}
