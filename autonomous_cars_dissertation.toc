@@ -39,15 +39,15 @@
 \contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{29}
 \contentsline {paragraph}{Method of analysis}{29}
 \contentsline {paragraph}{Findings}{29}
-\contentsline {paragraph}{Remarks}{30}
-\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed traffic}{31}
-\contentsline {paragraph}{Method of analysis}{31}
-\contentsline {paragraph}{Findings}{31}
-\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{31}
-\contentsline {paragraph}{Method of analysis}{31}
-\contentsline {paragraph}{Findings}{31}
-\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{31}
+\contentsline {paragraph}{Remarks}{31}
+\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed out traffic}{31}
 \contentsline {paragraph}{Method of analysis}{32}
-\contentsline {paragraph}{Findings}{32}
-\contentsline {section}{\numberline {5}Discussion(of results)}{32}
-\contentsline {section}{\numberline {6}Conclusions}{32}
+\contentsline {paragraph}{Findings}{34}
+\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{34}
+\contentsline {paragraph}{Method of analysis}{34}
+\contentsline {paragraph}{Findings}{34}
+\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{34}
+\contentsline {paragraph}{Method of analysis}{34}
+\contentsline {paragraph}{Findings}{35}
+\contentsline {section}{\numberline {5}Discussion(of results)}{35}
+\contentsline {section}{\numberline {6}Conclusions}{35}

@@ -23,11 +23,14 @@
 
 \usepackage[table,xcdraw]{xcolor}
 
+
 \usepackage{booktabs}
 
 \usepackage{array}
 
 \usepackage{nicefrac}
+
+\usepackage{multirow}
 
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
@@ -662,7 +665,8 @@ Figure~\ref{fig:sample_snapshot} shows a snapshot from simulation playback.
 \label{fig:sample_snapshot}
 \end{figure} 
  
- 
+Initial choice of parameters measured across data set was different from what different from what was calculated in the process of data analysis.
+
 
 
 \subsubsection{Observations}
@@ -858,18 +862,20 @@ The hypothesis was tested by comparing number of collisions in phase 1 and phase
 
 \begin{table}[]
 \centering
-\begin{tabular}{|c|p{6.2cm}|p{7.2cm}|}
+\begin{tabular}{|c|p{6.2cm}|p{6.2cm}|}
 \hline
 \textbf{} & \multicolumn{1}{c|}{\textbf{Factor}}                                                 & \multicolumn{1}{c|}{\textbf{Comment}}                                                                                                                \\ \hline
 1         & Density of the vehicles.                                                             & In phase 1 and phase 2 total number of cars remained constant.                                                                                       \\ \hline
-2         & Participants improving their skills in vehicle control in consecutive phases.        & This factor is hardly accountable for. Its influence was ignored in data analysis although, it was taken into consideration when drawing conclusions. \\ \hline
-3         & Initial placement of vehicles.                                                       & Initial placement of vehicles was constant through first and second scenario.                                                                                \\ \hline
+2         & Participants improving their skills in vehicle control in consecutive phases.        & This factor is hardly accountable for. Its influence was ignored in data analysis however, it was taken into consideration when drawing conclusions. \\ \hline
+3         & Initial placement of vehicles.                                                       & Placement of vehicles was constant through first and second scenario.                                                                                \\ \hline
 4         & Length of each phase.                                                                & Data was compared over the same length for each phase.                                                                                               \\ \hline
-5         & The algorithm governing autonomous cars allows for large, unrealistic decelerations. & It was attempted to identify the frequency of these behaviours and its impact on traffic.                                          \\ \hline
+5         & The algorithm governing autonomous cars allows for large, unrealistic decelerations. & It was attempted to identify the frequency of these behaviours and its impact on traffic was accounted for.                                          \\ \hline
 \end{tabular}
-\caption{Factors influencing the number of accidents.}
+\caption{Factors affecting number of collisions.}
 \label{table:hypothesis1}
 \end{table}
+
+
 
 According to \citet{vangi2007evaluation} the deceleration of an average car (Renault Clio\textsuperscript{\textregistered}) in good driving conditions, from the speed of $15\:\nicefrac{m}{s}$ reaches maximum of $12\:\nicefrac{m}{s^2}$. Although this value might be greater for cars with better brakes it was accepted as a border value. Any situation when deceleration of autonomous car was greater that $12\:\nicefrac{m}{s^2}$ was analysed separately to classify it as a potential collision. 
 
@@ -895,18 +901,69 @@ In second group there were 37 collisions in first scenario and 14 collisions in 
 
 
 
-\subsubsection{Hypothesis: Autonomous cars smoothed traffic}
+\subsubsection{Hypothesis: Autonomous cars smoothed out traffic}
+
+All interactions can be segregated into 3 different types: autonomous-autonomous, human-autonomous and human-human. As it was shown before, interactions between two autonomous cars were usually highly optimized. On the other hand, interactions between two humans are random and uncertain by its nature. The third type of interactions involving both human and autonomous vehicle can potentially contain some level of systematicity and yield better results than solely human drivers. On the basis of these premises the following hypothesis was suggested:
+
+\textbf{\textit{Replacing part of traditional drivers with autonomous cars smooths out traffic (this is not very precise..sth about being start-stopy)}}
+
+\paragraph{Method of analysis}
+The main measure used to confirm or deny the hypothesis was calculating dispersion of velocities and accelerations for particular vehicles and comparing the results between different scenarios. ...\citep{dixon1957introduction}
+
+First parameter calculated was variance of acceleration. Figure~\ref{fig:acc_var} gives variance values for both groups for first and second scenario for particular vehicle. In a similar way variance was calculated for velocities it is shown on Figure~\ref{fig:vel_var}. Next, mean variances were calculated for 4 people in each group who took part in both phases and for all vehicles in each phase. Results are summarized in Table~\ref{table:variance_summary}. From one point of view the impact of autonomous cars is clearly visible - average variance dropped significantly. However, if only humans are taken into consideration the differences are considerably slighter. Acceleration variance declined by 18.3\% for first group and by 5.7\% for second group. Velocity variance in fact rose by 4.1\% for first group and declined by 12.9\% for second group. Additionally, accounting for the fact that people's driving skill improved each round the hypothesis can be only partly confirmed:
+
+\textbf{\textit{From the point of view of global traffic performance replacing part of traditional drivers with autonomous cars smooths out traffic since there are less human drivers who drive less regularly than autonomous cars. However, from the point of view of particular driver the presence of autonomous cars do not have evident impact on driving smoothness.}}
+
+
+
+%table:variance_summary
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\begin{tabular}{|c|c|p{2.1cm}|p{2.1cm}|p{2.1cm}|p{2.1cm}|}
+\hline
+\textbf{Parameter}                                                               & \textbf{Scenario} & \textbf{Group 1 (4 humans)} & \textbf{Group 2 (4 humans)} & \textbf{Group 1 (all vehicles)} & \textbf{Group 2 (all vehicles)} \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Acceleration\\ variance\end{tabular}} & 1                 & 9.61                        & 12.09                       & 9.14                           & 12.00                           \\ \cline{2-6} 
+                                                                                 & 2                 & 7.85                        & 11.39                       & 5.24                           & 8.01                            \\ \hline
+\multirow{2}{*}{\begin{tabular}[c]{@{}c@{}}Velocity\\ variance\end{tabular}}     & 1                 & 24.70                       & 33.83                       & 24.13                          & 30.56                           \\ \cline{2-6} 
+                                                                                 & 2                 & 25.09                           & 29.45                       & 21.37                          & 22.07                           \\ \hline
+\end{tabular}
+\caption{Average acceleration and velocity variance calculated separately for 4 participants (who took part in both scenarios) and for all vehicles in particular scenario. In can be seen that speed and acceleration variance for humans did not change much between two scenarios. However, when more autonomous cars were introduced the average variance for whole group dropped significantly.}
+\label{table:variance_summary}
+\end{table}
+
+
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/acc_var.eps}}
+\caption{Acceleration variance values calculated for 4 participants that took part in first and second phase and 1 autonomous car. The obvious observation is that autonomous car's acceleration varies very slightly compared to any human driver. Another observation is that variance dropped for 6 out of 8 participants when autonomous cars were introduced.}
+\label{fig:acc_var}
+\end{figure}
+
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/findings_and_results/vel_var.eps}}
+\caption{Velocity variance values calculated for 4 participants that took part in first and second phase and 1 autonomous car. Similar to previous figure the variance values for autonomous cars were lower than those of human. However, for human drivers hardly any pattern is observable between first and second scenario.}
+\label{fig:vel_var}
+\end{figure}
+ 
+
+
+Figure~\ref{fig:interactions_example_1v2} showed an example of inefficient interaction between two vehicles of different type. None the less, 
+
+As it was shown in previous sections autonomous cars 
+
+
+
+so maybe it smooths out traffic but also say how autonomous cars were in general slower and how the total distance covered was lowered
+
 
 statement of the hypothesis
 Premise: autonomous react faster than humans. Find reaction time of humans
 
-\paragraph{Method of analysis}
 
-what is the method and why it makes sense
-
-- calc variance
-heat maps for human driven cars - accelerations
-- find some particular situations
 
 \paragraph{Findings}
 
