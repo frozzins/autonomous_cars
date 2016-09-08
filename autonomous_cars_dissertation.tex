@@ -27,6 +27,7 @@
 
 \usepackage{array}
 
+\usepackage{nicefrac}
 
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
@@ -844,86 +845,54 @@ part 2: hypothesis
 approach to analysis: hypthoseis
 
 
-\subsubsection{Hypothesis: Autonomous cars reduced number of accidents}
+\subsubsection{Hypothesis: Autonomous cars reduce number of accidents}
 
-Based on the observations from previous section it can be seen that autonomous vehicles were almost never responsible for collisions. However, there were numerous collisions caused by other traffic participants involving autonomous cars. Based on these premises the following hypothesis will be tested:
+Based on the observations from previous section it can be seen that autonomous vehicles were almost never responsible for collisions. However, there were numerous collisions caused by other traffic participants involving autonomous cars. Based on these premises the following hypothesis was be tested:
 
-\textbf{\textit{"Replacing part of traditional drivers with autonomous cars reduces frequency of all kinds of accidents"}}
+\textbf{\textit{"Replacing part of traditional drivers with autonomous cars reduces number of all kinds of accidents"}}
 
 \paragraph{Method of analysis}
 
-The hypothesis was tested by comparing number of accidents in phase 1 and phase 2 in both groups of participants. In order to ensure validity of the results an attempt to identify all factors influencing number of collisions was made. As a result a list presented in Table~\ref{table:hypothesis1} was created.
+The hypothesis was tested by comparing number of collisions in phase 1 and phase 2 in both groups of participants. In order to ensure validity of the results an attempt to identify all factors influencing number of collisions was made. As a result a list presented in Table~\ref{table:hypothesis1} was created.
 
 
 \begin{table}[]
 \centering
-\begin{tabular}{|c|p{6cm}|p{7cm}|}
+\begin{tabular}{|c|p{6.2cm}|p{7.2cm}|}
 \hline
 \textbf{} & \multicolumn{1}{c|}{\textbf{Factor}}                                                 & \multicolumn{1}{c|}{\textbf{Comment}}                                                                                                                \\ \hline
 1         & Density of the vehicles.                                                             & In phase 1 and phase 2 total number of cars remained constant.                                                                                       \\ \hline
-2         & Participants improving their skills in vehicle control in consecutive phases.        & This factor is hardly accountable for. Its influence was ignored in data analysis however, it was taken into consideration when drawing conclusions. \\ \hline
-3         & Initial placement of vehicles.                                                       & Placement of vehicles was constant through first and second scenario.                                                                                \\ \hline
+2         & Participants improving their skills in vehicle control in consecutive phases.        & This factor is hardly accountable for. Its influence was ignored in data analysis although, it was taken into consideration when drawing conclusions. \\ \hline
+3         & Initial placement of vehicles.                                                       & Initial placement of vehicles was constant through first and second scenario.                                                                                \\ \hline
 4         & Length of each phase.                                                                & Data was compared over the same length for each phase.                                                                                               \\ \hline
-5         & The algorithm governing autonomous cars allows for large, unrealistic decelerations. & It was attempted to identify the frequency of these behaviours and its impact on traffic was accounted for.                                          \\ \hline
-6         &                                                                                      &                                                                                                                                                      \\ \hline
+5         & The algorithm governing autonomous cars allows for large, unrealistic decelerations. & It was attempted to identify the frequency of these behaviours and its impact on traffic.                                          \\ \hline
 \end{tabular}
 \caption{Factors influencing the number of accidents.}
 \label{table:hypothesis1}
 \end{table}
 
+According to \citet{vangi2007evaluation} the deceleration of an average car (Renault Clio\textsuperscript{\textregistered}) in good driving conditions, from the speed of $15\:\nicefrac{m}{s}$ reaches maximum of $12\:\nicefrac{m}{s^2}$. Although this value might be greater for cars with better brakes it was accepted as a border value. Any situation when deceleration of autonomous car was greater that $12\:\nicefrac{m}{s^2}$ was analysed separately to classify it as a potential collision. 
 
-
-bla bla..however large number of collisions with autonomous cars in third scenario karze przypuszczac that alogorithm governing autonomous cars does not perfom that well on more complicated map.
-
-
-According to \citep{vangi2007evaluation} deceleration for Renault Clio(R sing) in good driving conditions from the speed 15m-s reaches maximum of 12m=s2. Although this value might be greater for cars with better brakes it was accepted as a border value. Any situation when deceleration was greater that 12m-s2 was analysed seperately to classify it as potential collision. 
-
-
-
-
-
-Number of accidents was be compared between first and second phase for both groups. In first group there were 11 collision in first scenario and 5 collisions in second scenario. there were 3 situation where deceleration of autonomous vehicle reached values below 12m/s2. None of them was classified as potential collision. 
-
-For second group ..same thing...
-
-
-
-In order to confirm or deny the hypothesis
-
-However, such sudden deceleration did not happen often. 
-
-his kind of routine 
-
-\citep{vangi2007evaluation} - max deceleration will ocilate around 12-16 probably depending on the type of vehicle and speed.
-
-
-
- impossible rate.  
-
-
-statement of the hypothesis
-
-Premise: autonomous cars could be better in anticipating collisions
-
-
-
-
-Factors influencing number of collisions in particular group include:
-
-list...
-
-
-
-what is the method and why it makes sense
-
-Divide crushes to HH and HA. Find who was responsible-explain how you decided on it.
-
-split into intersections and head-on collisions.
 
 
 \paragraph{Findings}
 
-Describe you you did and what you got as a results
+In first group there were 11 collision in first scenario and 5 collisions in second scenario. In both scenarios there were 3 situation where deceleration of autonomous vehicle reached values below $12\:\nicefrac{m}{s^2}$. None of them was classified as potential collision. 
+In second group there were 37 collisions in first scenario and 14 collisions in second scenario. In the first scenario there were 6 situations where deceleration of autonomous car reached values below $12\:\nicefrac{m}{s^2}$. None of them was classified as potential collision; In fact these rapid changes of velocity often caused collisions with the car behind which was unable to stop. This should be considered as a flaw in the design of autonomous car algorithm. In the second scenario in second group there were 3 situations where collision was likely prevented by abnormal deceleration of one of autonomous cars. Between first and second scenario number of collision in first group dropped by 55\% and by 45\% in the second group(including 3 potential collisions). Therefore the following conclusion might be drawn:
+
+\textbf{\textit{Substituting traditional cars with autonomous ones reduces overall number of accidents.}}
+
+
+
+\paragraph{Remarks}
+
+\begin{itemize}
+  \item The statement should be verified in further research by accounting for factors mentioned in Table~\ref{table:hypothesis1}.
+  \item Large number of collisions with autonomous cars in third scenario leads to assumption that algorithm governing autonomous cars does not perform satisfactory on more complicated map. 
+  \item Differentiating head-on collisions from all other collisions could have impact on the results.
+\end{itemize}
+
+
 
 
 \subsubsection{Hypothesis: Autonomous cars smoothed traffic}
