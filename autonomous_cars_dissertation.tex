@@ -133,9 +133,11 @@ Eddie \textsc{Wilson} % Supervisor's Name
 
 
 \section{Introduction} % Major section
+
+***DRAFT***
+
 \paragraph{}
 Autonomous cars are currently a topic of great interest. Around the world the biggest private companies or government’s initiatives are developing self-driving vehicles (uber, google, britol car citations), competing for new emerging market. Each company focuses efforts in different direction. The companies are either trying to develope an all-round car that could perform in both city and on highways or restrict the usage to particular types of roads (tesla). Or anyhing in between. The most significant commercial initiatives include Google driverless car, Tesla, Uber (). Goverment founded initiatives include Venturer and ...
-
 
 \paragraph{•}
 Background of the problem, context of the research, reasons why the study was carried out, significance of the study
@@ -186,6 +188,8 @@ The Research Methodology chapter is preceded with in-depth chapter describing li
 
 
 \section{Literature review}
+
+***DRAFT***
 
 There is plenty of literature dedicated to autonomous cars. 
 
@@ -432,7 +436,7 @@ In all scenarios participants were not told which car is autonomous and which is
 \subsubsection*{Learning phase}
 %\paragraph{Learning how to drive}
 
-(\textit{here im actually talking about using all participants while in fact they were splited into two groups.. . that information would be revelaed later in experiment execution chapter})
+(\textit{here im actually talking about using all participants while in fact they were splited into two groups.. . that information would be revealed later in experiment execution chapter})
 
 The learning period involved all participants and one autonomous car. It lasted 2 to 3 minutes and was intended for getting familiar with the simulation. The data from this period was recorded but was not intended for analysis. In that period participants could ask additional questions. The map used in this scenario is presented on Figure ~\ref{fig:map_0_arrows}.
 
@@ -483,15 +487,12 @@ Scenario 3 aimed at microscopic interaction between particular groups of vehicle
 
 \subsection{Software development}
 
-Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment.
+Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment. From the point of view of software implementation the experiment required different applications running on multiple machines that would be talking to each other over the network in real-time.
 
-From the point of view of software implementation the experiment required multiple applications running on multiple machines talking to each other over the network in real-time.
+***DRAFT***
 
-
-
-
-the project required 
-
+//say about the aims of the software. what makes good software good? maybe look here:
+%https://medium.com/@mbostock/what-makes-software-good-943557f8a488#.djbqo2es9
 
 
 
@@ -539,7 +540,7 @@ The software in the project consists of three  main parts. The most important on
 //change name of chapter title
 
 
-
+***DRAFT***
 
 
 
@@ -547,12 +548,18 @@ The software in the project consists of three  main parts. The most important on
 
 \subsubsection{Client Application design}
 
+
+***DRAFT***
+
+
 here combined technical solutions 
 
 General description Simplifications and yet still accounting for most important parts of
 the car model
 
 \subsubsection{Car control}
+
+***DRAFT***
 
 gipps graph here
 
@@ -562,6 +569,8 @@ As the experiment was dedicated to city traffic the maximum velocity was limited
 
 \subsection{Communication between machines}
 
+***DRAFT***
+
 From one point of view this a tightly coupled with software development but the way
 communication was established doesn’t matter from the point of view of software structure.
 Simply speaking the comms should only meet some requirements derived from
@@ -570,7 +579,7 @@ a significant part of the job and its an achievement on its own.
 
 \subsection{Autonomous car model}
 
-
+***DRAFT***
 
 
 
@@ -579,6 +588,8 @@ design decisions
 
 
 add Examples of autonomous cars behaviours from experiment. 
+
+say about main flaws
 
 
 \section{Findings and results}
@@ -651,6 +662,8 @@ After the main part of the experiment finished, participants were debriefed and 
 
 The analysis of the data could be divided into two parts. First one is dedicated to finding patterns, observing dependencies and evaluating particular group and participants. Second one proposes a range of hypotheses which were consequently tested with proposed methods against the data collected. The discussion of the results was placed in next chapter.
 
+***DRAFT***
+
 Data collected during the experiment was considerably rich in features and lots of regularities could be potentially found. On average participants changed acceleration/deceleration commands 73 times per minute. 
 Figure~\ref{fig:sample_snapshot} shows a snapshot from simulation playback.  
  
@@ -692,7 +705,9 @@ First idea that could help to understand the data was to visualize how vehicles 
 It can be observed from the plot that once multiple autonomous cars were introduced, vehicles decelerated harder and more often when approaching the intersection.
 
 
-later: possible reasons: interactions HA were worse
+
+
+%later: possible reasons: interactions HA were worse
 
 
 
@@ -705,6 +720,7 @@ Number of collisions caused by each participant was evaluated and compared again
   \item  In total 52 collisions occurred between two human drivers while 33 happened between human drivers and autonomous vehicles. However, accounting for how much each vehicle spent on the track .... ?
 \end{itemize}
 
+***DRAFT***
 
 HH and HA collisions..?
 
@@ -727,11 +743,7 @@ asses every participants:
 
 
 
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-% \usepackage[normalem]{ulem}
-% \useunder{\uline}{\ul}{}
+
 \begin{table}[]
 \centering
 \begin{tabular}{|c|c|c|c|c|c|c|}
@@ -762,6 +774,8 @@ asses every participants:
 \subsubsection*{Conflicts resolution}
 
 Interactions between cars can be systematized as one car following another or as a broad range of interactions at intersections. The later was of particular interest because of it's uncertainty and unpredictability. While all maps featured intersections, figure of eight map used in first two scenarios was aimed at more organized analysis and will be used in this example to visualize how humans and autonomous cars made decisions. Figure~\ref{fig:interactions_example_1v2} shows an example of interaction between one human-driven and two autonomous car. In this example both vehicles at the front came to full stop. In ideal situation one vehicle should pass while the other slows down.
+
+***DRAFT***
 
 //something on conficts reosultion: some paper/ nash equlibrum
 
@@ -799,6 +813,8 @@ Another type are interactions between two autonomous cars as it is shown on Figu
 
 
 Another topic of interest were reaction times of both types of vehicles. It was anticipated that the rule to always let human driver pass first and potentially faster reaction by autonomous car would have beneficial impact on the traffic. Particular interest was in differences between reaction times of humans and autonomous cars.
+
+***DRAFT***
 
 //use third map here...
 
@@ -846,6 +862,7 @@ approach to analysis: hypthoseis
 
 
 \subsubsection{Hypothesis: Autonomous cars reduce number of accidents}
+
 
 Based on the observations from previous section it can be seen that autonomous vehicles were almost never responsible for collisions. However, there were numerous collisions caused by other traffic participants involving autonomous cars. Based on these premises the following hypothesis was be tested:
 
@@ -967,6 +984,9 @@ In order to evaluate the hypothesis a simulation on map used in first and second
 \paragraph{Findings}
 
 A trial run on the map from first and second scenario showed there were no collisions at all. Total distance covered by all cars was 13.4 km. For first group this value was 11.27 km in first scenario and 9.96 km in second scenario. Therefore autonomous cars travelled further even though their velocity was limited to $10\:\nicefrac{m}{s}$ which was 33\% lower than what human-driven cars were capable of. Average variance on acceleration was 0.7850 which was 11 times smaller than the smallest value from scenario 1. Values for particular vehicles are shown on Figure~\ref{fig:acc_autonomous_only_var}. Next, it was investigated whether cars reach velocity equilibrium. The results showed that indeed equilibrium is reached after 1.5 minute (Figure~\ref{fig:equilibrum}). However, the worth of this measure can be little of none. The simulation was run on a closed track with no intersections and there was no randomization introduced at any point of the simulation apart form the initial placement of vehicles.
+
+***DRAFT***
+
 ..write more about it...
 
 \begin{figure}[!] % Example image
@@ -1010,6 +1030,8 @@ Premise: autonomous cars show much more optimized reactions between each other c
 
 
 \subsubsection{Hypothesis: Interactions were better between two human drivers rather than human and autonomous}
+
+***DRAFT***
 
 statement of the hypothesis
 Premise: autonomous car algorithm make them always give way to humna driver if the collision is anticipated. However, if the human driver will also slow down it might be possible that autonomous car will not anticipate collision any more and will start to move. This can cause another   
