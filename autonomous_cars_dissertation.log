@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  9 SEP 2016 20:16
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  9 SEP 2016 21:53
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -570,16 +570,74 @@ Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \tymax=\dimen178
 \TY@tablewidth=\dimen179
 )
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip60
+
+For additional information on amsmath, use the `?' option.
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen180
+))
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen181
+)
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count138
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count139
+\leftroot@=\count140
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count141
+\DOTSCASE@=\count142
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box41
+\strutbox@=\box42
+\big@size=\dimen182
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count143
+\c@MaxMatrixCols=\count144
+\dotsspace@=\muskip16
+\c@parentequation=\count145
+\dspbrk@lvl=\count146
+\tag@help=\toks22
+\row@=\count147
+\column@=\count148
+\maxfields@=\count149
+\andhelp@=\toks23
+\eqnshift@=\dimen183
+\alignsep@=\dimen184
+\tagshift@=\dimen185
+\tagwidth@=\dimen186
+\totwidth@=\dimen187
+\lineht@=\dimen188
+\@envbody=\toks24
+\multlinegap=\skip61
+\multlinetaggap=\skip62
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
 (C:\Users\not\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count138
+\c@lips@count=\count150
 )
 (C:\Users\not\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip60
-\bibsep=\skip61
+\bibhang=\skip63
+\bibsep=\skip64
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count139
+\c@NAT@ctr=\count151
 )
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -625,18 +683,18 @@ Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
 )) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count140
-\float@exts=\toks21
-\float@box=\box41
-\@float@everytoks=\toks22
-\@floatcapt=\box42
+\c@float@type=\count152
+\float@exts=\toks26
+\float@box=\box43
+\@float@everytoks=\toks27
+\@floatcapt=\box44
 )
 (C:\Users\not\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
-\wrapoverhang=\dimen180
-\WF@size=\dimen181
-\c@WF@wrappedlines=\count141
-\WF@box=\box43
-\WF@everypar=\toks23
+\wrapoverhang=\dimen189
+\WF@size=\dimen190
+\c@WF@wrappedlines=\count153
+\WF@box=\box45
+\WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
 )
 
@@ -644,27 +702,27 @@ LaTeX Warning: Unused global option(s):
     [english].
 
 (autonomous_cars_dissertation.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 82.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 84.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 84.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    ... okay on input line 84.
 Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.95p
 t
  -> C:/WINDOWS/Fonts/arial.ttf
@@ -675,59 +733,58 @@ t
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
-LaTeX Font Info:    Redeclaring math accent \check on input line 82.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 84.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 84.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 84.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 84.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 84.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 84.
+LaTeX Font Info:    Redeclaring math accent \check on input line 84.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 84.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 84.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 84.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 84.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 84.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 82.
+(Font)              `operators' in the math version `normal' on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 82.
+(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 84.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 82.
+(Font)              `operators' in the math version `bold' on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 82.
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 84.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 82.
+(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 82.
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 84.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 82
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 84
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 82.
+(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 82.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 84.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 84.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -799,12 +856,9 @@ Requested font "cmmi6" at 6.0pt
 Requested font "cmsy10" at 10.95pt
 Requested font "cmsy8" at 8.0pt
 Requested font "cmsy6" at 6.0pt
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 107.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 107.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 107.
+Requested font "cmex10" at 10.95pt
+Requested font "cmex8" at 8.0pt
+Requested font "cmex7" at 6.0pt
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
 [1
@@ -826,7 +880,7 @@ Requested font "Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.0
 pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
 
-Overfull \hbox (377.15022pt too wide) in paragraph at lines 203--205
+Overfull \hbox (377.15022pt too wide) in paragraph at lines 205--207
 \EU1/Arial(0)/m/n/10.95 NHTSA in 2013 (http://www.nhtsa.gov/About+NHTSA/Press+R
 eleases/U.S.+Department+of+Transportation+Releases+Policy+on+Automated+Vehicle+
 Development),
@@ -839,13 +893,13 @@ Requested font "Arial/I/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.9
  [10] [11] [12] [13]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 448.
+               Default added (so using `tbp') on input line 450.
 
 File: materials/research_methodology/map_0_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_0_arrows.png" > [14]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 461.
+               Default added (so using `tbp') on input line 463.
 
 File: materials/research_methodology/map_1_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_1_arrows.png" > [15]
@@ -854,91 +908,91 @@ File: materials/research_methodology/map_3_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_3_arrows.png" > [16] [17]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 566.
+               Default added (so using `tbp') on input line 568.
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 571--571
+Underfull \hbox (badness 2103) in paragraph at lines 573--573
 []|\EU1/Arial(0)/m/n/10.95 Starting ROS Core and
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 571--571
+Underfull \hbox (badness 5036) in paragraph at lines 573--573
 \EU1/Arial(0)/m/n/10.95 opening UDP ports for
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 572--572
+Underfull \hbox (badness 4416) in paragraph at lines 574--574
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 572--572
+Underfull \hbox (badness 4416) in paragraph at lines 574--574
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
+Underfull \hbox (badness 10000) in paragraph at lines 575--575
 []|\EU1/Arial(0)/m/n/10.95 Sending configuration
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 573--573
+Underfull \hbox (badness 4416) in paragraph at lines 575--575
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
+Underfull \hbox (badness 10000) in paragraph at lines 575--575
 []|\EU1/Arial(0)/m/n/10.95 Receiving configuration
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 574--574
+Underfull \hbox (badness 1303) in paragraph at lines 576--576
 []|\EU1/Arial(0)/m/n/10.95 Sending start order and
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 576--576
+Underfull \hbox (badness 2529) in paragraph at lines 578--578
 []|\EU1/Arial(0)/m/n/10.95 Sending individual mes-
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 577--577
+Underfull \hbox (badness 3724) in paragraph at lines 579--579
 []|\EU1/Arial(0)/m/n/10.95 Receiving combined or-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 []|\EU1/Arial(0)/m/n/10.95 Performing all calcula-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 []|\EU1/Arial(0)/m/n/10.95 Performing calculation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 578--578
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 \EU1/Arial(0)/m/n/10.95 and drawing map in
  []
 
 
-Overfull \hbox (16.95728pt too wide) in paragraph at lines 568--581
+Overfull \hbox (16.95728pt too wide) in paragraph at lines 570--583
  [][] 
  []
 
 [18] [19]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 609.
+               Default added (so using `tbp') on input line 611.
 
 
-Overfull \hbox (4.57596pt too wide) in paragraph at lines 621--621
+Overfull \hbox (4.57596pt too wide) in paragraph at lines 623--623
 []|\EU1/Arial(0)/m/n/10.95 Autonomous
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 642.
+               Default added (so using `!tbp') on input line 644.
 
 File: materials/research_methodology/master_gui_small.png Graphic file (type QT
 m)
@@ -946,146 +1000,150 @@ m)
 [22]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 689.
+               Default added (so using `!tbp') on input line 691.
 
 [23] [24] [25] [26] [27]
-Overfull \hbox (26.92137pt too wide) in paragraph at lines 823--838
+Overfull \hbox (26.92137pt too wide) in paragraph at lines 846--861
  [][] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [28]
-Overfull \hbox (16.83392pt too wide) in paragraph at lines 856--858
+Overfull \hbox (16.83392pt too wide) in paragraph at lines 879--881
 \EU1/Arial(0)/m/n/10.95 larities could be potentially found. On average partici
 pants changed acceleration/deceleration
  []
 
 File: materials/findings_and_results/sample_snapshot2.png Graphic file (type QT
 m)
-<use  "materials/findings_and_results/sample_snapshot2.png" > [29]
+<use  "materials/findings_and_results/sample_snapshot2.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29]
 File: materials/findings_and_results/deceleration_scenario_1_group_1.eps Graphi
 c file (type eps)
-
-<materials/findings_and_results/deceleration_scenario_1_group_1.eps>
+ <materials/findings_and_results/deceleration_scenario_1_group_1.eps>
 Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;" at 9.0pt
  -> C:/WINDOWS/Fonts/arial.ttf
 File: materials/findings_and_results/deceleration_scenario_2_group_1.eps Graphi
 c file (type eps)
 
-<materials/findings_and_results/deceleration_scenario_2_group_1.eps> [30]
-File: materials/findings_and_results/collisions_total.eps Graphic file (type ep
-s)
-
-<materials/findings_and_results/collisions_total.eps>
+<materials/findings_and_results/deceleration_scenario_2_group_1.eps>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[30] [31]
+File: materials/findings_and_results/collisions_total.eps Graphic file (type ep
+s)
+ <materials/findings_and_results/collisions_total.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 936.
+               Default added (so using `tbp') on input line 959.
 
 
-Overfull \hbox (41.9957pt too wide) in paragraph at lines 938--956
+Overfull \hbox (41.9957pt too wide) in paragraph at lines 961--979
  [][] 
  []
 
-[31] [32]
+[32] [33]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 976.
+               Default added (so using `!tbp') on input line 999.
 
 File: materials/findings_and_results/interactions_example_1v2.eps Graphic file 
 (type eps)
 <materials/findings_and_results/interactions_example_1v2.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 991.
+               Default added (so using `!tbp') on input line 1014.
 
 File: materials/findings_and_results/interactions_example_2.eps Graphic file (t
 ype eps)
-<materials/findings_and_results/interactions_example_2.eps> [33] [34] [35]
+<materials/findings_and_results/interactions_example_2.eps> [34] [35] [36]
 Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 95pt
  -> C:/WINDOWS/Fonts/arialbi.ttf
 
-[36]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1065.
+               Default added (so using `tbp') on input line 1088.
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 1071--1071
+Underfull \hbox (badness 5711) in paragraph at lines 1094--1094
 []|\EU1/Arial(0)/m/n/10.95 Participants improving their skills
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 1071--1071
+Underfull \hbox (badness 4995) in paragraph at lines 1094--1094
 \EU1/Arial(0)/m/n/10.95 in vehicle control in consecutive
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1071--1071
+Underfull \hbox (badness 1803) in paragraph at lines 1094--1094
 \EU1/Arial(0)/m/n/10.95 Its influence was ignored in data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1074--1074
+Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 []|\EU1/Arial(0)/m/n/10.95 The algorithm governing au-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 1074--1074
+Underfull \hbox (badness 6808) in paragraph at lines 1097--1097
 \EU1/Arial(0)/m/n/10.95 tonomous cars allows for large,
  []
 
-[37]
-Overfull \hbox (4.68445pt too wide) in paragraph at lines 1108--1109
+[37] [38]
+Overfull \hbox (4.68445pt too wide) in paragraph at lines 1131--1132
 \EU1/Arial(0)/m/n/10.95 All interactions can be segregated into 3 different typ
 es: autonomous-autonomous, human-
  []
 
-[38]
+[39]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1121.
+               Default added (so using `tbp') on input line 1144.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1137.
+               Default added (so using `!tbp') on input line 1160.
 
 File: materials/findings_and_results/acc_var.eps Graphic file (type eps)
 <materials/findings_and_results/acc_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1144.
+               Default added (so using `!tbp') on input line 1167.
 
 File: materials/findings_and_results/vel_var.eps Graphic file (type eps)
-<materials/findings_and_results/vel_var.eps> [39] [40]
+<materials/findings_and_results/vel_var.eps> [40] [41] [42]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1181.
+               Default added (so using `!tbp') on input line 1204.
 
 File: materials/findings_and_results/acc_autonomous_only_var.eps Graphic file (
 type eps)
 <materials/findings_and_results/acc_autonomous_only_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1188.
+               Default added (so using `!tbp') on input line 1211.
 
 File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
-<materials/findings_and_results/equilibrum.eps> [41] [42]
-(autonomous_cars_dissertation.bbl [43]) [44] [45]
-(autonomous_cars_dissertation.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+<materials/findings_and_results/equilibrum.eps> [43]
+(autonomous_cars_dissertation.bbl [44]
+Missing character: There is no ^^97 in font Arial/OT:script=latn;language=DFLT;
+mapping=tex-text;!
+ [45]) [46]
+(autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 17022 strings out of 428755
- 334041 string characters out of 3163194
- 471824 words of memory out of 3000000
- 20204 multiletter control sequences out of 15000+200000
- 6619 words of font info for 53 fonts, out of 3000000 for 9000
+ 17623 strings out of 428755
+ 340699 string characters out of 3163194
+ 484352 words of memory out of 3000000
+ 20788 multiletter control sequences out of 15000+200000
+ 7293 words of font info for 56 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 48i,18n,61p,10398b,355s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,18n,61p,10398b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (46 pages).
+Output written on autonomous_cars_dissertation.pdf (47 pages).

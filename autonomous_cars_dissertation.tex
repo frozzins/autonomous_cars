@@ -36,6 +36,8 @@
 
 \usepackage{tabulary}
 
+\usepackage{amsmath}
+
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
 
@@ -708,20 +710,9 @@ The sequence of events happening at each loop iteration is shown in Table~\ref{t
 
 Displaying car's surrounding was one of the main challenges in the implementation of client's application. As discussed earlier the experiment design required showing a top-down view of rectangular area around the car, car itself and all cars contained in the view port. From the beginning of design process two, radically different approaches to achieve this goal were analysed. First idea was to calculate coordinates of each point required to render scene and display the results using one of MATLAB plot functions. This approach would allow for full scalability and could potentially result in appealing map image without visible pixels. On the other hand the amount of calculations could be much greater as not only cars and road were to be computed but also multiple stationary shapes around the road that were suppose to improve the felling of speed (such as trees or houses). 
 The second idea for the representation of view port was to crop and rotate part of the map stored as a large, raster image. The  map image was suppose to be 2 to 5 thousand pixels wide and at each loop iteration a part of it would be cropped and rotated according to current car's location and orientation and then showed on client's GUI. Subsequently all vehicles would be plotted over the image. The main advantage of this approach would be possibility to use complex map image which would be rich in diverse, colourful features. The main drawback would be unattractive, pixelated image as the resolution would be limited. 
-After initial trials with each approach, second one was chosen for implementation. As it quickly turned out the main challenge was limited computational power of computers. One iteration could not last longer than 0.0625 s and preparing image was only one of the tasks that had to be executed in that time.
+After initial trials with each approach, second one was chosen for implementation. As it quickly turned out, the main challenge was limited computational power of machines used in experiment. One iteration could not last longer than 0.0625 s and preparing map image was only one of the tasks that had to be executed (the frame rate was limited from 20 FPS in later stages of implementation due to Server Application performance reasons). To overcome this problem a custom function to crop and rotate was written. It was used instead of MATLAB methods \textit{imcrop} and \textit{imrotate}. The backbone of this function was written by project supervisor, Eddie Wilson. It was later adapted according to the requirement of the GUI. 
+Once the cropped image was displayed on the GUI, vehicles were plotted over it using MATLAB \textit{patch} function. The overall performance of this solution was sufficient for the needs of the experiment. It allowed to display images 480 pixels wide and tall with plenty of room left for remaining tasks.
 
- (the frame rate was limited from 20 in later stages of implementation due to Server Application performance reasons)
-
- of this approach 
-
-
-As it was described before the 
-
-Presenting 
-
-The information presented to experiment participants 
-
-Presenting 
 
 
 
@@ -740,18 +731,50 @@ Each participant used exact same copy of client application.
 ***DRAFT***
 
 
+
+It was tried to mimic the way cars are controlled in popular computer racing games such as Need For Speed\textsuperscript{TM}. 
+
+The behaviour of cars controlled by humans 
+
+
 here combined technical solutions 
 
 General description Simplifications and yet still accounting for most important parts of
 the car model
 
 
-\subsubsection{Car control}
+\subsubsection{Participant's car control}
 
-***DRAFT***
+The way in which cars were controlled had significant impact on the experiment results. From participant's point of view car's behaviour should be predictable and similar to how real car behaves. The challenge was to achieve this kind of performance using only discreet inputs from keyboard. GUI used by participants was able to capture multiple keys pressed simultaneously, however resulting acceleration order must have been one of the following: speed up, slow down, coast or brake. After analysing relevant literature it was decided that car's behaviour should be similar to one of the cars following models \citep{treiber2013traffic}. From The Gipps' Car Following Model given in \citet{spyropoulou2007simulation} a formula describing acceleration on the basis of current speed was extracted.
 
-gipps graph here
+\begin{equation}
+\dot{v}=2.5a(1- \frac{v}{V})\sqrt{0.025+ \frac{v}{V}}
+\end{equation}
+In the above formula $v$ is current velocity, $\dot{v}$ is acceleration available at current speed, $a$ is acceleration parameter and $V$ is velocity at which car should not be able to accelerate any more.
 
+
+
+
+gave relatively . 
+
+
+
+However, unlike real car the model used in the simulation 
+
+
+Parameters were optimized to give possibly most realistic feeling of car control NFS
+
+
+The challenge was to 
+
+
+In real car the acceleration is controlled by analogue throttle
+
+
+gipps graph here. reference to book or paper?
+
+
+%gipps
 
 As the experiment was dedicated to city traffic the maximum velocity was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after X(?) seconds.
 
