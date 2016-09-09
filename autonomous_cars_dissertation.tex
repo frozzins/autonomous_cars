@@ -32,6 +32,10 @@
 
 \usepackage{multirow}
 
+\usepackage{tabularx}
+
+\usepackage{tabulary}
+
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
 
@@ -161,7 +165,7 @@ The focus of this research is to investigate how autonomous cars will influence 
 clear and succinct statement of research questions, aims and objectives.
 
 
-The main aim of the research was trying to predict what will happen when autonomous cars are introduced to the traffic. Results obtained were analysed from the point of view to traffic parameters such as velocities, densities, congestion and from the point of view how individual drivers reacted differently when autonomous vehicle was encountered.
+The main aim of the research was trying to predict what will happen when autonomous cars are introduced to traditional traffic. Results obtained were analysed from the point of view to traffic parameters such as velocities, densities, congestion and from the point of view how individual drivers reacted differently when autonomous vehicle was encountered.
 
 The main objective of the project was to conduct experiments with human drivers and autonomous cars. In the center of the project was a network-based, multi player traffic simulation. Each person participating in the experiment controlled one vehicle and made decisions by observing other traffic participants. By looking into how cars interact with each other it should be possible to extract the impact of self-driving vehicles on the traffic. 
 
@@ -489,6 +493,19 @@ Scenario 3 aimed at microscopic interaction between particular groups of vehicle
 
 Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment. From the point of view of software implementation the experiment required different applications running on multiple machines that would be talking to each other over the network in real-time.
 
+
+The aim of the softwa
+
+Scalability - although traffic was represented in a very simplified way, the goal was to identify the most important factors influencing 
+
+Reliability - software should be tested for different circumstances. 
+
+To ensure validity of the results some basic principles were followed throughout the whole process:
+\begin{itemize}
+\item 
+\end{itemize}
+
+
 ***DRAFT***
 
 //say about the aims of the software. what makes good software good? maybe look here:
@@ -534,19 +551,190 @@ Details of the implementation of computer-to-computer communication are describe
 
 The software in the project consists of three  main parts. The most important one is Simulation Server Application. It is responsible for all data processing that is essential for the simulation. The second piece of software is Simulation Client Application. Each participant used an identical copy of Simulation Client Application to receive information about car's surroundings and send acceleration and direction orders to the server. Last part of the software is Communication Agent which was responsible for aggregating information from all clients and sending it to the server. It's existence was dictated by the requirements of network solution described in further chapters.
 
+Main part of the simulation was main loop that was executing at fixed rate of 16 Hz. All parts of simulation were synchronized according to master clock. The simplified sequence of events across all applications is described in Table~\ref{table:simple_events}.
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+%\begin{tabular}{|p{4.3cm}|p{4.3cm}|p{4.3cm}|}
+%\begin{tabularx}{\linewidth}{ r X }
+%    right-aligned foo & long long line of blah blah that will wrap when the table fills the column width\\
+%\end{tabularx}
+
+%\begin{tabular}{|l|l|l|}
+
+\begin{table}[]
+\centering
+\begin{tabular}{|m{4.4cm}|m{4.4cm}|m{4.4cm}|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Simulation Server Application}}     & \multicolumn{1}{c|}{\textbf{Communication Agent}}  & \multicolumn{1}{c|}{\textbf{Client(s) Application}} \\ \hline
+Starting ROS Core and opening UDP ports for Clients and Agent    & Connecting to ROS node and opening UDP ports       & Connecting to ROS node and opening UDP ports        \\ \hline
+Setting up simulation parameters                                 & Listening to instructions from Server...           & Listening to instructions from Server...            \\ \hline
+Sending configuration messages for Clients                       & Listening to instructions from Server...           & Receiving configuration messages from Server        \\ \hline
+Sending start order and starting main loop                       & Starting main loop                                 & Starting main loop                                  \\ \hline
+\multicolumn{3}{|c|}{\textbf{Main loop}}                                                                                                                                    \\ \hline
+Sending individual messages to each Client                       & Sending combined orders from all clients to Server & Sending order to Agent                              \\ \hline
+Receiving combined orders from Agent                             & Trying to receive from every client one by one     & Receiving my location and vehicles' around me       \\ \hline
+Performing all calculations for clients, map and autonomous cars & Combining orders from all client to one message    & Performing calculation and drawing map in viewport  \\ \hline
+\textit{Waiting for next loop iteration}                         & \textit{Waiting for next loop iteration}           & \textit{Waiting for next loop iteration}            \\ \hline
+\end{tabular}
+\caption{Simplified order of events across all applications}
+\label{table:simple_events}
+\end{table}
+
+
+
+
 
 
 \subsubsection{Simulation Server Application design}
-//change name of chapter title
 
 
-***DRAFT***
+Simulation Server Application was at the heart of the simulation. It was responsible for all essential computation, managing communication between other entities and executing code at at a fixed rate. Its design consisted of following classes (appendix: class diagram):
+
+\begin{itemize}
+\item Simulation - Only one object of this, essential class existed throughout entire simulation. The most important methods were accountable for establishing communication, importing parameters and running main simulation loop.
+\item Map - Single Map object was created by Simulation. Among other things it contained all information regarding road layout, references to all vehicles, relations between them and future predictions. 
+\item Car - Base class intended to derive other classes from it. It contained features common for both types of vehicles such as velocity and distance calculations and Gipps model.
+\item Car human driven - Derived from Car class. It contained additional attributes specific to human-driver but only basic methods as most of essential computation was happening among Map class.
+\item Car autonomous - the Intelligent Driver Model and all decision making contained within this class. It was receiving limited information about car surrounding from Map object.
+\item Participant - additional class crated to separate orders received from participants from car's logic
+\end{itemize}
+
+
+The sequence of events in the main loop of the simulation was as shown in Table~\ref{table:order_server}. While Simulation object hold supervision role over whole process, the Map object was responsible for the majority of tasks. Once Simulation received information from Agent and passed it to Map most commands were called on the basis of Simulation object asking Map object to do certain things and return some value which was then passed to e.g. Autonomous Car. 
+An additional feature of Map class was an ability to create large raster images of whole track. These images were later used by Client Application.
+
+
+\begin{table}[]
+\centering
+\begin{tabular}{|l|p{2cm}|p{11cm}|}
+\hline
+\textbf{} & \multicolumn{1}{c|}{\textbf{Class}} & \multicolumn{1}{c|}{\textbf{Event}}                                                                    \\ \hline
+1         & Simulation                          & Sending each Client its location and orientation together with information about surrounding vehicles. \\ \hline
+2         & Simulation                          & Receiving message from Agent containing movement orders from all Clients                                \\ \hline
+3         & Simulation                          & Extracting orders from each individual Client                                                          \\ \hline
+4         & Simulation                          & Passing updated cars' movement orders to Map object                                                    \\ \hline
+5         & Map                                 & Predicting position of all cars up to 3 seconds ahead based on current velocity and movement order     \\ \hline
+6         & Map                                 & Calculating collisions for current time and predictions made in last step                              \\ \hline
+7         & Map                                 & For each autonomous vehicle finding potential collisions with other vehicles                           \\ \hline
+8         & Autonomous Car                      & Making decision on desired acceleration on the basis of information supplied by Map                    \\ \hline
+9         & Human Car                    
+& Calculating target acceleration on the basis of received acceleration order                            \\ \hline
+10        & Car                                 & Calculating traveled distance using 4th order Runge Kutta equations                                    \\ \hline
+11        & Map                                 & For each vehicle calculating new position and edge on map topological structure                     \\ \hline
+12        & Map                                 & For each vehicle calculating new Cartesian coordinates and orientation                                 \\ \hline
+13        & Map                                 & Preparing individual messages for each Client                                                          \\ \hline
+14        & Map                                 & Drawing all vehicles on the map in Simulation Server GUI                                               \\ \hline
+15        & Simulation                          & Saving simulation state at current step.                                                               \\ \hline
+16        & Simulation                          & Waiting for next loop iteration                                                                        \\ \hline
+\end{tabular}
+\caption{Order of events in main simulation loop in Simulation Server.}
+\label{table:order_server}
+\end{table}
+
+
+\paragraph{Server Graphical Interface}
+
+
+In order to simplify simulation control and supervise simulation status a server-side graphical interface was created. It's two main functions were displaying position of each car on the map and setting up each scenario in an easy manner. Figure~\ref{fig:master_gui_small} shows top down view of the whole map available in the GUI. Interface allowed to start ROS node, open UDP ports, choose number of car of each type, choose map, send configuration message and start or stop simulation. 
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=0.7\linewidth]{materials/research_methodology/master_gui_small.png}}
+\caption{Visualization of current simulation status available via Simulation Server GUI. This example shows third map with 14 autonomous cars.}
+\label{fig:master_gui_small}
+\end{figure} 
+
+
+
+\paragraph{Centralized control}
+
+
+Running synchronized processes on multiple machines was a significant challenge and a source of potential problems. While the details of network communication are described later additional measures were taken to simplify simulation management. The messages send between machines were always in the form of formatted strings. Throughout entire simulation Clients and Agent were always listening to messages broadcast from Server. This allowed to manage the simulation from Server without any additional configuration on each single computer. There were two basic types of messages: configuration messages starting with letter 'c' and current simulation messages starting with letter 'm'.
+Configuration messages were usually sent outside of the main loop and contained informations about next simulation session such as map size, map name, initial location of vehicle. these message were also used to start or stop the simulation. To identify the message the first letter was followed by 3-digit code that was understandable for both parties. An example of map size configuration message is shown below.
+
+\begin{equation}
+c \quad 108 \quad 0 \quad 360 \quad 0 \quad 260
+\end{equation}
+
+First number 108 meant that map size is being sent. Rest of the message was then interpreted as x and y dimensions of the current map.
+Current simulation messages were often more complicated. Below is an example of message send from master to client. 
+ 
+\begin{equation}
+m \quad 124.56 \quad 189.70 \quad 43.1 \quad 10.8 \quad 1 \quad 2 \quad 141.5 \quad 164.9  \quad 56.2 \quad 135.5 \quad 150.4  \quad 66.8
+\end{equation}
+
+First 3 numbers meant car's location and orientation. Next two numbers indicated current speed to be displayed on speedometer and binary collision status (Participants were informed when collision occurred). Yet another number indicated how many other cars are in the surrounding and all numbers that followed described these cars' locations and orientations. That data was then used by Client to draw map and all vehicles in the view field. If message was received distorted or incomplete and therefore different from what was expected, it was rejected and values from previous iteration were used.
+
 
 
 
 
 
 \subsubsection{Client Application design}
+
+
+Identical copy of Client Application was deployed on  each computer used by experiment participants. Main tasks of Client Application included receiving location and orientation, sending acceleration and turn order, displaying part of the map to the Participant and harvesting inputs from keyboard. Its design consisted of following classes (appendix: class diagram):
+
+\begin{itemize}
+\item Simulation client - Main class. Responsible for communication with Server and Agent and management of whole simulation from client's side. 
+\item Map client - The most important class. Responsible for such essential tasks as displaying the map and cars in GUI
+\item Car client - Relatively simple class containing some essential parameters of the car. 
+\item Participant - Identical to the class used by Simulation Server Application. It contained some attributes that should be separated from Carclient object.
+\end{itemize}
+
+
+The sequence of events happening at each loop iteration is shown in Table~\ref{table:clients_events}. As it can be seen, it was considerably simpler than Server Application. 
+
+\begin{table}[!]
+\centering
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{}} & \multicolumn{1}{c|}{\textbf{Class}} & \multicolumn{1}{c|}{\textbf{Event}}              \\ \hline
+1                               & Simulation client                   & Sending acceleration and turn orders to Agent    \\ \hline
+2                               & Simulation client                   & Receiving locations and orientations from Server \\ \hline
+3                               & Simulation client                   & Displaying speed and collision status on GUI     \\ \hline
+4                               & Map client                          & Cropping and rotating map image                  \\ \hline
+5                               & Map client                          & Displaying cropped map image in viewport         \\ \hline
+6                               & Map client                          & Overlying cars on the map                        \\ \hline
+7                               & Simulation client                   & Waiting for next loop iteration                  \\ \hline
+\end{tabular}
+\caption{Order of events in main simulation loop in Simulation Client.}
+\label{table:clients_events}
+\end{table}
+
+
+\paragraph{Displaying map in view port}
+
+Displaying car's surrounding was one of the main challenges in the implementation of client's application. As discussed earlier the experiment design required showing a top-down view of rectangular area around the car, car itself and all cars contained in the view port. From the beginning of design process two, radically different approaches to achieve this goal were analysed. First idea was to calculate coordinates of each point required to render scene and display the results using one of MATLAB plot functions. This approach would allow for full scalability and could potentially result in appealing map image without visible pixels. On the other hand the amount of calculations could be much greater as not only cars and road were to be computed but also multiple stationary shapes around the road that were suppose to improve the felling of speed (such as trees or houses). 
+The second idea for the representation of view port was to crop and rotate part of the map stored as a large, raster image. The  map image was suppose to be 2 to 5 thousand pixels wide and at each loop iteration a part of it would be cropped and rotated according to current car's location and orientation and then showed on client's GUI. Subsequently all vehicles would be plotted over the image. The main advantage of this approach would be possibility to use complex map image which would be rich in diverse, colourful features. The main drawback would be unattractive, pixelated image as the resolution would be limited. 
+After initial trials with each approach, second one was chosen for implementation. As it quickly turned out the main challenge was limited computational power of computers. One iteration could not last longer than 0.0625 s and preparing image was only one of the tasks that had to be executed in that time.
+
+ (the frame rate was limited from 20 in later stages of implementation due to Server Application performance reasons)
+
+ of this approach 
+
+
+As it was described before the 
+
+Presenting 
+
+The information presented to experiment participants 
+
+Presenting 
+
+
+
+\paragraph{Harvesting inputs form participants} - maybe actually put it in car control
+
+
+
+Client application was used to communicate with experiment participant
+
+Client application was responsible for receiving 
+
+Client application was responsible for two-way communication with experiment participant. 
+Each participant used exact same copy of client application. 
 
 
 ***DRAFT***
@@ -556,6 +744,7 @@ here combined technical solutions
 
 General description Simplifications and yet still accounting for most important parts of
 the car model
+
 
 \subsubsection{Car control}
 
@@ -612,9 +801,9 @@ Each of the participants was asked to sit in front of one of selected computers.
 
 \subsubsection{Questionnaire}
 
-Each of the participants was asked to complete short questionnaire. (link to appendixes). The purpose of the questionnaire was to collect data that later could be used in association with experiment results to create a driving profile for particular person. The exact way in which this data will be used in analysis was not established before the experiment. None the less, it was attempted to ask about things that could have impact on the performance of each person.
+Each of the participants was asked to complete short questionnaire. (link to appendixes). The purpose of the questionnaire was to collect data that later could be used in association with experiment results to create a driving profile for particular person. The exact way in which this data will be used in analysis was not established before the experiment. None the less, it was attempted to ask about things that could be associated with performance of each person.
 
-The survey consisted of 12 questions which can be divided into 4 categories. There were 2 questions asking about gender and age. Next one asked whether a person played any racing computer games and is familiar with controlling the car with arrow keys. The third section was conditional to the possession of driving licence. If the answer was affirmative, further questions asked about past accidents, subjective evaluation of person's driving style and irritating behaviours they encounter of the roads.
+The survey consisted of 12 questions which can be divided into 4 sections. There were 2 questions asking about gender and age. Next it was asked whether a person played any racing computer games and is familiar with controlling the car with arrow keys. The third section was conditional to the possession of driving licence. If the answer was affirmative, further questions asked about past accidents, subjective evaluation of person's driving style and irritating behaviours they encounter of the roads.
 Last question asked about opinion on how the traffic will change when autonomous cars are introduced. 
 
 
@@ -626,7 +815,7 @@ The experiment started by reading the Participation Information Sheet to all par
 
 "\textit{If you decide to take part in the study, you will be asked to drive a car in on-line traffic simulation. You will be using computer keyboard to control your car. Your main objectives is to cover as long distance as possible and avoid crashing into other cars. There will be 3 phases. Each will last 8 minutes, feature different map and different amount of autonomous vehicles. First phase will be preceded with 3-minute- long learning period when you will be able to learn how to play the game. All additional instructions will be given to you before each phase in form of power point slides. Before starting the simulation you are asked to complete a short survey to describe your driver profile.}"
 
-Rest of the document considered health warnings such as epilepsy and past accidents. Next participants were asked to complete the Questionnaire described above and sign the Consent form. Once that was done they were told once again what is their task, how to control the vehicles and what the next phase will look like. Eventually the main part of the experiment commenced. It consisted of consecutive phases as described it table \ref{table:minutes_table}.
+Rest of the document considered health warnings such as epilepsy and past accidents. Next, participants were asked to complete the Questionnaire described above and sign the Consent form. Once that was done they were told once again what is their task, how to control the vehicles and what the next phase will look like. Eventually the main part of the experiment commenced. It consisted of consecutive phases as described it table \ref{table:minutes_table}.
 
 
 \begin{table}[h]
@@ -659,7 +848,7 @@ After the main part of the experiment finished, participants were debriefed and 
 
 \subsection{Experiment results}
 
-
+...another sentence here
 The analysis of the data could be divided into two parts. First one is dedicated to finding patterns, observing dependencies and evaluating particular group and participants. Second one proposes a range of hypotheses which were consequently tested with proposed methods against the data collected. The discussion of the results was placed in next chapter.
 
 ***DRAFT***
