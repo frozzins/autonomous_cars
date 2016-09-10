@@ -42,6 +42,14 @@ Quigley, M., Conley, K., Gerkey, B., Faust, J., Foote, T., Leibs, J., Wheeler,
   open-source robot operating system, {\em in} `ICRA workshop on open source
   software', Vol.~3, Kobe, Japan, p.~5.
 
+\harvarditem[Rajkumar et~al.]{Rajkumar, Gagliardi \harvardand\
+  Sha}{1995}{rajkumar1995real}
+Rajkumar, R., Gagliardi, M. \harvardand\ Sha, L.  \harvardyearleft
+  1995\harvardyearright , The real-time publisher/subscriber inter-process
+  communication model for distributed real-time systems: design and
+  implementation, {\em in} `Real-Time Technology and Applications Symposium,
+  1995. Proceedings', IEEE, pp.~66--75.
+
 \harvarditem{Risser}{1985}{risser1985behavior}
 Risser, R.  \harvardyearleft 1985\harvardyearright , `Behavior in traffic
   conflict situations', {\em Accident Analysis \& Prevention} {\bf

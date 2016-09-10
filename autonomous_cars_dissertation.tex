@@ -795,26 +795,9 @@ gipps graph here. reference to book or paper?
 
 \subsection{Communication between machines}
 
-One of the key factors contributing to the successful conductance of the experiment was reliable communication between machines. Possible network solutions were already considered at the begging of the project and had significant impact on the choice of primary development environment. Although the exchange of data was one of undependable parts of the project, the way in which communication was established was irrelevant from the point of view of the rest of the software. The network solution was only suppose to meet certain requirements derived from the experiment design. After reviewing possible ways of implementation, it was decided to use Robot Operating System which was included in MATLAB's Robotics System Toolbox. Although main intention of ROS was to function as a framework for developing robotics software, it also featured structured communication solution \citep{quigley2009ros}. From the point of view of the project, ROS could provide reliable, simple to use way of exchanging data. The initial idea was to create one topic for car's location and orientation and another one for orders from participants (Figure~\ref{fig:ros_initial_idea}). To justify this approach a small game that was exercising almost exactly the same design principle was created. Performance of the game proved to be satisfactory and the project carried on using this solution. 
+One of the key factors contributing to the successful conductance of the experiment was reliable communication between machines. Possible network solutions were considered already at the begging of the project and had significant impact on the choice of primary development environment. Although the exchange of data was one of undependable parts of the project, the way in which communication was established was irrelevant from the point of view of the rest of the software. The network solution was only suppose to meet certain requirements derived from the experiment design. After reviewing possible ways of implementation, it was decided to use Robot Operating System which was included in MATLAB's Robotics System Toolbox. Although main intention of ROS was to function as a framework for developing robotics software, it also featured structured communication solution \citep{quigley2009ros}. From the point of view of the project, ROS could provide reliable, simple to use way of exchanging data. The initial idea was to create one topic for car's location and orientation and another one for orders from participants (Figure~\ref{fig:ros_initial_idea}). To justify this approach a small game that was exercising almost exactly the same design principle was created. Performance of the game proved to be satisfactory and the project carried on using this solution. 
 However, as the implementation was progressing and tests with multiple clients started, it turned out that subscribing and publishing to the topics takes excessive amount of time and it will be impossible to serve multiple machines and maintain sensible frame rate (which was 20 FPS at that time). In the search for alternative solution other type of ROS communication mechanism was tried which were Services. However, this approach proved to be ineffective too. After further search new idea of using User Datagram Protocol emerged. MATLAB provided simple way to establish communication using UDP which proved to be distinctly faster from original idea. Sending 100 bytes of data as a single string lasted around $0.2\:ms$ while receiving took about $3\:ms$. 
-In the final network solution UDP was used in conjunction with ROS. UDP provided fast way to send and receive data while ROS allowed to: execute code at fixed rate, synchronize multiple machines to Server's clock and manage overruns if code execution took too long. To 	mitigate the amount of receiving done by the Server, an additional entity called Communication Agent was created. This piece of software running on separate machine was responsible for aggregating inputs from all clients, combining them together into one string and sending to Server. The main behind this solution was that receiving one long message took less time than receiving multiple short ones.  
-
- Figure[] shows what final communication solution looked like.
-
-
-However, using solely UDP caused problems 
-
-
-Yet again this way of 
-
-
-Another thing tried was 
-
-
-
-For the purpose of 
-
-The initial tests
+In the final network solution UDP was used in conjunction with ROS. UDP provided fast way to send and receive data while ROS allowed to: execute code at fixed rate, synchronize multiple machines to Server's clock and manage overruns if code execution took too long. To 	mitigate the amount of receiving done by the Server, an additional entity called Communication Agent was created. This piece of software running on separate machine was responsible for aggregating inputs from all clients, combining them together into one string and sending to Server. The main reason behind this solution was that receiving one long message took less time than receiving multiple short ones. Figure~\ref{fig:ros_final} shows what final communication solution looked like. In tests and during the experiment it proved reliable and easy to use although with some limitations.
 
 \begin{figure}[!] % Example image
 \center{\includegraphics[width=1\linewidth]{materials/research_methodology/ros_initial_idea.png}}
@@ -823,51 +806,19 @@ The initial tests
 \end{figure} 
 
 
-%ros_initial_idea.png
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/ros_final.png}}
+\caption{Final communication solution used in the project. A combination of UDP and ROS allowed to have reliable, synchronous exchange of data}
+\label{fig:ros_final}
+\end{figure} 
 
 
 
- in form of point
 
-kind of Inter-process communication
-
-say about heaving objective similar to the whole software such as: portability, effiency, scalability.. ble ble ble
+The way in which data exchange was implemented was a type of Inter-process communication. According to \citet{rajkumar1995real} this is a considerably challenging task which is often underestimated. Among all objectives that should be met by this kind of  software, the most essential ones are probably reliability and scalability. In the case of this implementation it can be said that communication was very reliable however not fully scalable as the frame rate was decreasing if there were more than 7 clients at the same time \citep{rajkumar1995real}.
 
 
-Using Robot Operating System was considered 
-
-MATLAB Robotic Systems Toolbox
-
-
-The fact that MATLAB 
-
-
-The fact that MATLAB 
-
-
- for all applications within the project. 
-
-Already 
-
-
-The 
-
-Arriving to the final network solution 
-
-
-Transport layer is UDP
-
-
-
-***DRAFT***
-
-From one point of view this a tightly coupled with software development but the way
-communication was established doesn’t matter from the point of view of software structure.
-Simply speaking the comms should only meet some requirements derived from
-the main piece of software and the details of implementation doesn’t matter. This was
-a significant part of the job and its an achievement on its own.
-
-\subsection{Autonomous Car algorithm and comparison with human-driven Car}
+\subsection{Autonomous Car algorithm MAYBE: and comparison with human-driven Car}
 
 ***DRAFT***
 

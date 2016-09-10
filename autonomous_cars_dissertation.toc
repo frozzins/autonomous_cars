@@ -34,13 +34,13 @@
 \contentsline {paragraph}{Harvesting inputs form participants}{26}
 \contentsline {subsubsection}{\numberline {3.2.5}Human-driven Car control}{26}
 \contentsline {subsection}{\numberline {3.3}Communication between machines}{28}
-\contentsline {subsection}{\numberline {3.4}Autonomous Car algorithm and comparison with human-driven Car}{30}
+\contentsline {subsection}{\numberline {3.4}Autonomous Car algorithm MAYBE: and comparison with human-driven Car}{31}
 \contentsline {section}{\numberline {4}Findings and results}{31}
-\contentsline {subsection}{\numberline {4.1}Experiment execution}{31}
-\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{31}
+\contentsline {subsection}{\numberline {4.1}Experiment execution}{32}
+\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{32}
 \contentsline {subsubsection}{\numberline {4.1.2}Minutes}{32}
-\contentsline {subsection}{\numberline {4.2}Experiment results}{33}
-\contentsline {subsubsection}{\numberline {4.2.1}Observations}{34}
+\contentsline {subsection}{\numberline {4.2}Experiment results}{34}
+\contentsline {subsubsection}{\numberline {4.2.1}Observations}{35}
 \contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{41}
 \contentsline {paragraph}{Method of analysis}{41}
 \contentsline {paragraph}{Findings}{41}

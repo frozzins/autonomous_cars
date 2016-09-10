@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  10 SEP 2016 18:24
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  10 SEP 2016 19:25
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -1016,35 +1016,40 @@ File: materials/research_methodology/gipps.eps Graphic file (type eps)
 <materials/research_methodology/gipps.eps> [27] [28]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 819.
+               Default added (so using `!tbp') on input line 802.
 
 File: materials/research_methodology/ros_initial_idea.png Graphic file (type QT
 m)
-<use  "materials/research_methodology/ros_initial_idea.png" > [29] [30]
-[31]
-Overfull \hbox (26.92137pt too wide) in paragraph at lines 943--958
+<use  "materials/research_methodology/ros_initial_idea.png" >
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 809.
+
+File: materials/research_methodology/ros_final.png Graphic file (type QTm)
+<use  "materials/research_methodology/ros_final.png" >
+Overfull \hbox (5.02895pt too wide) in paragraph at lines 821--821
+[]\EU1/Arial(0)/bx/n/12 Autonomous Car algorithm MAYBE: and comparison with hum
+an-driven
+ []
+
+[29] [30] [31] [32]
+Overfull \hbox (26.92137pt too wide) in paragraph at lines 894--909
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[32]
-Overfull \hbox (16.83392pt too wide) in paragraph at lines 976--978
+[33]
+Overfull \hbox (16.83392pt too wide) in paragraph at lines 927--929
 \EU1/Arial(0)/m/n/10.95 larities could be potentially found. On average partici
 pants changed acceleration/deceleration
  []
 
 File: materials/findings_and_results/sample_snapshot2.png Graphic file (type QT
 m)
-<use  "materials/findings_and_results/sample_snapshot2.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[33]
+<use  "materials/findings_and_results/sample_snapshot2.png" > [34]
 File: materials/findings_and_results/deceleration_scenario_1_group_1.eps Graphi
 c file (type eps)
- <materials/findings_and_results/deceleration_scenario_1_group_1.eps>
+
+<materials/findings_and_results/deceleration_scenario_1_group_1.eps>
 Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;" at 9.0pt
  -> C:/WINDOWS/Fonts/arial.ttf
 File: materials/findings_and_results/deceleration_scenario_2_group_1.eps Graphi
@@ -1054,69 +1059,72 @@ c file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34] [35]
+[35]
 File: materials/findings_and_results/collisions_total.eps Graphic file (type ep
 s)
  <materials/findings_and_results/collisions_total.eps>
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1056.
+               Default added (so using `tbp') on input line 1007.
 
 
-Overfull \hbox (41.9957pt too wide) in paragraph at lines 1058--1076
+Overfull \hbox (41.9957pt too wide) in paragraph at lines 1009--1027
  [][] 
  []
 
 [36] [37]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1096.
+               Default added (so using `!tbp') on input line 1047.
 
 File: materials/findings_and_results/interactions_example_1v2.eps Graphic file 
 (type eps)
-<materials/findings_and_results/interactions_example_1v2.eps>
+<materials/findings_and_results/interactions_example_1v2.eps> [38] [39]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1111.
+               Default added (so using `!tbp') on input line 1062.
 
 File: materials/findings_and_results/interactions_example_2.eps Graphic file (t
 ype eps)
-<materials/findings_and_results/interactions_example_2.eps> [38] [39] [40]
+<materials/findings_and_results/interactions_example_2.eps> [40]
 Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 95pt
  -> C:/WINDOWS/Fonts/arialbi.ttf
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1185.
+               Default added (so using `tbp') on input line 1136.
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 1191--1191
+Underfull \hbox (badness 5711) in paragraph at lines 1142--1142
 []|\EU1/Arial(0)/m/n/10.95 Participants improving their skills
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 1191--1191
+Underfull \hbox (badness 4995) in paragraph at lines 1142--1142
 \EU1/Arial(0)/m/n/10.95 in vehicle control in consecutive
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1191--1191
+Underfull \hbox (badness 1803) in paragraph at lines 1142--1142
 \EU1/Arial(0)/m/n/10.95 Its influence was ignored in data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1194--1194
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1145
 []|\EU1/Arial(0)/m/n/10.95 The algorithm governing au-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 1194--1194
+Underfull \hbox (badness 6808) in paragraph at lines 1145--1145
 \EU1/Arial(0)/m/n/10.95 tonomous cars allows for large,
  []
 
 [41] [42]
-Overfull \hbox (4.68445pt too wide) in paragraph at lines 1228--1229
+Overfull \hbox (4.68445pt too wide) in paragraph at lines 1179--1180
 \EU1/Arial(0)/m/n/10.95 All interactions can be segregated into 3 different typ
 es: autonomous-autonomous, human-
  []
@@ -1124,30 +1132,30 @@ es: autonomous-autonomous, human-
 [43]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1241.
+               Default added (so using `tbp') on input line 1192.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1257.
+               Default added (so using `!tbp') on input line 1208.
 
 File: materials/findings_and_results/acc_var.eps Graphic file (type eps)
 <materials/findings_and_results/acc_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1264.
+               Default added (so using `!tbp') on input line 1215.
 
 File: materials/findings_and_results/vel_var.eps Graphic file (type eps)
 <materials/findings_and_results/vel_var.eps> [44] [45] [46]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1301.
+               Default added (so using `!tbp') on input line 1252.
 
 File: materials/findings_and_results/acc_autonomous_only_var.eps Graphic file (
 type eps)
 <materials/findings_and_results/acc_autonomous_only_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1308.
+               Default added (so using `!tbp') on input line 1259.
 
 File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
 <materials/findings_and_results/equilibrum.eps> [47]
@@ -1155,12 +1163,16 @@ File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
 Missing character: There is no ^^97 in font Arial/OT:script=latn;language=DFLT;
 mapping=tex-text;!
  [49]) [50]
-(autonomous_cars_dissertation.aux) ) 
+(autonomous_cars_dissertation.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 17632 strings out of 428755
- 340918 string characters out of 3163194
- 484464 words of memory out of 3000000
- 20795 multiletter control sequences out of 15000+200000
+ 17638 strings out of 428755
+ 341062 string characters out of 3163194
+ 484534 words of memory out of 3000000
+ 20800 multiletter control sequences out of 15000+200000
  7293 words of font info for 56 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  48i,18n,61p,10398b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
