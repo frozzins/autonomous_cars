@@ -26,32 +26,32 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{17}
 \contentsline {subsubsection}{\numberline {3.2.2}Software architecture}{18}
 \contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{19}
-\contentsline {paragraph}{Server Graphical Interface}{20}
-\contentsline {paragraph}{Centralized control}{22}
+\contentsline {paragraph}{Server Graphical Interface}{21}
+\contentsline {paragraph}{Centralized control}{21}
 \contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{23}
 \contentsline {paragraph}{Displaying map in view port}{24}
 \contentsline {paragraph}{Harvesting inputs form participants}{25}
-\contentsline {subsubsection}{\numberline {3.2.5}Participant's car control}{25}
-\contentsline {subsection}{\numberline {3.3}Communication between machines}{26}
-\contentsline {subsection}{\numberline {3.4}Autonomous car model}{26}
-\contentsline {section}{\numberline {4}Findings and results}{27}
-\contentsline {subsection}{\numberline {4.1}Experiment execution}{27}
-\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{27}
-\contentsline {subsubsection}{\numberline {4.1.2}Minutes}{28}
-\contentsline {subsection}{\numberline {4.2}Experiment results}{29}
-\contentsline {subsubsection}{\numberline {4.2.1}Observations}{30}
-\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{37}
-\contentsline {paragraph}{Method of analysis}{37}
-\contentsline {paragraph}{Findings}{37}
-\contentsline {paragraph}{Remarks}{39}
-\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed out traffic}{39}
-\contentsline {paragraph}{Method of analysis}{40}
-\contentsline {paragraph}{Findings}{40}
-\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{42}
-\contentsline {paragraph}{Method of analysis}{42}
-\contentsline {paragraph}{Findings}{42}
-\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{44}
-\contentsline {paragraph}{Method of analysis}{44}
-\contentsline {paragraph}{Findings}{44}
-\contentsline {section}{\numberline {5}Discussion(of results)}{44}
-\contentsline {section}{\numberline {6}Conclusions}{45}
+\contentsline {subsubsection}{\numberline {3.2.5}Human-driven Car control}{26}
+\contentsline {subsection}{\numberline {3.3}Communication between machines}{27}
+\contentsline {subsection}{\numberline {3.4}Autonomous Car algorithm and comparison with human-driven Car}{27}
+\contentsline {section}{\numberline {4}Findings and results}{28}
+\contentsline {subsection}{\numberline {4.1}Experiment execution}{29}
+\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{29}
+\contentsline {subsubsection}{\numberline {4.1.2}Minutes}{29}
+\contentsline {subsection}{\numberline {4.2}Experiment results}{31}
+\contentsline {subsubsection}{\numberline {4.2.1}Observations}{32}
+\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{38}
+\contentsline {paragraph}{Method of analysis}{38}
+\contentsline {paragraph}{Findings}{38}
+\contentsline {paragraph}{Remarks}{40}
+\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed out traffic}{40}
+\contentsline {paragraph}{Method of analysis}{41}
+\contentsline {paragraph}{Findings}{41}
+\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{43}
+\contentsline {paragraph}{Method of analysis}{43}
+\contentsline {paragraph}{Findings}{43}
+\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{45}
+\contentsline {paragraph}{Method of analysis}{45}
+\contentsline {paragraph}{Findings}{45}
+\contentsline {section}{\numberline {5}Discussion(of results)}{45}
+\contentsline {section}{\numberline {6}Conclusions}{46}

@@ -371,6 +371,10 @@ Justify the structure of the project. Why the experiment was a key part. Why thi
 the best option rather than for example use data from some database?...hmmm
 
 \subsection{Experiment design}
+
+***add sth about qualitive/quantive method!
+
+
 The experiment was arguably the most important part of the project. All work done before was aimed at successful conductance of the experiment and all work done after was based on the data collected during the experiment. 
 
 
@@ -531,29 +535,20 @@ All the actions undertaken to ensure most meaningful results
 
 \subsubsection{Environment choice}
 
-Choosing the right environment to develop software was a key decision that had crucial impact on all components of the project. 
+Choosing the right environment to develop software was a key decision that had crucial impact on all components of the project. After a process of careful consideration it was decided to use MATLAB as a sole development environment for all parts of the project. The initial Project Proposal written by project supervisor, Eddie Wilson suggested using SUMO package as a core of the simulation. It was assumed that a small part of SUMO capabilities would be utilized in combinations with additional software written for the purpose of this project. SUMO features  Traffic Control Interface (TraCI) (\textit{link to website}) that gives access to running simulation. The parameters of the simulation like car's location could be potentially retrieved and manipulated in real-time. The additional software would be responsible for data exchange over the network, visualizing car's surrounding and capturing inputs from experiment participants. Most likely the programming language used for this part would be C++. On the other hand, SUMO was intended for much larger simulations than the one planned. Vast majority of available features would not be used and could rather be a source of potential issues. 
 
-After a process of careful consideration it was decided to use MATLAB as a sole development environment for all parts of the project. 
-
-The initial Project Proposal written by Eddie Wilson suggested using SUMO package as a core of the simulation. It was assumed that a small part of SUMO capabilities would be utilized in combinations with additional software written for the purpose of this project. SUMO features  Traffic Control Interface (TraCI) (\textit{link to website}) that gives access to running simulation. The parameters of the simulation like car's location could be potentially retrieved and manipulated in real-time. The additional software would be responsible for data exchange over the network, visualizing car's surrounding and capturing inputs from experiment participants. Most likely the programming language used for this part would be C++.
-
-
-On the other hand, SUMO was intended for much larger simulations than the one planned. Vast majority of available features would not be used and could rather be a source of potential issues. 
-
-A competing idea was to create a tailored application that would be inspired by the structure of SUMO but would be written from scratch. It would be implemented using C++ or MATLAB environment. The main benefit of this approach would be full control of the software behaviour. The main drawback would be rewriting algorithms and structure that already existed inside SUMO. 
-
-In terms of subjective software preference MATLAB was considered most familiar and least error prone.  
+A competing idea was to create a tailored application that would be inspired by the structure of SUMO but would be written from scratch. It would be implemented using C++ or MATLAB environment. The main benefit of this approach would be full control of the software behaviour. The main drawback would be rewriting algorithms and structure that already existed inside SUMO. In terms of subjective software preference MATLAB was considered most familiar and least error prone.  
 
 Another key question that had large impact on the decision was how to establish reliable communication between machines. 
 It was found that MATLAB supports at least three possible ways of communication that could be used in the project including User Datagram Protocol (UDP), Transmission Control Protocol (TCPIP) and Robot Operating System. This was the main reason why MATLAB was eventually chose for this project.
 Details of the implementation of computer-to-computer communication are described in the chapter "Communication between machines".
 
 \subsubsection{Software architecture}
+(present tense here..?)
 
+The software in the project consists of three  main parts. The most important one is Simulation Server Application. It is responsible for all data processing that is essential for the simulation. The second piece of software is Simulation Client Application. Each participant used an identical copy of Simulation Client Application to receive information about car's surroundings and send acceleration and direction orders to the server. Last part of the software is Communication Agent which was responsible for aggregating information from all clients and sending it to the server. It's existence was dictated by the requirements of network solution described in further chapters. Server, Agent and all Clients' applications were running on separate machines.
 
-The software in the project consists of three  main parts. The most important one is Simulation Server Application. It is responsible for all data processing that is essential for the simulation. The second piece of software is Simulation Client Application. Each participant used an identical copy of Simulation Client Application to receive information about car's surroundings and send acceleration and direction orders to the server. Last part of the software is Communication Agent which was responsible for aggregating information from all clients and sending it to the server. It's existence was dictated by the requirements of network solution described in further chapters.
-
-Main part of the simulation was main loop that was executing at fixed rate of 16 Hz. All parts of simulation were synchronized according to master clock. The simplified sequence of events across all applications is described in Table~\ref{table:simple_events}.
+Main part of the simulation was main loop that was executing at fixed rate of 16 Hz. All machines used in experiment were synchronized according to Server's clock. The simplified sequence of events across all applications is described in Table~\ref{table:simple_events}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
@@ -572,15 +567,15 @@ Main part of the simulation was main loop that was executing at fixed rate of 16
 \multicolumn{1}{|c|}{\textbf{Simulation Server Application}}     & \multicolumn{1}{c|}{\textbf{Communication Agent}}  & \multicolumn{1}{c|}{\textbf{Client(s) Application}} \\ \hline
 Starting ROS Core and opening UDP ports for Clients and Agent    & Connecting to ROS node and opening UDP ports       & Connecting to ROS node and opening UDP ports        \\ \hline
 Setting up simulation parameters                                 & Listening to instructions from Server...           & Listening to instructions from Server...            \\ \hline
-Sending configuration messages for Clients                       & Listening to instructions from Server...           & Receiving configuration messages from Server        \\ \hline
-Sending start order and starting main loop                       & Starting main loop                                 & Starting main loop                                  \\ \hline
+Sending configuration messages to Clients                       & Listening to instructions from Server...           & Receiving configuration messages from Server        \\ \hline
+Sending start order to Clients and Agents. Starting main loop                       & Starting main loop                                 & Starting main loop                                  \\ \hline
 \multicolumn{3}{|c|}{\textbf{Main loop}}                                                                                                                                    \\ \hline
 Sending individual messages to each Client                       & Sending combined orders from all clients to Server & Sending order to Agent                              \\ \hline
 Receiving combined orders from Agent                             & Trying to receive from every client one by one     & Receiving my location and vehicles' around me       \\ \hline
 Performing all calculations for clients, map and autonomous cars & Combining orders from all client to one message    & Performing calculation and drawing map in viewport  \\ \hline
 \textit{Waiting for next loop iteration}                         & \textit{Waiting for next loop iteration}           & \textit{Waiting for next loop iteration}            \\ \hline
 \end{tabular}
-\caption{Simplified order of events across all applications}
+\caption{Simplified order of events across all applications. The order of the events in Agent resulted in one frame delay between giving order by Client and receiving it by Server.}
 \label{table:simple_events}
 \end{table}
 
@@ -598,13 +593,13 @@ Simulation Server Application was at the heart of the simulation. It was respons
 \item Simulation - Only one object of this, essential class existed throughout entire simulation. The most important methods were accountable for establishing communication, importing parameters and running main simulation loop.
 \item Map - Single Map object was created by Simulation. Among other things it contained all information regarding road layout, references to all vehicles, relations between them and future predictions. 
 \item Car - Base class intended to derive other classes from it. It contained features common for both types of vehicles such as velocity and distance calculations and Gipps model.
-\item Car human driven - Derived from Car class. It contained additional attributes specific to human-driver but only basic methods as most of essential computation was happening among Map class.
-\item Car autonomous - the Intelligent Driver Model and all decision making contained within this class. It was receiving limited information about car surrounding from Map object.
-\item Participant - additional class crated to separate orders received from participants from car's logic
+\item Car human driven - Derived from Car class. It contained additional attributes specific to human-driver but only basic methods as most of essential computation was happening within Map class.
+\item Car autonomous - The Intelligent Driver Model and decision making algorithm were encapsulated within this class. It was receiving limited information about car surrounding from Map object.
+\item Participant - Additional class crated to separate orders received from participants from car's logic.
 \end{itemize}
 
 
-The sequence of events in the main loop of the simulation was as shown in Table~\ref{table:order_server}. While Simulation object hold supervision role over whole process, the Map object was responsible for the majority of tasks. Once Simulation received information from Agent and passed it to Map most commands were called on the basis of Simulation object asking Map object to do certain things and return some value which was then passed to e.g. Autonomous Car. 
+The sequence of events in the main loop of the simulation was as shown in Table~\ref{table:order_server}. While Simulation object hold supervision role over whole process, the Map object was responsible for the majority of tasks. Once Simulation received information from Agent application and passed it to Map, most commands were called on the basis of Simulation object asking Map object to do certain things and return some value which was then passed to e.g. Autonomous Car. 
 An additional feature of Map class was an ability to create large raster images of whole track. These images were later used by Client Application.
 
 
@@ -639,7 +634,7 @@ An additional feature of Map class was an ability to create large raster images 
 \paragraph{Server Graphical Interface}
 
 
-In order to simplify simulation control and supervise simulation status a server-side graphical interface was created. It's two main functions were displaying position of each car on the map and setting up each scenario in an easy manner. Figure~\ref{fig:master_gui_small} shows top down view of the whole map available in the GUI. Interface allowed to start ROS node, open UDP ports, choose number of car of each type, choose map, send configuration message and start or stop simulation. 
+In order to simplify simulation control and supervise simulation status a server-side graphical interface was created. It's two main functions were displaying position of each car on the map and setting up each scenario configuration. Figure~\ref{fig:master_gui_small} shows top down view of the whole map available in the GUI. The interface capabilities were allowing to start ROS node, open UDP ports, choose number of cars of each type, choose map, send configuration messages to other parties and start or stop simulation. 
 
 \begin{figure}[!] % Example image
 \center{\includegraphics[width=0.7\linewidth]{materials/research_methodology/master_gui_small.png}}
@@ -652,21 +647,21 @@ In order to simplify simulation control and supervise simulation status a server
 \paragraph{Centralized control}
 
 
-Running synchronized processes on multiple machines was a significant challenge and a source of potential problems. While the details of network communication are described later additional measures were taken to simplify simulation management. The messages send between machines were always in the form of formatted strings. Throughout entire simulation Clients and Agent were always listening to messages broadcast from Server. This allowed to manage the simulation from Server without any additional configuration on each single computer. There were two basic types of messages: configuration messages starting with letter 'c' and current simulation messages starting with letter 'm'.
-Configuration messages were usually sent outside of the main loop and contained informations about next simulation session such as map size, map name, initial location of vehicle. these message were also used to start or stop the simulation. To identify the message the first letter was followed by 3-digit code that was understandable for both parties. An example of map size configuration message is shown below.
+Running synchronized processes on multiple machines was a significant challenge and a source of potential problems. While the details of network communication are described later, additional, high-level measures were taken to simplify simulation management. The messages send between machines were always in the form of formatted strings. Throughout entire simulation Clients and Agent were always listening to messages broadcast from Server. This allowed to manage the simulation from Server without any additional configuration on each single computer. There were two basic types of messages: configuration messages starting with letter 'c' and current simulation messages starting with letter 'm'.
+Configuration messages were usually sent outside of the main loop and contained informations about next simulation session such as map size, map name, initial location of vehicle. These message were also used to start or stop the simulation. To identify the message the first letter was followed by 3-digit code that was understandable for both parties. An example of map size configuration message is shown below.
 
 \begin{equation}
 c \quad 108 \quad 0 \quad 360 \quad 0 \quad 260
 \end{equation}
 
 First number 108 meant that map size is being sent. Rest of the message was then interpreted as x and y dimensions of the current map.
-Current simulation messages were often more complicated. Below is an example of message send from master to client. 
+Current simulation messages were often more complicated. Below is an example of message send from master to client in running simulation. 
  
 \begin{equation}
 m \quad 124.56 \quad 189.70 \quad 43.1 \quad 10.8 \quad 1 \quad 2 \quad 141.5 \quad 164.9  \quad 56.2 \quad 135.5 \quad 150.4  \quad 66.8
 \end{equation}
 
-First 3 numbers meant car's location and orientation. Next two numbers indicated current speed to be displayed on speedometer and binary collision status (Participants were informed when collision occurred). Yet another number indicated how many other cars are in the surrounding and all numbers that followed described these cars' locations and orientations. That data was then used by Client to draw map and all vehicles in the view field. If message was received distorted or incomplete and therefore different from what was expected, it was rejected and values from previous iteration were used.
+First 3 numbers meant car's location and orientation. Next two numbers indicated current speed to be displayed on speedometer and binary collision status (Participants were informed when collision occurred). Yet another number indicated how many other cars are in the surrounding. All numbers that followed described these cars' locations and orientations. That data was then used by Client to draw map and all vehicles in the view field. If message was received distorted or incomplete and therefore different from what was expected, it was rejected and values from previous iteration were used.
 
 
 
@@ -676,13 +671,13 @@ First 3 numbers meant car's location and orientation. Next two numbers indicated
 \subsubsection{Client Application design}
 
 
-Identical copy of Client Application was deployed on  each computer used by experiment participants. Main tasks of Client Application included receiving location and orientation, sending acceleration and turn order, displaying part of the map to the Participant and harvesting inputs from keyboard. Its design consisted of following classes (appendix: class diagram):
+Identical copy of Client Application was deployed on  each computer used by experiment participants. Main tasks of Client Application included receiving location and orientation, sending acceleration and turn order, displaying part of the map to the participant and harvesting inputs from keyboard. Its design consisted of following classes (appendix: class diagram):
 
 \begin{itemize}
 \item Simulation client - Main class. Responsible for communication with Server and Agent and management of whole simulation from client's side. 
 \item Map client - The most important class. Responsible for such essential tasks as displaying the map and cars in GUI
 \item Car client - Relatively simple class containing some essential parameters of the car. 
-\item Participant - Identical to the class used by Simulation Server Application. It contained some attributes that should be separated from Carclient object.
+\item Participant - Identical to the class used by Simulation Server Application. It contained some attributes that should be separated from Car client object.
 \end{itemize}
 
 
@@ -701,15 +696,15 @@ The sequence of events happening at each loop iteration is shown in Table~\ref{t
 6                               & Map client                          & Overlying cars on the map                        \\ \hline
 7                               & Simulation client                   & Waiting for next loop iteration                  \\ \hline
 \end{tabular}
-\caption{Order of events in main simulation loop in Simulation Client.}
+\caption{Order of events in the main simulation loop in Simulation Client.}
 \label{table:clients_events}
 \end{table}
 
 
 \paragraph{Displaying map in view port}
 
-Displaying car's surrounding was one of the main challenges in the implementation of client's application. As discussed earlier the experiment design required showing a top-down view of rectangular area around the car, car itself and all cars contained in the view port. From the beginning of design process two, radically different approaches to achieve this goal were analysed. First idea was to calculate coordinates of each point required to render scene and display the results using one of MATLAB plot functions. This approach would allow for full scalability and could potentially result in appealing map image without visible pixels. On the other hand the amount of calculations could be much greater as not only cars and road were to be computed but also multiple stationary shapes around the road that were suppose to improve the felling of speed (such as trees or houses). 
-The second idea for the representation of view port was to crop and rotate part of the map stored as a large, raster image. The  map image was suppose to be 2 to 5 thousand pixels wide and at each loop iteration a part of it would be cropped and rotated according to current car's location and orientation and then showed on client's GUI. Subsequently all vehicles would be plotted over the image. The main advantage of this approach would be possibility to use complex map image which would be rich in diverse, colourful features. The main drawback would be unattractive, pixelated image as the resolution would be limited. 
+Displaying car's surrounding was one of the main challenges in the implementation of client's application. As discussed earlier, the experiment design required showing a top-down view of a rectangular area around the car together with car itself and all cars contained in the view port. From the beginning of design process two, radically different approaches to achieve this goal were analysed. First idea was to calculate coordinates of each point required to render scene and display the results using one of MATLAB plot functions. This approach would allow for full scalability and could potentially result in appealing map image without visible pixels. On the other hand the amount of calculations could be much greater as not only cars and road were to be computed but also multiple stationary objects around the road that were suppose to improve the felling of speed (such as trees or houses). 
+The second idea for the representation of view port was to crop and rotate part of the map stored as a large, raster image. The  map image was suppose to be 2 to 5 thousand pixels wide and at each loop iteration a part of it would be cropped and rotated according to current car's location and orientation and then showed on client's GUI. Subsequently all vehicles would be plotted over the image. The main advantage of this approach would be a possibility to use complex map image which could be rich in diverse, colourful features. The main drawback would be less nattractive, pixelated image as the resolution would be limited. 
 After initial trials with each approach, second one was chosen for implementation. As it quickly turned out, the main challenge was limited computational power of machines used in experiment. One iteration could not last longer than 0.0625 s and preparing map image was only one of the tasks that had to be executed (the frame rate was limited from 20 FPS in later stages of implementation due to Server Application performance reasons). To overcome this problem a custom function to crop and rotate was written. It was used instead of MATLAB methods \textit{imcrop} and \textit{imrotate}. The backbone of this function was written by project supervisor, Eddie Wilson. It was later adapted according to the requirement of the GUI. 
 Once the cropped image was displayed on the GUI, vehicles were plotted over it using MATLAB \textit{patch} function. The overall performance of this solution was sufficient for the needs of the experiment. It allowed to display images 480 pixels wide and tall with plenty of room left for remaining tasks.
 
@@ -743,16 +738,37 @@ General description Simplifications and yet still accounting for most important 
 the car model
 
 
-\subsubsection{Participant's car control}
+\subsubsection{Human-driven Car model}
 
-The way in which cars were controlled had significant impact on the experiment results. From participant's point of view car's behaviour should be predictable and similar to how real car behaves. The challenge was to achieve this kind of performance using only discreet inputs from keyboard. GUI used by participants was able to capture multiple keys pressed simultaneously, however resulting acceleration order must have been one of the following: speed up, slow down, coast or brake. After analysing relevant literature it was decided that car's behaviour should be similar to one of the cars following models \citep{treiber2013traffic}. From The Gipps' Car Following Model given in \citet{spyropoulou2007simulation} a formula describing acceleration on the basis of current speed was extracted.
+sth...
+
+\subsubsection*{Car control}
+
+The way in which cars were controlled had significant impact on the experiment results. From participant's point of view car's behaviour should be predictable and similar to how real car behaves. The challenge was to achieve this kind of performance using only discreet inputs from keyboard. Graphical interface used by participants allowed to capture multiple keys pressed simultaneously, however resulting acceleration order had to always be one of the following: speed up, slow down, coast or brake. After analysing relevant literature it was decided that car's behaviour should be similar to one of the cars following models \citep{treiber2013traffic}. From The Gipps' Car Following Model given in \citet{spyropoulou2007simulation} a formula describing acceleration on the basis of current speed was extracted.
 
 \begin{equation}
 \dot{v}=2.5a(1- \frac{v}{V})\sqrt{0.025+ \frac{v}{V}}
 \end{equation}
-In the above formula $v$ is current velocity, $\dot{v}$ is acceleration available at current speed, $a$ is acceleration parameter and $V$ is velocity at which car should not be able to accelerate any more.
+In the above equation $v$ is current velocity, $\dot{v}$ is acceleration available at current speed, $a$ is acceleration parameter and $V$ is velocity at which car should not be able to accelerate any more.
+
+Value of $a$ was found empirically to be 5. Figure~\ref{fig:gipps} illustrates how the acceleration value depended on the current velocity. Gipps' model was used only when participant's order was to accelerate (A key). When the order was to slow down (Z key) the applied value of acceleration was $-6.5\:\nicefrac{m}{s^2}$. While coasting the acceleration value was $0$. To imitate car's dissipating energy coming from aerodynamic drag and rolling resistance the calculated value of velocity was brought down by $0.5\%$ in every loop iteration; This principle applied also to autonomous cars. Last available command influencing car's velocity was braking (SPACE bar) which gave an acceleration of $-10\:\nicefrac{m}{s^2}$.
 
 
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=0.9\linewidth]{materials/research_methodology/gipps.eps}}
+\caption{Available acceleration value depending on the current speed.}
+\label{fig:gipps}
+\end{figure} 
+
+As the experiment was dedicated to city traffic the maximum velocity of traditional vehicle was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after X(?) seconds.
+
+
+
+
+
+show speed/time with full acceleration - compared to autonomous car (or maybe put comparison in autonomous car section)
+
+graph of coasting...in time or distance travelled - speed vs time?
 
 
 gave relatively . 
@@ -776,7 +792,7 @@ gipps graph here. reference to book or paper?
 
 %gipps
 
-As the experiment was dedicated to city traffic the maximum velocity was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after X(?) seconds.
+
 
 
 \subsection{Communication between machines}
@@ -789,7 +805,7 @@ Simply speaking the comms should only meet some requirements derived from
 the main piece of software and the details of implementation doesn’t matter. This was
 a significant part of the job and its an achievement on its own.
 
-\subsection{Autonomous car model}
+\subsection{Autonomous Car algorithm and comparison with human-driven Car}
 
 ***DRAFT***
 
@@ -802,6 +818,25 @@ design decisions
 add Examples of autonomous cars behaviours from experiment. 
 
 say about main flaws
+
+
+comparision:
+
+
+kutta:
+velocity/time when acceleration is pressed  - one graph comparing human and autonomous vehicles
+
+
+
+another similar one for breaking - actually two lines for human car(1 types of braking) and one line for autonomous...?? how to establish this
+
+maybe these graphs could be actually not only velocity but also acceleration and distance travelled
+
+
+
+
+seperate chapter for comparrision
+
 
 
 \section{Findings and results}
