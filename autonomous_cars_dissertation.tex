@@ -345,8 +345,10 @@ quick summary of sumo
 \subsection{Experiment design - real world research}
 
 
+\subsection{ROS}
 
 
+write about how wors works mostly
 
 
 %\cite{parkin2016understanding}
@@ -541,7 +543,7 @@ A competing idea was to create a tailored application that would be inspired by 
 
 Another key question that had large impact on the decision was how to establish reliable communication between machines. 
 It was found that MATLAB supports at least three possible ways of communication that could be used in the project including User Datagram Protocol (UDP), Transmission Control Protocol (TCPIP) and Robot Operating System. This was the main reason why MATLAB was eventually chose for this project.
-Details of the implementation of computer-to-computer communication are described in the chapter "Communication between machines".
+Details of the implementation of network communication are described in the chapter "Communication between machines".
 
 \subsubsection{Software architecture}
 (present tense here..?)
@@ -792,6 +794,70 @@ gipps graph here. reference to book or paper?
 
 
 \subsection{Communication between machines}
+
+One of the key factors contributing to the successful conductance of the experiment was reliable communication between machines. Possible network solutions were already considered at the begging of the project and had significant impact on the choice of primary development environment. Although the exchange of data was one of undependable parts of the project, the way in which communication was established was irrelevant from the point of view of the rest of the software. The network solution was only suppose to meet certain requirements derived from the experiment design. After reviewing possible ways of implementation, it was decided to use Robot Operating System which was included in MATLAB's Robotics System Toolbox. Although main intention of ROS was to function as a framework for developing robotics software, it also featured structured communication solution \citep{quigley2009ros}. From the point of view of the project, ROS could provide reliable, simple to use way of exchanging data. The initial idea was to create one topic for car's location and orientation and another one for orders from participants (Figure~\ref{fig:ros_initial_idea}). To justify this approach a small game that was exercising almost exactly the same design principle was created. Performance of the game proved to be satisfactory and the project carried on using this solution. 
+However, as the implementation was progressing and tests with multiple clients started, it turned out that subscribing and publishing to the topics takes excessive amount of time and it will be impossible to serve multiple machines and maintain sensible frame rate (which was 20 FPS at that time). In the search for alternative solution other type of ROS communication mechanism was tried which were Services. However, this approach proved to be ineffective too. After further search new idea of using User Datagram Protocol emerged. MATLAB provided simple way to establish communication using UDP which proved to be distinctly faster from original idea. Sending 100 bytes of data as a single string lasted around $0.2\:ms$ while receiving took about $3\:ms$. 
+In the final network solution UDP was used in conjunction with ROS. UDP provided fast way to send and receive data while ROS allowed to execute code at fixed rate, synchronize multiple machines to Server's clock and manage overruns if code execution took too long. To 	mitigate the amount of receiving done by the Server, an additional entity called Communication Agent was created. This piece of software running on separate machine was responsible for aggregating inputs from all clients, combining them together into one string and sending to Server. The main behind this solution was that receiving one long message took less time than receiving multiple short ones.  
+
+ Figure[] shows what final communication solution looked like.
+
+
+However, using solely UDP caused problems 
+
+
+Yet again this way of 
+
+
+Another thing tried was 
+
+
+
+For the purpose of 
+
+The initial tests
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/ros_initial_idea.png}}
+\caption{Initial idea for establishing communication using ROS nodes and topics. It was considered to have only one pair of topics for all participants or individual pair for each single participant.}
+\label{fig:ros_initial_idea}
+\end{figure} 
+
+
+%ros_initial_idea.png
+
+
+
+ in form of point
+
+kind of Inter-process communication
+
+say about heaving objective similar to the whole software such as: portability, effiency, scalability.. ble ble ble
+
+
+Using Robot Operating System was considered 
+
+MATLAB Robotic Systems Toolbox
+
+
+The fact that MATLAB 
+
+
+The fact that MATLAB 
+
+
+ for all applications within the project. 
+
+Already 
+
+
+The 
+
+Arriving to the final network solution 
+
+
+Transport layer is UDP
+
+
 
 ***DRAFT***
 

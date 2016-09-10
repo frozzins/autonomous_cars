@@ -55,6 +55,17 @@
   Publisher                = {University of the West of England}
 }
 
+@InProceedings{quigley2009ros,
+  Title                    = {ROS: an open-source Robot Operating System},
+  Author                   = {Quigley, Morgan and Conley, Ken and Gerkey, Brian and Faust, Josh and Foote, Tully and Leibs, Jeremy and Wheeler, Rob and Ng, Andrew Y},
+  Booktitle                = {ICRA workshop on open source software},
+  Year                     = {2009},
+  Number                   = {3.2},
+  Organization             = {Kobe, Japan},
+  Pages                    = {5},
+  Volume                   = {3}
+}
+
 @Article{risser1985behavior,
   Title                    = {Behavior in traffic conflict situations},
   Author                   = {Risser, Ralf},

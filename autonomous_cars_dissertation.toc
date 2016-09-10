@@ -16,42 +16,43 @@
 \contentsline {subsection}{\numberline {2.8}SUMO}{9}
 \contentsline {subsection}{\numberline {2.9}Communication between machines - maybe}{10}
 \contentsline {subsection}{\numberline {2.10}Experiment design - real world research}{10}
+\contentsline {subsection}{\numberline {2.11}ROS}{10}
 \contentsline {section}{\numberline {3}Research Methodology}{10}
 \contentsline {subsection}{\numberline {3.1}Experiment design}{10}
 \contentsline {subsubsection}{\numberline {3.1.1}Client's interface}{12}
-\contentsline {paragraph}{Car control using keyboard}{12}
+\contentsline {paragraph}{Car control using keyboard}{13}
 \contentsline {paragraph}{Size of view field}{13}
 \contentsline {subsubsection}{\numberline {3.1.2}Scenarios}{13}
-\contentsline {subsection}{\numberline {3.2}Software development}{16}
-\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{17}
-\contentsline {subsubsection}{\numberline {3.2.2}Software architecture}{18}
+\contentsline {subsection}{\numberline {3.2}Software development}{17}
+\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{18}
+\contentsline {subsubsection}{\numberline {3.2.2}Software architecture}{19}
 \contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{19}
 \contentsline {paragraph}{Server Graphical Interface}{21}
-\contentsline {paragraph}{Centralized control}{21}
-\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{23}
-\contentsline {paragraph}{Displaying map in view port}{24}
-\contentsline {paragraph}{Harvesting inputs form participants}{25}
+\contentsline {paragraph}{Centralized control}{23}
+\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{24}
+\contentsline {paragraph}{Displaying map in view port}{25}
+\contentsline {paragraph}{Harvesting inputs form participants}{26}
 \contentsline {subsubsection}{\numberline {3.2.5}Human-driven Car control}{26}
-\contentsline {subsection}{\numberline {3.3}Communication between machines}{27}
-\contentsline {subsection}{\numberline {3.4}Autonomous Car algorithm and comparison with human-driven Car}{27}
-\contentsline {section}{\numberline {4}Findings and results}{28}
-\contentsline {subsection}{\numberline {4.1}Experiment execution}{29}
-\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{29}
-\contentsline {subsubsection}{\numberline {4.1.2}Minutes}{29}
-\contentsline {subsection}{\numberline {4.2}Experiment results}{31}
-\contentsline {subsubsection}{\numberline {4.2.1}Observations}{32}
-\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{38}
-\contentsline {paragraph}{Method of analysis}{38}
-\contentsline {paragraph}{Findings}{38}
-\contentsline {paragraph}{Remarks}{40}
-\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed out traffic}{40}
+\contentsline {subsection}{\numberline {3.3}Communication between machines}{28}
+\contentsline {subsection}{\numberline {3.4}Autonomous Car algorithm and comparison with human-driven Car}{30}
+\contentsline {section}{\numberline {4}Findings and results}{31}
+\contentsline {subsection}{\numberline {4.1}Experiment execution}{31}
+\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{31}
+\contentsline {subsubsection}{\numberline {4.1.2}Minutes}{32}
+\contentsline {subsection}{\numberline {4.2}Experiment results}{33}
+\contentsline {subsubsection}{\numberline {4.2.1}Observations}{34}
+\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{41}
 \contentsline {paragraph}{Method of analysis}{41}
 \contentsline {paragraph}{Findings}{41}
-\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{43}
-\contentsline {paragraph}{Method of analysis}{43}
-\contentsline {paragraph}{Findings}{43}
-\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{45}
-\contentsline {paragraph}{Method of analysis}{45}
-\contentsline {paragraph}{Findings}{45}
-\contentsline {section}{\numberline {5}Discussion(of results)}{45}
-\contentsline {section}{\numberline {6}Conclusions}{46}
+\contentsline {paragraph}{Remarks}{43}
+\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed out traffic}{43}
+\contentsline {paragraph}{Method of analysis}{44}
+\contentsline {paragraph}{Findings}{44}
+\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{46}
+\contentsline {paragraph}{Method of analysis}{46}
+\contentsline {paragraph}{Findings}{46}
+\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{48}
+\contentsline {paragraph}{Method of analysis}{48}
+\contentsline {paragraph}{Findings}{48}
+\contentsline {section}{\numberline {5}Discussion(of results)}{48}
+\contentsline {section}{\numberline {6}Conclusions}{49}

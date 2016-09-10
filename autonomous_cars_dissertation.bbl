@@ -35,6 +35,13 @@ Parkin, J., Clark, B., Clayton, W., Ricci, M. \harvardand\ Parkhurst, G.
   \harvardyearleft 2016\harvardyearright , `Understanding interactions between
   autonomous vehicles and other road users: A literature review'.
 
+\harvarditem[Quigley et~al.]{Quigley, Conley, Gerkey, Faust, Foote, Leibs,
+  Wheeler \harvardand\ Ng}{2009}{quigley2009ros}
+Quigley, M., Conley, K., Gerkey, B., Faust, J., Foote, T., Leibs, J., Wheeler,
+  R. \harvardand\ Ng, A.~Y.  \harvardyearleft 2009\harvardyearright , Ros: an
+  open-source robot operating system, {\em in} `ICRA workshop on open source
+  software', Vol.~3, Kobe, Japan, p.~5.
+
 \harvarditem{Risser}{1985}{risser1985behavior}
 Risser, R.  \harvardyearleft 1985\harvardyearright , `Behavior in traffic
   conflict situations', {\em Accident Analysis \& Prevention} {\bf

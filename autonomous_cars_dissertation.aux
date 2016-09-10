@@ -32,105 +32,110 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.8}SUMO}{9}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.9}Communication between machines - maybe}{10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.10}Experiment design - real world research}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.11}ROS}{10}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Research Methodology}{10}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Experiment design}{10}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.1}Client's interface}{12}}
-\@writefile{toc}{\contentsline {paragraph}{Car control using keyboard}{12}}
 \citation{summala1998driving}
+\@writefile{toc}{\contentsline {paragraph}{Car control using keyboard}{13}}
 \@writefile{toc}{\contentsline {paragraph}{Size of view field}{13}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.1.2}Scenarios}{13}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Map used in learning scenario. It featured one road exit and one road split. Dimensions are given in meters.}}{14}}
 \newlabel{fig:map_0_arrows}{{1}{14}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Map used in First and Second scenario. It featured figure of eight shape. There were no road splits and cars had to follow each other. Dimensions are given in meters. Covering the whole map at full speed of 15m-s would take 22 seconds. The track was intended for 6 to 10 vehicles.}}{15}}
 \newlabel{fig:map_1_arrows}{{2}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Map used in the third scenario. It featured 2 road splits where drivers could change direction, 2 diagonal intersections,a 3-way intersection and 2 road accesses(?). The total length of all segments was 875 m. Travelling at 15m-s it would take 59 seconds to cover that distance. This was the longest track in the experiment and was designed for 8 to 14 vehicles.}}{16}}
-\newlabel{fig:map_3_arrows}{{3}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Software development}{16}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{17}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Software architecture}{18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Map used in the third scenario. It featured 2 road splits where drivers could change direction, 2 diagonal intersections,a 3-way intersection and 2 road accesses(?). The total length of all segments was 875 m. Travelling at 15m-s it would take 59 seconds to cover that distance. This was the longest track in the experiment and was designed for 8 to 14 vehicles.}}{17}}
+\newlabel{fig:map_3_arrows}{{3}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Software development}{17}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Environment choice}{18}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Software architecture}{19}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.3}Simulation Server Application design}{19}}
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Simplified order of events across all applications. The order of the events in Agent resulted in one frame delay between giving order by Client and receiving it by Server.}}{20}}
 \newlabel{table:simple_events}{{1}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Visualization of current simulation status available via Simulation Server GUI. This example shows third map with 14 autonomous cars.}}{21}}
-\newlabel{fig:master_gui_small}{{4}{21}}
 \@writefile{toc}{\contentsline {paragraph}{Server Graphical Interface}{21}}
-\@writefile{toc}{\contentsline {paragraph}{Centralized control}{21}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Order of events in main simulation loop in Simulation Server.}}{22}}
 \newlabel{table:order_server}{{2}{22}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{23}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Order of events in the main simulation loop in Simulation Client.}}{24}}
-\newlabel{table:clients_events}{{3}{24}}
-\@writefile{toc}{\contentsline {paragraph}{Displaying map in view port}{24}}
-\@writefile{toc}{\contentsline {paragraph}{Harvesting inputs form participants}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Visualization of current simulation status available via Simulation Server GUI. This example shows third map with 14 autonomous cars.}}{23}}
+\newlabel{fig:master_gui_small}{{4}{23}}
+\@writefile{toc}{\contentsline {paragraph}{Centralized control}{23}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.4}Client Application design}{24}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Order of events in the main simulation loop in Simulation Client.}}{25}}
+\newlabel{table:clients_events}{{3}{25}}
+\@writefile{toc}{\contentsline {paragraph}{Displaying map in view port}{25}}
 \citation{treiber2013traffic}
 \citation{spyropoulou2007simulation}
+\@writefile{toc}{\contentsline {paragraph}{Harvesting inputs form participants}{26}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.5}Human-driven Car control}{26}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Available acceleration value depending on the current speed.}}{27}}
 \newlabel{fig:gipps}{{5}{27}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Communication between machines}{27}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Autonomous Car algorithm and comparison with human-driven Car}{27}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Findings and results}{28}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experiment execution}{29}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{29}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Minutes}{29}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces My caption}}{30}}
-\newlabel{table:minutes_table}{{4}{30}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Experiment results}{31}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Group 2, phase 3. A snapshot from simulation playback. Cyan colour represents human-driven cars and green represents autonomous cars. A dark blue rectangle represents the view field for one of the cars.}}{31}}
-\newlabel{fig:sample_snapshot}{{6}{31}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Observations}{32}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Visual representation of decelerations on map used in first and second scenario. Dark blue represents strong deceleration while light yellow represents weak deceleration. The data was averaged over all vehicles including human-driven and autonomous one.}}{33}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Group 1, Scenario 1}}}{33}}
-\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Group 1, Scenario 2}}}{33}}
-\newlabel{fig:decelerations1}{{7}{33}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Questionnaire responses represented against number of collisions caused by each person. It can be observed that self-assessment of driving did not correspond to the number of accidents. (*Own judgement of driving skills on the scale from 1 to 10. **Own judgement of driving style from very careful to very aggressive. Please refer to appendix for details.)}}{34}}
-\newlabel{table:collisions_table}{{5}{34}}
-\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Number of collisions caused by each participant/vehicle in first and second group. (*Humans substituted for autonomous cars in later phases.)}}{35}}
-\newlabel{fig:collisions_total}{{8}{35}}
-\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces An example of interaction between two autonomous vehicles and one human-driven. In 204\textsuperscript {th} second both cars started to brake to avoid collision and came to full stop. Human driver was uncertain of how the other car will behave. Autonomous car, on the other hand calculated collision free passage as other vehicle was not moving and starter to move through the intersection in 208\textsuperscript {th} second. Next, human passed through and another autonomous vehicle afterwards. (Colours indicate current order from Participant.)}}{36}}
-\newlabel{fig:interactions_example_1v2}{{9}{36}}
-\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces An example of interaction at the intersection between two autonomous vehicles coming from different directions. Both cars anticipated collision in 65\textsuperscript {th} second. In line with the algorithm the slower car started to decelerate as much as it was needed to avoid collision. At each time step new time-to-collision was calculated and velocity adjusted accordingly. The faster car's velocity remained constant.}}{37}}
-\newlabel{fig:interactions_example_2}{{10}{37}}
+\citation{quigley2009ros}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Communication between machines}{28}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Initial idea for establishing communication using ROS nodes and topics. It was considered to have only one pair of topics for all participants or individual pair for each single participant.}}{29}}
+\newlabel{fig:ros_initial_idea}{{6}{29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Autonomous Car algorithm and comparison with human-driven Car}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Findings and results}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Experiment execution}{31}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Questionnaire}{31}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}Minutes}{32}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces My caption}}{33}}
+\newlabel{table:minutes_table}{{4}{33}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Experiment results}{33}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Group 2, phase 3. A snapshot from simulation playback. Cyan colour represents human-driven cars and green represents autonomous cars. A dark blue rectangle represents the view field for one of the cars.}}{34}}
+\newlabel{fig:sample_snapshot}{{7}{34}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}Observations}{34}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Visual representation of decelerations on map used in first and second scenario. Dark blue represents strong deceleration while light yellow represents weak deceleration. The data was averaged over all vehicles including human-driven and autonomous one.}}{35}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Group 1, Scenario 1}}}{35}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Group 1, Scenario 2}}}{35}}
+\newlabel{fig:decelerations1}{{8}{35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Number of collisions caused by each participant/vehicle in first and second group. (*Humans substituted for autonomous cars in later phases.)}}{36}}
+\newlabel{fig:collisions_total}{{9}{36}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Questionnaire responses represented against number of collisions caused by each person. It can be observed that self-assessment of driving did not correspond to the number of accidents. (*Own judgement of driving skills on the scale from 1 to 10. **Own judgement of driving style from very careful to very aggressive. Please refer to appendix for details.)}}{37}}
+\newlabel{table:collisions_table}{{5}{37}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces An example of interaction between two autonomous vehicles and one human-driven. In 204\textsuperscript {th} second both cars started to brake to avoid collision and came to full stop. Human driver was uncertain of how the other car will behave. Autonomous car, on the other hand calculated collision free passage as other vehicle was not moving and starter to move through the intersection in 208\textsuperscript {th} second. Next, human passed through and another autonomous vehicle afterwards. (Colours indicate current order from Participant.)}}{39}}
+\newlabel{fig:interactions_example_1v2}{{10}{39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces An example of interaction at the intersection between two autonomous vehicles coming from different directions. Both cars anticipated collision in 65\textsuperscript {th} second. In line with the algorithm the slower car started to decelerate as much as it was needed to avoid collision. At each time step new time-to-collision was calculated and velocity adjusted accordingly. The faster car's velocity remained constant.}}{40}}
+\newlabel{fig:interactions_example_2}{{11}{40}}
 \citation{vangi2007evaluation}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{38}}
-\@writefile{toc}{\contentsline {paragraph}{Method of analysis}{38}}
-\@writefile{toc}{\contentsline {paragraph}{Findings}{38}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Factors affecting number of collisions.}}{39}}
-\newlabel{table:hypothesis1}{{6}{39}}
-\@writefile{toc}{\contentsline {paragraph}{Remarks}{40}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed out traffic}{40}}
-\citation{dixon1957introduction}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Average acceleration and velocity variance calculated separately for 4 participants (who took part in both scenarios) and for all vehicles in particular scenario. In can be seen that speed and acceleration variance for humans did not change much between two scenarios. However, when more autonomous cars were introduced the average variance for whole group dropped significantly.}}{41}}
-\newlabel{table:variance_summary}{{7}{41}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars reduce number of accidents}{41}}
 \@writefile{toc}{\contentsline {paragraph}{Method of analysis}{41}}
 \@writefile{toc}{\contentsline {paragraph}{Findings}{41}}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Acceleration variance values calculated for 4 participants that took part in first and second phase and 1 autonomous car. The obvious observation is that autonomous car's acceleration varies very slightly compared to any human driver. Another observation is that variance dropped for 6 out of 8 participants when autonomous cars were introduced.}}{42}}
-\newlabel{fig:acc_var}{{11}{42}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Velocity variance values calculated for 4 participants that took part in first and second phase and 1 autonomous car. Similar to previous figure the variance values for autonomous cars were lower than those of human. However, for human drivers hardly any pattern is observable between first and second scenario.}}{42}}
-\newlabel{fig:vel_var}{{12}{42}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{43}}
-\@writefile{toc}{\contentsline {paragraph}{Method of analysis}{43}}
-\@writefile{toc}{\contentsline {paragraph}{Findings}{43}}
-\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Variances of acceleration for simulation involving only autonomous cars. The values for each car were multiple times lower than in any trial with human drivers. Additionally cars 1 and 7 travelled with even less interruption. This is probably because their initial placement allowed to reach maximum speed before other vehicles. Consequentially they were always given higher priority at the intersection.}}{44}}
-\newlabel{fig:acc_autonomous_only_var}{{13}{44}}
-\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces }}{44}}
-\newlabel{fig:equilibrum}{{14}{44}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Factors affecting number of collisions.}}{42}}
+\newlabel{table:hypothesis1}{{6}{42}}
+\@writefile{toc}{\contentsline {paragraph}{Remarks}{43}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Autonomous cars smoothed out traffic}{43}}
+\citation{dixon1957introduction}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Average acceleration and velocity variance calculated separately for 4 participants (who took part in both scenarios) and for all vehicles in particular scenario. In can be seen that speed and acceleration variance for humans did not change much between two scenarios. However, when more autonomous cars were introduced the average variance for whole group dropped significantly.}}{44}}
+\newlabel{table:variance_summary}{{7}{44}}
+\@writefile{toc}{\contentsline {paragraph}{Method of analysis}{44}}
+\@writefile{toc}{\contentsline {paragraph}{Findings}{44}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Acceleration variance values calculated for 4 participants that took part in first and second phase and 1 autonomous car. The obvious observation is that autonomous car's acceleration varies very slightly compared to any human driver. Another observation is that variance dropped for 6 out of 8 participants when autonomous cars were introduced.}}{45}}
+\newlabel{fig:acc_var}{{12}{45}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Velocity variance values calculated for 4 participants that took part in first and second phase and 1 autonomous car. Similar to previous figure the variance values for autonomous cars were lower than those of human. However, for human drivers hardly any pattern is observable between first and second scenario.}}{45}}
+\newlabel{fig:vel_var}{{13}{45}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{46}}
+\@writefile{toc}{\contentsline {paragraph}{Method of analysis}{46}}
+\@writefile{toc}{\contentsline {paragraph}{Findings}{46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Variances of acceleration for simulation involving only autonomous cars. The values for each car were multiple times lower than in any trial with human drivers. Additionally cars 1 and 7 travelled with even less interruption. This is probably because their initial placement allowed to reach maximum speed before other vehicles. Consequentially they were always given higher priority at the intersection.}}{47}}
+\newlabel{fig:acc_autonomous_only_var}{{14}{47}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces }}{47}}
+\newlabel{fig:equilibrum}{{15}{47}}
 \bibdata{dissertation_citation_database}
 \bibcite{beymer1997real}{{1}{1997}{{Beymer et~al.}}{{Beymer, McLauchlan, Coifman \&\ Malik}}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{45}}
-\@writefile{toc}{\contentsline {paragraph}{Method of analysis}{45}}
-\@writefile{toc}{\contentsline {paragraph}{Findings}{45}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion(of results)}{45}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.5}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{48}}
+\@writefile{toc}{\contentsline {paragraph}{Method of analysis}{48}}
+\@writefile{toc}{\contentsline {paragraph}{Findings}{48}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion(of results)}{48}}
 \bibcite{dixon1957introduction}{{2}{1957}{{Dixon \&\ Massey~Jr}}{{}}}
 \bibcite{duranton2011fundamental}{{3}{2011}{{Duranton \&\ Turner}}{{}}}
 \bibcite{krajzewicz2002sumo}{{4}{2002}{{Krajzewicz et~al.}}{{Krajzewicz, Hertkorn, R{\"o}ssel \&\ Wagner}}}
 \bibcite{litman2014autonomous}{{5}{2014}{{Litman}}{{}}}
 \bibcite{parkin2016understanding}{{6}{2016}{{Parkin et~al.}}{{Parkin, Clark, Clayton, Ricci \&\ Parkhurst}}}
-\bibcite{risser1985behavior}{{7}{1985}{{Risser}}{{}}}
-\bibcite{sivak2015road}{{8}{2015}{{Sivak \&\ Schoettle}}{{}}}
-\bibcite{spyropoulou2007simulation}{{9}{2007}{{Spyropoulou}}{{}}}
-\bibcite{summala1998driving}{{10}{1998}{{Summala et~al.}}{{Summala, Lamble \&\ Laakso}}}
-\bibcite{treiber2013traffic}{{11}{2013}{{Treiber \&\ Kesting}}{{}}}
-\bibcite{pathwaytodriverless}{{12}{2015}{{UK{\ }Department{\ }of{\ }Transport}}{{}}}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{46}}
-\bibcite{vangi2007evaluation}{{13}{2007}{{Vangi \&\ Virga}}{{}}}
+\bibcite{quigley2009ros}{{7}{2009}{{Quigley et~al.}}{{Quigley, Conley, Gerkey, Faust, Foote, Leibs, Wheeler \&\ Ng}}}
+\bibcite{risser1985behavior}{{8}{1985}{{Risser}}{{}}}
+\bibcite{sivak2015road}{{9}{2015}{{Sivak \&\ Schoettle}}{{}}}
+\bibcite{spyropoulou2007simulation}{{10}{2007}{{Spyropoulou}}{{}}}
+\bibcite{summala1998driving}{{11}{1998}{{Summala et~al.}}{{Summala, Lamble \&\ Laakso}}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusions}{49}}
+\bibcite{treiber2013traffic}{{12}{2013}{{Treiber \&\ Kesting}}{{}}}
+\bibcite{pathwaytodriverless}{{13}{2015}{{UK{\ }Department{\ }of{\ }Transport}}{{}}}
+\bibcite{vangi2007evaluation}{{14}{2007}{{Vangi \&\ Virga}}{{}}}
