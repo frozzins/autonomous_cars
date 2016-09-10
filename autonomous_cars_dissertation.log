@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  10 SEP 2016 14:33
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  10 SEP 2016 14:50
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -1010,16 +1010,16 @@ LaTeX Warning: No positions in optional float specifier.
 [24] [25]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 754.
+               Default added (so using `!tbp') on input line 753.
 
 File: materials/research_methodology/gipps.eps Graphic file (type eps)
 <materials/research_methodology/gipps.eps> [26] [27] [28] [29]
-Overfull \hbox (26.92137pt too wide) in paragraph at lines 873--888
+Overfull \hbox (26.92137pt too wide) in paragraph at lines 877--892
  [][] 
  []
 
 [30]
-Overfull \hbox (16.83392pt too wide) in paragraph at lines 906--908
+Overfull \hbox (16.83392pt too wide) in paragraph at lines 910--912
 \EU1/Arial(0)/m/n/10.95 larities could be potentially found. On average partici
 pants changed acceleration/deceleration
  []
@@ -1049,24 +1049,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 986.
+               Default added (so using `tbp') on input line 990.
 
 
-Overfull \hbox (41.9957pt too wide) in paragraph at lines 988--1006
+Overfull \hbox (41.9957pt too wide) in paragraph at lines 992--1010
  [][] 
  []
 
 [33] [34]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1026.
+               Default added (so using `!tbp') on input line 1030.
 
 File: materials/findings_and_results/interactions_example_1v2.eps Graphic file 
 (type eps)
 <materials/findings_and_results/interactions_example_1v2.eps> [35] [36]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1041.
+               Default added (so using `!tbp') on input line 1045.
 
 File: materials/findings_and_results/interactions_example_2.eps Graphic file (t
 ype eps)
@@ -1077,35 +1077,35 @@ Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1115.
+               Default added (so using `tbp') on input line 1119.
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 1121--1121
+Underfull \hbox (badness 5711) in paragraph at lines 1125--1125
 []|\EU1/Arial(0)/m/n/10.95 Participants improving their skills
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 1121--1121
+Underfull \hbox (badness 4995) in paragraph at lines 1125--1125
 \EU1/Arial(0)/m/n/10.95 in vehicle control in consecutive
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1121--1121
+Underfull \hbox (badness 1803) in paragraph at lines 1125--1125
 \EU1/Arial(0)/m/n/10.95 Its influence was ignored in data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1124
+Underfull \hbox (badness 10000) in paragraph at lines 1128--1128
 []|\EU1/Arial(0)/m/n/10.95 The algorithm governing au-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 1124--1124
+Underfull \hbox (badness 6808) in paragraph at lines 1128--1128
 \EU1/Arial(0)/m/n/10.95 tonomous cars allows for large,
  []
 
 [38] [39]
-Overfull \hbox (4.68445pt too wide) in paragraph at lines 1158--1159
+Overfull \hbox (4.68445pt too wide) in paragraph at lines 1162--1163
 \EU1/Arial(0)/m/n/10.95 All interactions can be segregated into 3 different typ
 es: autonomous-autonomous, human-
  []
@@ -1113,30 +1113,30 @@ es: autonomous-autonomous, human-
 [40]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1171.
+               Default added (so using `tbp') on input line 1175.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1187.
+               Default added (so using `!tbp') on input line 1191.
 
 File: materials/findings_and_results/acc_var.eps Graphic file (type eps)
 <materials/findings_and_results/acc_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1194.
+               Default added (so using `!tbp') on input line 1198.
 
 File: materials/findings_and_results/vel_var.eps Graphic file (type eps)
 <materials/findings_and_results/vel_var.eps> [41] [42] [43]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1231.
+               Default added (so using `!tbp') on input line 1235.
 
 File: materials/findings_and_results/acc_autonomous_only_var.eps Graphic file (
 type eps)
 <materials/findings_and_results/acc_autonomous_only_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1238.
+               Default added (so using `!tbp') on input line 1242.
 
 File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
 <materials/findings_and_results/equilibrum.eps> [44]
