@@ -758,7 +758,7 @@ Value of $a$ was found empirically to be 5. Figure~\ref{fig:gipps} illustrates h
 \label{fig:gipps}
 \end{figure} 
 
-As the experiment was dedicated to city traffic the maximum velocity of traditional vehicle was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after X(?) seconds.
+As the experiment was dedicated to city traffic the maximum velocity of traditional vehicle was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after 11.1 seconds.
 
 
 
@@ -818,38 +818,62 @@ In the final network solution UDP was used in conjunction with ROS. UDP provided
 The way in which data exchange was implemented was a type of Inter-process communication. According to \citet{rajkumar1995real} this is a considerably challenging task which is often underestimated. Among all objectives that should be met by this kind of  software, the most essential ones are probably reliability and scalability. In the case of this implementation it can be said that communication was very reliable however not fully scalable as the frame rate was decreasing if there were more than 7 clients at the same time \citep{rajkumar1995real}.
 
 
-\subsection{Autonomous Car algorithm MAYBE: and comparison with human-driven Car}
+\subsection{Autonomous Car model/algorithm MAYBE: and comparison with human-driven Car}
 
-***DRAFT***
+Creating an adequate self-driving model was one of the key tasks that had very significant impact on the experiment. The requirements of the experiment stated that autonomous cars should be able to travel among traditional vehicles, avoid collisions and follow default route. In order to ensure validity of the results the model should aim to preserve the most essential features of real autonomous vehicles. The challenge was to identify these features and implement them to the possible extent. 
 
+\paragraph{Intelligent Driver Model}
+From the point of view of other traffic participants it would be expected that autonomous car's behaviour was familiar and predictable to some extent \citep{sivak2015road}. In order to ensure such performance in this simulation, the model governing the autonomous car was based on Intelligent Driver Model which is one of the most popular car-following models often utilized in traffic simulations \citep{treiber2013traffic}. The model is described with following formulas:
 
+\begin{equation}
+\dot{v}=a\left[1-\left(\frac{v}{v_0}\right)^{\delta}-\left(\frac{s^{*}\left ( v,\Delta v \right )}{s}\right)^{2}\right]
+\end{equation}
 
-Say why this is important from the point of view of results obtained. Again justify all
-design decisions
-
-
-add Examples of autonomous cars behaviours from experiment. 
-
-say about main flaws
-
-
-comparision:
-
-
-kutta:
-velocity/time when acceleration is pressed  - one graph comparing human and autonomous vehicles
+\begin{equation}
+s^{*}\left ( v,\Delta v \right )=s_0+max\left ( 0,vT+\frac{v\Delta v}{2 \sqrt{ab}} \right )
+\end{equation}
+Where $a$ is maximum acceleration, $v$ is current velocity, $v_0$ is desired velocity if there are no cars ahead, $\delta$ is acceleration exponent (the grater the value, the later the reduction of acceleration when approaching  the desired velocity), $s$ is current distance to the car ahead and  $s^{*}$ is desired distance.
+In the second formula $s_0$ is minimum gap, $T$ is minimum time gap and $b$ is comfortable deceleration. The values of these parameters were taken from \citet{sivak2015road} as typical values for city traffic and altered according to the specificity of this simulation (Table~\ref{table:idm}).
 
 
+\begin{table}[!]
+\centering
+\begin{tabular}{|p{7cm}|p{3cm}|}
+\hline
+\textbf{Parameter}          & \textbf{Value} \\ \hline
+Desired velocity $v$          & $10\:\nicefrac{m}{s}$         \\ \hline
+Time gap $T$                  & $0.8\:s$          \\ \hline
+Minimum gap $s_0$            & $7\:m$            \\ \hline
+Acceleration exponent $\delta$ & $4$              \\ \hline
+Acceleration $a$              & $5\:\nicefrac{m}{s^2}$         \\ \hline
+Comfortable deceleration $b$  & $7\:\nicefrac{m}{s^2}$         \\ \hline
+\end{tabular}
+\caption{My caption}
+\label{table:idm}
+\end{table}
 
-another similar one for breaking - actually two lines for human car(1 types of braking) and one line for autonomous...?? how to establish this
-
-maybe these graphs could be actually not only velocity but also acceleration and distance travelled
+Figure~\ref{fig:super_graph} compares behaviours of autonomous and traditional car. It can be seen that although profiles have fairly similar shape, there are some significant differences. And so, while traditional car's max speed is higher, its acceleration is slower compared self-driving one. Additionally, braking profile of autonomous car is smoother than human-driven one.
 
 
 
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/super_graph.eps}}
+\caption{Behaviour comparison of Autonomous and Human-Driven cars in terms of distance travelled, velocity and acceleration. First section on the left corresponds to both types of vehicles accelerating from zero velocity. Middle section shows coasting when Participant's acceleration is 0 and autonomous car maintains maximum velocity. Section on the right shows Participant slowing down at $-6.5\:\nicefrac{m}{s^2}$ and Autonomous Car detecting stationary object 30 meters ahead.}
+\label{fig:super_graph}
+\end{figure} 
 
-seperate chapter for comparrision
+%super_graph.eps
 
+
+\paragraph{Accounting for traffic coming from different directions} For the purpose of the simulation IDM had to be expanded beyond simple car following. Just as a real autonomous car would do, the model used here observes other traffic participants. For every car in the radius of 60 meters it detects it's current velocity and estimates position from now to 3 seconds ahead. 
+If collision is anticipated, certain parameters of IDM are overwritten. A simplified algorithm governing this behaviour is shown on Figure~\ref{fig:idm_upgrade}. It allowed for smooth, predictable behaviour in almost all situations. 
+
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/idm_upgrade.png}}
+\caption{Algorithm governing the behaviour of autonomous car. It was executed for each car at every time step of the simulation. It allowed for very smooth interactions if another autonomous car was encountered and very cautious ones with human drivers.}
+\label{fig:idm_upgrade}
+\end{figure} 
 
 
 \section{Findings and results}
@@ -941,6 +965,11 @@ Initial choice of parameters measured across data set was different from what di
 \subsubsection{Observations}
 
 some text here
+
+
+
+Say about flaws of autonomous car
+
 
 
 \subsubsection*{Decelerations mapping}
