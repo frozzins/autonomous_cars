@@ -31,12 +31,32 @@
   Publisher                = {American Economic Association}
 }
 
+@InProceedings{kitti2012we,
+  Title                    = {Are we ready for autonomous driving? the kitti vision benchmark suite},
+  Author                   = {Geiger, Andreas and Lenz, Philip and Urtasun, Raquel},
+  Booktitle                = {Computer Vision and Pattern Recognition (CVPR), 2012 IEEE Conference on},
+  Year                     = {2012},
+  Organization             = {IEEE},
+  Pages                    = {3354--3361}
+}
+
 @InProceedings{krajzewicz2002sumo,
   Title                    = {SUMO (Simulation of Urban MObility)-an open-source traffic simulation},
   Author                   = {Krajzewicz, Daniel and Hertkorn, Georg and R{\"o}ssel, Christian and Wagner, Peter},
   Booktitle                = {Proceedings of the 4th Middle East Symposium on Simulation and Modelling (MESM20002)},
   Year                     = {2002},
   Pages                    = {183--187}
+}
+
+@Article{kyriakidis2015public,
+  Title                    = {Public opinion on automated driving: results of an international questionnaire among 5000 respondents},
+  Author                   = {Kyriakidis, Miltos and Happee, Riender and De Winter, JCF},
+  Journal                  = {Transportation research part F: traffic psychology and behaviour},
+  Year                     = {2015},
+  Pages                    = {127--140},
+  Volume                   = {32},
+
+  Publisher                = {Elsevier}
 }
 
 @Article{litman2014autonomous,
