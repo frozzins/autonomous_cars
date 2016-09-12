@@ -1,5 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: autonomous_cars_dissertation.aux
 The style file: agsm.bst
 Database file #1: dissertation_citation_database.bib
+Warning--entry type for "Rub1" isn't style-file defined
+--line 119 of file dissertation_citation_database.bib
 Warning--can't use both volume and number fields in quigley2009ros
-(There was 1 warning)
+(There were 2 warnings)

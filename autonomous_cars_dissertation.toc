@@ -1,80 +1,80 @@
-\contentsline {section}{\numberline {1}Introduction and Motivation}{3}
-\contentsline {subsection}{\numberline {1.1}Driverless Cars Revolution}{3}
-\contentsline {subsubsection}{\numberline {1.1.1}Current development of autonomous cars}{3}
-\contentsline {subsubsection}{\numberline {1.1.2}Views on the future}{4}
-\contentsline {subsubsection}{\numberline {1.1.3}Directions of research in Autonomous Cars}{4}
-\contentsline {subsection}{\numberline {1.2}Implications of Autonomous Cars revolution}{4}
-\contentsline {subsubsection}{\numberline {1.2.1}Implications of autonomous cars revolution(including increased demand)}{4}
-\contentsline {paragraph}{Maximum Capacity Theorem}{5}
-\contentsline {subsubsection}{\numberline {1.2.2}How people will cooperate with autonomous cars, Conflicts, collisions and interactions on the road}{6}
-\contentsline {paragraph}{How people will cooperate with autonomous cars}{6}
-\contentsline {paragraph}{conflicts...}{7}
-\contentsline {subsection}{\numberline {1.3}Main Challenges to bring Autonomous Car to the roads}{7}
-\contentsline {subsubsection}{\numberline {1.3.1}Law regulations on autonomous driving}{7}
-\contentsline {subsubsection}{\numberline {1.3.2}Safety}{7}
-\contentsline {subsubsection}{\numberline {1.3.3}Public acceptance of autonomous driving}{8}
-\contentsline {subsection}{\numberline {1.4}Gap in the research, this project}{8}
-\contentsline {paragraph}{in the research, reasons why the study was carried out, its significance}{8}
-\contentsline {paragraph}{A statement of the problem}{8}
-\contentsline {paragraph}{Statement of research questions, aims and objectives}{8}
-\contentsline {subsection}{\numberline {1.5}Experiment}{9}
-\contentsline {subsubsection}{\numberline {1.5.1}will be tested, how and why}{9}
-\contentsline {subsubsection}{\numberline {1.5.2}Initial requirements}{9}
-\contentsline {subsubsection}{\numberline {1.5.3}Experiment design, real world research}{9}
-\contentsline {subsubsection}{\numberline {1.5.4}How scope was reduced}{9}
-\contentsline {subsection}{\numberline {1.6}Roadmap}{10}
-\contentsline {section}{\numberline {2}Software engineering}{11}
-\contentsline {subsection}{\numberline {2.1}Environment choice}{11}
-\contentsline {paragraph}{Traffic modelling software, (SUMO)}{11}
-\contentsline {paragraph}{ROS}{11}
-\contentsline {paragraph}{else...}{12}
-\contentsline {subsection}{\numberline {2.2}Software architecture}{13}
-\contentsline {subsection}{\numberline {2.3}Simulation Server Application design}{13}
-\contentsline {paragraph}{Server Graphical Interface}{15}
-\contentsline {paragraph}{Centralized control}{15}
-\contentsline {subsection}{\numberline {2.4}Client Application design}{18}
-\contentsline {paragraph}{Displaying map in view port}{18}
-\contentsline {subsection}{\numberline {2.5}Communication between machines}{19}
-\contentsline {section}{\numberline {3}Experimental design}{22}
-\contentsline {paragraph}{Experiment design..}{22}
-\contentsline {paragraph}{traffic parameters}{23}
-\contentsline {subsection}{\numberline {3.1}Scenarios}{24}
-\contentsline {subsubsection}{\numberline {3.1.1}Learning phase}{25}
-\contentsline {subsubsection}{\numberline {3.1.2}Scenario 1}{25}
-\contentsline {subsubsection}{\numberline {3.1.3}Scenario 2}{26}
-\contentsline {subsubsection}{\numberline {3.1.4}Scenario 3}{26}
-\contentsline {subsection}{\numberline {3.2}Client's interface}{27}
-\contentsline {paragraph}{Car control using keyboard}{28}
-\contentsline {paragraph}{Size of view field}{28}
-\contentsline {subsection}{\numberline {3.3}Human Car control}{28}
-\contentsline {subsection}{\numberline {3.4}Modelling car dynamics}{30}
-\contentsline {subsubsection}{\numberline {3.4.1}Car following models}{30}
-\contentsline {subsubsection}{\numberline {3.4.2}Autonomous Car model}{30}
-\contentsline {paragraph}{Intelligent Driver Model}{30}
-\contentsline {paragraph}{Accounting for traffic coming from different directions}{31}
-\contentsline {subsubsection}{\numberline {3.4.3}Comparison with human driver}{31}
-\contentsline {subsection}{\numberline {3.5}Experiment execution}{31}
-\contentsline {subsubsection}{\numberline {3.5.1}Questionnaire}{34}
-\contentsline {subsubsection}{\numberline {3.5.2}Minutes}{35}
-\contentsline {section}{\numberline {4}Experiment results}{35}
-\contentsline {subsection}{\numberline {4.1}Observations}{36}
-\contentsline {subsubsection}{\numberline {4.1.1}Decelerations mapping}{36}
-\contentsline {subsubsection}{\numberline {4.1.2}Evaluation of participants' performance}{37}
-\contentsline {subsubsection}{\numberline {4.1.3}Conflicts resolution}{38}
-\contentsline {subsubsection}{\numberline {4.1.4}Reaction times}{43}
-\contentsline {subsubsection}{\numberline {4.1.5}***other observations..(TO DO)}{43}
-\contentsline {subsection}{\numberline {4.2}Hypotheses}{43}
-\contentsline {subsubsection}{\numberline {4.2.1}Hypothesis: Autonomous cars reduce number of accidents}{43}
-\contentsline {paragraph}{Method of analysis}{43}
-\contentsline {paragraph}{Findings}{45}
-\contentsline {paragraph}{Remarks}{45}
-\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars smoothed out traffic}{45}
-\contentsline {paragraph}{Method of analysis}{46}
-\contentsline {paragraph}{Findings}{46}
-\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{48}
-\contentsline {paragraph}{Method of analysis}{48}
-\contentsline {paragraph}{Findings}{48}
-\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{50}
-\contentsline {paragraph}{Method of analysis}{50}
-\contentsline {paragraph}{Findings}{50}
-\contentsline {section}{\numberline {5}Conclusions}{50}
+\contentsline {section}{\numberline {1}Introduction and Motivation}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Driverless Cars Revolution}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Current development of autonomous cars}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Views on the future}{4}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Directions of research in Autonomous Cars}{4}{subsubsection.1.1.3}
+\contentsline {subsection}{\numberline {1.2}Implications of Autonomous Cars revolution}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Implications of autonomous cars revolution(including increased demand)}{4}{subsubsection.1.2.1}
+\contentsline {paragraph}{Maximum Capacity Theorem}{5}{section*.2}
+\contentsline {subsubsection}{\numberline {1.2.2}How people will cooperate with autonomous cars, Conflicts, collisions and interactions on the road}{6}{subsubsection.1.2.2}
+\contentsline {paragraph}{How people will cooperate with autonomous cars}{6}{section*.3}
+\contentsline {paragraph}{conflicts...}{6}{section*.4}
+\contentsline {subsection}{\numberline {1.3}Main Challenges to bring Autonomous Car to the roads}{7}{subsection.1.3}
+\contentsline {subsubsection}{\numberline {1.3.1}Law regulations on autonomous driving}{7}{subsubsection.1.3.1}
+\contentsline {subsubsection}{\numberline {1.3.2}Safety}{7}{subsubsection.1.3.2}
+\contentsline {subsubsection}{\numberline {1.3.3}Public acceptance of autonomous driving}{7}{subsubsection.1.3.3}
+\contentsline {subsection}{\numberline {1.4}Gap in the research, this project}{8}{subsection.1.4}
+\contentsline {paragraph}{in the research, reasons why the study was carried out, its significance}{8}{section*.5}
+\contentsline {paragraph}{A statement of the problem}{8}{section*.6}
+\contentsline {paragraph}{Statement of research questions, aims and objectives}{8}{section*.7}
+\contentsline {subsection}{\numberline {1.5}Experiment}{9}{subsection.1.5}
+\contentsline {subsubsection}{\numberline {1.5.1}will be tested, how and why}{9}{subsubsection.1.5.1}
+\contentsline {subsubsection}{\numberline {1.5.2}Initial requirements}{9}{subsubsection.1.5.2}
+\contentsline {subsubsection}{\numberline {1.5.3}Experiment design, real world research}{9}{subsubsection.1.5.3}
+\contentsline {subsubsection}{\numberline {1.5.4}How scope was reduced}{9}{subsubsection.1.5.4}
+\contentsline {subsection}{\numberline {1.6}Roadmap}{10}{subsection.1.6}
+\contentsline {section}{\numberline {2}Software engineering}{10}{section.2}
+\contentsline {subsection}{\numberline {2.1}Environment choice}{11}{subsection.2.1}
+\contentsline {paragraph}{Traffic modelling software, (SUMO)}{11}{section*.8}
+\contentsline {paragraph}{ROS}{11}{section*.9}
+\contentsline {paragraph}{else...}{11}{section*.10}
+\contentsline {subsection}{\numberline {2.2}Software architecture}{12}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Simulation Server Application design}{13}{subsection.2.3}
+\contentsline {paragraph}{Server Graphical Interface}{16}{section*.11}
+\contentsline {paragraph}{Centralized control}{16}{section*.12}
+\contentsline {subsection}{\numberline {2.4}Client Application design}{17}{subsection.2.4}
+\contentsline {paragraph}{Displaying map in view port}{18}{section*.13}
+\contentsline {subsection}{\numberline {2.5}Communication between machines}{19}{subsection.2.5}
+\contentsline {section}{\numberline {3}Experimental design}{21}{section.3}
+\contentsline {paragraph}{Experiment design..}{21}{section*.14}
+\contentsline {paragraph}{traffic parameters}{22}{section*.15}
+\contentsline {subsection}{\numberline {3.1}Scenarios}{22}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Learning phase}{24}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Scenario 1}{25}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Scenario 2}{25}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Scenario 3}{25}{subsubsection.3.1.4}
+\contentsline {subsection}{\numberline {3.2}Client's interface}{26}{subsection.3.2}
+\contentsline {paragraph}{Car control using keyboard}{26}{section*.16}
+\contentsline {paragraph}{Size of view field}{27}{section*.17}
+\contentsline {subsection}{\numberline {3.3}Human Car control}{27}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Modelling car dynamics}{28}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Car following models}{28}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Autonomous Car model}{28}{subsubsection.3.4.2}
+\contentsline {paragraph}{Intelligent Driver Model}{28}{section*.18}
+\contentsline {paragraph}{Accounting for traffic coming from different directions}{29}{section*.19}
+\contentsline {subsubsection}{\numberline {3.4.3}Comparison with human driver}{31}{subsubsection.3.4.3}
+\contentsline {subsection}{\numberline {3.5}Experiment execution}{31}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Questionnaire}{31}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Minutes}{33}{subsubsection.3.5.2}
+\contentsline {section}{\numberline {4}Experiment results}{34}{section.4}
+\contentsline {subsection}{\numberline {4.1}Observations}{34}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Decelerations mapping}{35}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Evaluation of participants' performance}{35}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Conflicts resolution}{36}{subsubsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.4}Reaction times}{38}{subsubsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.5}***other observations..(TO DO)}{38}{subsubsection.4.1.5}
+\contentsline {subsection}{\numberline {4.2}Hypotheses}{41}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Hypothesis: Autonomous cars reduce number of accidents}{41}{subsubsection.4.2.1}
+\contentsline {paragraph}{Method of analysis}{41}{section*.20}
+\contentsline {paragraph}{Findings}{42}{section*.21}
+\contentsline {paragraph}{Remarks}{42}{section*.22}
+\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars smoothed out traffic}{42}{subsubsection.4.2.2}
+\contentsline {paragraph}{Method of analysis}{43}{section*.23}
+\contentsline {paragraph}{Findings}{43}{section*.24}
+\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicle}{45}{subsubsection.4.2.3}
+\contentsline {paragraph}{Method of analysis}{45}{section*.25}
+\contentsline {paragraph}{Findings}{45}{section*.26}
+\contentsline {subsubsection}{\numberline {4.2.4}Hypothesis: Interactions were better between two human drivers rather than human and autonomous}{47}{subsubsection.4.2.4}
+\contentsline {paragraph}{Method of analysis}{47}{section*.27}
+\contentsline {paragraph}{Findings}{47}{section*.28}
+\contentsline {section}{\numberline {5}Conclusions}{47}{section.5}
