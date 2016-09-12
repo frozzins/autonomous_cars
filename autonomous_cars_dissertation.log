@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  12 SEP 2016 17:59
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  12 SEP 2016 23:26
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -628,143 +628,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
-
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
-)
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
-)
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
-)
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-)
-\@linkdim=\dimen189
-\Hy@linkcounter=\count150
-\Hy@pagecounter=\count151
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
-)
-\Hy@SavedSpaceFactor=\count152
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count153
-
 (C:\Users\not\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen190
-Requested font "pzdr" at 0.00002pt
-\Fld@menulength=\count154
-\Field@Width=\dimen191
-\Fld@charsize=\dimen192
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count155
-\c@Item=\count156
-\c@Hfootnote=\count157
-)
-
-Package hyperref Message: Driver (autodetected): hxetex.
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hxetex.def"
-File: hxetex.def 2012/11/06 v6.83m Hyperref driver for XeTeX
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-)
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
-Package: stringenc 2011/12/02 v1.10 Convert strings between diff. encodings (HO
-)
-)
-\pdfm@box=\box43
-\c@Hy@AnnotLevel=\count158
-\HyField@AnnotCount=\count159
-\Fld@listcount=\count160
-\c@bookmark@seq@number=\count161
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
-Package rerunfilecheck Info: Feature \pdfmdfivesum is not available
-(rerunfilecheck)             (e.g. pdfTeX or LuaTeX with package `pdftexcmds').
-
-(rerunfilecheck)             Therefore file contents cannot be checked efficien
-tly
-(rerunfilecheck)             and the loading of the package is aborted.
-)
-\Hy@SectionHShift=\skip63
-)
 (C:\Users\not\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count162
+\c@lips@count=\count150
 )
 (C:\Users\not\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip64
-\bibsep=\skip65
+\bibhang=\skip63
+\bibsep=\skip64
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count163
+\c@NAT@ctr=\count151
 )
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
@@ -774,26 +651,60 @@ Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
 )
 
 Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
 
 )) ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count164
+\c@float@type=\count152
 \float@exts=\toks26
-\float@box=\box44
+\float@box=\box43
 \@float@everytoks=\toks27
-\@floatcapt=\box45
+\@floatcapt=\box44
 )
 (C:\Users\not\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
-\wrapoverhang=\dimen193
-\WF@size=\dimen194
-\c@WF@wrappedlines=\count165
-\WF@box=\box46
+\wrapoverhang=\dimen189
+\WF@size=\dimen190
+\c@WF@wrappedlines=\count153
+\WF@box=\box45
 \WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
 )
+
+LaTeX Warning: Unused global option(s):
+    [english].
+
 (autonomous_cars_dissertation.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
@@ -815,10 +726,6 @@ LaTeX Font Info:    Try loading font information for T3+cmr on input line 86.
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
 Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.95p
 t
@@ -920,24 +827,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring OFF on input line 86.
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
-
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
-)
-\c@section@level=\count166
-)
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
-\@outlinefile=\write3
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;" at 
 10.95pt
  -> C:/WINDOWS/Fonts/arial.ttf
@@ -976,10 +865,6 @@ Requested font "cmex8" at 8.0pt
 Requested font "cmex7" at 6.0pt
 Requested font "cmr8" at 8.0pt
 Requested font "cmr6" at 6.0pt
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\se-ascii-print.def"
-File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
-
-)
 [1
 
 ]
@@ -988,442 +873,234 @@ Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;" at 14.4pt
 Requested font "Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 14.4
 pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
-
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
-\tf@toc=\write4
-[1]
+ (autonomous_cars_dissertation.toc
 Requested font "Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.9
 5pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
+ [1]
+Overfull \hbox (0.23071pt too wide) in paragraph at lines 76--76
+ [][] []\EU1/Arial(0)/m/n/10.95 Hypothesis: Interactions were better between tw
+o human drivers rather 
+ []
 
-
-Package natbib Warning: Citation `bworld' on page 2 undefined on input line 146
-.
-
+)
+\tf@toc=\write3
+ [2]
+Requested font "Arial/I/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.9
+5pt
+ -> C:/WINDOWS/Fonts/ariali.ttf
 Requested font "Arial/B/OT:script=latn;language=DFLT;mapping=tex-text;" at 12.0
 pt
  -> C:/WINDOWS/Fonts/arialbd.ttf
-[2]
-Overfull \hbox (286.84694pt too wide) in paragraph at lines 193--195
-\EU1/Arial(0)/m/n/10.95 (http://www.nhtsa.gov/About+NHTSA/Press+Releases/U.S.+D
-epartment+of+Transportation+Releases+Policy+on+Automated+Vehicle+Development),
- []
+ [3]
 
-[3] [4] [5]
-Overfull \hbox (207.4372pt too wide) in paragraph at lines 320--322
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 195.
+
+File: materials/chapter_introduction/volvo.jpg Graphic file (type QTm)
+<use  "materials/chapter_introduction/volvo.jpg" >
+
+Package natbib Warning: Citation `uberpittsburgh' on page 4 undefined on input 
+line 197.
+
+
+Package natbib Warning: Citation `uberpittsburgh' on page 4 undefined on input 
+line 197.
+
+[4] [5] [6] [7]
+Overfull \hbox (207.4372pt too wide) in paragraph at lines 327--329
 []\EU1/Arial(0)/bx/n/10.95 Data Shows Google’s Robot Cars Are Smoother, Safer D
 rivers Than You or I: \EU1/Arial(0)/m/n/10.95 https://www.technologyreview.com/
 s/520746/data-
  []
 
 
-Overfull \hbox (3.75307pt too wide) in paragraph at lines 329--331
+Overfull \hbox (3.75307pt too wide) in paragraph at lines 336--338
 []\EU1/Arial(0)/m/n/10.95 also: https://www.media.volvocars.com/global/en-gb/me
 dia/pressreleases/158276/volvo-
  []
 
-[6]
-Overfull \hbox (5.92107pt too wide) in paragraph at lines 362--364
+[8]
+Overfull \hbox (5.92107pt too wide) in paragraph at lines 369--371
 []\EU1/Arial(0)/m/n/10.95 SHOULD WE REQUIRE LICENSING TESTS AND GRADUATED LICEN
 SING FOR SELF-
  []
 
-[7] [8] [9] [10]
-Requested font "Arial/I/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.9
-5pt
- -> C:/WINDOWS/Fonts/ariali.ttf
- [11] [12]
-Runaway argument?
-{\@firstoffive }\fi . 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.549 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+[9] [10] [11] [12] [13] [14]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 560.
+               Default added (so using `tbp') on input line 572.
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 565--565
+Underfull \hbox (badness 2103) in paragraph at lines 577--577
 []|\EU1/Arial(0)/m/n/10.95 Starting ROS Core and
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 565--565
+Underfull \hbox (badness 5036) in paragraph at lines 577--577
 \EU1/Arial(0)/m/n/10.95 opening UDP ports for
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 566--566
+Underfull \hbox (badness 4416) in paragraph at lines 578--578
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 566--566
+Underfull \hbox (badness 4416) in paragraph at lines 578--578
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 []|\EU1/Arial(0)/m/n/10.95 Sending configuration
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 567--567
+Underfull \hbox (badness 4416) in paragraph at lines 579--579
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 567--567
+Underfull \hbox (badness 10000) in paragraph at lines 579--579
 []|\EU1/Arial(0)/m/n/10.95 Receiving configuration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 []|\EU1/Arial(0)/m/n/10.95 Sending start order to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 568--568
+Underfull \hbox (badness 10000) in paragraph at lines 580--580
 \EU1/Arial(0)/m/n/10.95 Clients and Agents.
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 570--570
+Underfull \hbox (badness 2529) in paragraph at lines 582--582
 []|\EU1/Arial(0)/m/n/10.95 Sending individual mes-
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 571--571
+Underfull \hbox (badness 3724) in paragraph at lines 583--583
 []|\EU1/Arial(0)/m/n/10.95 Receiving combined or-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []|\EU1/Arial(0)/m/n/10.95 Performing all calcula-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 []|\EU1/Arial(0)/m/n/10.95 Performing calculation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 572--572
+Underfull \hbox (badness 10000) in paragraph at lines 584--584
 \EU1/Arial(0)/m/n/10.95 and drawing map in
  []
 
 
-Overfull \hbox (2.7309pt too wide) in paragraph at lines 562--575
+Overfull \hbox (2.7309pt too wide) in paragraph at lines 574--587
  [][] 
  []
 
-Runaway argument?
-{\@firstoffive }\fi . While Simulation object hold supervision role o\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.600 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+[15] [16]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 602.
+               Default added (so using `tbp') on input line 614.
 
 
-Overfull \hbox (4.57596pt too wide) in paragraph at lines 614--614
+Overfull \hbox (4.57596pt too wide) in paragraph at lines 626--626
 []|\EU1/Arial(0)/m/n/10.95 Autonomous
  []
 
-Runaway argument?
-{\@firstoffive }\fi  shows top down view of the whole map available i\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.634 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[13] [14] [15]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 635.
+               Default added (so using `!tbp') on input line 647.
 
 File: materials/research_methodology/master_gui_small.png Graphic file (type QT
 m)
-<use  "materials/research_methodology/master_gui_small.png" > [16]
-Runaway argument?
-{\@firstoffive }\fi . As it can be seen, it was considerably simpler \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.681 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+<use  "materials/research_methodology/master_gui_small.png" > [17] [18]
+[19]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 682.
+               Default added (so using `!tbp') on input line 694.
 
-[17] [18]
-Runaway argument?
-{\@firstoffive }\fi ). To justify this approach a small game that was\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.742 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+[20] [21]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 743.
+               Default added (so using `!tbp') on input line 755.
 
 File: materials/research_methodology/ros_initial_idea.png Graphic file (type QT
 m)
 <use  "materials/research_methodology/ros_initial_idea.png" >
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 750.
+               Default added (so using `!tbp') on input line 762.
 
 File: materials/research_methodology/ros_final.png Graphic file (type QTm)
-<use  "materials/research_methodology/ros_final.png" > [19] [20] [21]
-Runaway argument?
-{\@firstoffive }\fi  show a screen-shot of Participant's interface. 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.789 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+<use  "materials/research_methodology/ros_final.png" > [22] [23] [24]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 791.
+               Default added (so using `tbp') on input line 803.
 
 File: materials/research_methodology/gui_4.png Graphic file (type QTm)
-<use  "materials/research_methodology/gui_4.png" > [22] [23]
-Runaway argument?
-{\@firstoffive }\fi . 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.837 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 839.
-
-File: materials/research_methodology/map_0_arrows.png Graphic file (type QTm)
-<use  "materials/research_methodology/map_0_arrows.png" >
-Runaway argument?
-{\@firstoffive }\fi . The intersection in the middle was uncontrolled\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.850 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+<use  "materials/research_methodology/gui_4.png" > [25] [26]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 851.
 
-File: materials/research_methodology/map_1_arrows.png Graphic file (type QTm)
-<use  "materials/research_methodology/map_1_arrows.png" > [24]
-Runaway argument?
-{\@firstoffive }\fi ) and the total number of cars didn't change. It \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.861 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{\@firstoffive }\fi . The amount of human-controlled cars was equal t\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.866 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-File: materials/research_methodology/map_3_arrows.png Graphic file (type QTm)
-<use  "materials/research_methodology/map_3_arrows.png" > [25]
-Runaway argument?
-{\@firstoffive }\fi ). ***(reference to website for photo used in bac\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.879 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[26]
-Runaway argument?
-{\@firstoffive }\fi . It was assumed that for a driver travelling at \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.888 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{\@firstoffive }\fi  illustrates how the acceleration value depended \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.902 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+File: materials/research_methodology/map_0_arrows.png Graphic file (type QTm)
+<use  "materials/research_methodology/map_0_arrows.png" > [27]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 904.
+               Default added (so using `tbp') on input line 863.
+
+File: materials/research_methodology/map_1_arrows.png Graphic file (type QTm)
+<use  "materials/research_methodology/map_1_arrows.png" > [28]
+File: materials/research_methodology/map_3_arrows.png Graphic file (type QTm)
+
+<use  "materials/research_methodology/map_3_arrows.png" > [29] [30]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 916.
 
 File: materials/research_methodology/gipps.eps Graphic file (type eps)
-<materials/research_methodology/gipps.eps> [27] [28]
-Runaway argument?
-{\@firstoffive }\fi ). 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.967 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+<materials/research_methodology/gipps.eps> [31] [32]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 981.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 969.
-
-Runaway argument?
-{\@firstoffive }\fi . It allowed for smooth, predictable behaviour in\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.989 
-      
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 991.
+               Default added (so using `!tbp') on input line 1003.
 
 File: materials/research_methodology/idm_upgrade.png Graphic file (type QTm)
 <use  "materials/research_methodology/idm_upgrade.png" >
-Runaway argument?
-{\@firstoffive }\fi  compares behaviours of autonomous and traditiona\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1002 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1005.
+               Default added (so using `!tbp') on input line 1017.
 
 File: materials/research_methodology/super_graph.eps Graphic file (type eps)
-<materials/research_methodology/super_graph.eps>
-
-LaTeX Warning: Float too large for page by 18.66695pt on input line 1009.
-
-[29] [30] [31] [32]
-Runaway argument?
-{\@firstoffive }\fi . 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1047 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-
-Overfull \hbox (12.69499pt too wide) in paragraph at lines 1051--1066
+<materials/research_methodology/super_graph.eps> [33] [34] [35] [36]
+Overfull \hbox (12.69499pt too wide) in paragraph at lines 1063--1078
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33]
-Runaway argument?
-{\@firstoffive }\fi  shows a snapshot from simulation playback. 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1092 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 File: materials/findings_and_results/sample_snapshot2.png Graphic file (type QT
 m)
-<use  "materials/findings_and_results/sample_snapshot2.png" >
+<use  "materials/findings_and_results/sample_snapshot2.png" > [37]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Runaway argument?
-{\@firstoffive }\fi . Track was divided into 4-meters-long segments a\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1117 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[34]
 File: materials/findings_and_results/deceleration_scenario_1_group_1.eps Graphi
 c file (type eps)
- <materials/findings_and_results/deceleration_scenario_1_group_1.eps>
+<materials/findings_and_results/deceleration_scenario_1_group_1.eps>
 Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;" at 9.0pt
  -> C:/WINDOWS/Fonts/arial.ttf
 File: materials/findings_and_results/deceleration_scenario_2_group_1.eps Graphi
@@ -1433,18 +1110,7 @@ c file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Runaway argument?
-{\@firstoffive }\fi . Table~\ref {table:collisions_table} shows numbe\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1150 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-[35]
+[38] [39]
 File: materials/findings_and_results/collisions_total.eps Graphic file (type ep
 s)
  <materials/findings_and_results/collisions_total.eps>
@@ -1453,236 +1119,224 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1177.
+               Default added (so using `tbp') on input line 1189.
 
 
-Overfull \hbox (27.76932pt too wide) in paragraph at lines 1179--1197
+Overfull \hbox (27.76932pt too wide) in paragraph at lines 1191--1209
  [][] 
  []
 
-Runaway argument?
-{\@firstoffive }\fi  shows an example of interaction between one huma\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1207 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+[40] [41]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1213.
+               Default added (so using `!tbp') on input line 1225.
 
 File: materials/findings_and_results/interactions_example_1v2.eps Graphic file 
 (type eps)
-<materials/findings_and_results/interactions_example_1v2.eps> [36] [37]
-Runaway argument?
-{\@firstoffive }\fi . When two autonomous cars anticipate collision w\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1220 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+<materials/findings_and_results/interactions_example_1v2.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1228.
+               Default added (so using `!tbp') on input line 1240.
 
 File: materials/findings_and_results/interactions_example_2.eps Graphic file (t
 ype eps)
-<materials/findings_and_results/interactions_example_2.eps> [38] [39] [40]
+<materials/findings_and_results/interactions_example_2.eps> [42] [43] [44]
 Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 95pt
  -> C:/WINDOWS/Fonts/arialbi.ttf
 
-Runaway argument?
-{\@firstoffive }\fi  was created. 
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1301 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1303.
+               Default added (so using `tbp') on input line 1315.
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 1309--1309
+Underfull \hbox (badness 5711) in paragraph at lines 1321--1321
 []|\EU1/Arial(0)/m/n/10.95 Participants improving their skills
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 1309--1309
+Underfull \hbox (badness 4995) in paragraph at lines 1321--1321
 \EU1/Arial(0)/m/n/10.95 in vehicle control in consecutive
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1309--1309
+Underfull \hbox (badness 1803) in paragraph at lines 1321--1321
 \EU1/Arial(0)/m/n/10.95 Its influence was ignored in data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1312--1312
+Underfull \hbox (badness 10000) in paragraph at lines 1324--1324
 []|\EU1/Arial(0)/m/n/10.95 The algorithm governing au-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 1312--1312
+Underfull \hbox (badness 6808) in paragraph at lines 1324--1324
 \EU1/Arial(0)/m/n/10.95 tonomous cars allows for large,
  []
 
-[41]
-Runaway argument?
-{\@firstoffive }\fi . \item Large number of collisions with autonomou\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1340 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+[45] [46] [47]
 
-[42]
-Runaway argument?
-{\@firstoffive }\fi  gives variance values for both groups for first \ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1354 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1371.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1359.
-
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1375.
+               Default added (so using `!tbp') on input line 1387.
 
 File: materials/findings_and_results/acc_var.eps Graphic file (type eps)
 <materials/findings_and_results/acc_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1382.
+               Default added (so using `!tbp') on input line 1394.
 
 File: materials/findings_and_results/vel_var.eps Graphic file (type eps)
-<materials/findings_and_results/vel_var.eps> [43] [44]
-Overfull \hbox (9.53366pt too wide) in paragraph at lines 1399--1399
-[]\EU1/Arial(0)/bx/n/10.95 Hypothesis: Most efficient traffic could be achieved
- with solely autonomous
- []
-
-Runaway argument?
-{\@firstoffive }\fi . Next, it was investigated whether cars reach ve\ETC.
-! Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.1414 
-       
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
+<materials/findings_and_results/vel_var.eps> [48] [49] [50]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1417.
+               Default added (so using `!tbp') on input line 1429.
 
 File: materials/findings_and_results/acc_autonomous_only_var.eps Graphic file (
 type eps)
 <materials/findings_and_results/acc_autonomous_only_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1424.
+               Default added (so using `!tbp') on input line 1436.
 
 File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
-<materials/findings_and_results/equilibrum.eps> [45] [46]
-(autonomous_cars_dissertation.bbl [47]
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
-\EU1/Arial(0)/bx/n/10.95 URL: \EU1/Arial(0)/m/it/10.95 https://www.cbinsights.c
-om/blog/autonomous-driverless-vehicles-
+<materials/findings_and_results/equilibrum.eps> [51]
+(autonomous_cars_dissertation.bbl
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 5.
+
+("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Requested font "[lmmono10-regular]" at 10.95pt
+ -> D:/Program Files (x86)/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular
+.otf
+
+Underfull \hbox (badness 3601) in paragraph at lines 4--7
+[]\EU1/Arial(0)/m/n/10.95 Audi (2016), ‘Audi piloted driving’, $[][][][] [] [] 
+[] [][][] [] [][][][] [] [][][] [] [][][] [] [][][][][] [] [][] [] [][][][][][]
+[][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+[]\EU1/Arial(0)/m/n/10.95 Bloomberg (2016), ‘Fleet Arrives in Pittsburgh This M
+onth’,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+[][][][] [] [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][] [] [][][][
+][][][][] [] [][][][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--21
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][]$\EU1/Arial(0)/m/n/10.95 .
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+[]\EU1/Arial(0)/m/n/10.95 BMW (2016), ‘BMW Connected Drive’, $[][][][] [] [] []
+ [][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+[][][][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][][] [] [][][][][][
+] [] [][][][][][][][][][] [] [][][][][][][][][][][] [] [][][][][][][] [] [][][]
+[]$\EU1/Arial(0)/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+[]\EU1/Arial(0)/m/n/10.95 Mercedes (2016), ‘Mercedes Intelligent Drive Driving 
+Assistance’,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][] [] [][][] [] [][] []
+ [][][][][][][][][][][][][][] [] [][][][][][][][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][]$\EU1/Arial(0)/m/n/10.95 .  [Online; acc
+essed
+ []
+
+[53]
+Underfull \hbox (badness 2573) in paragraph at lines 78--82
+[]\EU1/Arial(0)/m/n/10.95 NHTSA (2013), ‘U.S. Department of Transportation Rele
+ases Policy on Automated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+\EU1/Arial(0)/m/n/10.95 Vehicle Development’, $[][][][] [] [] [] [][][] [] [][]
+[][][] [] [][][] [] [][][][][] [] [][][][][] [] [][][][][] [] [][][][][][][][] 
+[] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+[] [] [][][][][][][][][][][] [] [][] [] [][][][][][][][][][][][][][] [] [][][][
+][][][][] [] [][][][][][] [] [][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 Missing character: There is no ^^97 in font Arial/OT:script=latn;language=DFLT;
 mapping=tex-text;!
-[48])
+[54]
+Missing character: There is no ^^92 in font Arial/OT:script=latn;language=DFLT;
+mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
+[]\EU1/Arial(0)/m/n/10.95 Volvo (2015), ‘Volvo Car Group^^92s first self-drivin
+g Autopilot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
+\EU1/Arial(0)/m/n/10.95 cars test on public roads around Gothenburg’, $[][][][]
+[] [] [] [] [][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--172
+[][][][][] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [
+][][][][] [] [][][][][][][][][][][][][] [] [][][][][][] []
+ []
+
+
+Overfull \hbox (90.16316pt too wide) in paragraph at lines 168--172
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+[][][][][][][][][][][][][][][][][][][][][][][]$\EU1/Arial(0)/m/n/10.95 .
+ []
+
+)
 
 Package natbib Warning: There were undefined citations.
 
+[55] (autonomous_cars_dissertation.aux
 
-! LaTeX Error: \begin{itemize} on input line 1335 ended by \end{document}.
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1566 \end{document}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1566.
-[49]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1566.
- (autonomous_cars_dissertation.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1566.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1566.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1566.
- )
-(\end occurred inside a group at level 1)
-
-### semi simple group (level 1) entered at line 1335 (\begingroup)
-### bottom level
-(\end occurred when \ifx on line 1413 was incomplete)
-(\end occurred when \ifx on line 1353 was incomplete)
-(\end occurred when \ifx on line 1336 was incomplete)
-(\end occurred when \ifx on line 1300 was incomplete)
-(\end occurred when \ifx on line 1219 was incomplete)
-(\end occurred when \ifx on line 1206 was incomplete)
-(\end occurred when \ifx on line 1144 was incomplete)
-(\end occurred when \ifx on line 1116 was incomplete)
-(\end occurred when \ifx on line 1091 was incomplete)
-(\end occurred when \ifx on line 1046 was incomplete)
-(\end occurred when \ifx on line 1001 was incomplete)
-(\end occurred when \ifx on line 988 was incomplete)
-(\end occurred when \ifx on line 966 was incomplete)
-(\end occurred when \ifx on line 901 was incomplete)
-(\end occurred when \ifx on line 887 was incomplete)
-(\end occurred when \ifx on line 878 was incomplete)
-(\end occurred when \ifx on line 865 was incomplete)
-(\end occurred when \ifx on line 860 was incomplete)
-(\end occurred when \ifx on line 848 was incomplete)
-(\end occurred when \ifx on line 836 was incomplete)
-(\end occurred when \ifx on line 788 was incomplete)
-(\end occurred when \ifx on line 739 was incomplete)
-(\end occurred when \ifx on line 680 was incomplete)
-(\end occurred when \ifx on line 633 was incomplete)
-(\end occurred when \ifx on line 599 was incomplete)
-(\end occurred when \ifx on line 548 was incomplete) 
+) ) 
 Here is how much of TeX's memory you used:
- 24131 strings out of 428755
- 434039 string characters out of 3163194
- 589007 words of memory out of 3000000
- 27264 multiletter control sequences out of 15000+200000
- 7653 words of font info for 57 fonts, out of 3000000 for 9000
+ 17807 strings out of 428755
+ 343717 string characters out of 3163194
+ 485088 words of memory out of 3000000
+ 20955 multiletter control sequences out of 15000+200000
+ 7301 words of font info for 57 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
- 48i,18n,61p,10398b,539s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,18n,61p,10398b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (50 pages).
+Output written on autonomous_cars_dissertation.pdf (56 pages).

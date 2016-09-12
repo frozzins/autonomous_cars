@@ -1,5 +1,10 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{{Audi}}{2016}{audi1}
+{Audi}  \harvardyearleft 2016\harvardyearright , `{Audi piloted driving}',
+  \url{http://www.audi.com/com/brand/en/vorsprung_durch_technik/content/2014/10/piloted-driving.html}.
+\newblock [Online; accessed 12-09-2016].
+
 \harvarditem[Beymer et~al.]{Beymer, McLauchlan, Coifman \harvardand\
   Malik}{1997}{beymer1997real}
 Beymer, D., McLauchlan, P., Coifman, B. \harvardand\ Malik, J.
@@ -7,6 +12,23 @@ Beymer, D., McLauchlan, P., Coifman, B. \harvardand\ Malik, J.
   for measuring traffic parameters, {\em in} `Computer Vision and Pattern
   Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on',
   IEEE, pp.~495--501.
+
+\harvarditem{{Bloomberg}}{2016}{uberpittsburgh}
+{Bloomberg}  \harvardyearleft 2016\harvardyearright , `{Fleet Arrives in
+  Pittsburgh This Month}',
+  \url{http://www.bloomberg.com/news/features/2016-08-18/uber-s-first-self-driving-fleet-arrives-in-pittsburgh-this-month-is06r7on}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{{BMW}}{2016}{bmw}
+{BMW}  \harvardyearleft 2016\harvardyearright , `{BMW Connected Drive}',
+  \url{http://www.bmw.com/com/en/insights/technology/connecteddrive/2013/driver_assistance/intelligent_driving.html}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{{CB Insights}}{2016}{33comp}
+{CB Insights}  \harvardyearleft 2016\harvardyearright , `{33 Corporations
+  Working On Autonomous Vehicles}',
+  \url{https://www.cbinsights.com/blog/autonomous-driverless-vehicles-corporations-list/}.
+\newblock [Online; accessed 12-09-2016].
 
 \harvarditem{Dixon \harvardand\ Massey~Jr}{1957}{dixon1957introduction}
 Dixon, W.~J. \harvardand\ Massey~Jr, F.~J.  \harvardyearleft
@@ -17,12 +39,22 @@ Duranton, G. \harvardand\ Turner, M.~A.  \harvardyearleft 2011\harvardyearright
   , `The fundamental law of road congestion: Evidence from us cities', {\em The
   American Economic Review} {\bf 101}(6),~2616--2652.
 
+\harvarditem{Forrest \harvardand\ Konca}{2007}{forrest2007autonomous}
+Forrest, A. \harvardand\ Konca, M.  \harvardyearleft 2007\harvardyearright ,
+  `Autonomous cars and society', {\em Worcester Polytechnic Institute} .
+
 \harvarditem[Geiger et~al.]{Geiger, Lenz \harvardand\
   Urtasun}{2012}{kitti2012we}
 Geiger, A., Lenz, P. \harvardand\ Urtasun, R.  \harvardyearleft
   2012\harvardyearright , Are we ready for autonomous driving? the kitti vision
   benchmark suite, {\em in} `Computer Vision and Pattern Recognition (CVPR),
   2012 IEEE Conference on', IEEE, pp.~3354--3361.
+
+\harvarditem{{Google X}}{2016}{google1}
+{Google X}  \harvardyearleft 2016\harvardyearright , `{Google Self-Driving Car
+  Project}',
+  \url{https://www.cbinsights.com/blog/autonomous-driverless-vehicles-corporations-list/}.
+\newblock [Online; accessed 12-09-2016].
 
 \harvarditem[Krajzewicz et~al.]{Krajzewicz, Hertkorn, R{\"o}ssel \harvardand\
   Wagner}{2002}{krajzewicz2002sumo}
@@ -35,6 +67,18 @@ Krajzewicz, D., Hertkorn, G., R{\"o}ssel, C. \harvardand\ Wagner, P.
 Litman, T.  \harvardyearleft 2014\harvardyearright , `Autonomous vehicle
   implementation predictions', {\em Victoria Transport Policy Institute} {\bf
   28}.
+
+\harvarditem{{Mercedes}}{2016}{mercedes1}
+{Mercedes}  \harvardyearleft 2016\harvardyearright , `{Mercedes Intelligent
+  Drive Driving Assistance}',
+  \url{https://www.mercedes-benz.com/en/mercedes-benz/innovation/with-intelligent-drive-more-comfort-in-road-traffic/}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{NHTSA}{2013}{nhtsa1}
+NHTSA  \harvardyearleft 2013\harvardyearright , `{U.S. Department of
+  Transportation Releases Policy on Automated Vehicle Development}',
+  \url{http://www.nhtsa.gov/About+NHTSA/Press+Releases/U.S.+Department+of+Transportation+Releases+Policy+on+Automated+Vehicle+Development}.
+\newblock [Online; accessed 12-09-2016].
 
 \harvarditem[Parkin et~al.]{Parkin, Clark, Clayton, Ricci \harvardand\
   Parkhurst}{2016}{parkin2016understanding}
@@ -62,10 +106,11 @@ Risser, R.  \harvardyearleft 1985\harvardyearright , `Behavior in traffic
   conflict situations', {\em Accident Analysis \& Prevention} {\bf
   17}(2),~179--197.
 
-\harvarditem{Rubino}{n.d.}{Rub1}
-Rubino, D.  \harvardyearleft n.d.\harvardyearright , `Ie9 for windows phone 7:
-  Adobe flash, demos and development'.
-\newline\harvardurl{https://www.cbinsights.com/blog/autonomous-driverless-vehicles-corporations-list/}
+\harvarditem{SAE}{2013}{sae1}
+SAE  \harvardyearleft 2013\harvardyearright , `{SAE LEVELS OF DRIVING
+  AUTOMATION}',
+  \url{http://cyberlaw.stanford.edu/blog/2013/12/sae-levels-driving-automation}.
+\newblock [Online; accessed 12-09-2016].
 
 \harvarditem{Sivak \harvardand\ Schoettle}{2015}{sivak2015road}
 Sivak, M. \harvardand\ Schoettle, B.  \harvardyearleft 2015\harvardyearright ,
@@ -85,18 +130,44 @@ Summala, H., Lamble, D. \harvardand\ Laakso, M.  \harvardyearleft
   braking when looking at in-car targets', {\em Accident Analysis \&
   Prevention} {\bf 30}(4),~401--407.
 
+\harvarditem{Tesla}{2016{\em a}}{tesla1}
+Tesla  \harvardyearleft 2016{\em a}\harvardyearright , `{Model S Software
+  Version 7.0}',
+  \url{https://www.tesla.com/en_GB/presskit/autopilot?redirect=no}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{{Tesla}}{2016{\em b}}{tesla2}
+{Tesla}  \harvardyearleft 2016{\em b}\harvardyearright , `{Upgrading Autopilot:
+  Seeing the World in Radar}',
+  \url{https://www.tesla.com/en_GB/blog/upgrading-autopilot-seeing-world-radar?redirect=no}.
+\newblock [Online; accessed 12-09-2016].
+
 \harvarditem{Treiber \harvardand\ Kesting}{2013}{treiber2013traffic}
 Treiber, M. \harvardand\ Kesting, A.  \harvardyearleft 2013\harvardyearright ,
   `Traffic flow dynamics', {\em Traffic Flow Dynamics: Data, Models and
   Simulation, Springer-Verlag Berlin Heidelberg} .
 
-\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015}{pathwaytodriverless}
-UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015\harvardyearright ,
-  `The pathway to driverless cars: Summary report and action plan'.
+\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em
+  a}}{pathwaytodriverless2}
+UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
+  a}\harvardyearright , `The pathway to driverless cars: A detailed review of
+  regulations for automated vehicle technologies'.
+
+\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em
+  b}}{pathwaytodriverless}
+UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
+  b}\harvardyearright , `The pathway to driverless cars: Summary report and
+  action plan'.
 
 \harvarditem{Vangi \harvardand\ Virga}{2007}{vangi2007evaluation}
 Vangi, D. \harvardand\ Virga, A.  \harvardyearleft 2007\harvardyearright ,
   `Evaluation of emergency braking deceleration for accident reconstruction',
   {\em Vehicle System Dynamics} {\bf 45}(10),~895--910.
+
+\harvarditem{Volvo}{2015}{volvo1}
+Volvo  \harvardyearleft 2015\harvardyearright , `{Volvo Car Group’s first
+  self-driving Autopilot cars test on public roads around Gothenburg}',
+  \url{https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars-test-on-public-roads-around-gothenburg}.
+\newblock [Online; accessed 12-09-2016].
 
 \end{thebibliography}

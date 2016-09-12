@@ -2,6 +2,15 @@
 % Encoding: Cp1250
 
 
+@Misc{audi1,
+  Title                    = {{Audi piloted driving}},
+
+  Author                   = {{Audi}},
+  HowPublished             = {\url{http://www.audi.com/com/brand/en/vorsprung_durch_technik/content/2014/10/piloted-driving.html}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
+}
+
 @InProceedings{beymer1997real,
   Title                    = {A real-time computer vision system for measuring traffic parameters},
   Author                   = {Beymer, David and McLauchlan, Philip and Coifman, Benjamin and Malik, Jitendra},
@@ -9,6 +18,33 @@
   Year                     = {1997},
   Organization             = {IEEE},
   Pages                    = {495--501}
+}
+
+@Misc{uberpittsburgh,
+  Title                    = {{Fleet Arrives in Pittsburgh This Month}},
+
+  Author                   = {{Bloomberg}},
+  HowPublished             = {\url{http://www.bloomberg.com/news/features/2016-08-18/uber-s-first-self-driving-fleet-arrives-in-pittsburgh-this-month-is06r7on}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
+}
+
+@Misc{bmw,
+  Title                    = {{BMW Connected Drive}},
+
+  Author                   = {{BMW}},
+  HowPublished             = {\url{http://www.bmw.com/com/en/insights/technology/connecteddrive/2013/driver_assistance/intelligent_driving.html}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
+}
+
+@Misc{33comp,
+  Title                    = {{33 Corporations Working On Autonomous Vehicles}},
+
+  Author                   = {{CB Insights}},
+  HowPublished             = {\url{https://www.cbinsights.com/blog/autonomous-driverless-vehicles-corporations-list/}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
 }
 
 @Article{dixon1957introduction,
@@ -31,6 +67,13 @@
   Publisher                = {American Economic Association}
 }
 
+@Article{forrest2007autonomous,
+  Title                    = {Autonomous cars and society},
+  Author                   = {Forrest, Alex and Konca, Mustafa},
+  Journal                  = {Worcester Polytechnic Institute},
+  Year                     = {2007}
+}
+
 @InProceedings{kitti2012we,
   Title                    = {Are we ready for autonomous driving? the kitti vision benchmark suite},
   Author                   = {Geiger, Andreas and Lenz, Philip and Urtasun, Raquel},
@@ -38,6 +81,15 @@
   Year                     = {2012},
   Organization             = {IEEE},
   Pages                    = {3354--3361}
+}
+
+@Misc{google1,
+  Title                    = {{Google Self-Driving Car Project}},
+
+  Author                   = {{Google X}},
+  HowPublished             = {\url{https://www.cbinsights.com/blog/autonomous-driverless-vehicles-corporations-list/}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
 }
 
 @InProceedings{krajzewicz2002sumo,
@@ -67,13 +119,22 @@
   Volume                   = {28}
 }
 
-@Misc{bworld,
-  Title                    = {{BWorld Robot Control Software}},
+@Misc{mercedes1,
+  Title                    = {{Mercedes Intelligent Drive Driving Assistance}},
 
-  Author                   = {Ingo Lütkebohle},
-  HowPublished             = {\url{http://aiweb.techfak.uni-bielefeld.de/content/bworld-robot-control-software/}},
-  Note                     = {[Online; accessed 19-July-2008]},
-  Year                     = {2008}
+  Author                   = {{Mercedes}},
+  HowPublished             = {\url{https://www.mercedes-benz.com/en/mercedes-benz/innovation/with-intelligent-drive-more-comfort-in-road-traffic/}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
+}
+
+@Misc{nhtsa1,
+  Title                    = {{U.S. Department of Transportation Releases Policy on Automated Vehicle Development}},
+
+  Author                   = {NHTSA},
+  HowPublished             = {\url{http://www.nhtsa.gov/About+NHTSA/Press+Releases/U.S.+Department+of+Transportation+Releases+Policy+on+Automated+Vehicle+Development}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2013}
 }
 
 @Article{parkin2016understanding,
@@ -116,6 +177,15 @@
   Publisher                = {Elsevier}
 }
 
+@Misc{sae1,
+  Title                    = {{SAE LEVELS OF DRIVING AUTOMATION}},
+
+  Author                   = {SAE},
+  HowPublished             = {\url{http://cyberlaw.stanford.edu/blog/2013/12/sae-levels-driving-automation}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2013}
+}
+
 @Article{sivak2015road,
   Title                    = {Road safety with self-driving vehicles: General limitations and road sharing with conventional vehicles},
   Author                   = {Sivak, Michael and Schoettle, Brandon},
@@ -147,6 +217,24 @@
   Publisher                = {Elsevier}
 }
 
+@Misc{tesla1,
+  Title                    = {{Model S Software Version 7.0}},
+
+  Author                   = {Tesla},
+  HowPublished             = {\url{https://www.tesla.com/en_GB/presskit/autopilot?redirect=no}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
+}
+
+@Misc{tesla2,
+  Title                    = {{Upgrading Autopilot: Seeing the World in Radar}},
+
+  Author                   = {{Tesla}},
+  HowPublished             = {\url{https://www.tesla.com/en_GB/blog/upgrading-autopilot-seeing-world-radar?redirect=no}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2016}
+}
+
 @Article{treiber2013traffic,
   Title                    = {Traffic flow dynamics},
   Author                   = {Treiber, Martin and Kesting, Arne},
@@ -162,6 +250,12 @@
   Year                     = {2015}
 }
 
+@Article{pathwaytodriverless2,
+  Title                    = {The Pathway to Driverless Cars: A detailed review of regulations for automated vehicle technologies},
+  Author                   = {UK{\ }Department{\ }of{\ }Transport},
+  Year                     = {2015}
+}
+
 @Article{vangi2007evaluation,
   Title                    = {Evaluation of emergency braking deceleration for accident reconstruction},
   Author                   = {Vangi, D and Virga, A},
@@ -172,5 +266,14 @@
   Volume                   = {45},
 
   Publisher                = {Taylor \& Francis}
+}
+
+@Misc{volvo1,
+  Title                    = {{Volvo Car Group’s first self-driving Autopilot cars test on public roads around Gothenburg}},
+
+  Author                   = {Volvo},
+  HowPublished             = {\url{https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars-test-on-public-roads-around-gothenburg}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2015}
 }
 

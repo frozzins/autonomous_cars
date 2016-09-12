@@ -38,7 +38,7 @@
 
 \usepackage{amsmath}
 
-\usepackage{hyperref}
+\usepackage{url}
 
 %\usepackage{geometry} % Required to change the page size to A4
 %\geometry{a4paper} % Set the page size to be A4 as opposed to the default US Letter
@@ -143,84 +143,82 @@ Eddie \textsc{Wilson} % Supervisor's Name
 \section{Introduction and Motivation} % Major section
 
 \par
-Autonomous cars are currently a topic of a great interest.  Around the world the biggest private companies are investing in projects on driver-less technology. There are currently 33 global corporations, including giants like Google, Apple and Tesla, that channel significant resources to autonomous driving (\citep{bworld}). The most innovative countries are allocating large sums of money not only to develop the technology, but also to raise public awareness and introduce necessary legislation (us and uk citations). 
+Autonomous cars are currently a topic of a great interest.  Around the world the biggest private companies are investing in projects on driver-less technology. There are currently 33 global corporations, including giants like Google, Apple and Tesla, that channel significant resources to autonomous driving \citep{33comp}. The most innovative countries are allocating large sums of money not only to develop the technology, but also to raise public awareness and introduce necessary legislation \citep{pathwaytodriverless};\citep{pathwaytodriverless2}. 
+
+\par
+***perhaps more here
 \par
 Although the topic is studied very widely and the amount of literature is enormous this dissertation attempts to identify potential gap in developing a broad understanding of how autonomous vehicles may impact traffic flow. 
-\par
-The remaining part of this section introduces the current stage of technological development and says what are the views on future together with the most important directions of research.
-\par 
-Next section states what are the possible implications of self-driving revolution; It it shown that the impact of autonomous cars can be much wider that expected.
-\par
-Another section lists factors that currently limit the development of self-driving technology; It gives an overview of current legislation concerning autonomous driving and states what are the main safety concerns. In addition to this, it describes current public acceptance of autonomous cars.
-\par
-Supported by the literature review, next section states what research gap was identified and why it is worthy to investigate it. Consecutively, a precise statement of research questions is given, followed by a list of aims and objectives of the Dissertation.
-\par
-Another section describes the experiment which was a central part of the project. The methods used and reasons to use them are explained in here together with the design decisions leading to the experiment. Last part shows how the original scope of the project evolved from the initial plan to the end of the dissertation.
-\par
-Final section in this chapter describes the roadmap of the whole project starting from the development of software, through the design of the experiment and finishing with the experiment results and conclusions summarizing the project. 
 
 
+
+\par
+First part of this chapter introduces the topic of autonomous driving. It discusses current technological development and attempts to identify main challenges in the upcoming decades.  
+\par
+Supported by the literature review, next section states what research gap was identified and why it is worthy to investigate it. Consecutively, a precise statement of research questions is given, followed by a list of aims and objectives of the Dissertation. Another section describes the experiment which was a central part of the project. It also talks about how the original scope of the project evolved from the initial plan to the current state.
+\par
+Finally, a roadmap of the whole project is given; Starting from the development of software, through the design of the experiment and finishing with the analysis of the results.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%end of forewords to this chapter
 %%%%%ended intro to this chapter
 
 
 \subsection{Driverless Cars Revolution}
 
-
-%%%%%%%%%%%%%%%%%%%end of forewords to this chapter
-
-
-The most famous projects probably include Google's self-driving car, Tesla's ..car and Volvo's Drive Me. None the less, other companies such as Apple, Audi or Ford are also investing heavily in driverless technology.
-
-
-
-The advancement happens simultaneously on multiple levels.
+Many expert around the world try to predict how autonomous cars will influence our life in the upcoming decades. Most of them agree that fully automated traffic will become reality around year 2060 or year 2040 in more optimistic predictions \citep{kitti2012we}; \citep{litman2014autonomous}; \citep{sivak2015road}. In the next years we should be observing a gradual change as more and more self-driving cars appear on the roads. 
+\par
+The key factor that influences the steady shift towards fully automated traffic is a broadly understood technological advancement. Although, all the efforts lead towards it, the fully autonomous car has now been yet built anywhere in the world \citep{litman2014autonomous}. 
+%\par?
+This sections talks about the current development of the self-driving  technology and about possible scenarios for future development together with challenges that has to be overcame.
 
 
- (uber, google, britol car citations), competing for new emerging market.
-
-
- Each company focuses efforts in different direction. The companies are either trying to develope an all-round car that could perform in both city and on highways or restrict the usage to particular types of roads (tesla). Or anyhing in between. The most significant commercial initiatives include Google driverless car, Tesla, Uber (). Goverment founded initiatives include Venturer and ...
+%It also stays main challenges stopping humanity from heaving fully autonomous traffic.
 
 
 
-introduce autonomous cars in general
-
+%***END of prelidium to section
 
 
 
 \subsubsection{Current development of autonomous cars}
 
-The prime examples of the most recent achievements in the field of autonomous cars are visible through cutting-edge commercial projects such as google self driving car, uber's and <shanghai something>. Google is probably the most experienced player as it's self driving car project started already in the year 2009 (google self driving car website).
-Google's car is classified as level 3 in automated vehicle classification system proposed by NHTSA in 2013 (http://www.nhtsa.gov/About+NHTSA/Press+Releases/U.S.+Department+of+Transportation+Releases+Policy+on+Automated+Vehicle+Development), which is described as "Limited Self-Driving Automation". The car takes full control over all safety-critical functions but at certain times driver can be asked to retake control. 
+\par
+The most recent achievements in the field of autonomous cars are probably best visible through cutting-edge commercial projects such as Google's Self-driving car \citep{google1}, Tesla's Autopilot \citep{tesla1} or Volvo's 'Drive Me' project \citep{volvo1}. Google (Alphabet) is probably the most experienced player as it's Self-driving car project started already in the year 2009. However, it is hard to say  that it is also the most advanced project as other corporations also reached high levels of the technological advancement and every project focuses on different aspects of autonomous driving \citep{33comp}. 
+\par
+Google's car is classified at level 3 in automated vehicle classification system proposed by \citet{nhtsa1} and also at level 3 in a similar classification proposed by \citet{sae1}. This level of autonomy means that car takes full control over all safety-critical functions but at certain times driver can be asked to retake control (and must do so).  
+\par
+The topic is so interesting that roughly only 60\% of companies involved in this business are genuine car-producing companies. Others like Google and Apple mentioned earlier, or a relatively new player Uber saw a new, promising opportunity and decided to expand towards this new emerging market \citep{33comp}. Figure~\ref{fig:volvo} shows modified Volvo XC90 that was created in collaboration with Uber.
 
-List of trials on autonomous vehicles is here:
-\citep{parkin2016understanding}
-googel, volvo, audi, singapore, and add uber
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/chapter_introduction/volvo.jpg}}
+\caption{Self-driving Volvo XC90 developed in collaboration with Uber. As of August 2016 pilot project is being launch in Pittsburgh, USA \citep{uberpittsburgh}.}
+\label{fig:volvo}
+\end{figure} 
 
+\par
+Another company that achieved significant successes is Audi with it's Piloted Driving project. The company managed to develop a racing car capable of beating a professional drivers on a racing track. None the less, Audi is also developing technologies for civil driving \citep{audi1}.
 
-More and more commercially available vehicles feature level 2 of autonomy and are capable of emergency braking, lane control or adaptive cruise control. Even more advanced cars, like Tesla S are able to actively change lanes on a motorway when instructed by driver(link to tesla's manual).
-
-good on connected vehicles:
-
-The Evolution of Connected Vehicle Technology: From Smart Drivers to Smart Cars to... Self-Driving Cars
-
-UK spends 19milion to testing autonomous technology (the pathway to driverless vehicles)
-
-
-Vehicle classified at level 4 would have to 
-
-
-Uber is a relatively new player in the business of autonomous cars. 
+\par
 
 
-Telsa press release:
-%https://www.tesla.com/en_GB/presskit/autopilot?redirect=no
+While vehicles on 3rd level or autonomy are currently only research projects, there are increasingly more commercially available vehicles that have features characteristic for 2nd level of autonomy. The prime example is Tesla's Autopilot that drives itself on the highway and is able to actively change lanes on a motorway when instructed by the driver \citep{tesla2}. Another examples are the latest premium segment cars by BMW and Mercedes that have features such as lane departure warning, adaptive cruise control or traffic jam assistant \citep{bmw}; \citep{mercedes1}. According to the guidelines by NHTSA car classified on the 2nd level of autonomy must be able to combine at least two of these abilities simultaneously.
 
 
-Write about audi autonomous racing car
+\par
 
-volvo:
-%https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars-test-on-public-roads-around-gothenburg
+Apart from projects run by private companies there are also numerous initiatives supported from public resources. An example of these is the Venturer Project run by a consortium of academic, public and private  organizations. The people responsible for this undertaking plan to start tests on regular roads in 2017.
+
+\par
+Although, most of these projects bloomed in the last decade, the idea of autonomous or automated vehicles is considerably older. First attempts on automating the driving or part of the driving were made in year 1977 when researchers at Tsukuba Mechanical Engineering Laboratory in Japan built a car that followed white markers and could reach a speed of 20 mph \citep{forrest2007autonomous}.
+\par
+
+
+
+
+\subsubsection{Views on the future}
 
 
 In the near future we should be able to see more and more autonomous vehicles on the roads.
@@ -236,11 +234,20 @@ future:
 paper criticising the orginized devlopment of technology:
 The ethics of driverless cars
 
+merge with previus one
+%\subsubsection{Directions of research in Autonomous Cars}
+4th and 5th level of autonomy
 
-\subsubsection{Views on the future}
 
+no taxis probably
 
-\subsubsection{Directions of research in Autonomous Cars}
+good on connected vehicles:
+
+The Evolution of Connected Vehicle Technology: From Smart Drivers to Smart Cars to... Self-Driving Cars
+
+UK spends 19milion to testing autonomous technology (the pathway to driverless vehicles)
+
+Vehicle classified at level 4 would have to 
 
 
 \subsection{Implications of Autonomous Cars revolution}
@@ -367,6 +374,8 @@ A lot more from this The Pathway to Driverless Cars - a detailed review of regul
 and this a little bit:
 he Pathway to Driverless Cars Summary report and action plan
 
+also limitations of computer vision
+
 
 \subsubsection{Safety}
 
@@ -378,6 +387,9 @@ Kountouriotisa, G. K., Merat, N. (2016) Leading to distraction: Driver distracti
 environment. Accident Analysis and Prevention 89
 
 hacking cars
+
+
+Handover Issues in Autonomous Driving: A Literature Review
 
 
 \subsubsection{Public acceptance of autonomous driving}
