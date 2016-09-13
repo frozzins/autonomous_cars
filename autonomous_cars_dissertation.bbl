@@ -51,6 +51,11 @@ Douma, F. \harvardand\ Palodichuk, S.~A.  \harvardyearleft
   2012\harvardyearright , `Criminal liability issues created by autonomous
   vehicles', {\em Santa Clara L. Rev.} {\bf 52},~1157.
 
+\harvarditem{Dresner \harvardand\ Stone}{2007}{dresner2007sharing}
+Dresner, K.~M. \harvardand\ Stone, P.  \harvardyearleft 2007\harvardyearright ,
+  Sharing the road: Autonomous vehicles meet human drivers., {\em in} `IJCAI',
+  Vol.~7, pp.~1263--1268.
+
 \harvarditem{Duranton \harvardand\ Turner}{2011}{duranton2011fundamental}
 Duranton, G. \harvardand\ Turner, M.~A.  \harvardyearleft 2011\harvardyearright
   , `The fundamental law of road congestion: Evidence from us cities', {\em The
@@ -243,16 +248,23 @@ Treiber, M. \harvardand\ Kesting, A.  \harvardyearleft 2013\harvardyearright ,
   `Traffic flow dynamics', {\em Traffic Flow Dynamics: Data, Models and
   Simulation, Springer-Verlag Berlin Heidelberg} .
 
-\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em
-  a}}{pathwaytodriverless2}
+\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em a}}{excel}
 UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
-  a}\harvardyearright , `The pathway to driverless cars: A detailed review of
+  a}\harvardyearright , `{Contributory factors for reported road accidents
+  (RAS50)}',
+  \url{https://www.gov.uk/government/statistical-data-sets/ras50-contributory-factors}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em
+  b}}{pathwaytodriverless2}
+UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
+  b}\harvardyearright , `The pathway to driverless cars: A detailed review of
   regulations for automated vehicle technologies'.
 
 \harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em
-  b}}{pathwaytodriverless}
+  c}}{pathwaytodriverless}
 UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
-  b}\harvardyearright , `The pathway to driverless cars: Summary report and
+  c}\harvardyearright , `The pathway to driverless cars: Summary report and
   action plan'.
 
 \harvarditem{Vangi \harvardand\ Virga}{2007}{vangi2007evaluation}

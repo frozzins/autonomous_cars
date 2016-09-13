@@ -1,18 +1,17 @@
 \contentsline {section}{\numberline {1}Introduction and Motivation}{3}
 \contentsline {subsection}{\numberline {1.1}Driverless Cars Revolution}{3}
-\contentsline {subsubsection}{\numberline {1.1.1}Current development of autonomous cars}{4}
-\contentsline {subsubsection}{\numberline {1.1.2}Views on the future}{5}
+\contentsline {paragraph}{Current development of autonomous cars}{4}
+\contentsline {paragraph}{Views on the future}{5}
 \contentsline {subsection}{\numberline {1.2}Implications of Autonomous Cars revolution}{7}
 \contentsline {subsection}{\numberline {1.3}Main challenges to bring Autonomous Cars to the roads}{8}
 \contentsline {paragraph}{Law regulations on autonomous driving}{8}
 \contentsline {paragraph}{Safety}{8}
 \contentsline {paragraph}{Public acceptance of autonomous driving}{9}
-\contentsline {subsection}{\numberline {1.4}How people will cooperate with autonomous cars}{10}
-\contentsline {paragraph}{conflicts...}{10}
+\contentsline {subsection}{\numberline {1.4}Interactions between human drivers and autonomous vehicles}{10}
 \contentsline {subsection}{\numberline {1.5}Gap in the research, this project}{11}
 \contentsline {paragraph}{in the research, reasons why the study was carried out, its significance}{11}
 \contentsline {paragraph}{A statement of the problem}{11}
-\contentsline {paragraph}{Statement of research questions, aims and objectives}{11}
+\contentsline {paragraph}{Statement of research questions, aims and objectives}{12}
 \contentsline {subsection}{\numberline {1.6}Experiment}{12}
 \contentsline {subsubsection}{\numberline {1.6.1}will be tested, how and why}{13}
 \contentsline {subsubsection}{\numberline {1.6.2}Initial requirements}{13}

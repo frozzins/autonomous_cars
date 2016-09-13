@@ -82,6 +82,15 @@
   Publisher                = {HeinOnline}
 }
 
+@InProceedings{dresner2007sharing,
+  Title                    = {Sharing the Road: Autonomous Vehicles Meet Human Drivers.},
+  Author                   = {Dresner, Kurt M and Stone, Peter},
+  Booktitle                = {IJCAI},
+  Year                     = {2007},
+  Pages                    = {1263--1268},
+  Volume                   = {7}
+}
+
 @Article{duranton2011fundamental,
   Title                    = {The fundamental law of road congestion: Evidence from US cities},
   Author                   = {Duranton, Gilles and Turner, Matthew A},
@@ -399,6 +408,15 @@
   Year                     = {2013},
 
   Publisher                = {Springer}
+}
+
+@Misc{excel,
+  Title                    = {{Contributory factors for reported road accidents (RAS50)}},
+
+  Author                   = {{UK Department for Transport}},
+  HowPublished             = {\url{https://www.gov.uk/government/statistical-data-sets/ras50-contributory-factors}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2015}
 }
 
 @Article{pathwaytodriverless,
