@@ -1,7 +1,7 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{{Audi}}{2016}{audi1}
-{Audi}  \harvardyearleft 2016\harvardyearright , `{Audi piloted driving}',
+\harvarditem{{Audi}}{2013}{audi1}
+{Audi}  \harvardyearleft 2013\harvardyearright , `{Audi piloted driving}',
   \url{http://www.audi.com/com/brand/en/vorsprung_durch_technik/content/2014/10/piloted-driving.html}.
 \newblock [Online; accessed 12-09-2016].
 
@@ -19,8 +19,8 @@ Beymer, D., McLauchlan, P., Coifman, B. \harvardand\ Malik, J.
   \url{http://www.bloomberg.com/news/features/2016-08-18/uber-s-first-self-driving-fleet-arrives-in-pittsburgh-this-month-is06r7on}.
 \newblock [Online; accessed 12-09-2016].
 
-\harvarditem{{BMW}}{2016}{bmw}
-{BMW}  \harvardyearleft 2016\harvardyearright , `{BMW Connected Drive}',
+\harvarditem{{BMW}}{2015}{bmw}
+{BMW}  \harvardyearleft 2015\harvardyearright , `{BMW Connected Drive}',
   \url{http://www.bmw.com/com/en/insights/technology/connecteddrive/2013/driver_assistance/intelligent_driving.html}.
 \newblock [Online; accessed 12-09-2016].
 
@@ -38,6 +38,13 @@ Dixon, W.~J. \harvardand\ Massey~Jr, F.~J.  \harvardyearleft
 Duranton, G. \harvardand\ Turner, M.~A.  \harvardyearleft 2011\harvardyearright
   , `The fundamental law of road congestion: Evidence from us cities', {\em The
   American Economic Review} {\bf 101}(6),~2616--2652.
+
+\harvarditem{{Ford}}{2016}{ford1}
+{Ford}  \harvardyearleft 2016\harvardyearright , `{Ford at CES announces smart
+  mobility plan and 25 global experiments designed to change the way the world
+  moves}',
+  \url{https://media.ford.com/content/fordmedia/fna/us/en/news/2015/01/06/ford-at-ces-announces-smart-mobility-plan.html}.
+\newblock [Online; accessed 12-09-2016].
 
 \harvarditem{Forrest \harvardand\ Konca}{2007}{forrest2007autonomous}
 Forrest, A. \harvardand\ Konca, M.  \harvardyearleft 2007\harvardyearright ,
@@ -68,11 +75,28 @@ Litman, T.  \harvardyearleft 2014\harvardyearright , `Autonomous vehicle
   implementation predictions', {\em Victoria Transport Policy Institute} {\bf
   28}.
 
-\harvarditem{{Mercedes}}{2016}{mercedes1}
-{Mercedes}  \harvardyearleft 2016\harvardyearright , `{Mercedes Intelligent
+\harvarditem[Luettel et~al.]{Luettel, Himmelsbach \harvardand\
+  Wuensche}{2012}{luettel2012autonomous}
+Luettel, T., Himmelsbach, M. \harvardand\ Wuensche, H.-J.  \harvardyearleft
+  2012\harvardyearright , `Autonomous ground vehicles—concepts and a path to
+  the future', {\em Proceedings of the IEEE} {\bf 100}(Special Centennial
+  Issue),~1831--1839.
+
+\harvarditem{McBride}{2016}{mcbride2016ethics}
+McBride, N.  \harvardyearleft 2016\harvardyearright , `The ethics of driverless
+  cars', {\em ACM SIGCAS Computers and Society} {\bf 45}(3),~179--184.
+
+\harvarditem{{Mercedes}}{2015}{mercedes1}
+{Mercedes}  \harvardyearleft 2015\harvardyearright , `{Mercedes Intelligent
   Drive Driving Assistance}',
   \url{https://www.mercedes-benz.com/en/mercedes-benz/innovation/with-intelligent-drive-more-comfort-in-road-traffic/}.
 \newblock [Online; accessed 12-09-2016].
+
+\harvarditem{Narla}{2013}{narla2013evolution}
+Narla, S.~R.  \harvardyearleft 2013\harvardyearright , `The evolution of
+  connected vehicle technology: From smart drivers to smart cars to...
+  self-driving cars', {\em Institute of Transportation Engineers. ITE Journal}
+  {\bf 83}(7),~22.
 
 \harvarditem{NHTSA}{2013}{nhtsa1}
 NHTSA  \harvardyearleft 2013\harvardyearright , `{U.S. Department of
