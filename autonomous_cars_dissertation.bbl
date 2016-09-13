@@ -13,6 +13,12 @@ Beymer, D., McLauchlan, P., Coifman, B. \harvardand\ Malik, J.
   Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on',
   IEEE, pp.~495--501.
 
+\harvarditem{Bloomberg}{2013}{toyota1}
+Bloomberg  \harvardyearleft 2013\harvardyearright , `{Automated Cars May Boost
+  Fuel Use, Toyota Scientist Says}',
+  \url{http://www.bloomberg.com/news/articles/2014-07-16/automated-cars-may-boost-fuel-use-toyota-scientist-says}.
+\newblock [Online; accessed 13-09-2016].
+
 \harvarditem{{Bloomberg}}{2016}{uberpittsburgh}
 {Bloomberg}  \harvardyearleft 2016\harvardyearright , `{Fleet Arrives in
   Pittsburgh This Month}',
@@ -38,6 +44,10 @@ Dixon, W.~J. \harvardand\ Massey~Jr, F.~J.  \harvardyearleft
 Duranton, G. \harvardand\ Turner, M.~A.  \harvardyearleft 2011\harvardyearright
   , `The fundamental law of road congestion: Evidence from us cities', {\em The
   American Economic Review} {\bf 101}(6),~2616--2652.
+
+\harvarditem{{Economoic Commision for Europe}}{1968}{vienna1}
+{Economoic Commision for Europe}  \harvardyearleft 1968\harvardyearright ,
+  `Vienna convention on road traffic'.
 
 \harvarditem{{Ford}}{2016}{ford1}
 {Ford}  \harvardyearleft 2016\harvardyearright , `{Ford at CES announces smart
@@ -70,6 +80,11 @@ Krajzewicz, D., Hertkorn, G., R{\"o}ssel, C. \harvardand\ Wagner, P.
   mobility)-an open-source traffic simulation, {\em in} `Proceedings of the 4th
   Middle East Symposium on Simulation and Modelling (MESM20002)', pp.~183--187.
 
+\harvarditem{Levinson}{2015}{levinson2015climbing}
+Levinson, D.  \harvardyearleft 2015\harvardyearright , `Climbing mount next:
+  The effects of autonomous vehicles on society', {\em Minn. JL Sci. \& Tech.}
+  {\bf 16},~787.
+
 \harvarditem{Litman}{2014}{litman2014autonomous}
 Litman, T.  \harvardyearleft 2014\harvardyearright , `Autonomous vehicle
   implementation predictions', {\em Victoria Transport Policy Institute} {\bf
@@ -91,6 +106,11 @@ McBride, N.  \harvardyearleft 2016\harvardyearright , `The ethics of driverless
   Drive Driving Assistance}',
   \url{https://www.mercedes-benz.com/en/mercedes-benz/innovation/with-intelligent-drive-more-comfort-in-road-traffic/}.
 \newblock [Online; accessed 12-09-2016].
+
+\harvarditem{{MIT Senseable City Lab}}{2013}{drivewave}
+{MIT Senseable City Lab}  \harvardyearleft 2013\harvardyearright ,
+  `{DriveWAVE}', \url{http://www.wave-innovation.com/en/drivewave.html}.
+\newblock [Online; accessed 13-09-2016].
 
 \harvarditem{Narla}{2013}{narla2013evolution}
 Narla, S.~R.  \harvardyearleft 2013\harvardyearright , `The evolution of
@@ -164,6 +184,12 @@ Tesla  \harvardyearleft 2016{\em a}\harvardyearright , `{Model S Software
 {Tesla}  \harvardyearleft 2016{\em b}\harvardyearright , `{Upgrading Autopilot:
   Seeing the World in Radar}',
   \url{https://www.tesla.com/en_GB/blog/upgrading-autopilot-seeing-world-radar?redirect=no}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{{The Telegraph}}{2013}{telegraph}
+{The Telegraph}  \harvardyearleft 2013\harvardyearright , `{Britain aims for
+  pole position in self-driving cars after Brexit}',
+  \url{http://www.telegraph.co.uk/business/2016/07/27/britain-aims-for-pole-position-in-self-driving-cars-after-brexit/}.
 \newblock [Online; accessed 12-09-2016].
 
 \harvarditem{Treiber \harvardand\ Kesting}{2013}{treiber2013traffic}

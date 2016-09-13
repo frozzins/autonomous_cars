@@ -1,0 +1,12 @@
+\par
+This chapter start by introducing the current stage of technological development and says what are the views on the future and what are the most important directions of research.
+\par 
+Next section states what are the possible implications of self-driving revolution; It it shown that the impact of autonomous cars can be much wider that expected.
+\par
+Another section lists factors that currently limit the development of self-driving technology; It gives an overview of current legislation concerning autonomous driving and states what are the main safety concerns. In addition to this, it describes current public acceptance of autonomous cars.
+\par
+Supported by the literature review, next section states what research gap was identified and why it is worthy to investigate it. Consecutively, a precise statement of research questions is given, followed by a list of aims and objectives of the Dissertation.
+\par
+Another section describes the experiment which was a central part of the project. The methods used and reasons to use them are explained in here together with the design decisions leading to the experiment. Last part shows how the original scope of the project evolved from the initial plan to the end of the dissertation.
+\par
+Final section in this chapter describes the roadmap of the whole project starting from the development of software, through the design of the experiment and finishing with the experiment results and conclusions summarizing the project. 

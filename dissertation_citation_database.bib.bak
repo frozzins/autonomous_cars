@@ -29,6 +29,15 @@
   Year                     = {2016}
 }
 
+@Misc{toyota1,
+  Title                    = {{Automated Cars May Boost Fuel Use, Toyota Scientist Says}},
+
+  Author                   = {Bloomberg},
+  HowPublished             = {\url{http://www.bloomberg.com/news/articles/2014-07-16/automated-cars-may-boost-fuel-use-toyota-scientist-says}},
+  Note                     = {[Online; accessed 13-09-2016]},
+  Year                     = {2013}
+}
+
 @Misc{bmw,
   Title                    = {{BMW Connected Drive}},
 
@@ -65,6 +74,12 @@
   Volume                   = {101},
 
   Publisher                = {American Economic Association}
+}
+
+@Article{vienna1,
+  Title                    = {Vienna Convention on Road Traffic},
+  Author                   = {{Economoic Commision for Europe}},
+  Year                     = {2015}
 }
 
 @Misc{ford1,
@@ -120,6 +135,17 @@
   Publisher                = {Elsevier}
 }
 
+@Article{levinson2015climbing,
+  Title                    = {Climbing Mount Next: The Effects of Autonomous Vehicles on Society},
+  Author                   = {Levinson, David},
+  Journal                  = {Minn. JL Sci. \& Tech.},
+  Year                     = {2015},
+  Pages                    = {787},
+  Volume                   = {16},
+
+  Publisher                = {HeinOnline}
+}
+
 @Article{litman2014autonomous,
   Title                    = {Autonomous Vehicle Implementation Predictions},
   Author                   = {Litman, Todd},
@@ -159,6 +185,15 @@
   HowPublished             = {\url{https://www.mercedes-benz.com/en/mercedes-benz/innovation/with-intelligent-drive-more-comfort-in-road-traffic/}},
   Note                     = {[Online; accessed 12-09-2016]},
   Year                     = {2015}
+}
+
+@Misc{drivewave,
+  Title                    = {{DriveWAVE}},
+
+  Author                   = {{MIT Senseable City Lab}},
+  HowPublished             = {\url{http://www.wave-innovation.com/en/drivewave.html}},
+  Note                     = {[Online; accessed 13-09-2016]},
+  Year                     = {2013}
 }
 
 @Article{narla2013evolution,
@@ -278,6 +313,15 @@
   HowPublished             = {\url{https://www.tesla.com/en_GB/blog/upgrading-autopilot-seeing-world-radar?redirect=no}},
   Note                     = {[Online; accessed 12-09-2016]},
   Year                     = {2016}
+}
+
+@Misc{telegraph,
+  Title                    = {{Britain aims for pole position in self-driving cars after Brexit}},
+
+  Author                   = {{The Telegraph}},
+  HowPublished             = {\url{http://www.telegraph.co.uk/business/2016/07/27/britain-aims-for-pole-position-in-self-driving-cars-after-brexit/}},
+  Note                     = {[Online; accessed 12-09-2016]},
+  Year                     = {2013}
 }
 
 @Article{treiber2013traffic,
