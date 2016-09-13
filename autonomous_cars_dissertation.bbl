@@ -30,6 +30,12 @@ Bloomberg  \harvardyearleft 2013\harvardyearright , `{Automated Cars May Boost
   \url{http://www.bmw.com/com/en/insights/technology/connecteddrive/2013/driver_assistance/intelligent_driving.html}.
 \newblock [Online; accessed 12-09-2016].
 
+\harvarditem[Bonnefon et~al.]{Bonnefon, Shariff \harvardand\
+  Rahwan}{2015}{bonnefon2015autonomous}
+Bonnefon, J.-F., Shariff, A. \harvardand\ Rahwan, I.  \harvardyearleft
+  2015\harvardyearright , `Autonomous vehicles need experimental ethics: Are we
+  ready for utilitarian cars?', {\em arXiv preprint arXiv:1510.03346} .
+
 \harvarditem{{CB Insights}}{2016}{33comp}
 {CB Insights}  \harvardyearleft 2016\harvardyearright , `{33 Corporations
   Working On Autonomous Vehicles}',
@@ -39,6 +45,11 @@ Bloomberg  \harvardyearleft 2013\harvardyearright , `{Automated Cars May Boost
 \harvarditem{Dixon \harvardand\ Massey~Jr}{1957}{dixon1957introduction}
 Dixon, W.~J. \harvardand\ Massey~Jr, F.~J.  \harvardyearleft
   1957\harvardyearright , `Introduction to statistical analysis .'.
+
+\harvarditem{Douma \harvardand\ Palodichuk}{2012}{douma2012criminal}
+Douma, F. \harvardand\ Palodichuk, S.~A.  \harvardyearleft
+  2012\harvardyearright , `Criminal liability issues created by autonomous
+  vehicles', {\em Santa Clara L. Rev.} {\bf 52},~1157.
 
 \harvarditem{Duranton \harvardand\ Turner}{2011}{duranton2011fundamental}
 Duranton, G. \harvardand\ Turner, M.~A.  \harvardyearleft 2011\harvardyearright
@@ -80,6 +91,13 @@ Krajzewicz, D., Hertkorn, G., R{\"o}ssel, C. \harvardand\ Wagner, P.
   mobility)-an open-source traffic simulation, {\em in} `Proceedings of the 4th
   Middle East Symposium on Simulation and Modelling (MESM20002)', pp.~183--187.
 
+\harvarditem[Kyriakidis et~al.]{Kyriakidis, Happee \harvardand\
+  De~Winter}{2015}{kyriakidis2015public}
+Kyriakidis, M., Happee, R. \harvardand\ De~Winter, J.  \harvardyearleft
+  2015\harvardyearright , `Public opinion on automated driving: results of an
+  international questionnaire among 5000 respondents', {\em Transportation
+  research part F: traffic psychology and behaviour} {\bf 32},~127--140.
+
 \harvarditem{Levinson}{2015}{levinson2015climbing}
 Levinson, D.  \harvardyearleft 2015\harvardyearright , `Climbing mount next:
   The effects of autonomous vehicles on society', {\em Minn. JL Sci. \& Tech.}
@@ -97,7 +115,7 @@ Luettel, T., Himmelsbach, M. \harvardand\ Wuensche, H.-J.  \harvardyearleft
   the future', {\em Proceedings of the IEEE} {\bf 100}(Special Centennial
   Issue),~1831--1839.
 
-\harvarditem{McBride}{2016}{mcbride2016ethics}
+\harvarditem{McBride}{2016}{merat2009drivers}
 McBride, N.  \harvardyearleft 2016\harvardyearright , `The ethics of driverless
   cars', {\em ACM SIGCAS Computers and Society} {\bf 45}(3),~179--184.
 
@@ -137,6 +155,12 @@ Quigley, M., Conley, K., Gerkey, B., Faust, J., Foote, T., Leibs, J., Wheeler,
   open-source robot operating system, {\em in} `ICRA workshop on open source
   software', Vol.~3, Kobe, Japan, p.~5.
 
+\harvarditem{{QZ}}{2015}{qz}
+{QZ}  \harvardyearleft 2015\harvardyearright , `{Should driverless cars kill
+  their own passengers to save a pedestrian?}',
+  \url{http://qz.com/536738/should-driverless-cars-kill-their-own-passengers-to-save-a-pedestrian/}.
+\newblock [Online; accessed 12-09-2016].
+
 \harvarditem[Rajkumar et~al.]{Rajkumar, Gagliardi \harvardand\
   Sha}{1995}{rajkumar1995real}
 Rajkumar, R., Gagliardi, M. \harvardand\ Sha, L.  \harvardyearleft
@@ -156,6 +180,11 @@ SAE  \harvardyearleft 2013\harvardyearright , `{SAE LEVELS OF DRIVING
   \url{http://cyberlaw.stanford.edu/blog/2013/12/sae-levels-driving-automation}.
 \newblock [Online; accessed 12-09-2016].
 
+\harvarditem{Schoettle \harvardand\ Sivak}{2014}{schoettle2014survey}
+Schoettle, B. \harvardand\ Sivak, M.  \harvardyearleft 2014\harvardyearright ,
+  A survey of public opinion about autonomous and self-driving vehicles in the
+  us, the uk, and australia, Technical report.
+
 \harvarditem{Sivak \harvardand\ Schoettle}{2015}{sivak2015road}
 Sivak, M. \harvardand\ Schoettle, B.  \harvardyearleft 2015\harvardyearright ,
   `Road safety with self-driving vehicles: General limitations and road sharing
@@ -174,20 +203,37 @@ Summala, H., Lamble, D. \harvardand\ Laakso, M.  \harvardyearleft
   braking when looking at in-car targets', {\em Accident Analysis \&
   Prevention} {\bf 30}(4),~401--407.
 
-\harvarditem{Tesla}{2016{\em a}}{tesla1}
-Tesla  \harvardyearleft 2016{\em a}\harvardyearright , `{Model S Software
+\harvarditem{{Tech Times}}{2016}{techtimes}
+{Tech Times}  \harvardyearleft 2016\harvardyearright , `{The Driverless Car
+  Debate: How Safe Are Autonomous Vehicles?}',
+  \url{http://www.techtimes.com/articles/67253/20150728/driverless-cars-safe.htm}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{{Tesla}}{2016{\em a}}{tesla4}
+{Tesla}  \harvardyearleft 2016{\em a}\harvardyearright , `{A Tragic Loss}',
+  \url{https://www.tesla.com/en_GB/blog/tragic-loss?redirect=no}.
+\newblock [Online; accessed 12-09-2016].
+
+\harvarditem{Tesla}{2016{\em b}}{tesla1}
+Tesla  \harvardyearleft 2016{\em b}\harvardyearright , `{Model S Software
   Version 7.0}',
   \url{https://www.tesla.com/en_GB/presskit/autopilot?redirect=no}.
 \newblock [Online; accessed 12-09-2016].
 
-\harvarditem{{Tesla}}{2016{\em b}}{tesla2}
-{Tesla}  \harvardyearleft 2016{\em b}\harvardyearright , `{Upgrading Autopilot:
+\harvarditem{{Tesla}}{2016{\em c}}{tesla2}
+{Tesla}  \harvardyearleft 2016{\em c}\harvardyearright , `{Upgrading Autopilot:
   Seeing the World in Radar}',
   \url{https://www.tesla.com/en_GB/blog/upgrading-autopilot-seeing-world-radar?redirect=no}.
 \newblock [Online; accessed 12-09-2016].
 
-\harvarditem{{The Telegraph}}{2013}{telegraph}
-{The Telegraph}  \harvardyearleft 2013\harvardyearright , `{Britain aims for
+\harvarditem{{The Guardian}}{2016}{teslacrash}
+{The Guardian}  \harvardyearleft 2016\harvardyearright , `{Tesla driver dies in
+  first fatal crash while using autopilot mode}',
+  \url{https://www.theguardian.com/technology/2016/jun/30/tesla-autopilot-death-self-driving-car-elon-musk}.
+\newblock [Online; accessed 11-09-2016].
+
+\harvarditem{{The Telegraph}}{2016}{telegraph}
+{The Telegraph}  \harvardyearleft 2016\harvardyearright , `{Britain aims for
   pole position in self-driving cars after Brexit}',
   \url{http://www.telegraph.co.uk/business/2016/07/27/britain-aims-for-pole-position-in-self-driving-cars-after-brexit/}.
 \newblock [Online; accessed 12-09-2016].
