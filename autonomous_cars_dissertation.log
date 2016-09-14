@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  14 SEP 2016 15:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  14 SEP 2016 17:44
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -902,7 +902,7 @@ Package natbib Warning: Citation `mcbride2016ethics' on page 7 undefined on inp
 ut line 247.
 
 [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-Overfull \hbox (0.24359pt too wide) in paragraph at lines 774--775
+Overfull \hbox (0.24359pt too wide) in paragraph at lines 779--780
 []\EU1/Arial(0)/m/n/10.95 On the other hand, SUMO was intended for much larger 
 simulations than the one planned.
  []
@@ -910,96 +910,96 @@ simulations than the one planned.
 [18]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 822.
+               Default added (so using `tbp') on input line 827.
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 827--827
+Underfull \hbox (badness 2103) in paragraph at lines 832--832
 []|\EU1/Arial(0)/m/n/10.95 Starting ROS Core and
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 827--827
+Underfull \hbox (badness 5036) in paragraph at lines 832--832
 \EU1/Arial(0)/m/n/10.95 opening UDP ports for
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 828--828
+Underfull \hbox (badness 4416) in paragraph at lines 833--833
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 828--828
+Underfull \hbox (badness 4416) in paragraph at lines 833--833
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--829
+Underfull \hbox (badness 10000) in paragraph at lines 834--834
 []|\EU1/Arial(0)/m/n/10.95 Sending configuration
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 829--829
+Underfull \hbox (badness 4416) in paragraph at lines 834--834
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 829--829
+Underfull \hbox (badness 10000) in paragraph at lines 834--834
 []|\EU1/Arial(0)/m/n/10.95 Receiving configuration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 830--830
+Underfull \hbox (badness 10000) in paragraph at lines 835--835
 []|\EU1/Arial(0)/m/n/10.95 Sending start order to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 830--830
+Underfull \hbox (badness 10000) in paragraph at lines 835--835
 \EU1/Arial(0)/m/n/10.95 Clients and Agents.
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 832--832
+Underfull \hbox (badness 2529) in paragraph at lines 837--837
 []|\EU1/Arial(0)/m/n/10.95 Sending individual mes-
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 833--833
+Underfull \hbox (badness 3724) in paragraph at lines 838--838
 []|\EU1/Arial(0)/m/n/10.95 Receiving combined or-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--834
+Underfull \hbox (badness 10000) in paragraph at lines 839--839
 []|\EU1/Arial(0)/m/n/10.95 Performing all calcula-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--834
+Underfull \hbox (badness 10000) in paragraph at lines 839--839
 []|\EU1/Arial(0)/m/n/10.95 Performing calculation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 834--834
+Underfull \hbox (badness 10000) in paragraph at lines 839--839
 \EU1/Arial(0)/m/n/10.95 and drawing map in
  []
 
 
-Overfull \hbox (2.7309pt too wide) in paragraph at lines 824--837
+Overfull \hbox (2.7309pt too wide) in paragraph at lines 829--842
  [][] 
  []
 
 [19] [20]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 870.
+               Default added (so using `tbp') on input line 875.
 
 
-Overfull \hbox (4.57596pt too wide) in paragraph at lines 882--882
+Overfull \hbox (4.57596pt too wide) in paragraph at lines 887--887
 []|\EU1/Arial(0)/m/n/10.95 Autonomous
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 903.
+               Default added (so using `!tbp') on input line 908.
 
 File: materials/research_methodology/master_gui_small.png Graphic file (type QT
 m)
@@ -1007,59 +1007,59 @@ m)
 [23]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 950.
+               Default added (so using `!tbp') on input line 955.
 
 [24] [25] [26]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1050.
+               Default added (so using `!tbp') on input line 1055.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1072.
+               Default added (so using `!tbp') on input line 1077.
 
 File: materials/research_methodology/idm_upgrade.png Graphic file (type QTm)
 <use  "materials/research_methodology/idm_upgrade.png" > [27] [28]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1091.
+               Default added (so using `!tbp') on input line 1096.
 
 File: materials/research_methodology/gipps_2.eps Graphic file (type eps)
 <materials/research_methodology/gipps_2.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1137.
+               Default added (so using `!tbp') on input line 1142.
 
 File: materials/research_methodology/super_graph.eps Graphic file (type eps)
 <materials/research_methodology/super_graph.eps> [29] [30] [31]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1168.
+               Default added (so using `!tbp') on input line 1173.
 
 File: materials/research_methodology/ros_initial_idea.png Graphic file (type QT
 m)
 <use  "materials/research_methodology/ros_initial_idea.png" >
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1175.
+               Default added (so using `!tbp') on input line 1180.
 
 File: materials/research_methodology/ros_final.png Graphic file (type QTm)
 <use  "materials/research_methodology/ros_final.png" > [32] [33] [34]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1228.
+               Default added (so using `tbp') on input line 1233.
 
 File: materials/research_methodology/gui_4.png Graphic file (type QTm)
 <use  "materials/research_methodology/gui_4.png" > [35]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1280.
+               Default added (so using `tbp') on input line 1285.
 
 File: materials/research_methodology/map_0_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_0_arrows.png" > [36]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1292.
+               Default added (so using `tbp') on input line 1297.
 
 File: materials/research_methodology/map_1_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_1_arrows.png" > [37]
@@ -1067,7 +1067,7 @@ File: materials/research_methodology/map_3_arrows.png Graphic file (type QTm)
 
 <use  "materials/research_methodology/map_3_arrows.png" > [38] [39] [40]
 [41]
-Overfull \hbox (12.69499pt too wide) in paragraph at lines 1374--1389
+Overfull \hbox (12.69499pt too wide) in paragraph at lines 1379--1394
  [][] 
  []
 
@@ -1101,24 +1101,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1513.
+               Default added (so using `tbp') on input line 1518.
 
 
-Overfull \hbox (27.76932pt too wide) in paragraph at lines 1515--1533
+Overfull \hbox (27.76932pt too wide) in paragraph at lines 1520--1538
  [][] 
  []
 
 [45] [46]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1549.
+               Default added (so using `!tbp') on input line 1554.
 
 File: materials/findings_and_results/interactions_example_1v2.eps Graphic file 
 (type eps)
 <materials/findings_and_results/interactions_example_1v2.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1564.
+               Default added (so using `!tbp') on input line 1569.
 
 File: materials/findings_and_results/interactions_example_2.eps Graphic file (t
 ype eps)
@@ -1129,35 +1129,35 @@ Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1642.
+               Default added (so using `tbp') on input line 1647.
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 1648--1648
+Underfull \hbox (badness 5711) in paragraph at lines 1653--1653
 []|\EU1/Arial(0)/m/n/10.95 Participants improving their skills
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 1648--1648
+Underfull \hbox (badness 4995) in paragraph at lines 1653--1653
 \EU1/Arial(0)/m/n/10.95 in vehicle control in consecutive
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1648--1648
+Underfull \hbox (badness 1803) in paragraph at lines 1653--1653
 \EU1/Arial(0)/m/n/10.95 Its influence was ignored in data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1651--1651
+Underfull \hbox (badness 10000) in paragraph at lines 1656--1656
 []|\EU1/Arial(0)/m/n/10.95 The algorithm governing au-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 1651--1651
+Underfull \hbox (badness 6808) in paragraph at lines 1656--1656
 \EU1/Arial(0)/m/n/10.95 tonomous cars allows for large,
  []
 
 [50] [51]
-Overfull \hbox (1.40807pt too wide) in paragraph at lines 1685--1686
+Overfull \hbox (1.40807pt too wide) in paragraph at lines 1690--1691
  [] \EU1/Arial(0)/m/n/10.95 All interactions can be segregated into 3 different
  types: autonomous-autonomous, human-
  []
@@ -1165,34 +1165,34 @@ Overfull \hbox (1.40807pt too wide) in paragraph at lines 1685--1686
 [52]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1698.
+               Default added (so using `tbp') on input line 1703.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1714.
+               Default added (so using `!tbp') on input line 1719.
 
 File: materials/findings_and_results/acc_var.eps Graphic file (type eps)
 <materials/findings_and_results/acc_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1721.
+               Default added (so using `!tbp') on input line 1726.
 
 File: materials/findings_and_results/vel_var.eps Graphic file (type eps)
 <materials/findings_and_results/vel_var.eps> [53] [54]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1756.
+               Default added (so using `!tbp') on input line 1761.
 
 File: materials/findings_and_results/acc_autonomous_only_var.eps Graphic file (
 type eps)
 <materials/findings_and_results/acc_autonomous_only_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1763.
+               Default added (so using `!tbp') on input line 1768.
 
 File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
-<materials/findings_and_results/equilibrum.eps>
-(autonomous_cars_dissertation.bbl [55] [56]
+<materials/findings_and_results/equilibrum.eps> [55] [56]
+(autonomous_cars_dissertation.bbl [57]
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 8.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
@@ -1260,7 +1260,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--27
 []$\EU1/Arial(0)/m/n/10.95 .
  []
 
-[57]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 64--69
 []\EU1/Arial(0)/m/n/10.95 Ford (2016), ‘Ford at CES announces smart mobility pl
 an and 25 global
@@ -1286,7 +1286,7 @@ Underfull \hbox (badness 1286) in paragraph at lines 113--117
 , ‘Autonomous ground vehi-
  []
 
-[58]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 123--127
 []\EU1/Arial(0)/m/n/10.95 Mercedes (2015), ‘Mercedes Intelligent Drive Driving 
 Assistance’,
@@ -1343,7 +1343,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--157
 []$\EU1/Arial(0)/m/n/10.95 .
  []
 
-[59]
+[60]
 Missing character: There is no ^^97 in font Arial/OT:script=latn;language=DFLT;
 mapping=tex-text;!
 
@@ -1400,7 +1400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--238
 ial(0)/m/n/10.95 .  [On-
  []
 
-[60]
+[61]
 Underfull \hbox (badness 5302) in paragraph at lines 245--249
 []\EU1/Arial(0)/m/n/10.95 UK Department for Transport (2015), ‘Contributory fac
 tors for reported road ac-
@@ -1444,7 +1444,7 @@ Overfull \hbox (90.16316pt too wide) in paragraph at lines 268--272
 
 Package natbib Warning: There were undefined citations.
 
-[61] (autonomous_cars_dissertation.aux) ) 
+[62] (autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
  17867 strings out of 428755
  344916 string characters out of 3163194
@@ -1454,4 +1454,4 @@ Here is how much of TeX's memory you used:
  1096 hyphenation exceptions out of 8191
  48i,18n,61p,10398b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (62 pages).
+Output written on autonomous_cars_dissertation.pdf (63 pages).

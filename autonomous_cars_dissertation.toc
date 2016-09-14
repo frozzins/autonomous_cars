@@ -20,7 +20,7 @@
 \contentsline {paragraph}{}{15}
 \contentsline {subsection}{\numberline {1.7}Roadmap}{16}
 \contentsline {paragraph}{}{16}
-\contentsline {section}{\numberline {2}Software engineering}{17}
+\contentsline {section}{\numberline {2}Software Engineering and Model Development}{17}
 \contentsline {paragraph}{}{17}
 \contentsline {subsection}{\numberline {2.1}Environment choice}{17}
 \contentsline {paragraph}{}{17}
@@ -41,7 +41,7 @@
 \contentsline {subsubsection}{\numberline {2.3.3}Human car control}{29}
 \contentsline {paragraph}{Comparison with autonomous car model}{29}
 \contentsline {subsection}{\numberline {2.4}Communication between machines}{30}
-\contentsline {section}{\numberline {3}Experimental design}{34}
+\contentsline {section}{\numberline {3}Experimental Design}{34}
 \contentsline {subsection}{\numberline {3.1}Principles of the experiment}{34}
 \contentsline {subsection}{\numberline {3.2}Scenarios}{35}
 \contentsline {subsubsection}{\numberline {3.2.1}Learning phase}{36}
@@ -54,7 +54,7 @@
 \contentsline {subsection}{\numberline {3.4}Experiment execution}{40}
 \contentsline {subsubsection}{\numberline {3.4.1}Questionnaire}{41}
 \contentsline {subsubsection}{\numberline {3.4.2}Minutes}{42}
-\contentsline {section}{\numberline {4}Experiment results}{42}
+\contentsline {section}{\numberline {4}Results}{42}
 \contentsline {paragraph}{}{42}
 \contentsline {subsection}{\numberline {4.1}Observations}{43}
 \contentsline {paragraph}{}{43}
@@ -79,4 +79,5 @@
 \contentsline {paragraph}{}{54}
 \contentsline {paragraph}{Method of analysis}{55}
 \contentsline {paragraph}{Findings}{55}
-\contentsline {section}{\numberline {5}Conclusions}{55}
+\contentsline {subsection}{\numberline {4.3}Discussion}{55}
+\contentsline {section}{\numberline {5}Conclusions}{57}
