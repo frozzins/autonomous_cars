@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  14 SEP 2016 17:44
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  14 SEP 2016 18:11
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -1191,8 +1191,8 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `!tbp') on input line 1768.
 
 File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
-<materials/findings_and_results/equilibrum.eps> [55] [56]
-(autonomous_cars_dissertation.bbl [57]
+<materials/findings_and_results/equilibrum.eps> [55] [56] [57]
+(autonomous_cars_dissertation.bbl
 LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 8.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
@@ -1278,6 +1278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--69
 [] [][][] [] [][] [] [][] [] [][][][] [] [][][][] [] [][] [] [][] []
  []
 
+[59]
 Missing character: There is no ^^97 in font Arial/OT:script=latn;language=DFLT;
 mapping=tex-text;!
 
@@ -1286,7 +1287,7 @@ Underfull \hbox (badness 1286) in paragraph at lines 113--117
 , ‘Autonomous ground vehi-
  []
 
-[59]
+
 Underfull \hbox (badness 10000) in paragraph at lines 123--127
 []\EU1/Arial(0)/m/n/10.95 Mercedes (2015), ‘Mercedes Intelligent Drive Driving 
 Assistance’,
@@ -1360,7 +1361,7 @@ n/10.95 ), ‘A Tragic Loss’, $[][][][][] [] [] [] [][][] [] [][][][][] [] [][
  [] [][] [] [][] [] [][][][] [] [][][][][][][][][][][][] []
  []
 
-
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 228--232
 []\EU1/Arial(0)/m/n/10.95 The Guardian (2016), ‘Tesla driver dies in first fata
 l crash while using au-
@@ -1400,7 +1401,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--238
 ial(0)/m/n/10.95 .  [On-
  []
 
-[61]
+
 Underfull \hbox (badness 5302) in paragraph at lines 245--249
 []\EU1/Arial(0)/m/n/10.95 UK Department for Transport (2015), ‘Contributory fac
 tors for reported road ac-
@@ -1444,7 +1445,7 @@ Overfull \hbox (90.16316pt too wide) in paragraph at lines 268--272
 
 Package natbib Warning: There were undefined citations.
 
-[62] (autonomous_cars_dissertation.aux) ) 
+[62] [63] (autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
  17867 strings out of 428755
  344916 string characters out of 3163194
@@ -1454,4 +1455,4 @@ Here is how much of TeX's memory you used:
  1096 hyphenation exceptions out of 8191
  48i,18n,61p,10398b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on autonomous_cars_dissertation.pdf (63 pages).
+Output written on autonomous_cars_dissertation.pdf (64 pages).
