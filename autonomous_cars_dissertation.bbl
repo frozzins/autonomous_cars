@@ -174,10 +174,6 @@ Rajkumar, R., Gagliardi, M. \harvardand\ Sha, L.  \harvardyearleft
   implementation, {\em in} `Real-Time Technology and Applications Symposium,
   1995. Proceedings', IEEE, pp.~66--75.
 
-\harvarditem{Rothery}{1992}{rothery1992car}
-Rothery, R.~W.  \harvardyearleft 1992\harvardyearright , `Car following
-  models', {\em Trac Flow Theory} .
-
 \harvarditem{SAE}{2013}{sae1}
 SAE  \harvardyearleft 2013\harvardyearright , `{SAE LEVELS OF DRIVING
   AUTOMATION}',
@@ -206,6 +202,11 @@ Summala, H., Lamble, D. \harvardand\ Laakso, M.  \harvardyearleft
   1998\harvardyearright , `Driving experience and perception of the lead car's
   braking when looking at in-car targets', {\em Accident Analysis \&
   Prevention} {\bf 30}(4),~401--407.
+
+\harvarditem{{SUMO}}{2011}{sumo2}
+{SUMO}  \harvardyearleft 2011\harvardyearright , `{Traffic Control Interface}',
+  \url{http://www.sumo.dlr.de/userdoc/TraCI.html}.
+\newblock [Online; accessed 11-09-2016].
 
 \harvarditem{{Tech Times}}{2016}{techtimes}
 {Tech Times}  \harvardyearleft 2016\harvardyearright , `{The Driverless Car
@@ -247,23 +248,22 @@ Treiber, M. \harvardand\ Kesting, A.  \harvardyearleft 2013\harvardyearright ,
   `Traffic flow dynamics', {\em Traffic Flow Dynamics: Data, Models and
   Simulation, Springer-Verlag Berlin Heidelberg} .
 
-\harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em a}}{excel}
-UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
-  a}\harvardyearright , `{Contributory factors for reported road accidents
-  (RAS50)}',
+\harvarditem{{UK Department for Transport}}{2015}{excel}
+{UK Department for Transport}  \harvardyearleft 2015\harvardyearright ,
+  `{Contributory factors for reported road accidents (RAS50)}',
   \url{https://www.gov.uk/government/statistical-data-sets/ras50-contributory-factors}.
 \newblock [Online; accessed 12-09-2016].
 
 \harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em
-  b}}{pathwaytodriverless2}
+  a}}{pathwaytodriverless2}
 UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
-  b}\harvardyearright , `The pathway to driverless cars: A detailed review of
+  a}\harvardyearright , `The pathway to driverless cars: A detailed review of
   regulations for automated vehicle technologies'.
 
 \harvarditem{UK{\ }Department{\ }of{\ }Transport}{2015{\em
-  c}}{pathwaytodriverless}
+  b}}{pathwaytodriverless}
 UK{\ }Department{\ }of{\ }Transport  \harvardyearleft 2015{\em
-  c}\harvardyearright , `The pathway to driverless cars: Summary report and
+  b}\harvardyearright , `The pathway to driverless cars: Summary report and
   action plan'.
 
 \harvarditem{Vangi \harvardand\ Virga}{2007}{vangi2007evaluation}

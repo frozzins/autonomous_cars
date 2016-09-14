@@ -301,15 +301,6 @@
   Publisher                = {Elsevier}
 }
 
-@Article{rothery1992car,
-  Title                    = {Car following models},
-  Author                   = {Rothery, Richard W},
-  Journal                  = {Trac Flow Theory},
-  Year                     = {1992},
-
-  Publisher                = {Citeseer}
-}
-
 @Misc{sae1,
   Title                    = {{SAE LEVELS OF DRIVING AUTOMATION}},
 
@@ -354,6 +345,15 @@
   Volume                   = {30},
 
   Publisher                = {Elsevier}
+}
+
+@Misc{sumo2,
+  Title                    = {{Traffic Control Interface}},
+
+  Author                   = {{SUMO}},
+  HowPublished             = {\url{http://www.sumo.dlr.de/userdoc/TraCI.html}},
+  Note                     = {[Online; accessed 11-09-2016]},
+  Year                     = {2011}
 }
 
 @Misc{techtimes,
@@ -422,7 +422,7 @@
 @Misc{excel,
   Title                    = {{Contributory factors for reported road accidents (RAS50)}},
 
-  Author                   = {UK{\ }Department{\ }of{\ }Transport},
+  Author                   = {{UK Department for Transport}},
   HowPublished             = {\url{https://www.gov.uk/government/statistical-data-sets/ras50-contributory-factors}},
   Note                     = {[Online; accessed 12-09-2016]},
   Year                     = {2015}

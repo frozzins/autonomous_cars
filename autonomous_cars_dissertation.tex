@@ -704,10 +704,16 @@ Last chapter summarizes the project and draws conclusions. Additionally, it also
 
 
 \section{Software engineering}
+\paragraph{}
+Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment. From the point of view of software implementation the experiment required at least two applications running on multiple machines that would be communicating with each other over the network in real-time.
 
-Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment. From the point of view of software implementation the experiment required different applications running on multiple machines that would be talking to each other over the network in real-time.
+\par
 
-***more planned to be added here...
+This chapter outlines all software developed prior to the experiment. First section is dedicated to the choice of the development environment. Next one describes two main components of software: simulation server application and client's application. The third one characterizes models of car dynamics used in the simulation and reasoning behind choosing them. The last section explains the network solution used in the experiment and the path the led towards it.
+
+\par
+
+%***more planned to be added here...
 
 
 %The aim of the softwa
@@ -739,49 +745,49 @@ Creating software that allowed to successfully conduct the experiment was the lo
 
 
 \subsection{Environment choice}
+\paragraph{}
 
-\paragraph{Traffic modelling software, (SUMO)}
+Choosing the right environment to develop software was a key decision that had crucial impact on all components of the project. After a process of careful consideration it was decided to use MATLAB as a sole development environment for all parts of the project. 
+\par
+The initial Project Proposal written by project supervisor, Eddie Wilson suggested using SUMO package as a core of the simulation. 
+\par
 
-SUMO stands for Simulation of Urban MObility. It's an open source framework used for traffic simulation\citep{krajzewicz2002sumo}. SUMO was first introduced in 2002 and since then it became a popular tool for scientist as well as people involved in practical traffic planning tasks. 
+%\paragraph{Traffic modelling software, (SUMO)}
 
+SUMO stands for Simulation of Urban MObility. It is an open source framework used for traffic simulation \citep{krajzewicz2002sumo}. SUMO was first introduced in 2002 and since then it became a popular tool for scientist as well as people involved in practical traffic planning tasks. 
+\par
 SUMO is a purely microscopic simulation which means every traffic participant is modelled separately. The framework is designed to simulate large cities that contain thousands of roads and more than one million of vehicles.
+\par
+The core of the SUMO package is a logical representation of road layout. Segments of roads separated by junctions are described as nodes and edges. Edges consist of directed lanes. Vehicle's position is described in terms of edge and lane number and distance from origin node. At every step of the simulation interactions between individual simulation entities are computed and all parameters updated 
+\citep{krajzewicz2002sumo}.
+\par
 
-The core of the SUMO package is a logical representation of road layout. Segments of roads separated by junctions are described as nodes and edges. Edges consist of directed lanes. Vehicle's position is described in terms of edge and lane number and distance from origin node. At every step of the simulation interaction between individual simulation entities are computed and all parameters updated. 
-\citep{krajzewicz2002sumo}
-
-SUMO is supported by additional pieces of software such as a tool for importing map structure and a plug-in for providing on-line inputs.
-
-The applications of SUMO include designing traffic light sequence, predicting demands on planned roads or creating traffic control systems.  
-
-
-It is a microscopic
-
-It allows to account for multiple factors to create 
-
-quick summary of sumo
-
-\paragraph{ROS}
+It was assumed that a small part of SUMO capabilities would be utilized in combinations with additional software written for the purpose of this project. SUMO features  Traffic Control Interface (TraCI) \citep{sumo2} that gives access to the running simulation. The parameters of the simulation like car's location could be potentially retrieved and manipulated in real-time. The additional software would be responsible for network data exchange, visualizing car's surrounding and capturing inputs from experiment participants. Most likely the programming language used for this part would be C++. 
+\par
+On the other hand, SUMO was intended for much larger simulations than the one planned. Vast majority of available features would not be used and could rather be a source of potential issues. 
 
 
-write about how wors works mostly
+%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%\cite{parkin2016understanding}
-%\parencite{parkin2016understanding}
+\par
 
-\citet{parkin2016understanding}
-
-
-
-\paragraph{else...}
-%%%%%%%%%%%%%%%%%%%%%%%%
-
-Choosing the right environment to develop software was a key decision that had crucial impact on all components of the project. After a process of careful consideration it was decided to use MATLAB as a sole development environment for all parts of the project. The initial Project Proposal written by project supervisor, Eddie Wilson suggested using SUMO package as a core of the simulation. It was assumed that a small part of SUMO capabilities would be utilized in combinations with additional software written for the purpose of this project. SUMO features  Traffic Control Interface (TraCI) (\textit{link to website}) that gives access to running simulation. The parameters of the simulation like car's location could be potentially retrieved and manipulated in real-time. The additional software would be responsible for network data exchange, visualizing car's surrounding and capturing inputs from experiment participants. Most likely the programming language used for this part would be C++. On the other hand, SUMO was intended for much larger simulations than the one planned. Vast majority of available features would not be used and could rather be a source of potential issues. 
 
 A competing idea was to create a tailored application that would be inspired by the structure of SUMO but would be written from scratch. It would be implemented using C++ or MATLAB environment. The main benefit of this approach would be full control of the software behaviour. The main drawback would be rewriting algorithms and structure that already existed inside SUMO. In terms of subjective software preference MATLAB was considered most familiar and least error prone.  
 
-Another key question that had large impact on the decision was how to establish reliable communication between machines. It was found that MATLAB supports at least three possible ways of communication that could be used in the project including User Datagram Protocol (UDP), Transmission Control Protocol (TCPIP) and Robot Operating System. This was the main reason why MATLAB was eventually chose for this project.
+\par
+
+Another key question that had large impact on the decision was how to establish reliable communication between machines. It was found that MATLAB supports at least three possible ways of communication that could be used in the project including User Datagram Protocol (UDP), Transmission Control Protocol (TCPIP) and Robot Operating System. Out of these three ROS was considered as a primary network solution.
+
+\par
+Although ROS is a framework designed for the development of robots, it also provides structured communication layer \citep{quigley2009ros}. Applying ROS would allow to reliably send data either as a point-to-point communication or as broadcasting.
+
+\par
+ This was the main reason why MATLAB was eventually chose for this project.
 Details of the implementation of network communication are described in the chapter \textit{Communication between machines}.
+
+
+
 
 \subsection{Software architecture}
 ***(present tense here..?)
@@ -824,7 +830,7 @@ Performing all calculations for clients, map and autonomous cars & Combining ord
 
 
 
-\subsection{Simulation Server Application design}
+\subsubsection{Simulation Server Application design}
 
 
 Simulation Server Application was at the heart of the simulation. It was responsible for all essential computation, managing communication between other entities and executing code at constant rate. Its design consisted of following classes (appendix: class diagram):
@@ -907,7 +913,7 @@ First 3 numbers meant car's location and orientation. Next two numbers indicated
 
 
 
-\subsection{Client Application design}
+\subsubsection{Client Application design}
 
 
 Identical copy of Client Application was deployed on  each computer used by experiment participants. Main tasks of Client Application included receiving location and orientation, sending acceleration and turn order, displaying part of the map to the participant and harvesting inputs from keyboard. Its design consisted of following classes (appendix: class diagram):
@@ -1028,6 +1034,73 @@ If collision is anticipated, certain parameters of IDM are overwritten. A simpli
 \caption{Algorithm governing the behaviour of autonomous car. It was executed for each car at every time step of the simulation. It allowed for very smooth interactions if another autonomous car was encountered and very cautious ones with human drivers.}
 \label{fig:idm_upgrade}
 \end{figure} 
+
+
+\subsubsection{Human Car control}
+
+The way in which cars were controlled had significant impact on the experiment results. From participant's point of view car's behaviour should be predictable and similar to how real car behaves. The challenge was to achieve this kind of performance using only discreet inputs from keyboard. Graphical interface used by participants allowed to capture multiple keys pressed simultaneously, however resulting acceleration order had to always be one of the following: speed up, slow down, coast or brake. After analysing relevant literature it was decided that car's behaviour should be similar to one of the cars following models \citep{treiber2013traffic}. From The Gipps' Car Following Model given in \citet{spyropoulou2007simulation} a formula describing acceleration on the basis of current speed was extracted.
+
+\begin{equation}
+\dot{v}=2.5a(1- \frac{v}{V})\sqrt{0.025+ \frac{v}{V}}
+\end{equation}
+In the above equation $v$ is current velocity, $\dot{v}$ is acceleration available at current speed, $a$ is acceleration parameter and $V$ is velocity at which car should not be able to accelerate any more.
+
+Value of $a$ was found empirically to be 5. Figure~\ref{fig:gipps} illustrates how the acceleration value depended on the current velocity. Gipps' model was used only when participant's order was to accelerate (A key). When the order was to slow down (Z key) the applied value of acceleration was $-6.5\:\nicefrac{m}{s^2}$. While coasting the acceleration value was $0$. To imitate car's dissipating energy coming from aerodynamic drag and rolling resistance the calculated value of velocity was brought down by $0.5\%$ in every loop iteration; This principle applied also to autonomous cars. Last available command influencing car's velocity was braking (SPACE bar) which gave an acceleration of $-10\:\nicefrac{m}{s^2}$.
+
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=0.9\linewidth]{materials/research_methodology/gipps.eps}}
+\caption{Available acceleration value depending on the current speed.}
+\label{fig:gipps}
+\end{figure} 
+
+As the experiment was dedicated to city traffic the maximum velocity of traditional vehicle was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after 11.1 seconds.
+
+
+
+
+
+%show speed/time with full acceleration - compared to autonomous car (or maybe put comparison in autonomous car section)
+
+%graph of coasting...in time or distance travelled - speed vs time?
+
+
+%gave relatively . 
+
+
+
+%However, unlike real car the model used in the simulation 
+
+
+%Parameters were optimized to give possibly most realistic feeling of car control NFS
+
+
+%The challenge was to 
+
+
+%In real car the acceleration is controlled by analogue throttle
+
+
+%gipps graph here. reference to book or paper?
+
+
+%gipps
+
+\paragraph{Comparison with autonomous car model}
+%this could be seperat subsubsection...?
+
+
+Figure~\ref{fig:super_graph} compares behaviours of autonomous and traditional car. It can be seen that although profiles have fairly similar shape, there are some significant differences. And so, while traditional car's max speed is higher, its acceleration is slower compared self-driving one. Additionally, braking profile of autonomous car is smoother than human-driven one.
+
+FIX THIS GRAPH:
+
+\begin{figure}[!] % Example image
+\center{\includegraphics[width=1\linewidth]{materials/research_methodology/super_graph.eps}}
+\caption{Behaviour comparison of Autonomous and Human-Driven cars in terms of distance travelled, velocity and acceleration. First section on the left corresponds to both types of vehicles accelerating from zero velocity. Middle section shows coasting when Participant's acceleration is 0 and autonomous car maintains maximum velocity. Section on the right shows Participant slowing down at $-6.5\:\nicefrac{m}{s^2}$ and Autonomous Car detecting stationary object 30 meters ahead.}
+\label{fig:super_graph}
+\end{figure} 
+
+%super_graph.eps
 
 
 
@@ -1186,73 +1259,6 @@ The reason for not using arrow keys was that these keys were used to control car
 Another design decision concerned the size of driver's view field. The shape and size of the view field was a square 80 meters by 80 meters where car was positioned 20 meters from the bottom as it is showed on previous Figure~\ref{fig:gui_4}. It was assumed that for a driver travelling at full speed it should be possible to comfortably slow down to zero when a stationary vehicle suddenly appears in front of it. The amount of time elapsing from first sight of the obstacle to coming to full stop includes reaction time and breaking time. According to \citep{summala1998driving} average reaction time for a vehicle without brake lights is about 2 seconds which corresponds to 30 meters travelled. Breaking at $-6.5\:\nicefrac{m}{s^2}$ from $15\:\nicefrac{m}{s}$ takes 2.3 seconds which consequently corresponds to 17.2 meters. Therefore minimal distance that driver should be able to see ahead is 47.2 meters. After initial tests this lower-bound value proved to be too small and after few other trials was extended to 60 meters. Another 20 meters of sight distance was added behind the car. 
 
 
-
-
-\subsection{Human Car control}
-
-The way in which cars were controlled had significant impact on the experiment results. From participant's point of view car's behaviour should be predictable and similar to how real car behaves. The challenge was to achieve this kind of performance using only discreet inputs from keyboard. Graphical interface used by participants allowed to capture multiple keys pressed simultaneously, however resulting acceleration order had to always be one of the following: speed up, slow down, coast or brake. After analysing relevant literature it was decided that car's behaviour should be similar to one of the cars following models \citep{treiber2013traffic}. From The Gipps' Car Following Model given in \citet{spyropoulou2007simulation} a formula describing acceleration on the basis of current speed was extracted.
-
-\begin{equation}
-\dot{v}=2.5a(1- \frac{v}{V})\sqrt{0.025+ \frac{v}{V}}
-\end{equation}
-In the above equation $v$ is current velocity, $\dot{v}$ is acceleration available at current speed, $a$ is acceleration parameter and $V$ is velocity at which car should not be able to accelerate any more.
-
-Value of $a$ was found empirically to be 5. Figure~\ref{fig:gipps} illustrates how the acceleration value depended on the current velocity. Gipps' model was used only when participant's order was to accelerate (A key). When the order was to slow down (Z key) the applied value of acceleration was $-6.5\:\nicefrac{m}{s^2}$. While coasting the acceleration value was $0$. To imitate car's dissipating energy coming from aerodynamic drag and rolling resistance the calculated value of velocity was brought down by $0.5\%$ in every loop iteration; This principle applied also to autonomous cars. Last available command influencing car's velocity was braking (SPACE bar) which gave an acceleration of $-10\:\nicefrac{m}{s^2}$.
-
-
-\begin{figure}[!] % Example image
-\center{\includegraphics[width=0.9\linewidth]{materials/research_methodology/gipps.eps}}
-\caption{Available acceleration value depending on the current speed.}
-\label{fig:gipps}
-\end{figure} 
-
-As the experiment was dedicated to city traffic the maximum velocity of traditional vehicle was limited to 15 m/s. Starting from full stop and heaving acceleration button pressed the car would reach that velocity after 11.1 seconds.
-
-
-
-
-
-%show speed/time with full acceleration - compared to autonomous car (or maybe put comparison in autonomous car section)
-
-%graph of coasting...in time or distance travelled - speed vs time?
-
-
-%gave relatively . 
-
-
-
-%However, unlike real car the model used in the simulation 
-
-
-%Parameters were optimized to give possibly most realistic feeling of car control NFS
-
-
-%The challenge was to 
-
-
-%In real car the acceleration is controlled by analogue throttle
-
-
-%gipps graph here. reference to book or paper?
-
-
-%gipps
-
-\paragraph{Comparison with autonomous car model}
-
-
-
-Figure~\ref{fig:super_graph} compares behaviours of autonomous and traditional car. It can be seen that although profiles have fairly similar shape, there are some significant differences. And so, while traditional car's max speed is higher, its acceleration is slower compared self-driving one. Additionally, braking profile of autonomous car is smoother than human-driven one.
-
-FIX THIS GRAPH:
-
-\begin{figure}[!] % Example image
-\center{\includegraphics[width=1\linewidth]{materials/research_methodology/super_graph.eps}}
-\caption{Behaviour comparison of Autonomous and Human-Driven cars in terms of distance travelled, velocity and acceleration. First section on the left corresponds to both types of vehicles accelerating from zero velocity. Middle section shows coasting when Participant's acceleration is 0 and autonomous car maintains maximum velocity. Section on the right shows Participant slowing down at $-6.5\:\nicefrac{m}{s^2}$ and Autonomous Car detecting stationary object 30 meters ahead.}
-\label{fig:super_graph}
-\end{figure} 
-
-%super_graph.eps
 
 
 
