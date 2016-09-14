@@ -325,15 +325,6 @@
   Year                     = {2014}
 }
 
-@Misc{sheerwood,
-  Title                    = {{Village map}},
-
-  Author                   = {{Sherwood Forest Faire}},
-  HowPublished             = {\url{http://www.sherwoodforestfaire.com/wp-content/uploads/2013_SWFF_Map_web.jpg}},
-  Note                     = {[Online; accessed 11-09-2016]},
-  Year                     = {2011}
-}
-
 @Article{sivak2015road,
   Title                    = {Road safety with self-driving vehicles: General limitations and road sharing with conventional vehicles},
   Author                   = {Sivak, Michael and Schoettle, Brandon},
@@ -477,5 +468,10 @@
   HowPublished             = {\url{https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars-test-on-public-roads-around-gothenburg}},
   Note                     = {[Online; accessed 12-09-2016]},
   Year                     = {2015}
+}
+
+@Article{sheerwood,
+  Owner                    = {not},
+  Timestamp                = {2016.09.14}
 }
 

@@ -1,5 +1,12 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: autonomous_cars_dissertation.aux
 The style file: agsm.bst
-I found no \citation commands---while reading file autonomous_cars_dissertation.aux
-I found no \bibdata command---while reading file autonomous_cars_dissertation.aux
-(There were 2 error messages)
+Database file #1: dissertation_citation_database.bib
+Repeated entry---line 208 of file dissertation_citation_database.bib
+ : @inproceedings{merat2009drivers
+ :                                ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "mcbride2016ethics"
+Warning--empty author in sheerwood
+Warning--can't use both volume and number fields in quigley2009ros
+Warning--empty institution in schoettle2014survey
+(There was 1 error message)

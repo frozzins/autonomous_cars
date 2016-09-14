@@ -2,9 +2,8 @@
 \contentsline {paragraph}{}{4}
 \contentsline {subsection}{\numberline {1.1}Driverless cars revolution}{4}
 \contentsline {paragraph}{Current development of autonomous cars}{5}
-\contentsline {paragraph}{}{5}
 \contentsline {paragraph}{Views on the future}{6}
-\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{7}
 \contentsline {subsection}{\numberline {1.2}Implications of autonomous cars revolution}{8}
 \contentsline {paragraph}{}{8}
 \contentsline {subsection}{\numberline {1.3}Main challenges to bring autonomous cars to the roads}{9}
@@ -16,7 +15,7 @@
 \contentsline {paragraph}{}{11}
 \contentsline {subsection}{\numberline {1.5}Defining the research scope}{12}
 \contentsline {paragraph}{}{12}
-\contentsline {paragraph}{Reflection the original project scope}{14}
+\contentsline {paragraph}{Reflection upon original project scope}{14}
 \contentsline {subsection}{\numberline {1.6}The experiment}{15}
 \contentsline {paragraph}{}{15}
 \contentsline {subsection}{\numberline {1.7}Roadmap}{16}
@@ -25,7 +24,7 @@
 \contentsline {paragraph}{}{17}
 \contentsline {subsection}{\numberline {2.1}Environment choice}{17}
 \contentsline {paragraph}{}{17}
-\contentsline {subsection}{\numberline {2.2}Software architecture}{18}
+\contentsline {subsection}{\numberline {2.2}Software architecture}{19}
 \contentsline {subsubsection}{\numberline {2.2.1}Simulation server application design}{19}
 \contentsline {paragraph}{}{19}
 \contentsline {paragraph}{Server's graphical interface}{21}

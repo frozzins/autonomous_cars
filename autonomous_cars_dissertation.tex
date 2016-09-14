@@ -159,21 +159,17 @@ Insert abstract here...
 \section{Introduction and Motivation} % Major section
 
 \paragraph{}
-Autonomous cars are currently a topic of a great interest.  Around the world the biggest private companies are investing in projects on driver-less technology. There are currently 33 global corporations, including giants like Google, Apple and Tesla, that channel significant resources to autonomous driving \citep{33comp}. The most innovative countries are allocating large sums of money not only to develop the technology, but also to raise public awareness and introduce necessary legislation \citep{pathwaytodriverless};\citep{pathwaytodriverless2}. 
+Autonomous cars are currently a topic of  great interest.  Around the world the biggest private companies are investing in projects on driverless technology. There are currently 33 global corporations, including giants like Google, Apple and Tesla, that channel significant resources to autonomous driving \citep{33comp}. The most innovative countries are allocating large sums of money not only to develop the technology, but also to raise public awareness and introduce necessary legislation \citep{pathwaytodriverless};\citep{pathwaytodriverless2}. 
 
 \par
 ***perhaps more here
 \par
-Although the topic is studied very widely and the amount of corresponding literature is enormous, this dissertation attempts to identify a potential gap in developing a broad understanding of how autonomous vehicles may impact the traffic flow. 
+Although the topic is studied very widely and the amount of corresponding literature is enormous, this dissertation attempts to identify a potential gap in developing a broad understanding of how autonomous vehicles may impact upon traffic flow, <includoing traditiona human-driven vehiclse>. 
 
 
 
 \par
-First part of this chapter introduces the topic of autonomous driving. It discusses current technological developments and attempts to identify the main challenges in the upcoming decades.  
-\par
-Supported by the literature review, next section states which research gap was identified and why it is worthy to investigate it. Consecutively, a precise statement of research questions is given, followed by a list of aims and objectives of the dissertation. Another section describes the experiment which was the central part of the project. It also talks about how the original scope of the project evolved from the initial plan to the current state.
-\par
-Finally, a roadmap of the whole project is given; starting from the development of software, through the design of the experiment and finishing with the analysis of the results.
+The first part of this chapter introduces the topic of autonomous driving. It discusses current technological developments and attempts to identify the main challenges in the upcoming decades. Supported by the literature review, section 1.4.. states which research gap was identified and why it is worthy to investigate it. Consecutively, a precise statement of research questions is given, followed by a list of aims and objectives of the dissertation. Section <number> describes the experiment which was the central part of the project. It also talks about how the original scope of the project evolved from the initial plan to the current state. Finally, in section <> a roadmap of the whole project is given; starting from the development of software, through the design of the experiment and finishing with the analysis of the results.
 
 
 
@@ -184,9 +180,9 @@ Finally, a roadmap of the whole project is given; starting from the development 
 
 \subsection{Driverless cars revolution}
 
-Many experts around the world try to predict how autonomous cars will influence our life in the upcoming decades. It is commonly agreed upon fully automated traffic will become a reality around year 2060. Although the most optimistic predictions claim it will happen as early as in year 2040 \citep{kitti2012we}; \citep{litman2014autonomous}; \citep{sivak2015road}. In the next years we will be observing a gradual change on our roads, as the number of self-driving cars will increase substantially. 
+Many experts around the world try to predict how autonomous cars will influence our life in the upcoming decades. It is commonly agreed upon that fully automated traffic will become a reality around the year 2060, although the most optimistic predictions claim it will happen as early as 2040 \citep{kitti2012we}; \citep{litman2014autonomous}; \citep{sivak2015road}. In the next years we will be observing a gradual change on our roads, as the number of self-driving cars will increase. 
 \par
-The key factor that influences the steady shift towards fully automated traffic is a broadly understood technological advancement. Even though, all the efforts have been leading towards building a fully autonomous car, such vehicle has not yet been constructed \citep{litman2014autonomous}. 
+The key factor that influences the steady shift towards fully automated traffic is a broadly understood technological advancement. Even though, all the efforts have been leading towards building a fully autonomous car, such a vehicle has not yet been constructed \citep{litman2014autonomous}. 
 %\par?
 This section talks about the current development of the self-driving  technology. It also touches upon possible scenarios for its future development and discusses the challenges that need to be faced.
 
@@ -201,21 +197,20 @@ This section talks about the current development of the self-driving  technology
 
 \paragraph{Current development of autonomous cars}
 
-\paragraph{}
-The most recent achievements in the field of autonomous cars are probably best presented through cutting-edge commercial projects such as Google's Self-driving car \citep{google1}, Tesla's Autopilot \citep{tesla1} or Volvo's 'Drive Me' project \citep{volvo1}. Google (Alphabet) is perhaps the most experienced player as it's self-driving car project started as early as 2009. However, it would be an overstatement to say that it is also the most advanced project, as other corporations also reached high levels of the technological advancement and every project focuses on different aspects of autonomous driving \citep{33comp}. 
+The most recent achievements in the field of autonomous cars are probably best presented through cutting-edge commercial projects such as Google's Self-driving car \citep{google1}, Tesla's Autopilot \citep{tesla1} or Volvo's `Drive Me` project \citep{volvo1}. Google (Alphabet) is perhaps the most experienced player as its self-driving car project started as early as 2009. However, it would be an overstatement to say that it is also the most advanced project, as other corporations also reached high levels of the technological advancement and every project focuses on different aspects of autonomous driving \citep{33comp}. 
 \par
 Google's car is classified as level 3 in automated vehicle classification system proposed by \citet{nhtsa1} and also as level 3 in a similar classification proposed by \citet{sae1}. This level of autonomy means that the car takes full control over all critical safety functions, but at certain times, the driver can be asked to retake the control (and must do so).  
 \par
-The topic is so interesting that only roughly 60\% of companies involved in this business are genuine car-producing companies. Others, like aforementioned Google and Apple, or like a relatively new player  - Uber, saw a new, promising opportunity and decided to expand towards this new emerging market \citep{33comp}. Figure~\ref{fig:volvo} shows modified Volvo XC90 that was created in collaboration with Uber.
+The topic is so interesting that only roughly 60\% of companies involved in this business are genuine car-producing companies. Others, like a aforementioned Google and Apple, or like a relatively new player  - Uber, saw a new, promising opportunity and decided to expand towards this new emerging market \citep{33comp}. Figure~\ref{fig:volvo} shows a modified Volvo XC90 that was created in collaboration with Uber.
 
 \begin{figure}[!] % Example image
 \center{\includegraphics[width=1\linewidth]{materials/chapter_introduction/volvo.jpg}}
-\caption{Self-driving Volvo XC90 developed in collaboration with Uber. As of August 2016 pilot project is being launch in Pittsburgh, USA \citep{uberpittsburgh}. Photo: \citet{volvo1}}
+\caption{Self-driving Volvo XC90 developed in collaboration with Uber. As of August 2016 pilot project is being launch in Pittsburgh, USA \citep{uberpittsburgh}. Photo reproduced from: \citet{volvo1}}
 \label{fig:volvo}
 \end{figure} 
 
 \par
-Another company that achieved significant successes is Audi with it's Piloted Driving project. The company managed to develop a racing car capable of beating a professional driver on a racing track. Nonetheless, Audi is also developing technologies for civil driving \citep{audi1}.
+Another company that achieved significant successes is Audi with its Piloted Driving project. The company managed to develop a racing car capable of beating a professional driver on a racing track. Nonetheless, Audi is also developing technologies for civil driving \citep{audi1}.
 
 \par
 
@@ -246,7 +241,7 @@ It should soon be possible to create a vehicle classified as the 4th level of au
 It is likely that in the midterm future another idea of connected vehicles may become reality. The idea states that vehicles that are close to each other can communicate and therefore increase the safety and add a level of intelligence to their behaviour. Vehicles can also connect to infrastructure and i.e. predict the traffic lights sequence \citep{narla2013evolution} ; \citep{luettel2012autonomous}.
 
 \par
-Another prediction is that the development of new legislation can be slower than the development of the technology. Although the fully autonomous car may exist, it might be still required to supervise it from the driver's seat.\citep{luettel2012autonomous}. None the less, UK government claims to be aware of these necessary changes. The report released by UK Department of Transport titled "The Pathway to Driverless Cars Summary report and action plan" \citep{pathwaytodriverless} states that government 'recognises the benefits of autonomous vehicles and is undertaking actions to aid the development of technologies and law that would allow to bring driverless cars on public roads'. Additionally, the \citet{pathwaytodriverless2} informed that \textsterling 19 million is currently being provided  to allow testing of automated vehicle technology.
+Another prediction is that the development of new legislation can be slower than the development of the technology. Although the fully autonomous car may exist, it might be still required to supervise it from the driver's seat.\citep{luettel2012autonomous}. None the less, UK government claims to be aware of these necessary changes. The report released by UK Department of Transport titled `The Pathway to Driverless Cars Summary report and action plan` \citep{pathwaytodriverless} states that government 'recognises the benefits of autonomous vehicles and is undertaking actions to aid the development of technologies and law that would allow to bring driverless cars on public roads'. Additionally, the \citet{pathwaytodriverless2} informed that \textsterling 19 million is currently being provided  to allow testing of automated vehicle technology.
 
 \par
 Although majority of the literature focuses on various technical aspects of driverless cars, there are also certain concerns about whether the development is going into the right direction. \citet{mcbride2016ethics} gives Oxford University’s Robotcar as an example and  says that the pursuit of full autonomy does not properly recognize the separation between a human and a machine. The author claims that self-driving vehicles should not be allowed to drive without being deeply connected to the infrastructure, internet and other users.
@@ -454,13 +449,13 @@ Drivewave project conducted by the MIT Senseable City Lab shows how greatly traf
 
 
 \par
-From the macroscopic point of view, it is not clear whether autonomous cars will increase of decrease the average number of accidents. According to \citet{excel} most accidents are caused by human error. The main contributory factors are failure to look properly, failure to judge other's person speed or path and driver, carelessness, recklessness or being in a hurry. Driverless cars can potentially be free from these infirmities.
+From the macroscopic point of view, it is not clear whether autonomous cars will increase of decrease the average number of accidents. According to \citet{excel} most accidents are caused by human error. The main contributory factors are failure to look properly, failure to judge other's person speed or path and driver, carelessness, recklessness or being in a hurry. Driverless cars can potentially be free from these faults.
 \par
 According to the \citet{pathwaytodriverless} the number of collisions should drop but as aforementioned, according to \citet{sivak2015road} the autonomous cars may be less robust than expected and therefore number of accident could rise. 
 
 
 \par
-Human drivers have certain expectations towards other drivers. Things like eye-contact are often important for successful communication. That kind of interaction will be absent in encounters with autonomous vehicles. Moreover, human drivers often possess skills and experience that may not be easy to quantify and program into a machine. Therefore, driverless cars can, in fact, perform worse in certain situations and as a result, during transition period the amount of accidents can in fact increase \citep{sivak2015road}.
+Human drivers have certain expectations towards other drivers. Things like eye-contact are often important for successful communication. That kind of interaction will be absent in encounters with autonomous vehicles. Moreover, human drivers often possess skills and experience that may not be easy to quantify and program into a machine. Therefore, driverless cars can, in fact, perform worse in certain situations and as a result, during transition period the amount of accidents mights in fact increase \citep{sivak2015road}.
 
 
 
@@ -538,7 +533,7 @@ The secondary aim was to inspect particular interactions from the point of view 
 
 \par
 
-The main objective of the project was to conduct the experiment that would be a simplified simulation of traffic and would involve human drivers and autonomous cars. The experiment should allow for simultaneous inputs from multiple traffic participants. It would consist of few different scenario that would involve different proportions of human drivers and selfdriving cars. 
+The main objective of the project was to conduct the experiment that would be a simplified simulation of traffic and would involve human drivers and autonomous cars. The experiment should allow for simultaneous inputs from multiple traffic participants. It would consist of a few different scenario that would involve different proportions of human drivers and self-driving cars. 
 
 \par
 
@@ -602,13 +597,11 @@ The decision to create such simulation was a key factor that gave shape to the w
 %nice paragraph:
 %It is believed that in order to achieve the most benefits from autonomous driving the algorithms governing the self-driving cars have to be optimized for efficient and safe interactions with traditional vehicles. The study focuses on understanding of these interactions. 
 
-\paragraph{Reflection the original project scope}
+\paragraph{Reflection upon original project scope}
 
 The original scope of the project included also in-robotico implementation that would be using remotely controlled "slot-cars" to simulate traffic. It was believed that physical model would have features that could not be accounted for or predicted in computer simulation. It was estimated for around 50\% of implementation effort. However, in the final version of the project the physical model was not implemented. After the project went into development the advantages of creating a physical model appeared less and less attractive. Especially compared to the cost of implementation. Original idea assumed using digital slot-car set with cars and track, as well as computer vision to track vehicles on the track and live video streaming to multiple computers. After more careful consideration the benefits of implementing above described would be very minor or none. In addition to this, implementing the computer simulation consumed more time that estimated. 
 
-It has to be admitted that scope was drastically limited in terms of implementation effort. It did not, however, have much impact on the quality of the research and conclusions. One would even venture to say that project should only consist of computer simulation even if more time and resources were allowed for project execution. 
-
-
+It has to be admitted that scope was significantly reduced in terms of implementation. It did not, however, have much impact on the quality of the research and conclusions. One would even venture to say that project should only consist of computer simulation even if more time and resources were allowed for project execution. 
 
 
 
