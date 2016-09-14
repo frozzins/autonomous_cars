@@ -5,14 +5,6 @@
   \url{http://www.audi.com/com/brand/en/vorsprung_durch_technik/content/2014/10/piloted-driving.html}.
 \newblock [Online; accessed 12-09-2016].
 
-\harvarditem[Beymer et~al.]{Beymer, McLauchlan, Coifman \harvardand\
-  Malik}{1997}{beymer1997real}
-Beymer, D., McLauchlan, P., Coifman, B. \harvardand\ Malik, J.
-  \harvardyearleft 1997\harvardyearright , A real-time computer vision system
-  for measuring traffic parameters, {\em in} `Computer Vision and Pattern
-  Recognition, 1997. Proceedings., 1997 IEEE Computer Society Conference on',
-  IEEE, pp.~495--501.
-
 \harvarditem{Bloomberg}{2013}{toyota1}
 Bloomberg  \harvardyearleft 2013\harvardyearright , `{Automated Cars May Boost
   Fuel Use, Toyota Scientist Says}',
@@ -147,12 +139,6 @@ NHTSA  \harvardyearleft 2013\harvardyearright , `{U.S. Department of
   \url{http://www.nhtsa.gov/About+NHTSA/Press+Releases/U.S.+Department+of+Transportation+Releases+Policy+on+Automated+Vehicle+Development}.
 \newblock [Online; accessed 12-09-2016].
 
-\harvarditem[Parkin et~al.]{Parkin, Clark, Clayton, Ricci \harvardand\
-  Parkhurst}{2016}{parkin2016understanding}
-Parkin, J., Clark, B., Clayton, W., Ricci, M. \harvardand\ Parkhurst, G.
-  \harvardyearleft 2016\harvardyearright , `Understanding interactions between
-  autonomous vehicles and other road users: A literature review'.
-
 \harvarditem[Quigley et~al.]{Quigley, Conley, Gerkey, Faust, Foote, Leibs,
   Wheeler \harvardand\ Ng}{2009}{quigley2009ros}
 Quigley, M., Conley, K., Gerkey, B., Faust, J., Foote, T., Leibs, J., Wheeler,
@@ -174,6 +160,10 @@ Rajkumar, R., Gagliardi, M. \harvardand\ Sha, L.  \harvardyearleft
   implementation, {\em in} `Real-Time Technology and Applications Symposium,
   1995. Proceedings', IEEE, pp.~66--75.
 
+\harvarditem{Rothery}{1992}{rothery1992car}
+Rothery, R.~W.  \harvardyearleft 1992\harvardyearright , `Car following
+  models', {\em Trac Flow Theory} .
+
 \harvarditem{SAE}{2013}{sae1}
 SAE  \harvardyearleft 2013\harvardyearright , `{SAE LEVELS OF DRIVING
   AUTOMATION}',
@@ -184,6 +174,12 @@ SAE  \harvardyearleft 2013\harvardyearright , `{SAE LEVELS OF DRIVING
 Schoettle, B. \harvardand\ Sivak, M.  \harvardyearleft 2014\harvardyearright ,
   A survey of public opinion about autonomous and self-driving vehicles in the
   us, the uk, and australia, Technical report.
+
+\harvarditem{{Sherwood Forest Faire}}{2011}{sheerwood}
+{Sherwood Forest Faire}  \harvardyearleft 2011\harvardyearright , `{Village
+  map}',
+  \url{http://www.sherwoodforestfaire.com/wp-content/uploads/2013_SWFF_Map_web.jpg}.
+\newblock [Online; accessed 11-09-2016].
 
 \harvarditem{Sivak \harvardand\ Schoettle}{2015}{sivak2015road}
 Sivak, M. \harvardand\ Schoettle, B.  \harvardyearleft 2015\harvardyearright ,
