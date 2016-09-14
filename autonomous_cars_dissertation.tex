@@ -511,7 +511,7 @@ It is believed that in order to achieve the most benefits from autonomous drivin
 %\paragraph{Aims} - later delete (contribution)
 \par
 %past tense but talking about future
-The primary aim of the research was to predict the impact of autonomous vehicles on the traffic. Results obtained were analysed from the point of view of macroscopic traffic parameters such as average velocity, vehicle density and congestion.
+The primary aim of the research was to predict the impact of autonomous vehicles on the traffic. Results obtained were analysed from the point of view of macroscopic traffic parameters such as average velocity, vehicle density and congestion. The focus of the research was congested, city traffic rather than motorways.
 
 \par
 
@@ -539,6 +539,15 @@ In order conduct the study a simplified model of autonomous car had to be create
 \par
 
 Last major objective was to create a realistically behaving model of car dynamics that would respond to participant's commands according to his or her expectations. 
+
+
+
+\par
+%justify why the experimn was even done
+
+The main aim of the project was to look into interactions between autonomous and human-driven vehicles. The main method that was used to achieve this was to create a simulation of traffic with both types of traffic participants. By reviewing the literature it was found that there are numerous car-following models that could be used as a model of human driver \citep{rothery1992car}; \citep{treiber2013traffic}. However, no matter how good were these models, they could only work as an approximation of how humans would actually control the cars. It was decided that differences between any of the reviewed car-following algorithms and the unpredictability of real human control are so significant that the study should rely on the experiment involving multiple human participants simultaneously controlling cars in interconnected simulation.
+ \par
+The decision to create such simulation was a key factor that gave shape to the whole project and accounted for the majority of the effort. Out of all work conducted through the project designing and implementing software that would allow to successfully conduct the experiment was the most absorbing and time consuming part.
 
 
 
@@ -587,16 +596,99 @@ Last major objective was to create a realistically behaving model of car dynamic
 
 \subsection{The experiment}
 
+\paragraph{}
 
-The main aim of the project was to look into interactions between autonomous and human-driven vehicles. The main method that was used to achieve this was to create a simulation of traffic with both types of traffic participants. By reviewing the literature it was found that there are numerous car-following models that could be used as a model of human driver. However, no matter how good were these models, they could only work as an approximation of how humans would actually control the cars. It was decided that differences between any of the reviewed car-following algorithms and the unpredictability of real human control are so significant that the study should rely on the experiment involving multiple human participants simultaneously controlling cars in interconnected simulation.
- 
-The decision to create such simulation was a key factor that gave shape to the whole project and accounted for the majority of the effort. Out of all work conducted through the project designing and implementing software that would allow to successfully conduct the experiment was the most absorbing and time consuming part.
-
-
-%The consequence of heaving an experiment that involved multiple participants was that the major effort was put into developing software that would allow to conduct the experiment. Implementing the simulation was the most significant factor accounting for the complexity of the project. 
+This section discusses the initial design of the experiment. At the start of the software development the exact way in which the experiment will be conducted was not yet known. More and more details on the experiment were being established as the development of the software was progressing. Described below is the level of knowledge on the experiment that was used as the initial guidelines for the development of software.
 
 
-%Justify the structure of the project. Why the experiment was a key part. Why this was the best option rather than for example use data from some database?...hmmm
+
+%First, a general description is given. 
+
+
+%The description of the experiment given in this chapter 
+
+
+
+
+%********************START HERE **************
+
+
+
+%cool above
+
+\paragraph{Initial description and requirements}
+
+%now all about the experiment itself:
+\par
+
+The following section describes the level of knowledge about the experiment before the start of implementation.
+
+
+
+At the initial stage of the project the details of the experiment were not yet established. One one the requirement of the software was to account for flexibility required by the experiment..
+
+
+\par
+
+The experiment was planned to involve ten to twenty people. They would be asked to control one of the vehicles in the simulation. Each of them would sit in front of a computer where they could use the keyboard and observe the screen. On the screen they would see a simplified view of their own vehicle and it's surrounding. The field of view around each car would be limited to a certain radius around the car to simulate what in reality can be seen from the inside of the vehicle.
+
+\par
+
+The experiment was planned to consist of a number of different scenarios. Each scenario would be using different shape of the map and would have different number of human-driven and autonomous vehicles. It should be possible to generate maps by giving only the necessary amount of information about the map's shape. Before each scenario it should be possible to set currently required number of human participant and autonomous cars. Flexibility of these parameters should allow to accommodate for unknown number of people that will show up for the experiment.
+
+
+\par
+
+
+Participants would control the vehicles using arrow keys on the keyboard. The vehicle should respond immediately and in a predictable way. Participants should be able to control acceleration of the car and make discrete choices on the turning direction. Additionally participants should be informed about their current speed.  
+\par
+
+The refresh rate of the simulation should not have impact on the results of the simulation. Participants should be able to perceive the environment without any noticeable delay. It should be possible to change the rate if necessary. The initial value of frame rate was 25 frames-per-second and was inspired by traditional frame rate in films. 
+At each iteration the state of the whole simulation should be stored for future analysis. 
+
+\par
+The model of the autonomous car should be relatively simple. The algorithm behind the model should allow the vehicle to dynamical move around the map on predefined path and successfully avoid collisions with all other participants. The level of knowledge of the autonomous car could be higher than experiment participants'. This is supported by the view that autonomous cars are likely to have access to knowledge coming from centralized sources or intelligent infrastructure.
+
+
+
+
+\par
+
+say about inviting people, money and food
+
+
+Software should allow to create different map configuration and set the number of each type of cars 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%
+
+
+\par
+what was the initial inead - in general
+why
+everyting that was known at this stafge
+
+exaplain what level of software flexibilty was require by the experiment (at that stage)
+
+\par
+
+The experiment was arguably the most important part of the project.
+
+
+
+
+
+The experiment was arguably the most important part of the project. All work done before was aimed at successful conductance of the experiment and all work done after was based on the data collected during the experiment. 
+
+
+The the state of initla plans there was only generall idea on what the experiment will look like. It waspossible to creates some rquirement for the software 
+
+
+
+
+%%************************
 
 
 \subsubsection{will be tested, how and why}
@@ -607,7 +699,7 @@ The decision to create such simulation was a key factor that gave shape to the w
 
 
 
-\subsubsection{How scope was reduced}
+\subsubsection{How scope was reduced - put this somewhere else...}
 
 The original scope of the project included also in-robotico implementation that would be using remotely controlled "slot-cars" to simulate traffic. It was believed that physical model would have features that could not be accounted for or predicted in computer simulation. It was estimated for around 50\% of implementation effort. However, in the final version of the project the physical model was not implemented. After the project went into development the advantages of creating a physical model appeared less and less attractive. Especially compared to the cost of implementation. Original idea assumed using digital slot-car set with cars and track, as well as computer vision to track vehicles on the track and live video streaming to multiple computers. After more careful consideration the benefits of implementing above described would be very minor or none. In addition to this, implementing the computer simulation consumed more time that estimated. 
 
