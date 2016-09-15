@@ -1,4 +1,5 @@
-\documentclass[11pt,english]{article} 
+\documentclass[11pt,english,twoside]{article} 
+
 
 %\usepackage[english]{babel}
 %\usepackage[utf8]{inputenc}
@@ -9,8 +10,18 @@
 \usepackage{fontspec}
 \setmainfont{Arial}
 
-\usepackage[a4paper,bindingoffset=1cm, left=2cm,right=2.5cm,top=3cm,bottom=4cm, footskip=1.5cm]{geometry}
+%\usepackage[a4paper,bindingoffset=0cm, left=3cm,right=3cm,top=3cm,bottom=4cm, footskip=1.5cm]{geometry}
 
+
+
+%\usepackage[a4paper,bindingoffset=1cm, outer=3cm, inner=3.1cm,top=3cm,bottom=4cm, footskip=1.5cm]{geometry}
+\usepackage[top=3cm, bottom=4cm, outer=2cm, inner=3.0cm]{geometry}
+
+\linespread{1.5}
+
+
+%\setlength{\oddsidemargin}{3.5mm}
+%\setlength{\evensidemargin}{2mm}
 
 %  \fontencoding{T1}
 %  \fontfamily{arial}
@@ -95,12 +106,16 @@
 
 \center % Center everything on the page
 
-\textsc{\LARGE University...}\\[1.5cm] % Name of your university/college
-\textsc{\Large Dissertation...}\\[0.5cm] % Major heading such as course name
-\textsc{\large Dissertation...}\\[0.5cm] % Minor heading such as course title
+\textsc{\LARGE University of Bristol}\\[1.0cm] 
+\textsc{\LARGE University of the West of England}\\[1.5cm] 
+\textsc{\Large Master of Science in Robotics}\\[0.5cm] % Major
+%\textsc{\Large Master of Science Dissertation}\\[0.5cm] % Major
+
+% heading such as course name
+%\textsc{\large Dissertation...}\\[0.5cm] % Minor heading such as course title
 
 \HRule \\[0.4cm]
-{ \huge \bfseries A simulation approach to investigate the interactions between autonomous cars and human drivers}\\[0.4cm] % Title of your document
+{ \huge \bfseries A Simulation Approach to Investigate the Interactions Between Autonomous Cars and Human Drivers}\\[0.4cm] % Title of your document
 \HRule \\[1.5cm]
 
 \begin{minipage}{0.4\textwidth}
@@ -113,10 +128,10 @@ Aleksander \textsc{Wilusz} % Your name
 \begin{minipage}{0.4\textwidth}
 \begin{flushright} \large
 \emph{Supervisor:} \\
-Eddie \textsc{Wilson} % Supervisor's Name
+R. Eddie \textsc{Wilson} % Supervisor's Name
 \end{flushright}
 \end{minipage}\\[4cm]
-
+%\\[4.0cm] 
 
 
 {\large \today}\\[3cm] % Date, change the \today to a set date if you want to be precise
@@ -128,10 +143,16 @@ Eddie \textsc{Wilson} % Supervisor's Name
 \end{titlepage}
 
 
+\newpage
+%\\[5.0cm] 
+
+This study was completed for the MSc in Robotics at the University of Bristol and the University of the West of England, Bristol.  The work is my own.  Where the work of others is used or drawn on it is attributed
+
+
+\newpage
 
 
 %ABSTRACT
-
 
 
 
@@ -141,7 +162,7 @@ Eddie \textsc{Wilson} % Supervisor's Name
 
 This dissertation attempts to find out in which way introducing autonomous cars to the traditional traffic will affect the traffic itself and how human drivers will interact with the driverless vehicles. It is claimed that at least for the next two or three decades we will be observing transition period that will eventually lead to fully autonomous traffic. During that period human drivers will have to coexist with driverless cars and therefore the study on interactions between them is very relevant. The claim is also supported by the fact that the main focus in relevant literature is towards the development of sensors and algorithms while little attention is given to study on the interactions and their possible consequences.
 
-The central part of the project is a simulation of urban traffic. It was run in form of the experiment involving multiple human participants simultaneously connected to the the same simulation. Participants were asked to control one of the vehicles and drive along the track, while avoiding collisions with other participants. The experiment consisted of various sessions in which human drivers were accompanied by a different amounts of autonomous vehicles. 
+The central part of the project is a simulation of urban traffic. It was run in form of the experiment involving multiple human participants simultaneously connected to the same simulation. Participants were asked to control one of the vehicles and drive along the track, while avoiding collisions with other participants. The experiment consisted of various sessions in which human drivers were accompanied by a different amounts of autonomous vehicles. 
 
 The results obtained from the experiment suggest possible improvements in the traffic coming from the presence of autonomous cars themselves. It was shown that autonomous cars exhibit smoother driving and very efficient interactions with other self-driving vehicles. However, it was not unequivocally established whether the presence of driverless cars influences the drivers themselves. 
 
