@@ -115,9 +115,15 @@ Luettel, T., Himmelsbach, M. \harvardand\ Wuensche, H.-J.  \harvardyearleft
   the future', {\em Proceedings of the IEEE} {\bf 100}(Special Centennial
   Issue),~1831--1839.
 
-\harvarditem{McBride}{2016}{merat2009drivers}
+\harvarditem{McBride}{2016}{mcbride2016ethics}
 McBride, N.  \harvardyearleft 2016\harvardyearright , `The ethics of driverless
   cars', {\em ACM SIGCAS Computers and Society} {\bf 45}(3),~179--184.
+
+\harvarditem{Merat \harvardand\ Jamson}{2009}{merat2009drivers}
+Merat, N. \harvardand\ Jamson, A.~H.  \harvardyearleft 2009\harvardyearright ,
+  How do drivers behave in a highly automated car, {\em in} `Proceedings of the
+  5th International Driving Symposium on Human Factors in Driver Assessment,
+  Training and Vehicle Design', pp.~514--521.
 
 \harvarditem{{Mercedes}}{2015}{mercedes1}
 {Mercedes}  \harvardyearleft 2015\harvardyearright , `{Mercedes Intelligent
@@ -267,7 +273,7 @@ Vangi, D. \harvardand\ Virga, A.  \harvardyearleft 2007\harvardyearright ,
 \harvarditem{Volvo}{2015}{volvo1}
 Volvo  \harvardyearleft 2015\harvardyearright , `{Volvo Car Group’s first
   self-driving Autopilot cars test on public roads around Gothenburg}',
-  \url{https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars-test-on-public-roads-around-gothenburg}.
+  \url{https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars}.
 \newblock [Online; accessed 12-09-2016].
 
 \end{thebibliography}

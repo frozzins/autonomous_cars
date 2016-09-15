@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {1.3}Main challenges to bring autonomous cars to the roads}{9}
 \contentsline {paragraph}{}{9}
 \contentsline {paragraph}{Law regulations on autonomous driving}{9}
-\contentsline {paragraph}{Safety}{9}
+\contentsline {paragraph}{Safety}{10}
 \contentsline {paragraph}{Public acceptance of autonomous driving}{10}
 \contentsline {subsection}{\numberline {1.4}Interactions between human drivers and autonomous vehicles}{11}
 \contentsline {paragraph}{}{11}
@@ -20,64 +20,65 @@
 \contentsline {paragraph}{}{15}
 \contentsline {subsection}{\numberline {1.7}Roadmap}{16}
 \contentsline {paragraph}{}{16}
-\contentsline {section}{\numberline {2}Software Engineering and Model Development}{17}
-\contentsline {paragraph}{}{17}
-\contentsline {subsection}{\numberline {2.1}Environment choice}{17}
-\contentsline {paragraph}{}{17}
-\contentsline {subsection}{\numberline {2.2}Software architecture}{19}
-\contentsline {subsubsection}{\numberline {2.2.1}Simulation server application design}{19}
-\contentsline {paragraph}{}{19}
-\contentsline {paragraph}{Server's graphical interface}{21}
-\contentsline {paragraph}{Centralized control}{21}
-\contentsline {subsubsection}{\numberline {2.2.2}Client application design}{24}
-\contentsline {paragraph}{}{24}
-\contentsline {paragraph}{Displaying map in the view port}{24}
-\contentsline {subsection}{\numberline {2.3}Modelling car dynamics}{26}
-\contentsline {paragraph}{}{26}
-\contentsline {subsubsection}{\numberline {2.3.1}Car following models}{26}
-\contentsline {subsubsection}{\numberline {2.3.2}Autonomous car model}{26}
-\contentsline {paragraph}{Deriving model from IDM}{26}
-\contentsline {paragraph}{Accounting for traffic coming from different directions}{27}
+\contentsline {section}{\numberline {2}Software Engineering and Model Development}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {2.1}Environment choice}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {2.2}Software architecture}{20}
+\contentsline {subsubsection}{\numberline {2.2.1}Simulation server application design}{20}
+\contentsline {paragraph}{}{20}
+\contentsline {paragraph}{Server's graphical interface}{22}
+\contentsline {paragraph}{Centralized control}{22}
+\contentsline {subsubsection}{\numberline {2.2.2}Client application design}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {paragraph}{Displaying map in the view port}{25}
+\contentsline {subsection}{\numberline {2.3}Modelling car dynamics}{27}
+\contentsline {paragraph}{}{27}
+\contentsline {subsubsection}{\numberline {2.3.1}Car following models}{27}
+\contentsline {paragraph}{}{27}
+\contentsline {subsubsection}{\numberline {2.3.2}Autonomous car model}{28}
+\contentsline {paragraph}{Deriving model from IDM}{28}
+\contentsline {paragraph}{Accounting for traffic coming from different directions}{29}
 \contentsline {subsubsection}{\numberline {2.3.3}Human car control}{29}
-\contentsline {paragraph}{Comparison with autonomous car model}{29}
-\contentsline {subsection}{\numberline {2.4}Communication between machines}{30}
-\contentsline {section}{\numberline {3}Experimental Design}{34}
-\contentsline {subsection}{\numberline {3.1}Principles of the experiment}{34}
-\contentsline {subsection}{\numberline {3.2}Scenarios}{35}
-\contentsline {subsubsection}{\numberline {3.2.1}Learning phase}{36}
-\contentsline {subsubsection}{\numberline {3.2.2}Scenario 1}{37}
-\contentsline {subsubsection}{\numberline {3.2.3}Scenario 2}{37}
-\contentsline {subsubsection}{\numberline {3.2.4}Scenario 3}{38}
-\contentsline {subsection}{\numberline {3.3}Client's interface}{39}
-\contentsline {paragraph}{Car control using keyboard}{39}
-\contentsline {paragraph}{Size of view field}{40}
-\contentsline {subsection}{\numberline {3.4}Experiment execution}{40}
-\contentsline {subsubsection}{\numberline {3.4.1}Questionnaire}{41}
-\contentsline {subsubsection}{\numberline {3.4.2}Minutes}{42}
-\contentsline {section}{\numberline {4}Results}{42}
-\contentsline {paragraph}{}{42}
-\contentsline {subsection}{\numberline {4.1}Observations}{43}
-\contentsline {paragraph}{}{43}
-\contentsline {subsubsection}{\numberline {4.1.1}Decelerations mapping}{43}
-\contentsline {paragraph}{}{43}
-\contentsline {subsubsection}{\numberline {4.1.2}Evaluation of participants' performance}{44}
+\contentsline {paragraph}{Comparison with autonomous car model}{31}
+\contentsline {subsection}{\numberline {2.4}Communication between machines}{33}
+\contentsline {section}{\numberline {3}Experimental Design}{36}
+\contentsline {subsection}{\numberline {3.1}Principles of the experiment}{36}
+\contentsline {subsection}{\numberline {3.2}Scenarios}{37}
+\contentsline {subsubsection}{\numberline {3.2.1}Learning phase}{38}
+\contentsline {subsubsection}{\numberline {3.2.2}Scenario 1}{39}
+\contentsline {subsubsection}{\numberline {3.2.3}Scenario 2}{39}
+\contentsline {subsubsection}{\numberline {3.2.4}Scenario 3}{40}
+\contentsline {subsection}{\numberline {3.3}Client interface}{41}
+\contentsline {paragraph}{Car control using keyboard}{41}
+\contentsline {paragraph}{Size of view field}{42}
+\contentsline {subsection}{\numberline {3.4}Experiment's execution}{42}
+\contentsline {subsubsection}{\numberline {3.4.1}Questionnaire}{43}
+\contentsline {subsubsection}{\numberline {3.4.2}Minutes}{44}
+\contentsline {section}{\numberline {4}Results}{44}
 \contentsline {paragraph}{}{44}
-\contentsline {subsubsection}{\numberline {4.1.3}Conflicts resolution}{47}
-\contentsline {paragraph}{}{47}
-\contentsline {subsection}{\numberline {4.2}Hypotheses}{50}
-\contentsline {paragraph}{}{50}
-\contentsline {subsubsection}{\numberline {4.2.1}Hypothesis: Autonomous cars reduce number of accidents}{50}
-\contentsline {paragraph}{}{50}
-\contentsline {paragraph}{Method of analysis}{50}
-\contentsline {paragraph}{Findings}{50}
-\contentsline {paragraph}{Remarks}{52}
-\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars smooth out traffic}{52}
+\contentsline {subsection}{\numberline {4.1}Observations}{45}
+\contentsline {paragraph}{}{45}
+\contentsline {subsubsection}{\numberline {4.1.1}Deceleration mapping}{45}
+\contentsline {paragraph}{}{45}
+\contentsline {subsubsection}{\numberline {4.1.2}Evaluation of participant's performance}{46}
+\contentsline {paragraph}{}{46}
+\contentsline {subsubsection}{\numberline {4.1.3}Conflicts resolution}{49}
+\contentsline {paragraph}{}{49}
+\contentsline {subsection}{\numberline {4.2}Hypotheses}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {subsubsection}{\numberline {4.2.1}Hypothesis: Autonomous cars reduce number of accidents}{52}
 \contentsline {paragraph}{}{52}
 \contentsline {paragraph}{Method of analysis}{52}
-\contentsline {paragraph}{Findings}{54}
-\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicles}{54}
+\contentsline {paragraph}{Findings}{52}
+\contentsline {paragraph}{Remarks}{54}
+\contentsline {subsubsection}{\numberline {4.2.2}Hypothesis: Autonomous cars smooth out traffic}{54}
 \contentsline {paragraph}{}{54}
-\contentsline {paragraph}{Method of analysis}{55}
-\contentsline {paragraph}{Findings}{55}
-\contentsline {subsection}{\numberline {4.3}Discussion}{55}
-\contentsline {section}{\numberline {5}Conclusions}{57}
+\contentsline {paragraph}{Method of analysis}{54}
+\contentsline {paragraph}{Findings}{56}
+\contentsline {subsubsection}{\numberline {4.2.3}Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicles}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {paragraph}{Method of analysis}{57}
+\contentsline {paragraph}{Findings}{57}
+\contentsline {section}{\numberline {5}Conclusions and Discussion}{59}
+\contentsline {paragraph}{}{59}

@@ -137,11 +137,24 @@ Eddie \textsc{Wilson} % Supervisor's Name
 
 
 \begin{abstract}
-Insert abstract here...
+
+
+This dissertation attempts to find out in which way introducing autonomous cars to the traditional traffic will affect the traffic itself and how human drivers will interact with the driverless vehicles. It is claimed that at least for the next two or three decades we will be observing transition period that will eventually lead to fully autonomous traffic. During that period human drivers will have to coexist with driverless cars and therefore the study on interactions between them is very relevant. The claim is also supported by the fact that the main focus in relevant literature is towards the development of sensors and algorithms while little attention is given to study on the interactions and their possible consequences.
+
+The central part of the project is a simulation of urban traffic. It was run in form of the experiment involving multiple human participants simultaneously connected to the the same simulation. Participants were asked to control one of the vehicles and drive along the track, while avoiding collisions with other participants. The experiment consisted of various sessions in which human drivers were accompanied by a different amounts of autonomous vehicles. 
+
+The results obtained from the experiment suggest possible improvements in the traffic coming from the presence of autonomous cars themselves. It was shown that autonomous cars exhibit smoother driving and very efficient interactions with other self-driving vehicles. However, it was not unequivocally established whether the presence of driverless cars influences the drivers themselves. 
+
+
+Apart from the experiment, the dissertation describes the development of software and car models that allowed to successful run the simulation. 
+
+The main conclusion is that the more autonomous vehicles are on the roads, the better is traffic but regardless of that it is the human who remains the most unpredictable and error-prone element of the driving environment.
+
+
 \end{abstract}
 
-
 \newpage
+
 
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
@@ -149,27 +162,27 @@ Insert abstract here...
 
 \tableofcontents % Include a table of contents
 
-\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
+%\newpage % Begins the essay on a new page instead of on the same page as the table of contents 
 
 %----------------------------------------------------------------------------------------
 %	INTRODUCTION
 %----------------------------------------------------------------------------------------
-
+\newpage
 
 \section{Introduction and Motivation} % Major section
 
 \paragraph{}
 Autonomous cars are currently a topic of  great interest.  Around the world the biggest private companies are investing in projects on driverless technology. There are currently 33 global corporations, including giants like Google, Apple and Tesla, that channel significant resources to autonomous driving \citep{33comp}. The most innovative countries are allocating large sums of money not only to develop the technology, but also to raise public awareness and introduce necessary legislation \citep{pathwaytodriverless};\citep{pathwaytodriverless2}. 
 
-\par
-***perhaps more here
+%\par
+%***perhaps more here
 \par
 Although the topic is studied very widely and the amount of corresponding literature is enormous, this dissertation attempts to identify a potential gap in developing a broad understanding of how autonomous vehicles may impact upon traffic flow, <includoing traditiona human-driven vehiclse>. 
 
 
 
 \par
-The first part of this chapter introduces the topic of autonomous driving. It discusses current technological developments and attempts to identify the main challenges in the upcoming decades. Supported by the literature review, section 1.4.. states which research gap was identified and why it is worthy to investigate it. Consecutively, a precise statement of research questions is given, followed by a list of aims and objectives of the dissertation. Section <number> describes the experiment which was the central part of the project. It also talks about how the original scope of the project evolved from the initial plan to the current state. Finally, in section <> a roadmap of the whole project is given; starting from the development of software, through the design of the experiment and finishing with the analysis of the results.
+The first part of this chapter introduces the topic of autonomous driving. It discusses current technological developments and attempts to identify the main challenges in the upcoming decades. Supported by the literature review section 1.5 states which research gap was identified and why it is worthy to investigate it. Consecutively, a precise statement of research questions is given, followed by a list of aims and objectives of the dissertation. Section 1.6 describes the experiment which was the central part of the project. It also talks about how the original scope of the project evolved from the initial plan to the current state. Finally, in last section of a chapter a roadmap of the whole project is given; starting from the development of software, through the design of the experiment and finishing with the analysis of the results.
 
 
 
@@ -199,9 +212,9 @@ This section talks about the current development of the self-driving  technology
 
 The most recent achievements in the field of autonomous cars are probably best presented through cutting-edge commercial projects such as Google's Self-driving car \citep{google1}, Tesla's Autopilot \citep{tesla1} or Volvo's `Drive Me` project \citep{volvo1}. Google (Alphabet) is perhaps the most experienced player as its self-driving car project started as early as 2009. However, it would be an overstatement to say that it is also the most advanced project, as other corporations also reached high levels of the technological advancement and every project focuses on different aspects of autonomous driving \citep{33comp}. 
 \par
-Google's car is classified as level 3 in automated vehicle classification system proposed by \citet{nhtsa1} and also as level 3 in a similar classification proposed by \citet{sae1}. This level of autonomy means that the car takes full control over all critical safety functions, but at certain times, the driver can be asked to retake the control (and must do so).  
+Google's car is classified as level 3 in the automated vehicle classification system proposed by \citet{nhtsa1} and also as level 3 in a similar classification proposed by \citet{sae1}. This level of autonomy means that the car takes full control over all critical safety functions, but at certain times, the driver can be asked to retake the control (and must do so).  
 \par
-The topic is so interesting that only roughly 60\% of companies involved in this business are genuine car-producing companies. Others, like a aforementioned Google and Apple, or like a relatively new player  - Uber, saw a new, promising opportunity and decided to expand towards this new emerging market \citep{33comp}. Figure~\ref{fig:volvo} shows a modified Volvo XC90 that was created in collaboration with Uber.
+The topic is so interesting in that only roughly 60\% of companies involved in this business are genuine car-producing companies. Others, like the aforementioned Google and Apple, or like a relatively new player  - Uber, saw a new, promising opportunity and decided to expand towards this new emerging market \citep{33comp}. Figure~\ref{fig:volvo} shows a modified Volvo XC90 that was created in collaboration with Uber.
 
 \begin{figure}[!] % Example image
 \center{\includegraphics[width=1\linewidth]{materials/chapter_introduction/volvo.jpg}}
@@ -215,15 +228,15 @@ Another company that achieved significant successes is Audi with its Piloted Dri
 \par
 
 
-While vehicles on the 3\textsuperscript{rd} level of autonomy are currently only research projects, there are increasingly more commercially available vehicles that have features characteristic for the 2\textsuperscript{nd} level of autonomy. The prime example is Tesla's Autopilot that drives itself on the highway and is able to actively change lanes on a motorway when instructed by the driver \citep{tesla2}. Another examples are the latest premium segment cars by BMW and Mercedes that have features such as lane departure warning, adaptive cruise control or traffic jam assistant \citep{bmw}; \citep{mercedes1}. According to the guidelines by NHTSA car classified as 2\textsuperscript{nd} level of autonomy must be able to combine at least two of these abilities simultaneously.
+While vehicles on the 3\textsuperscript{rd} level of autonomy are currently only research projects, there are increasingly more commercially available vehicles that have features characteristic for the 2\textsuperscript{nd} level of autonomy. The prime example is Tesla's Autopilot that drives itself on the highway and is able to actively change lanes on a motorway when instructed by the driver \citep{tesla2}. Other examples are the latest premium segment cars by BMW and Mercedes that have features such as lane departure warning, adaptive cruise control or traffic jam assistant \citep{bmw}; \citep{mercedes1}. According to the guidelines by NHTSA, car classified as 2\textsuperscript{nd} level of autonomy must be able to combine at least two of these abilities simultaneously.
 
 
 \par
 
-Apart from projects run by private companies there are also numerous initiatives supported by public resources. An example of these is the Venturer Project run by a consortium of academic, public and private  organizations. The people responsible undertaking this will start testing on regular roads in 2017.
+Apart from projects run by private companies there are also numerous initiatives supported by public resources. An example of these is the VENTURER Project run by a consortium of academic, public and private  organizations. The people responsible undertaking this will start testing on regular roads in 2017.
 
 \par
-Although, most of these projects bloomed in the last decade, the idea of autonomous or automated vehicles is considerably older. First attempts of automating the whole process of driving or only a part of it were made in year 1977 when researchers at Tsukuba Mechanical Engineering Laboratory in Japan built a car that followed white markers and could reach a speed of 20 mph \citep{forrest2007autonomous}.
+Although most of these projects bloomed in the last decade, the idea of autonomous or automated vehicles is considerably older. The first attempts of automating the whole process of driving or only a part of it were made in year 1977 when researchers at Tsukuba Mechanical Engineering Laboratory in Japan built a car that followed white markers and could reach a speed of 20 mph \citep{forrest2007autonomous}.
 
 
 
@@ -231,25 +244,25 @@ Although, most of these projects bloomed in the last decade, the idea of autonom
 
 \paragraph{Views on the future}
 \paragraph{}
-In the near future we should observe as more and more autonomous vehicles appearing on the roads. As mentioned before, the fully autonomous traffic is not predicted to happen before year 2040. Next 30 years should bring significant technological development along with much needed new legislation and social changes.
+In the near future we should observe more and more autonomous vehicles appearing on the roads. As mentioned before, fully autonomous traffic is not predicted to happen before the year 2040. The next 30 years should bring significant technological development, along with much needed new legislation and social changes.
 \par
-It should soon be possible to create a vehicle classified as the 4th level of autonomy. According to \citet{nhtsa1} a vehicle featuring 4th level of autonomy should always be able to perform all safety-critical driving operations and driver will not be asked to take over control in any situation. Ford claims to deliver such a vehicle without a driver, steering wheel and pedals by the year 2021 \citep{ford1}.
-
-\par
-
-
-It is likely that in the midterm future another idea of connected vehicles may become reality. The idea states that vehicles that are close to each other can communicate and therefore increase the safety and add a level of intelligence to their behaviour. Vehicles can also connect to infrastructure and i.e. predict the traffic lights sequence \citep{narla2013evolution} ; \citep{luettel2012autonomous}.
+It should soon be possible to create a vehicle classified in the 4th level of autonomy. According to \citet{nhtsa1}, a vehicle featuring the 4th level of autonomy should always be able to perform safety-critical driving operations and the driver will not be asked to take over control in any situation. Ford claims to deliver such a vehicle without a driver, steering wheel and pedals by the year 2021 \citep{ford1}.
 
 \par
-Another prediction is that the development of new legislation can be slower than the development of the technology. Although the fully autonomous car may exist, it might be still required to supervise it from the driver's seat.\citep{luettel2012autonomous}. None the less, UK government claims to be aware of these necessary changes. The report released by UK Department of Transport titled `The Pathway to Driverless Cars Summary report and action plan` \citep{pathwaytodriverless} states that government 'recognises the benefits of autonomous vehicles and is undertaking actions to aid the development of technologies and law that would allow to bring driverless cars on public roads'. Additionally, the \citet{pathwaytodriverless2} informed that \textsterling 19 million is currently being provided  to allow testing of automated vehicle technology.
+
+
+It is likely that in the midterm future another idea of connected vehicles may become reality. The idea states that vehicles that are close to each other can communicate and therefore increase the safety and add a level of intelligence to their behaviour. Vehicles can also connect to infrastructure and e.g. predict the traffic lights sequence \citep{narla2013evolution} ; \citep{luettel2012autonomous}.
 
 \par
-Although majority of the literature focuses on various technical aspects of driverless cars, there are also certain concerns about whether the development is going into the right direction. \citet{mcbride2016ethics} gives Oxford University’s Robotcar as an example and  says that the pursuit of full autonomy does not properly recognize the separation between a human and a machine. The author claims that self-driving vehicles should not be allowed to drive without being deeply connected to the infrastructure, internet and other users.
+Another prediction is that the development of new legislation can be slower than the development of the technology. Although the fully autonomous car may exist, it might be still required to supervise it from the driver's seat \citep{luettel2012autonomous}. None the less, the UK government claims to be aware of these necessary changes. The report released by UK Department of Transport titled `The Pathway to Driverless Cars Summary report and action plan` \citep{pathwaytodriverless} states that government recognises the benefits of autonomous vehicles and is undertaking actions to aid the development of technologies and law that would allow to bring driverless cars on public roads'. Additionally, the \citet{pathwaytodriverless2} informed that \textsterling 19 million is currently being provided  to allow testing of automated vehicle technology.
+
+\par
+Although the majority of the literature focuses on various technical aspects of driverless cars, there are also certain concerns about whether the development is going into the right direction. \citet{mcbride2016ethics} gives Oxford University’s Robotcar as an example and  says that the pursuit of full autonomy does not properly recognize the separation between a human and a machine. The author claims that self-driving vehicles should not be allowed to drive without being deeply connected to the infrastructure, internet and other users.
 
 
 
 \par
-All in all, in next years we will observe more development in all aspects of autonomous driving. 
+All in all, in the next years we will observe more development in all aspects of autonomous driving. 
 During that time, autonomous cars are likely to be still limited to structured, predictable environments.
 We may encounter some challenges mentioned in this section or find new ones that we were not able to predict \citep{luettel2012autonomous}.
 
@@ -278,15 +291,15 @@ We may encounter some challenges mentioned in this section or find new ones that
 %\subsubsection{Implications of autonomous cars revolution}
 %(including increased demand)
 \paragraph{}
-Experts around the world argue about the consequences of introducing self-driving cars. The report by UK Department of Transport "The Pathway to Driverless Cars: Summary report and action plan" summarizes some main benefits of heaving autonomous cars \citep{pathwaytodriverless}. Most important points include significant reduction of time spent in vehicles and largely improved safety. It is stated that an average driver could save up to 6 working weeks of driving time in a single year. The claim on potential safety improvements is backed by existing evidence from automated vehicles that are already commercially available and feature level 2 autonomy. 
+Experts around the world argue about the consequences of introducing self-driving cars. The report by UK Department of Transport `The Pathway to Driverless Cars: Summary report and action plan` summarizes some main benefits of having autonomous cars \citep{pathwaytodriverless}. The most important points include a significant reduction of time spent in vehicles and largely improved safety. It is stated that an average driver could save up to 6 working weeks of driving time in a single year. The claim on potential safety improvements is backed by existing evidence from automated vehicles that are already commercially available and feature level 2 autonomy. 
 \par
-Other important benefits include reduced gas emission and improved congestion. According to \citet{pathwaytodriverless} vehicles that are connected into one system would be able to drive in the interest of all traffic participants and therefore greatly optimize traffic. Consequently we should observe a reduction in the Total Kilometers Traveled and increased access to vehicles for everyone \citep{pathwaytodriverless} ; \citep{drivewave}.
+Other important benefits include reduced gas emission and improved congestion. According to the \citet{pathwaytodriverless}, vehicles that are connected into one system would be able to drive in the interest of all traffic participants and therefore greatly optimize traffic. Consequently we should observe a reduction in the Total Kilometers Traveled and increased access to vehicles for everyone \citep{pathwaytodriverless} ; \citep{drivewave}.
 \par
 
-On the other hand, it is argued that autonomous vehicles will not be as robust as expected and traffic parameters will, in fact, worsen \citep{sivak2015road}. Additionally, according to Toyota Scientists \citep{toyota1} automated cars may in fact boost fuel consumption as people will be encouraged to travel farther to work. In the example given in \citet{litman2014autonomous}, a family decides to settle further from the city because they can spend time in the car productively rather than controlling the vehicle. In consequence, the benefits of faster and more optimized travel will be counteracted by overall increase in road demand. Consecutively the traffic parameters may not improve as expected and the amount of VKT will increase \citep{litman2014autonomous}. This concept is also referred to as Fundamental Law of Traffic Congestion. Any factor aiming at the reduction of traffic can encourage people to travel more. Consequently this will rise overall road demand and the traffic will reach its new capacity \citep{duranton2011fundamental}.
+On the other hand, it is argued that autonomous vehicles will not be as robust as expected and traffic parameters will, in fact, worsen \citep{sivak2015road}. Additionally, according to Toyota Scientists \citep{toyota1} automated cars may in fact boost fuel consumption as people will be encouraged to travel farther to work. In the example given in \citet{litman2014autonomous}, a family decides to settle further from the city because they can spend time in the car productively rather than controlling the vehicle. In consequence, the benefits of faster and more optimized travel will be counteracted by an overall increase in road demand. Consecutively the traffic parameters may not improve as expected and the amount of VKT will increase \citep{litman2014autonomous}. This concept is also referred to as the Fundamental Law of Traffic Congestion. Any factor aiming at the reduction of traffic can encourage people to travel more. Consequently this will raise overall demand and the traffic will reach its new capacity \citep{duranton2011fundamental}.
 
 \par
-Another possible implication is a change in how the vehicles are used in general. Concepts such as 'sharing economy' and 'collaborative consumption' may results in vehicles being offered as a service rather than being privately owned. The concept of Vehicles-as-a-Service may also eliminate the taxi service in currently known form  \citep{levinson2015climbing}.
+Another possible implication is a change in how vehicles are used in general. Concepts such as the `sharing economy` and `collaborative consumption` may result in vehicles being offered as a service rather than being privately owned. The concept of Vehicles-as-a-Service may also eliminate taxi services in the currently known form  \citep{levinson2015climbing}.
 
 
 
@@ -344,26 +357,26 @@ Another possible implication is a change in how the vehicles are used in general
 
 \subsection{Main challenges to bring autonomous cars to the roads}
 \paragraph{}
-This sub-chapter attempts to identify the main challenges that have to be overcame in the following years. Apart from necessary technological advancement discussed in previous sections it is also important to focus on other factors such as legislation, safety and public acceptance of autonomous cars. Although these issues were identified as major there are also others that were not covered here.
+This sub-chapter attempts to identify the main challenges that have to be overcame in the following years. Apart from the necessary technological advancements discussed in previous sections, it is also important to focus on other factors such as legislation, safety and public acceptance of autonomous cars. Although these issues were identified as major there are also others that were not covered here.
 
 
 \paragraph{Law regulations on autonomous driving}
 
 \par
-Currently one of the main documents defining the law applicable to autonomous cars is the Vienna Convention on Road Traffic. It states that 'every driver shall at all times be able to control his vehicle'. This means that as long as this document remains in power, fully autonomous driving will not be possible \citep{vienna1}. However, the UK government has never signed the Conventions that was accepted by multiple countries around the world including a majority of European countries. Therefore, UK is likely to be in the forefront of the development of autonomous driving as it develops its own legislation \citep{telegraph}.
+Currently one of the main documents defining the law applicable to autonomous cars is the Vienna Convention on Road Traffic. It states that "every driver shall at all times be able to control his vehicle". This means that as long as this document remains in power, fully autonomous driving will not be possible \citep{vienna1}. However, the UK government has never signed the Conventions that was accepted by multiple countries around the world including a majority of European countries. Therefore, the UK is likely to be in the forefront of the development of autonomous driving as it develops its own legislation \citep{telegraph}.
 
 \par
 
 
-UK government is aiming to achieve a 'light-touch', non-regulatory approach to introducing new legislation. It is recognised that only a certain level of involvement in the development of technology is necessary in order to achieve the fastest progress.
+UK government is aiming to achieve a `light-touch`, non-regulatory approach to introducing new legislation. It is recognised that only a certain level of involvement in the development of technology is necessary in order to achieve the fastest progress.
 \par
 
 
 \par
-The \citet{pathwaytodriverless2} document covers wide range of legislation issues associated with autonomous driving. The most important matters include possibly to run tests is real traffic, accounting for other road users and  responsibility in case of an accident. The latter is a commonly discussed issue as it is nor clear whether the driver, the car manufacturer or someone else should be liable for the actions of autonomous car. 
+The \citet{pathwaytodriverless2} document covers wide range of legislation issues associated with autonomous driving. The most important matters include possibly to run tests is real traffic, accounting for other road users and  responsibility in case of an accident. The latter is a commonly discussed issue as it is nor clear whether the driver, the car manufacturer or someone else should be liable for the actions of an autonomous car. 
 
 \par
-In USA the statement released by U.S. Department of Transportation also recognises the significance of autonomous cars underlining the priority of ensuring safety of all traffic participants \citep{nhtsa1}.
+In USA the statement released by the U.S. Department of Transportation also recognises the significance of autonomous cars underlining the priority of ensuring safety of all traffic participants \citep{nhtsa1}.
 \par
 
 %something from usa:
@@ -383,15 +396,15 @@ In USA the statement released by U.S. Department of Transportation also recognis
 
 \paragraph{Safety}
 
-Safety is one of the biggest concerns tied to autonomous vehicles. Most sources agree that once autonomous cars will be in common use and will be interacting only with each other, we will be observing a creation on an entirely new driving environment. One that is efficient and accidents-free. Nevertheless, before that happens, multiple questions need to be answered. How will the car behave in the situation when it cannot avoid an accident, how will it solve moral dilemmas, the issue of liability for accidents  - those are mere examples of such questions \citep{techtimes}. 
+Safety is one of the biggest concerns tied to autonomous vehicles. Most sources agree that once autonomous cars will be in common use and will be interacting only with each other, we will be observing a creation on an entirely new driving environment; one that is efficient and accidents-free. Nevertheless, before that happens, multiple questions need to be answered: How will the car behave in the situation when it cannot avoid an accident, how will it solve moral dilemmas, the issue of liability for accident  - those are mere examples of such questions \citep{techtimes}. 
  
 
 
 \par
-Before the fully autonomous cars appear on the roads there is another safety concern regarding human control. It applies to the cars that are not driving entirely on its own and can ask human driver to take over control in certain situations. The danger of the handover manoeuvre comes from the fact that once driver gives control over to AI, his or her reaction time drops dramatically \citep{merat2009drivers}. Recently there was a fatal accident involving Tesla's Autopilot. The exact causes of the accident have not yet been found yet but one of the theories is that the driver was not able to react quickly enough when the car asked him to reclaim control \citep{teslacrash}; \citep{tesla4}. 
+Before the fully autonomous cars can appear on the roads there is another safety concern regarding human control. It applies to the cars that are not driving entirely on their own and can ask human driver to take control in certain situations. The danger of the handover manoeuvre comes from the fact that once drivers gives control over to AI, his or her reaction time drops dramatically \citep{merat2009drivers}. Recently there was a fatal accident involving Tesla's Autopilot. The exact causes of the accident have not yet been found yet but one of the theories is that the driver was not able to react quickly enough when the car asked him to reclaim control \citep{teslacrash}; \citep{tesla4}. 
 
 \par
-Another safety concern applies to emergency situation when the autonomous cars has to suddenly decide between trying to save its passengers or a pedestrian. This dilemma touches on ethical issues as the answer is naturally not obvious \citep{qz}. The questions whether the cars should kill their own passengers to save a pedestrian is not an easy one to answer and remains one of the most complicated moral dilemmas that have to be addressed before selfdriving cars become reality \citep{bonnefon2015autonomous}.
+Another safety concern applies to emergency situations when the autonomous car has to suddenly decide between trying to save its passengers or a pedestrian. This dilemma touches on ethical issues as the answer is naturally not obvious \citep{qz}. The questions as to whether the cars should kill their own passengers to save a pedestrian is not an easy one to answer and remains one of the most complicated moral dilemmas that have to be addressed before self-driving cars become reality \citep{bonnefon2015autonomous}.
 
 \par
 
@@ -422,15 +435,15 @@ Another possible issue concerns cyber-security. Autonomous vehicles  will be con
 
 \par
 
-Last discussed challenge concerns public acceptance and awareness. Autonomous car revolution can brings very significant changes to the way we travel. To fully enjoy all benefits, the public opinion has to understand the principles of technology and consciously take part in the upcoming changes. This section analyses results of two surveys asking people from various environments on their opinion on autonomous cars.
+The last challenge discussed concerns public acceptance and awareness. The autonomous car revolution can bring very significant changes to the way we travel. To fully enjoy all benefits, the public opinion has to understand the principles of technology and consciously take part in the upcoming changes. This section analyses results of two surveys asking people from various environments on their opinion on autonomous cars.
 
 \par
-First survey was run in year 2014 and included 1500 people from USA, UK and Australia. First findings were that around 60\% of people have heard about the autonomous cars and in general have positive opinion on the subject. When asked about possible improvements that self-driving cars will most likely bring, most participants indicated fewer accidents, reduced severity of crashes, shorter travel time and better fuel economy. Next, people were asked about their main concerns. The most popular answers were legal liability of drivers, data privacy and interactions with non-self-driving-vehicles \citep{schoettle2014survey}.
+The first survey was run in year 2014 and included 1500 people from USA, UK and Australia. First findings were that around 60\% of people have heard about the autonomous cars and in general have positive opinion on the subject. When asked about possible improvements that self-driving cars will most likely bring, most participants indicated fewer accidents, reduced severity of crashes, shorter travel time and better fuel economy. Next, people were asked about their main concerns. The most popular answers were legal liability of drivers, data privacy and interactions with non-self-driving-vehicles \citep{schoettle2014survey}.
 
 
 \par
 
-Second survey involved 5000 people from 109 different countries and asked similar range of questions as the one previously discussed. The results indicated that respondents were mostly concerned with software hacking/misuse, legal issues and safety. It was also found that respondents from more developed countries were less comfortable about data transmission \citep{kyriakidis2015public}.
+The second survey involved 5000 people from 109 different countries and asked similar range of questions as the one previously discussed. The results indicated that respondents were mostly concerned with software hacking/misuse, legal issues and safety. It was also found that respondents from more developed countries were less comfortable about data transmission \citep{kyriakidis2015public}.
 
 
 
@@ -449,13 +462,13 @@ Drivewave project conducted by the MIT Senseable City Lab shows how greatly traf
 
 
 \par
-From the macroscopic point of view, it is not clear whether autonomous cars will increase of decrease the average number of accidents. According to \citet{excel} most accidents are caused by human error. The main contributory factors are failure to look properly, failure to judge other's person speed or path and driver, carelessness, recklessness or being in a hurry. Driverless cars can potentially be free from these faults.
+From the macroscopic point of view, it is not clear whether autonomous cars will increase or decrease the average number of accidents. According to the \citet{excel} most accidents are caused by human error. The main contributory factors are failure to look properly, failure to judge another's person speed or path and driver's carelessness, recklessness or being in a hurry. Driverless cars can potentially be free from these faults.
 \par
-According to the \citet{pathwaytodriverless} the number of collisions should drop but as aforementioned, according to \citet{sivak2015road} the autonomous cars may be less robust than expected and therefore number of accident could rise. 
+According to the \citet{pathwaytodriverless} the number of collisions should drop but as aforementioned, according to \citet{sivak2015road}  autonomous cars may be less robust than expected and therefore the number of accident could rise. 
 
 
 \par
-Human drivers have certain expectations towards other drivers. Things like eye-contact are often important for successful communication. That kind of interaction will be absent in encounters with autonomous vehicles. Moreover, human drivers often possess skills and experience that may not be easy to quantify and program into a machine. Therefore, driverless cars can, in fact, perform worse in certain situations and as a result, during transition period the amount of accidents mights in fact increase \citep{sivak2015road}.
+Human drivers have certain expectations towards other drivers. Things like eye-contact are often important for successful communication. That kind of interaction will be absent in encounters with autonomous vehicles. Moreover, human drivers often possess skills and experience that may not be easy to quantify and program into a machine. Therefore, driverless cars can, in fact, perform worse in certain situations and as a result, during the transition period the amount of accidents might in fact increase \citep{sivak2015road}.
 
 
 
@@ -499,7 +512,7 @@ As it was shown, the interest in autonomous vehicles is enormous. Many corporati
 \par
 The majority of attention is given to the development of technology that would allow to construct vehicles with higher level of autonomy. Next area of interest focuses on possible implications of the revolution and other things such as legislation, psychological dilemmas and public acceptance that has to go along with the technological development. There is however, little study on how the traffic itself will change during the upcoming years of the transition period. Letting autonomous cars drive among traditional ones will bring far-reaching consequences. The main principles of the traffic, as we know it, will have to be redefined to ensure that we experience all of the possible benefits of these changes. 
 \par
-\textbf{On the basis of the gap identified in the research this dissertation attempts to develop a broad understanding of how traditional and autonomous vehicles will interact with each other and what will be the consequences of these interactions on a micro and macro scale.}
+\textbf{On the basis of the gap identified in the research, this dissertation attempts to develop a broad understanding of how traditional and autonomous vehicles will interact with each other and what will be the consequences of these interactions on a micro and macro scale.}
 
 %*****lovely above
 
@@ -509,7 +522,7 @@ The majority of attention is given to the development of technology that would a
 %It is believed that in order to achieve the most benefits from autonomous driving the algorithms governing the self-driving cars have to be optimized for efficient and safe interactions with traditional vehicles. The study focuses on understanding of these interactions. 
 
 \par 
-Further paragraphs describe main aims and objectives of the project. Aims were distinguished from the objectives as being more abstract and relating rather to contribution while objectives are more real and define specific methods used in the project.
+Further paragraphs describe the main aims and objectives of the project. Aims were distinguished from the objectives as being more abstract and relating rather to contribution while objectives are more real and define specific methods used in the project.
 
 
 
@@ -714,7 +727,7 @@ Last chapter summarizes the project and draws conclusions. Additionally, it also
 
 
 
-
+\newpage
 \section{Software Engineering and Model Development}
 \paragraph{}
 Creating software that allowed to successfully conduct the experiment was the longest and most absorbing part of the project. All decisions starting from the choice of programming environment, through deciding on the structure of the software to ensuring simulation reliability were dictated by the requirements of the experiment. From the point of view of software implementation the experiment required at least two applications running on multiple machines that would be communicating with each other over the network in real-time.
@@ -1006,7 +1019,7 @@ Once the cropped image was displayed on the GUI, vehicles were plotted over it u
 
 \subsection{Modelling car dynamics}
 \paragraph{}
-One of the requirement of the experiment was to create two models of cars that were were meant to be used in different ways. One them was a model of an autonomous car that makes its own decisions and the other one was a model a car that can be controlled by the experiment participant. 
+One of the requirement of the experiment was to create two models of cars that were meant for two different purposes. One of them was a model of an autonomous car that makes its own decisions and the other one was a model a car that can be controlled by the experiment participant. 
 
 \par
 This section firstly gives examples of the most significant car-following models and describes how two of them were used to create models for this simulation. Section is summarized by a succinct comparison of these two models.
@@ -1014,20 +1027,13 @@ This section firstly gives examples of the most significant car-following models
 
 
 \subsubsection{Car following models}
+\paragraph{}
+Car following models are the most fundamental part of any microscopic traffic modelling \citep{treiber2013traffic}. They describe car's behaviour on the basis of the state of the car in front. Nevertheless, a complete car following model is also able to describe behaviour in free flow or when there is a stationary obstacle in front of it. There are various models dedicated to different kinds of research. One of the simplest examples is the Optimal Velocity Model which calculates the acceleration on the basis of the intervehicle distance. It is however, not very robust and the results are unrealistic. 
+\par
+More realistic models are based on various driving strategies. The prime example is the Gipps' model \citep{treiber2013traffic}; \citep{rothery1992car}. It is able to vary its acceleration depending on the time gap to the vehicle in front. It's braking manoeuvres always feature constant deceleration and there is no distinction between comfortable and emergency braking. Gipps' model is considered the simplest accident-free model. Within a certain range of parameters, it produces considerably realistic results.
+\par
+Although the Gipps' model is often used in traffic simulations, it is not fully versatile. The simplest complete and accident-free car following model is Intelligent Driver Model. It is capable of  dealing with virtually any kind of situation. Its acceleration depends on the distance to the car in front, that car's velocity, own velocity and few static parameters. What is more, IDM features Intelligent Braking Strategy. In typical traffic situations its deceleration is limited to some comfortable value. However, during an emergency situation, if something suddenly appears in front of it, the deceleration will rise to minimum value that is necessary to prevent collision \citep{treiber2013traffic}.
 
-basically literature overview... from eddie book:
-
-inro
-
-
-one/two pragraphs about each model
-
-
-\citep{treiber2013traffic}
-
-and maybe also:
-
-\citep{rothery1992car}
 
 
 \subsubsection{Autonomous car model}
@@ -1189,6 +1195,7 @@ Figure~\ref{fig:ros_final} shows what final communication solution looked like. 
 The way in which data exchange was implemented was a type of Inter-process communication. According to \citet{rajkumar1995real} this is a considerably challenging task which is often underestimated. Among all objectives that should be met by this kind of  software, the most essential ones are probably reliability and scalability. In the case of this implementation it can be said that communication was very reliable, however not fully scalable as the frame rate was decreasing if there were more than 7 clients connected at the same time \citep{rajkumar1995real}.
 
 
+\newpage
 \section{Experimental Design}
 
 %\paragraph{Experiment design..}
@@ -1319,7 +1326,7 @@ Scenario 3 aimed at microscopic interaction between particular pair of vehicles 
 
 
 
-\subsection{Client's interface}
+\subsection{Client interface}
 
 The main aim of the graphical interface was to mimic what a person driving a car would actually see from the inside of his or her vehicle. Compared to the real world the representation of the environment had to largely simplified. The challenge was to preserve as much of the realism as possible keeping in mind the main principles of the experiment. The cars were represented as coloured rectangles 2 meters wide and 4.5 meters long. Particular participant's vehicle was always position in the middle of the screen while map and other vehicles were moving around it. Roads were 4 meters wide, coloured in black with red boundaries. Each track was overlaid on graphical background with many distinctive features to allow for better sensation of speed (Figure~\ref{fig:gui_4}). Pictire used in the background comes from \citet{sheerwood}.
 
@@ -1339,7 +1346,7 @@ Another design decision concerned the size of driver's view field. The shape and
 
 
 
-\subsection{Experiment execution}
+\subsection{Experiment's execution}
 
 The experiment took place on the 24th of August 2016. 12 people people turned up for the it. The group was divided into 2 smaller groups of 6 people each. Once first group completed all tasks, another one was asked to begin. The reasons to split people into two groups were of technical and research nature. A technical problem arose shortly before the experiment was due to to start. It turned out that from participant point of view the simulation gets considerably laggy if there are more that 7 people playing at the same time. The original frame rate was dropping to few frames-per-second which was unacceptable as it would greatly distort the simulation and whole experiment. From the point of view of experiment methodology heaving two groups conducting identical tasks had beneficial impact on the conclusions that could be drawn from the experiment. It is a common practice to run experiment more than once to detect potential anomalies and have more generalized data(***here use Design and Analysis of Experiments," Handbook of Statistics book).
 
@@ -1450,7 +1457,7 @@ During project's design stage it was very uncertain what kind of results could b
 
 
 
-\subsubsection{Decelerations mapping}
+\subsubsection{Deceleration mapping}
 \paragraph{}
 
 First concept that could help to understand the data, was to visualize how vehicles accelerated and decelerated. In order to do that, a spatial representation of average decelerations was created, as it it shown of Figure~\ref{fig:decelerations1}. Track was divided into 4-meters-long segments and for each segment the total value of decelerations was summed up over all vehicles and all frames in the current phase. Results were plotted for first and second scenario for group 1.
@@ -1479,7 +1486,7 @@ It can be observed from the plot that once multiple autonomous cars were introdu
 
 
 
-\subsubsection{Evaluation of participants' performance}
+\subsubsection{Evaluation of participant's performance}
 \paragraph{}
 
 the number of collisions caused by each participant was evaluated and compared against the questionnaire responses. Single collision always involved 2 cars. A person responsible was always the one whose car's front line intersected with the other car first. A number of collisions caused by each person is shown on Figure~\ref{fig:collisions_total}. Table~\ref{table:collisions_table} shows number of collisions against questionnaire responses. Because the shorter phase lasted 3:22 minutes, values were calculated only for that period for all phases. From these figures it can be seen that:
@@ -1742,7 +1749,7 @@ From one point of view the impact of autonomous cars is clearly visible - averag
 
 \subsubsection{Hypothesis: Most efficient traffic could be achieved with solely autonomous vehicles}
 \paragraph{}
-According to (paper) most benefits of autonomous cars will be experienced only when human drivers will completely disappear from the roads. In previous section it was shown that autonomous cars exhibit highly efficient interactions with each other. In line with these examples, very good traffic parameters should be observable for simulation involving only autonomous cars. The following hypothesis was proposed:
+According to \citet{litman2014autonomous} most benefits of autonomous cars will be experienced only when human drivers will completely disappear from the roads. In previous section it was shown that autonomous cars exhibit highly efficient interactions with each other. In line with these examples, very good traffic parameters should be observable for simulation involving only autonomous cars. The following hypothesis was proposed:
 
 \textbf{\textit{For traffic consisting solely of autonomous cars parameters such as: total distance covered, acceleration variance and number of collisions should improve in comparison to traffic consisting of both types of vehicles.}}
 
@@ -1754,7 +1761,18 @@ In order to evaluate the hypothesis a simulation on the map used in the first an
 
 \paragraph{Findings}
 
-A trial run on the map from the first and second scenario showed there were no collisions at all. Total distance covered by all cars was 13.4 km. For the first group this value was 11.27 km in the first scenario and 9.96 km in the second scenario. Therefore, autonomous cars travelled further even though their velocity was limited to $10\:\nicefrac{m}{s}$ which was 33\% lower than what human-driven cars were capable of. Average variance on the acceleration was 0.7850 which was 11 times smaller than the smallest value from scenario 1. Values for particular vehicles are shown on Figure~\ref{fig:acc_autonomous_only_var}. Next, it was investigated whether cars reach a velocity equilibrium. The results showed that indeed the equilibrium is reached after 1.5 minute (Figure~\ref{fig:equilibrum}). However, the worth of this measure can be little to none. The simulation was run on a closed track with no intersections and there was no randomization introduced at any point of the simulation apart form the initial placement of vehicles.
+A trial run on the map from the first and second scenario showed there were no collisions at all. Total distance covered by all cars was 13.4 km. For the first group this value was 11.27 km in the first scenario and 9.96 km in the second scenario. Therefore, autonomous cars travelled further even though their velocity was limited to $10\:\nicefrac{m}{s}$ which was 33\% lower than what human-driven cars were capable of. Average variance on the acceleration was 0.7850 which was 11 times smaller than the smallest value from scenario 1. Values for particular vehicles are shown on Figure~\ref{fig:acc_autonomous_only_var}. On the grounds of these finding the hypothesis can be confirmed:
+
+
+For traffic consisting solely of autonomous cars parameters such as: total distance covered, acceleration variance and number of collisions should improve in comparison to traffic consisting of both types of vehicles.
+
+
+\textit{\textbf{Traffic consisting only of autonomous cars will perform significantly better than traffic consisting of both types of vehicles}}
+
+
+\par
+
+As an additional topic of interest, it was investigated whether cars reach a velocity equilibrium. The results showed that indeed on track from the first scenario, the equilibrium is reached after 1.5 minute (Figure~\ref{fig:equilibrum}). However, the value of this measure can be little to none. The simulation was run on a closed track with no intersections and there was no randomization introduced at any point of the simulation apart form the initial placement of vehicles. 
 
 %***..write more about it...
 
@@ -1819,142 +1837,57 @@ A trial run on the map from the first and second scenario showed there were no c
 
 %Describe you you did and what you got as a results
 
-\subsection{Discussion}
-RES|ULTS!
-
-reflect on the results on the experiment. try to give reasons for particular results, say if results can be in any way generalized
-
-
-
-
-
-/remind what were the research questions - aims and ibjectives
-
-
-say about how the research tried to answer each aim and objective
-
-
-
-
-/refer to some literaute 
 
 
 
 
 
 
+\newpage
+
+\section{Conclusions and Discussion}
+%METHODS!!
+\paragraph{}
+This section attempts to evaluate to which extent, each of the aims and objectives were met. Furthermore, the overall significance of the study is reflected upon. Ideas for future development are also provided. 
+
+The primary objective was to conduct the experiment and so the preparation and the implementation of the experiment was at the heart of the project. In line with the original guidelines of the experiment it was possible to simultaneously connect multiple human
+participants to an on-line traffic simulation.
+
+The second objective was to engineer software that would allow to conduct the experiment. Such software was created and the previous chapters presented how it addressed all major requirements of the experiment. Nevertheless, apart from its advantages, the software had certain imperfections, such as not being able to accommodate for the originally planned number of participants (from 10 to 20).
+
+Another task was to create a useful model of the autonomous car. The model used in the experiment derived from the well-established Intelligent Driver Model. Additional modifications performed on top of the original algorithm equipped autonomous vehicles with an ability to anticipate all kinds of collisions. The resulting model featured predictable behaviour and enabled smooth travel among other vehicles. Nevertheless, due to certain shortcomings in the design, there were situations when a self-driving vehicle was the one responsible for the collision.
+
+The last major objective was to create a model of a car, that would be controlled by the
+experiment participant. An appropriate model was developed on the basis of the dynamics
+of Gipps’ car-following model.
 
 
-
-\section{Conclusions}
-METHODS!!
-
-
-
-In this section we attempt to evaluate to what extent each of the aims and objectives was met. It reflects on 
-
-
+\textbf{It is clear from the aforementioned evidence that the study successfully addressed all its objectives.} 
 
 \par
 
-The study successfully addressed all objectives described in the first chapter.
-
-On the basis of previous chapters it can be stated that the study successfully addressed all objectives. The primary one was to conduct the experiment and so the preparation and implementation of the experiment was at the heart of the project. In line with the original guidelines of the experiment it was possible to simultaneously connect multiple human participants to an on-line traffic simulation.
+The conclusions drawn from the research confirmed the three hypotheses which were the significant  points of this dissertation. It was proved that the autonomous revolution will bring many changes. As the results of the experiment suggest, introducing autonomous cars and in the same time reducing the number of human drivers, can help to smooth out the traffic. However, from the point of view of an individual driver the driving smoothness is not impacted significantly. Moreover, introduction of these vehicles will allow people to reevaluate their commute routine and will popularise long distance travel, as an indirect consequence. In addition to that, the total distance covered, acceleration variance and number of collisions will improve once the traffic is solely comprised of autonomous vehicles. 
 
 
-\par
 
-The second objective was to engineer software that would allow to conduct the experiment. Such software was created and it was shown in which way it addressed all major requirement of the experiment. Nevertheless, apart from its advantages, the software had certain imperfections, such as not being able to accommodate for the originally planned number of participants (from 10 to 20).
+These statements do not mean, that the mere introduction of a few autonomous cars will automatically imply less accidents. It is simply not possible to replace all of the human driven vehicles with autonomous ones all at once. The reasons for that are many and are not a topic of interest to this dissertation. We will have to endure a so called transition period, when autonomous cars will have to coexist with traditional vehicles. During that time the core of the most salient concern will remain unchanged. Paradoxically, humans will still be the most error prone element of the driving environment. Their often unpredictable behaviour on the road, as well as a non-satisfactory response reaction in times of danger will still be the biggest threat to road safety. Further research into the issue of coexistence is definitely needed. In my personal opinion, it should be the main focus of subsequent research. 
 
 
-\par
 
-Another task was to create a useful model of the autonomous car. The model used in the experiment derived from other, well established car-following algorithms...... Modification done on top of the 
+As it comes to the possible improvements for the experiment itself, the main issue that could be worked on is the upgrade of the software used to conduct the research. By enhancing its capabilities, more participants could take part in the project, thus making the gathered data more representative and would allow to extrapolate the findings more accurately.
+
+
  
-
-
-allowed to account for traffic coming from different directions
-
-
-
-
-could not accommodate for originally planned number of participants.
-
-The main limitations of the software 
+I sincerely hope that this dissertation will propel the reader into a more extensive research of the autonomous car issue. We are facing a future in which autonomous vehicles are not a mere whim of the few, but a reality. The sooner we will be able to properly assess all the daunting questions correlated with the dilemmas this issue brings, the better. First autonomous cars are already being tested and their number will rise with every year. If we will be able to design them in a way that prevents as many accidents as possible, our roads will  become a safer environment and in consequence many lives will be saved.
 
 
 
 
-In line with this objective the experiment allowed 
+%******************************************************
 
-for multiple participants
-
-
+%end of refereing to obhectives
 
 
-
-The main  aim 
-
-
-
-AS it was shown in previous chapter, the primary aims of 
-
-
-
-
-
-
-In line with the primary objective  the project focused on  conducting the experiment
-
-
-Conducting the experiment was the primary objective of the study. As 
-
-
-On the basis of 
-
-
-
-%***good:
-
-The primary objective of the study  which was conducting the experiment was fully met. 
-
-
-
-The study managed to meet 
-
-
-The primary objective the study which 
-
-
-
-
-also:
-Your topic for each body paragraph should be summarized in the conclusion
-
-
-TO DO
-
-releta to questionaire reponses..?
-
-relate to all hypotheses and say what the results actually mean.
-
-
-
-Demonstrate the importance of your ideas
-
-
-Give personal idea
-
-
-
-Propel your reader to a new view of the subject
-
-
-
-End on a positive note
-
-
-give suggestion for improvement
 
 
 
@@ -1997,7 +1930,7 @@ give suggestion for improvement
 %----------------------------------------------------------------------------------------
 %	BIBLIOGRAPHY
 %----------------------------------------------------------------------------------------
-
+\newpage
 
 \bibliography{dissertation_citation_database}
 

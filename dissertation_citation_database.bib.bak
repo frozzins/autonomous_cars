@@ -193,7 +193,7 @@
   Publisher                = {IEEE}
 }
 
-@Article{merat2009drivers,
+@Article{mcbride2016ethics,
   Title                    = {The ethics of driverless cars},
   Author                   = {McBride, Neil},
   Journal                  = {ACM SIGCAS Computers and Society},
@@ -465,7 +465,7 @@
   Title                    = {{Volvo Car Group’s first self-driving Autopilot cars test on public roads around Gothenburg}},
 
   Author                   = {Volvo},
-  HowPublished             = {\url{https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars-test-on-public-roads-around-gothenburg}},
+  HowPublished             = {\url{https://www.media.volvocars.com/global/en-gb/media/pressreleases/145619/volvo-car-groups-first-self-driving-autopilot-cars}},
   Note                     = {[Online; accessed 12-09-2016]},
   Year                     = {2015}
 }
