@@ -1,8 +1,5 @@
 \begin{thebibliography}{xx}
 
-\harvarditem{}{n.d.}{sheerwood}
-  \harvardyearleft n.d.\harvardyearright .
-
 \harvarditem{{Audi}}{2013}{audi1}
 {Audi}  \harvardyearleft 2013\harvardyearright , `{Audi piloted driving}',
   \url{http://www.audi.com/com/brand/en/vorsprung_durch_technik/content/2014/10/piloted-driving.html}.
@@ -77,6 +74,12 @@ Geiger, A., Lenz, P. \harvardand\ Urtasun, R.  \harvardyearleft
   2012\harvardyearright , Are we ready for autonomous driving? the kitti vision
   benchmark suite, {\em in} `Computer Vision and Pattern Recognition (CVPR),
   2012 IEEE Conference on', IEEE, pp.~3354--3361.
+
+\harvarditem{Goodenough \harvardand\ Waite}{2012}{goodenough2012real}
+Goodenough, A. \harvardand\ Waite, S.  \harvardyearleft 2012\harvardyearright ,
+  `Real world research: a resource for users of social research methods in
+  applied settings', {\em Journal of Education for Teaching} {\bf
+  38}(4),~513--515.
 
 \harvarditem{{Google X}}{2016}{google1}
 {Google X}  \harvardyearleft 2016\harvardyearright , `{Google Self-Driving Car
@@ -183,6 +186,12 @@ SAE  \harvardyearleft 2013\harvardyearright , `{SAE LEVELS OF DRIVING
 Schoettle, B. \harvardand\ Sivak, M.  \harvardyearleft 2014\harvardyearright ,
   A survey of public opinion about autonomous and self-driving vehicles in the
   us, the uk, and australia, Technical report.
+
+\harvarditem{{Sherwood Forest Faire}}{2010}{sheerwood}
+{Sherwood Forest Faire}  \harvardyearleft 2010\harvardyearright , `{Village
+  Map}',
+  \url{http://www.sherwoodforestfaire.com/seek-ye-our-village/village-map/}.
+\newblock [Online; accessed 12-09-2016].
 
 \harvarditem{Sivak \harvardand\ Schoettle}{2015}{sivak2015road}
 Sivak, M. \harvardand\ Schoettle, B.  \harvardyearleft 2015\harvardyearright ,

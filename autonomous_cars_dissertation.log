@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  15 SEP 2016 06:31
+This is XeTeX, Version 3.14159265-2.6-0.99992 (MiKTeX 2.9) (preloaded format=xelatex 2016.4.28)  15 SEP 2016 08:29
 entering extended mode
 **autonomous_cars_dissertation.tex
 (autonomous_cars_dissertation.tex
@@ -706,27 +706,27 @@ LaTeX Warning: Unused global option(s):
     [english].
 
 (autonomous_cars_dissertation.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 97.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 105.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 105.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\tipa\t3cmr.fd"
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    ... okay on input line 105.
 Requested font "Arial/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.95p
 t
  -> C:/WINDOWS/Fonts/arial.ttf
@@ -737,58 +737,60 @@ t
 .................................................
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 97.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 97.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 97.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 97.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 97.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 97.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 97.
-LaTeX Font Info:    Redeclaring math accent \check on input line 97.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 97.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 97.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 97.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 97.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 97.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 105.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 105.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 105.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 105.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 105.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 105.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 105.
+LaTeX Font Info:    Redeclaring math accent \check on input line 105.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 105.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 105.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 105.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 105.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 97.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 97.
-LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 97.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 97.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 97.
+(Font)              `operators' in the math version `normal' on input line 105.
 
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 97.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 97.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 97.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 97.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU1/Arial(0)/m/n on input line 105.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 105.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 97
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/m/n on input line 105.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/m/n on input line 105
 .
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU1/Arial(0)/m/it on input line 105.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU1/Arial(0)/bx/n on input line 105.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU1/lmss/m/n on input line 105.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/m/n on input line 105.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU1/Arial(0)/m/n --> EU1/Arial(0)/bx/n on input line 10
+5.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 97.
+(Font)                  OT1/cmr/bx/it --> EU1/Arial(0)/bx/it on input line 105.
+
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 97.
+(Font)                  OT1/cmss/bx/n --> EU1/lmss/bx/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 97.
+(Font)                  OT1/cmtt/m/n --> EU1/lmtt/bx/n on input line 105.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -898,7 +900,7 @@ pt
  [6]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 250.
+               Default added (so using `!tbp') on input line 258.
 
 File: materials/chapter_introduction/volvo.jpg Graphic file (type QTm)
 <use  "materials/chapter_introduction/volvo.jpg" > [7] [8] [9] [10]
@@ -915,99 +917,99 @@ Underfull \vbox (badness 1163) has occurred while \output is active []
  [22]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 870.
+               Default added (so using `tbp') on input line 877.
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 875--875
+Underfull \hbox (badness 2103) in paragraph at lines 882--882
 []|\EU1/Arial(0)/m/n/10.95 Starting ROS Core and
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 875--875
+Underfull \hbox (badness 5036) in paragraph at lines 882--882
 \EU1/Arial(0)/m/n/10.95 opening UDP ports for
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 876--876
+Underfull \hbox (badness 4416) in paragraph at lines 883--883
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 876--876
+Underfull \hbox (badness 4416) in paragraph at lines 883--883
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 884--884
 []|\EU1/Arial(0)/m/n/10.95 Sending configuration
  []
 
 
-Underfull \hbox (badness 4416) in paragraph at lines 877--877
+Underfull \hbox (badness 4416) in paragraph at lines 884--884
 []|\EU1/Arial(0)/m/n/10.95 Listening to instructions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 877--877
+Underfull \hbox (badness 10000) in paragraph at lines 884--884
 []|\EU1/Arial(0)/m/n/10.95 Receiving configuration
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 885--885
 []|\EU1/Arial(0)/m/n/10.95 Sending start order to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 878--878
+Underfull \hbox (badness 10000) in paragraph at lines 885--885
 \EU1/Arial(0)/m/n/10.95 Clients and Agents.
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 880--880
+Underfull \hbox (badness 2529) in paragraph at lines 887--887
 []|\EU1/Arial(0)/m/n/10.95 Sending individual mes-
  []
 
 
-Underfull \hbox (badness 3724) in paragraph at lines 881--881
+Underfull \hbox (badness 3724) in paragraph at lines 888--888
 []|\EU1/Arial(0)/m/n/10.95 Receiving combined or-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--882
+Underfull \hbox (badness 10000) in paragraph at lines 889--889
 []|\EU1/Arial(0)/m/n/10.95 Performing all calcula-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--882
+Underfull \hbox (badness 10000) in paragraph at lines 889--889
 []|\EU1/Arial(0)/m/n/10.95 Performing calculation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 882--882
+Underfull \hbox (badness 10000) in paragraph at lines 889--889
 \EU1/Arial(0)/m/n/10.95 and drawing map in
  []
 
 [23] [24]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 918.
+               Default added (so using `tbp') on input line 925.
 
 
-Overfull \hbox (4.57596pt too wide) in paragraph at lines 930--930
+Overfull \hbox (4.57596pt too wide) in paragraph at lines 937--937
 []|\EU1/Arial(0)/m/n/10.95 Autonomous
  []
 
 [25] [26]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 951.
+               Default added (so using `!tbp') on input line 958.
 
 File: materials/research_methodology/master_gui_small.png Graphic file (type QT
 m)
 <use  "materials/research_methodology/master_gui_small.png" > [27] [28]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 998.
+               Default added (so using `!tbp') on input line 1005.
 
 [29]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1016,29 +1018,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [31]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1091.
+               Default added (so using `!tbp') on input line 1098.
 
 [32]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1113.
+               Default added (so using `!tbp') on input line 1120.
 
 File: materials/research_methodology/idm_upgrade.png Graphic file (type QTm)
 <use  "materials/research_methodology/idm_upgrade.png" > [33] [34]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1132.
+               Default added (so using `!tbp') on input line 1139.
 
 File: materials/research_methodology/gipps_2.eps Graphic file (type eps)
 <materials/research_methodology/gipps_2.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1178.
+               Default added (so using `!tbp') on input line 1185.
 
 File: materials/research_methodology/super_graph.eps Graphic file (type eps)
 <materials/research_methodology/super_graph.eps>
 
-LaTeX Warning: Float too large for page by 2.16714pt on input line 1182.
+LaTeX Warning: Float too large for page by 2.16714pt on input line 1189.
 
 [35] [36]
 Underfull \vbox (badness 2005) has occurred while \output is active []
@@ -1046,32 +1048,32 @@ Underfull \vbox (badness 2005) has occurred while \output is active []
  [37]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1209.
+               Default added (so using `!tbp') on input line 1216.
 
 File: materials/research_methodology/ros_initial_idea.png Graphic file (type QT
 m)
 <use  "materials/research_methodology/ros_initial_idea.png" >
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1216.
+               Default added (so using `!tbp') on input line 1223.
 
 File: materials/research_methodology/ros_final.png Graphic file (type QTm)
 <use  "materials/research_methodology/ros_final.png" > [38] [39] [40]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1270.
+               Default added (so using `!tbp') on input line 1277.
 
 File: materials/research_methodology/gui_4.png Graphic file (type QTm)
 <use  "materials/research_methodology/gui_4.png" > [41] [42]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1322.
+               Default added (so using `!tbp') on input line 1329.
 
 File: materials/research_methodology/map_0_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_0_arrows.png" > [43]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1334.
+               Default added (so using `!tbp') on input line 1341.
 
 File: materials/research_methodology/map_1_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_1_arrows.png" >
@@ -1080,12 +1082,12 @@ Underfull \vbox (badness 3907) has occurred while \output is active []
  [44]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1351.
+               Default added (so using `!tbp') on input line 1358.
 
 File: materials/research_methodology/map_3_arrows.png Graphic file (type QTm)
 <use  "materials/research_methodology/map_3_arrows.png" > [45] [46] [47]
 [48]
-Overfull \hbox (10.13426pt too wide) in paragraph at lines 1416--1431
+Overfull \hbox (10.13426pt too wide) in paragraph at lines 1422--1437
  [][] 
  []
 
@@ -1095,14 +1097,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [49]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1460.
+               Default added (so using `!tbp') on input line 1466.
 
 File: materials/findings_and_results/sample_snapshot2_2.png Graphic file (type 
 QTm)
 <use  "materials/findings_and_results/sample_snapshot2_2.png" > [50] [51]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1496.
+               Default added (so using `!tbp') on input line 1502.
 
 File: materials/findings_and_results/deceleration_scenario_1_group_1.eps Graphi
 c file (type eps)
@@ -1116,23 +1118,23 @@ c file (type eps)
 [53]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1545.
+               Default added (so using `!tbp') on input line 1551.
 
 File: materials/findings_and_results/collisions_total.eps Graphic file (type ep
 s)
 <materials/findings_and_results/collisions_total.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1555.
+               Default added (so using `tbp') on input line 1561.
 
 
-Overfull \hbox (4.5116pt too wide) in paragraph at lines 1557--1575
+Overfull \hbox (4.5116pt too wide) in paragraph at lines 1563--1581
  [][] 
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1591.
+               Default added (so using `!tbp') on input line 1597.
 
 File: materials/findings_and_results/interactions_example_1v2.eps Graphic file 
 (type eps)
@@ -1140,12 +1142,12 @@ File: materials/findings_and_results/interactions_example_1v2.eps Graphic file
 [56]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1606.
+               Default added (so using `!tbp') on input line 1612.
 
 File: materials/findings_and_results/interactions_example_2.eps Graphic file (t
 ype eps)
 <materials/findings_and_results/interactions_example_2.eps>
-Underfull \vbox (badness 4608) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57]
 Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
@@ -1154,65 +1156,65 @@ Requested font "Arial/BI/OT:script=latn;language=DFLT;mapping=tex-text;" at 10.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1684.
+               Default added (so using `tbp') on input line 1690.
 
 
-Underfull \hbox (badness 5711) in paragraph at lines 1690--1690
+Underfull \hbox (badness 5711) in paragraph at lines 1696--1696
 []|\EU1/Arial(0)/m/n/10.95 Participants improving their skills
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 1690--1690
+Underfull \hbox (badness 4995) in paragraph at lines 1696--1696
 \EU1/Arial(0)/m/n/10.95 in vehicle control in consecutive
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 1690--1690
+Underfull \hbox (badness 1803) in paragraph at lines 1696--1696
 \EU1/Arial(0)/m/n/10.95 Its influence was ignored in data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1693--1693
+Underfull \hbox (badness 10000) in paragraph at lines 1699--1699
 []|\EU1/Arial(0)/m/n/10.95 The algorithm governing au-
  []
 
 
-Underfull \hbox (badness 6808) in paragraph at lines 1693--1693
+Underfull \hbox (badness 6808) in paragraph at lines 1699--1699
 \EU1/Arial(0)/m/n/10.95 tonomous cars allows for large,
  []
 
 [58] [59]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 1740.
+               Default added (so using `tbp') on input line 1745.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1756.
+               Default added (so using `!tbp') on input line 1761.
 
 File: materials/findings_and_results/acc_var.eps Graphic file (type eps)
 <materials/findings_and_results/acc_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1763.
+               Default added (so using `!tbp') on input line 1768.
 
 File: materials/findings_and_results/vel_var.eps Graphic file (type eps)
 <materials/findings_and_results/vel_var.eps> [60] [61] [62]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1809.
+               Default added (so using `!tbp') on input line 1814.
 
 File: materials/findings_and_results/acc_autonomous_only_var.eps Graphic file (
 type eps)
 <materials/findings_and_results/acc_autonomous_only_var.eps>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `!tbp') on input line 1816.
+               Default added (so using `!tbp') on input line 1821.
 
 File: materials/findings_and_results/equilibrum.eps Graphic file (type eps)
 <materials/findings_and_results/equilibrum.eps> [63] [64] [65] [66]
 (autonomous_cars_dissertation.bbl
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 8.
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 5.
 
 ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\euenc\eu1lmtt.fd"
 File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1221,27 +1223,27 @@ Requested font "[lmmono10-regular]" at 10.95pt
  -> D:/Program Files (x86)/MiKTeX 2.9/fonts/opentype/public/lm/lmmono10-regular
 .otf
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
 []\EU1/Arial(0)/m/n/10.95 Bloomberg (2013), ‘Automated Cars May Boost Fuel Use,
  Toyota Sci-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--16
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
 \EU1/Arial(0)/m/n/10.95 entist Says’, $[][][][] [] [] [] [][][] [] [][][][][][]
 [][][] [] [][][] [] [][][][] [] [][][][][][][][] [] [][][][][][][][][][][][] []
 
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 12--16
+Underfull \hbox (badness 1694) in paragraph at lines 9--13
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][]$\EU1/Arial(0)/m/n/10.95 .  [Onl
 ine; accessed
  []
 
 
-Overfull \hbox (139.34117pt too wide) in paragraph at lines 18--22
+Overfull \hbox (139.34117pt too wide) in paragraph at lines 15--19
 [][][][] [] [][][][][][][][] [] [][][][][][][][][][][][] [] [][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$\EU1/Ari
@@ -1249,20 +1251,20 @@ al(0)/m/n/10.95 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 []\EU1/Arial(0)/m/n/10.95 BMW (2015), ‘BMW Connected Drive’, $[][][][] [] [] []
  [][][] [] [][][] [] [][][] [] [][][] [] [][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
 [][][][][][][][][][] [] [][][][][][][][][][][][][][] [] [][][][] [] [][][][][][
 ] [] [][][][][][][][][][] [] [][][][][][][][][][][] [] [][][][][][][] [] [][][]
 []$\EU1/Arial(0)/m/n/10.95 .
  []
 
 [67]
-Underfull \hbox (badness 1270) in paragraph at lines 82--86
+Underfull \hbox (badness 1270) in paragraph at lines 85--89
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][]$\EU1/Arial(0)/m/n/10.95 .  [Online; accessed 12-09-
 
@@ -1271,146 +1273,151 @@ Underfull \hbox (badness 1270) in paragraph at lines 82--86
 Missing character: There is no ^^97 in font Arial/OT:script=latn;language=DFLT;
 mapping=tex-text;!
 
-Underfull \hbox (badness 1552) in paragraph at lines 113--117
+Underfull \hbox (badness 1552) in paragraph at lines 116--120
 []\EU1/Arial(0)/m/n/10.95 Luettel, T., Himmelsbach, M. & Wuensche, H.-J. (2012)
 , ‘Autonomous ground vehi-
  []
 
 [68]
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 []\EU1/Arial(0)/m/n/10.95 Mercedes (2015), ‘Mercedes Intelligent Drive Driving 
 Assistance’,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 [][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][] [] [][][] [] [][] []
  [][][][][][][][][][][][][][] [] [][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 132--136
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][]$\EU1/Arial(0)/m/n/10.95 .  [Online; acc
 essed
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 135--138
+Underfull \hbox (badness 1314) in paragraph at lines 138--141
 []\EU1/Arial(0)/m/n/10.95 MIT Senseable City Lab (2013), ‘DriveWAVE’, $[][][][]
  [] [] [] [][][] [] [][][][][][][][][][][][][][][][] [] [][][] [] [][] []
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 146--150
+Underfull \hbox (badness 3078) in paragraph at lines 149--153
 []\EU1/Arial(0)/m/n/10.95 NHTSA (2013), ‘U.S. Department of Transportation Rele
 ases Policy on Automated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--150
+Underfull \hbox (badness 10000) in paragraph at lines 149--153
 \EU1/Arial(0)/m/n/10.95 Vehicle Development’, $[][][][] [] [] [] [][][] [] [][]
 [][][] [] [][][] [] [][][][][] [] [][][][][] [] [][][][][] [] [][][][][][][][] 
 [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--150
+Underfull \hbox (badness 10000) in paragraph at lines 149--153
 [] [] [][][][][][][][][][][] [] [][] [] [][][][][][][][][][][][][][] [] [][][][
 ][][][][] [] [][][][][][] [] [][] [] [][][][][][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--163
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
 []\EU1/Arial(0)/m/n/10.95 QZ (2015), ‘Should driverless cars kill their own pas
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--163
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
 \EU1/Arial(0)/m/n/10.95 sengers to save a pedestrian?’, $[][][][] [] [] [] [][]
  [] [][][] [] [][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--163
+Underfull \hbox (badness 10000) in paragraph at lines 162--166
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 []$\EU1/Arial(0)/m/n/10.95 .
  []
 
 [69]
+Underfull \hbox (badness 1137) in paragraph at lines 191--195
+[]\EU1/Arial(0)/m/n/10.95 Sherwood Forest Faire (2010), ‘Village Map’, $[][][][
+] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][] [] [][][] []
+ []
+
 Missing character: There is no ^^97 in font Arial/OT:script=latn;language=DFLT;
 mapping=tex-text;!
 
-Underfull \hbox (badness 1648) in paragraph at lines 211--215
+Underfull \hbox (badness 1648) in paragraph at lines 220--224
 [] [] [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][][] 
 [] [][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] [] [][][]$\
 EU1/Arial(0)/m/n/10.95 .  [On-
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 217--220
+Underfull \hbox (badness 6978) in paragraph at lines 226--229
 []\EU1/Arial(0)/m/n/10.95 Tesla (2016\EU1/Arial(0)/m/it/10.95 a\EU1/Arial(0)/m/
 n/10.95 ), ‘A Tragic Loss’, $[][][][][] [] [] [] [][][] [] [][][][][] [] [][][]
  [] [][] [] [][] [] [][][][] [] [][][][][][][][][][][][] []
  []
 
 [70]
-Underfull \hbox (badness 1337) in paragraph at lines 228--232
+Underfull \hbox (badness 1337) in paragraph at lines 237--241
 [][] [] [][] [] [][][][] [] [][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][] [] [][][][][][][][] [] [][]$\EU1/Arial(0)/m/n
 /10.95 .  [Online; ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--238
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
 []\EU1/Arial(0)/m/n/10.95 The Guardian (2016), ‘Tesla driver dies in first fata
 l crash while using au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--238
+Underfull \hbox (badness 10000) in paragraph at lines 243--247
 \EU1/Arial(0)/m/n/10.95 topilot mode’, $[][][][][] [] [] [] [][][] [] [][][][][
 ][][][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][] [] [][][] [] [][] [
 ]
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 234--238
+Underfull \hbox (badness 2435) in paragraph at lines 243--247
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][]$\EU1/Arial(0)/m/n/10.95 .  [Online; accessed 11
 -09-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--244
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 []\EU1/Arial(0)/m/n/10.95 The Telegraph (2016), ‘Britain aims for pole position
  in self-driving
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--244
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 \EU1/Arial(0)/m/n/10.95 cars after Brexit’, $[][][][] [] [] [] [][][] [] [][][]
 [][][][][][] [] [][] [] [][] [] [][][][][][][][] [] [][][][] [] [][] [] [][] []
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--244
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$\EU1/Ar
 ial(0)/m/n/10.95 .  [On-
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 251--255
+Underfull \hbox (badness 6032) in paragraph at lines 260--264
 []\EU1/Arial(0)/m/n/10.95 UK Department for Transport (2015), ‘Contributory fac
 tors for reported road ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--255
+Underfull \hbox (badness 10000) in paragraph at lines 260--264
 \EU1/Arial(0)/m/n/10.95 cidents (RAS50)’, $[][][][][] [] [] [] [][][] [] [][][]
  [] [][] [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][
 ][] []
@@ -1419,14 +1426,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--255
 Missing character: There is no ^^92 in font Arial/OT:script=latn;language=DFLT;
 mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--278
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
 \EU1/Arial(0)/m/n/10.95 around Gothenburg’, $[][][][][] [] [] [] [][][] [] [][]
 [][][] [] [][][][][][][][][] [] [][][] [] [][][][][][] [] [][][][][][] [] [][][
 ][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--278
+Underfull \hbox (badness 10000) in paragraph at lines 283--287
 [][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
 []$\EU1/Arial(0)/m/n/10.95 .
@@ -1434,10 +1441,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 274--278
 
 [71]) [72] (autonomous_cars_dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 17868 strings out of 428755
- 344962 string characters out of 3163194
- 483671 words of memory out of 3000000
- 21015 multiletter control sequences out of 15000+200000
+ 17871 strings out of 428755
+ 345040 string characters out of 3163194
+ 483730 words of memory out of 3000000
+ 21018 multiletter control sequences out of 15000+200000
  7309 words of font info for 58 fonts, out of 3000000 for 9000
  1096 hyphenation exceptions out of 8191
  48i,18n,61p,10398b,363s stack positions out of 5000i,500n,10000p,200000b,50000s
